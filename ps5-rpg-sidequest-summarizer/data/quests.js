@@ -7603,11 +7603,11 @@ const quests = [
     location: "Willis's forge and the riverbank, White Orchard",
     length: "short",
     difficulty: "Low",
-    reward: "Crowns, XP and a discount with Willis (less XP if you take the bribe)",
+    reward: "About 20 crowns and XP (Napp offers a 20-crown bribe instead); some guides add a discount with Willis",
     summary:
       "Someone torched Willis the blacksmith's forge. Follow the arsonist's tracks down to the river and decide what to do with the culprit, Napp.",
     aiTip:
-      "Four drowners may jump you along the river. Refuse Napp's bribe and use Axii for extra XP, then march him back to Willis for the discount.",
+      "Four drowners may jump you along the river. Refuse Napp's bribe and use Axii for extra XP, then march him back to Willis.",
     walkthrough: [
       "Read the notice in White Orchard or talk to Willis.",
       "Find the tracks behind his house.",
@@ -7764,11 +7764,11 @@ const quests = [
     location: "Kingfisher Inn and the Butcher's Yard theatre, Novigrad",
     length: "medium",
     difficulty: "Low",
-    reward: "XP; a perfect performance gives a 10% Novigrad merchant discount",
+    reward: "About 110 XP and 30 crowns if you cast Abelard; less otherwise",
     summary:
       "To lure out Dudu, a doppler who knows what happened to Dandelion, Priscilla writes a play about a witcher and a doppler, and Geralt has to star in it.",
     aiTip:
-      "Pick comedy as the genre, because drama ends in a riot. Cast Abelard Rizza as the doppler, since Maxim shows up drunk. Hit every timed line on stage for the discount.",
+      "Pick comedy as the genre, because drama ends in a riot and a fight with the mob. Cast Abelard Rizza as the doppler, since Maxim shows up drunk.",
     walkthrough: [
       "Tell Priscilla at the Kingfisher about Dudu and write the script with her.",
       "Take the script to Irina Renarde at the Butcher's Yard.",
@@ -8225,7 +8225,7 @@ const quests = [
     location: "Oxenfurt notice board and the forest east of Oxenfurt",
     length: "short",
     difficulty: "High",
-    reward: "About 300 XP and crowns; Griffin trophy, Zireael armor, archgriffin mutagen",
+    reward: "About 300 XP and crowns (around 295-310 if you haggle); Griffin trophy and archgriffin mutagen",
     summary:
       "Hans of Cidaris posts a notice about a beast in the forest near Oxenfurt that took two of his men. It is an archgriffin named Opinicus.",
     aiTip:
@@ -13290,13 +13290,13 @@ const quests = [
     summary:
       "After the third wish, O'Dimm orders Geralt to bring Olgierd to the Temple of Lilvani to settle their contract. Geralt can let O'Dimm take Olgierd's soul or challenge him to a riddle contest for it.",
     aiTip:
-      "Visit Shani and Professor Shakeslock at the Academy beforehand, or you can't challenge O'Dimm. The riddle's answer is the reflection in the water: Aard the cracked wall by the dry fountain.",
+      "Visit Shani and Professor Shakeslock at the Academy beforehand, or you can't challenge O'Dimm. The riddle's answer is a reflection in water; guides point to the Weeping Well, reached past the three crooked trees heading north.",
     walkthrough: [
       "Meet O'Dimm at the Alchemy Inn in Oxenfurt.",
       "See Shani, then Professor Shakeslock at the Academy, to learn how to beat O'Dimm.",
       "Take Olgierd to the Temple of Lilvani and hand over the rose.",
       "Choose to intervene and enter O'Dimm's riddle world.",
-      "Find the reflection by the dry fountain, then accept Olgierd's thanks and his sword Iris."
+      "Find the reflection in the well, then accept Olgierd's thanks and his sword Iris."
     ],
     video: "https://www.youtube.com/watch?v=_RtNHhOZ8ww"
   },
@@ -13402,7 +13402,7 @@ const quests = [
     summary:
       "After Dettlaff is defeated, Geralt can track down his fifth intended victim and talk with Syanna before her trial. What he says decides whether the sisters reconcile, one of them dies, or both do.",
     aiTip:
-      "You need the ribbon from the flint girl (win at Gwent or pay 500 crowns) for Syanna to survive. Find the bootblack for the fifth-victim letter, and at the trial say \"You were children then, both.\"",
+      "For Syanna to survive you need the ribbon from the Little Flint Girl in the Land of a Thousand Fables, the governess's journal entries, and Syanna's stories from Beyond Hill and Dale. Investigate the fifth victim, and at the trial say \"You were children then, both.\"",
     walkthrough: [
       "Follow the bootblack lead, then speak with the beggar to learn the fifth victim's name.",
       "Get the letter that reveals the fifth victim.",
@@ -13443,11 +13443,11 @@ const quests = [
     location: "Ruins with an altar south of Wastrel Manor, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Up to 100 XP and 100 crowns, depending on the outcome",
+    reward: "XP and crowns; sparing the Allgod pays more, killing it gives its loot",
     summary:
       "Two peasants, Dagmar and Preben, argue at a ruined altar over the 'Allgod' that demands ever-richer offerings. The god turns out to be a sylvan hiding in a cellar behind an illusion.",
     aiTip:
-      "You need the Eye of Nehaleni from Keira Metz to dispel the illusion. Loot the cellar chests before you finish, since you may not get back in. 'Settle for humble offerings – or die' pays best.",
+      "You need the Eye of Nehaleni from Keira Metz to dispel the illusion. Loot the cellar chests before you finish, since you may not get back in. Sparing the Allgod and telling the peasants about the cellar pays extra; guides differ on which deal pays best.",
     walkthrough: [
       "Meet Dagmar and Preben at the ruined altar south of Wastrel Manor.",
       "Use Witcher Senses on the crack in the wall and the vinegar-smelling bottle.",
@@ -13740,12 +13740,12 @@ const quests = [
     difficulty: "High",
     reward: "Ursine (Bear School) gear diagrams: heavy armor",
     summary:
-      "Ibrahim Savi's maps lead to the heavy Ursine set. The first is sold by the Oxenfurt armorer and the rest by the armorer at Kaer Trolde, with the base and enhanced pieces across Skellige's isles.",
+      "Ibrahim Savi's maps lead to the heavy Ursine set. The first map is sold by the armorer at Kaer Trolde, with the base and enhanced pieces across Skellige's isles.",
     aiTip:
       "Several stashes sit in monster dens: the Grossbart brothers' grotto and a troll cave both hold diagrams. The Superior and Mastercrafted tiers move back to Velen.",
     walkthrough: [
-      "Buy Ibrahim Savi's first map from the armorer in Oxenfurt.",
-      "Buy the later maps from the armorer at Kaer Trolde.",
+      "Buy Ibrahim Savi's first map from the armorer at Kaer Trolde.",
+      "Read it to reveal the first stash, and follow each map to the next.",
       "Sail to each marked spot in Skellige and clear its guardians.",
       "Collect the swords, armor and crossbow diagrams.",
       "Craft the Ursine set with a blacksmith and armorer."
@@ -14829,11 +14829,11 @@ const quests = [
     location: "Novigrad",
     length: "short",
     difficulty: "Medium",
-    reward: "About 182 crowns for killing the doppler or 91 for letting it go",
+    reward: "About 182 crowns plus the doppler mutagen and trophy for killing it, or half the fee and the Gnomish Gwyhyr steel sword diagram for letting it go",
     summary:
       "Sylvester Amello wants an 'imp' caught for stealing from his household. The thief turns out to be a doppler, and catching it means fighting a perfect copy of Geralt.",
     aiTip:
-      "Track it with Witcher Senses, and expect to fight a doppler disguised as Geralt. Sparing it pays half, but resolving it either way unlocks The Doppler Effect achievement.",
+      "Track it with Witcher Senses, and expect to fight a doppler disguised as Geralt. Sparing it pays half but gives a sword diagram, and resolving it either way unlocks The Doppler Effect achievement.",
     walkthrough: [
       "Take the Contract: Imp notice and talk to Sylvester Amello.",
       "Use Witcher Senses to track the thief through the city.",
@@ -15058,7 +15058,7 @@ const quests = [
     location: "Rannvaig and the ruins near Boxholm, Skellige",
     length: "medium",
     difficulty: "High",
-    reward: "Crowns, diagrams and a 300 oren treasure chest",
+    reward: "About 204 crowns (273 if you find the fiend first); a leveled Longclaw steel sword, fiend mutagen and trophy, and the Mastercrafted Wolven Gauntlets diagram",
     summary:
       "Odhen of Rannvaig's son Olve has gone missing. The search leads to castle ruins and a fiend called Morvudd.",
     aiTip:
@@ -15068,7 +15068,7 @@ const quests = [
       "Examine the castle ruins.",
       "Fight Morvudd the fiend, using Samum against its third eye.",
       "Find the fiend's lair and fight it again.",
-      "Collect the hidden diagrams and the treasure chest."
+      "Open the chest by the western wall for the gauntlets diagram, then return to Odhen."
     ],
     video: "https://www.youtube.com/watch?v=HShQGwMk28o"
   },
@@ -15508,11 +15508,11 @@ const quests = [
     location: "Passiflora, Novigrad",
     length: "medium",
     difficulty: "High",
-    reward: "Leader cards including Foltest, Emhyr var Emreis, Francesca Findabair and Eredin",
+    reward: "4,500 crowns (1,000 to enter); some guides add leader cards",
     summary:
       "Count Tybalt is hosting a high-stakes gwent tournament at the Passiflora. Fight your way through the bracket and beat him for the title.",
     aiTip:
-      "Save before every match, because losing a single game fails the quest. It's required for the Gwent Master achievement, so bring your strongest deck.",
+      "Save before every match. You don't have to win every game, but losing one costs you cards. It's required for the Gwent Master achievement, so bring your strongest deck.",
     walkthrough: [
       "Read the tournament notice on the Hierarch Square board.",
       "Go to the Passiflora and register with the scribe on the ground floor.",
@@ -15729,7 +15729,7 @@ const quests = [
     location: "Vegelbud Residence, Novigrad",
     length: "medium",
     difficulty: "Medium",
-    reward: "Prize crowns plus the Superior Racing Saddle and Superior Cavalry Saddle",
+    reward: "160, 160 and 200 crowns for the three races, plus horse gear (the second race gives Rugged Saddlebags)",
     summary:
       "The Vegelbuds' memorial derby is three long horse races on different courses, the last against Luc Vegelbud himself.",
     aiTip:
@@ -15885,7 +15885,7 @@ const quests = [
     location: "Urialla Harbor, An Skellig",
     length: "medium",
     difficulty: "High",
-    reward: "Lesser Svarog runestone, a leveled Moonblade and 65 crowns",
+    reward: "About 65 crowns from the villagers; Sigo also rewards you (one guide says a leveled Moonblade silver sword)",
     summary:
       "A mage's tower has appeared out of nowhere above Urialla Harbor, and the rain hasn't stopped since. Go inside, beat its golem and free the mage trapped within.",
     aiTip:
@@ -15931,7 +15931,7 @@ const quests = [
     location: "Trottheim, Faroe, Skellige",
     length: "short",
     difficulty: "Medium",
-    reward: "XP; the captives freed",
+    reward: "Ban Ard Breastplate diagram, a Lesser Dazhbog runestone and about 40-50 XP",
     summary:
       "Pirates in Trottheim mistake Geralt for the slave trader they've been waiting for. Free their captives by paying, tricking or fighting.",
     aiTip:
@@ -16090,13 +16090,13 @@ const quests = [
     summary:
       "Beat Skellige's gwent players, Ermion, Crach an Craite, Gremist, Sjusta and Madman Lugos, for their unique cards.",
     aiTip:
-      "Ermion needs Echoes of the Past done and Gremist may need Practicum in Advanced Alchemy. Play Madman Lugos early, as he's gone once Battle Preparations starts unless Svanrige is king.",
+      "Ermion needs Echoes of the Past done and Gremist may need Practicum in Advanced Alchemy. Each player points you to the next. Play Madman Lugos early, as he's gone once Battle Preparations starts unless Svanrige is king.",
     walkthrough: [
-      "Beat Ermion for the Leshen card.",
-      "Beat Crach an Craite for the Draug card.",
+      "Beat Ermion at Gedyneith for the Leshen card.",
+      "Beat Crach an Craite in Kaer Trolde for the Draug card.",
+      "Beat Sjusta in his Kaer Trolde shop for Yaevinn.",
       "Beat Gremist for the Mysterious Elf card.",
-      "Beat Madman Lugos for Vampire: Katakan.",
-      "Beat Sjusta for Yaevinn to finish the quest."
+      "Beat Madman Lugos at Kaer Muire for Vampire: Katakan to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=ZMKvcqrC2ko"
   },
@@ -16132,14 +16132,14 @@ const quests = [
     difficulty: "Medium",
     reward: "25 XP and armour",
     summary:
-      "A book in Kaer Morhen's main hall points to the old witchers' forge. Track it down to an abandoned iron mine with a secret passage.",
+      "A book in Kaer Morhen, 'Monstrum, or a Portrayal of Witchers', points to the old witchers' forge. Track it down to an abandoned mine with a hidden room.",
     aiTip:
       "You need the Eye of Nehaleni from Wandering in the Dark to reveal the hidden passage. It's missable, so pick up the book on your first visit.",
     walkthrough: [
-      "Find and read the book in Kaer Morhen's main hall.",
-      "Head to the old iron mine near the keep.",
-      "Use the Eye of Nehaleni to reveal the secret passage.",
-      "Explore the old forge and claim the armour."
+      "Find and read 'Monstrum' in a chest in the inner keep's south-eastern tower.",
+      "Head to the old mine near the keep.",
+      "Use the Eye of Nehaleni to dispel the illusory wall.",
+      "Open the three chests in the hidden room for the armour."
     ],
     video: "https://www.youtube.com/watch?v=kVRRE1XgVzE"
   },
@@ -16264,11 +16264,11 @@ const quests = [
     location: "Upper Mill, east of Brunwich (Hearts of Stone)",
     length: "short",
     difficulty: "Medium",
-    reward: "A saddle that adds 85 to carrying capacity",
+    reward: "The Ofieri stock saddle (+85 horse stamina)",
     summary:
       "An Ofieri merchant at the Upper Mill boasts about his horses. Challenge him to a race and dodge the barrels he rolls into your path.",
     aiTip:
-      "Watch for the rolling barrels and steer around them rather than slowing down. The saddle is one of the best for carrying weight.",
+      "Watch for the barrels the other merchant throws onto the track and steer around them rather than slowing down. Reload and retry if you lose.",
     walkthrough: [
       "Talk to the Ofieri merchant at the Upper Mill about horses.",
       "Accept his race.",
@@ -16309,7 +16309,7 @@ const quests = [
     location: "Bloodrot Pit, Novigrad outskirts (Hearts of Stone)",
     length: "short",
     difficulty: "Medium",
-    reward: "About 456 florens and loot",
+    reward: "Florens and loot",
     summary:
       "A corpse in Bloodrot Pit holds a bent key and a letter about treasure buried at the back of the cave, guarded by arachnomorphs.",
     aiTip:
@@ -16374,14 +16374,14 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Tinker, Hunter, Soldier, Spy",
-    location: "Mohrin Village watchtower and lake (Hearts of Stone)",
+    location: "Watchtower near Mohrin and a nearby pond, Velen",
     length: "short",
     difficulty: "Medium",
-    reward: "Florens, a Mastercrafted saddle and crafting materials",
+    reward: "A chest of loot",
     summary:
-      "A corpse in a watchtower near Mohrin Village has a bloody letter and an encrusted key pointing to a chest hidden at a nearby lake.",
+      "A corpse in a watchtower near Mohrin has a bloody letter and an encrusted key. The dead man was a Nilfgaardian spy posing as a tinker, and his letter points to a stash by a pond.",
     aiTip:
-      "Keep your distance from the Fallen Knights near the tower. The chest is directly under the pier, so look from the shore, not from the pier itself.",
+      "The stash is by the pier in the pond you can see from the tower. Use Witcher Senses from the shore to spot it.",
     walkthrough: [
       "Climb the watchtower at abandoned Mohrin Village.",
       "Loot the body for the letter and key.",
@@ -16400,11 +16400,11 @@ const quests = [
     location: "Brunwich and Erde (Hearts of Stone)",
     length: "short",
     difficulty: "Medium",
-    reward: "200 crowns and 100 XP",
+    reward: "XP and crowns from Otto Bamber (the amount depends on the outcome)",
     summary:
       "The herbalist's halfling apprentice Folkert has gone missing. His abandoned cart and a blood trail lead to an old couple in Erde with a grim secret.",
     aiTip:
-      "Every ending pays the same. If you kill the couple, their Rusty Key opens the house.",
+      "There's no good ending here. If you kill the couple, their Rusty Key opens the house.",
     walkthrough: [
       "Take the notice from the Brunwich board and talk to the herbalist east of Oxenfurt.",
       "Find Folkert's cart in the woods.",
@@ -16537,15 +16537,15 @@ const quests = [
     location: "Hidden cave by the lake south-west of Beauclair",
     length: "long",
     difficulty: "High",
-    reward: "XP and Hen Gaidth gauntlets (optional)",
+    reward: "XP; a chest with Hen Gaidth gauntlets and a steel sword (missable)",
     summary:
       "Regis takes Geralt to the lair of the Unseen Elder, the oldest higher vampire, to ask for help finding Dettlaff.",
     aiTip:
-      "Take the dry path so Regis can help. The wet route has a chest with Hen Gaidth gauntlets. With the Elder, don't ask too many questions or give poor answers, or he kills you.",
+      "Take the dry path so Regis follows you. A chest up on a ledge holds the Hen Gaidth gauntlets and steel sword and is gone after this quest, so look for it. With the Elder, don't ask too many questions or give poor answers, or he kills you.",
     walkthrough: [
       "Open the hidden entrance on the cliff with Orianna's Magic Stone.",
-      "Choose the dry path (with Regis) or the wet path (gauntlets chest).",
-      "Deal with the fleders along the way.",
+      "Choose the dry path (Regis comes along) or the flooded tunnel; both meet up.",
+      "Deal with the fleders and loot the ledge chest for the Hen Gaidth gear.",
       "Reach the Unseen Elder with an offering.",
       "Answer carefully to get his help against Dettlaff."
     ],
@@ -16677,9 +16677,9 @@ const quests = [
     summary:
       "In the fairytale land, a notice asks for help rescuing a goose that lays golden eggs. Follow the feathers to Redbeard's bandits.",
     aiTip:
-      "Do this before finishing Beyond Hill and Dale..., because you can't return afterwards. The notice is near the Little Flint Girl and easy to miss.",
+      "Do this before finishing Beyond Hill and Dale..., because you can't return afterwards. Eat the egg before you leave too, since it vanishes from your inventory.",
     walkthrough: [
-      "Read the notice near the Little Flint Girl.",
+      "Read the notice on the board in the snowy village.",
       "Use Witcher Senses to follow the goose feathers.",
       "Fight Redbeard and his bandits.",
       "Take the cage key from the bodies.",
@@ -16855,7 +16855,7 @@ const quests = [
     location: "Western edge of Yantra, Novigrad",
     length: "short",
     difficulty: "Medium",
-    reward: "About 25 XP for sparing her or 50 for killing her",
+    reward: "About 25 XP and 20 crowns for letting her take Bertram, or 50 XP, 10 crowns and a werewolf mutagen for fighting",
     summary:
       "The villagers of Yantra fear Little Red's bandits will attack at dusk over Bertram's betrayal. Meet her and decide whether to hand Bertram over or defend the village.",
     aiTip:
@@ -17012,7 +17012,7 @@ const quests = [
     location: "Cave north of Gelenser Farm, Toussaint",
     length: "short",
     difficulty: "Medium",
-    reward: "About 150 XP and 200 crowns",
+    reward: "About 150 XP and your negotiated fee; the merchant then sells food and drink",
     summary:
       "A wine merchant north of Gelenser Farm wants to age his wine in a nearby cave. Two gargoyles stand in the way.",
     aiTip:
@@ -17217,7 +17217,7 @@ const quests = [
     summary:
       "Having beaten Beauclair's three lesser champions in Fists of Fury: Toussaint, Geralt challenges the reigning champion, the Maestro, who insists they get drunk first.",
     aiTip:
-      "Losing doesn't end the quest; you can keep challenging him. Winning counts as Proof of Valor for There Can Be Only One.",
+      "Losing doesn't end the quest; you can keep challenging him. Expect him to hit hard after the drinking.",
     walkthrough: [
       "Beat the three lesser champions in Fists of Fury: Toussaint.",
       "Find the Maestro at the Beauclair docks.",
@@ -17239,7 +17239,7 @@ const quests = [
     summary:
       "Liam and Matilda now co-own Belgaard. After the auction, Geralt clears five monster and bandit sites around the estate, then comes back to name their new wine.",
     aiTip:
-      "Return after three days to name the wine. 'Butcher of Blaviken' has the same effect as the other names but lasts 30 seconds longer.",
+      "You're invited back after three days to name the wine if you finished Coronata, Vermentino and The Deus in the Machina. 'Butcher of Blaviken' is the best pick: one guide says it regenerates Vitality for 10 seconds instead of 5.",
     walkthrough: [
       "Take the notice at Plegmund's Bridge and meet Liam and Matilda at Belgaard.",
       "Attend the auction.",
@@ -17279,7 +17279,7 @@ const quests = [
     location: "Vermentino vineyard and sites around Corvo Bianco, Toussaint",
     length: "medium",
     difficulty: "Medium",
-    reward: "About 525 crowns plus XP",
+    reward: "About 500 crowns and 300 XP",
     summary:
       "Matilda Vermentino needs five troubles on her estate resolved. Archespores have overrun abandoned sites near Corvo Bianco, and a key and a letter on a corpse hint at a larger scheme.",
     aiTip:
@@ -17328,7 +17328,7 @@ const quests = [
     summary:
       "A hermit on an island in Lac Célavy challenges Geralt to prove the five chivalric virtues: honor, compassion, wisdom, generosity and valor. Proving all five earns a duel beneath the lake and Aerondight from the Lady of the Lake.",
     aiTip:
-      "Read the five stones on the island's north side for hints. Proofs come from other quests: sparing the shaelmaar and the basilisk (compassion), the greenhouse riddle (wisdom), buying Geralt's portrait (generosity) and beating the Maestro (valor).",
+      "Read the five stones on the island for hints; each virtue only needs proving once. Examples: spare the shaelmaar in The Beast of Toussaint (compassion), give the letter boy five crowns or buy Geralt's portrait (generosity), point to Milton's hiding place (wisdom), settle the ghostly couple's spat in Till Death Do Us Part (honor), and finish the tourney in The Warble of a Smitten Knight (valor).",
     walkthrough: [
       "Read 'Test Yourself with the Trials of the Virtues!' in Beauclair, or go straight to the hermit at Lac Célavy.",
       "Read the inscriptions on the five stones on the island.",
@@ -17787,11 +17787,11 @@ const quests = [
     location: "Riverbank camp on Novigrad's outskirts",
     length: "short",
     difficulty: "Low",
-    reward: "About 25 XP; siding with Rufus also gives the Skellige gambeson diagram",
+    reward: "About 25 XP; siding with Rufus also gives a random crafting diagram",
     summary:
       "Three men at a campfire, Manfred, Rufus and Theophile, invite Geralt to sit down. The conversation turns deadly depending on who he believes.",
     aiTip:
-      "Leaving right after introductions is the only way nobody dies. Siding with Rufus gets the gambeson diagram. Refusing to give your name turns them hostile.",
+      "Leaving right after introductions is the only way nobody dies. Siding with Rufus against Manfred gets a diagram. Refusing to give your name turns them hostile.",
     walkthrough: [
       "Find the three men at the riverbank campfire.",
       "Introduce yourself and listen.",
@@ -18118,11 +18118,11 @@ const quests = [
     location: "Islet north of the Giants' Toes, and Svorlag on Spikeroog",
     length: "short",
     difficulty: "Low",
-    reward: "About 55 crowns and 25-75 XP for returning the sword",
+    reward: "About 55 crowns for returning the sword (50 without it) and some XP",
     summary:
       "Bandits are looting a shipwreck of Clan Brokvar cargo on a small islet. Among the crates is a sword its owner, a merchant in Svorlag, wants back.",
     aiTip:
-      "Check the chest under the rocks on the islet's western side for the sword. Returning it pays 55 crowns; keeping it pays slightly less if you sell it.",
+      "Check the chest under the rocks on the islet's western side for the sword. The merchant still pays 50 crowns if you come back without it.",
     walkthrough: [
       "Sail to the islet north of the Giants' Toes and kill the looting bandits.",
       "Use Witcher Senses on the crates and the inscription.",
@@ -18207,7 +18207,7 @@ const quests = [
     location: "Vikk Watchtower, Novigrad outskirts (Hearts of Stone)",
     length: "short",
     difficulty: "Medium",
-    reward: "New Moon trousers, runestone diagrams, horse blinders and loot",
+    reward: "Leveled New Moon trousers, the Pyerog runestone diagram and other loot",
     summary:
       "Nicolas Vogel tried to train harpies at Vikk Watchtower. His notebook and key lead to a chest at the top of the ruined tower, now home to his harpies.",
     aiTip:
@@ -18299,7 +18299,7 @@ const quests = [
     summary:
       "A wild dog prowls outside a hut where starving orphans are hiding. Geralt can feed them, give them coin or walk away.",
     aiTip:
-      "The marker only appears when you're near the hut. Give food or 25 crowns and the girl hands over a book holding the Werewolf Decoction manuscript.",
+      "The marker only appears when you're near the hut. Give food or some crowns and the girl hands over a book holding the Werewolf Decoction manuscript.",
     walkthrough: [
       "Kill the wild dog outside the hut.",
       "Examine the scene, including the second dog by the campfire.",
