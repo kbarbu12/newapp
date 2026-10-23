@@ -50379,14 +50379,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Markos has spent your drachmae on a vineyard, so you're off collecting debts — and rescuing his friend Phoibe from the Cyclops's thugs on the way.",
-    aiTip: "Sneak through the tall grass at the bandit camp to free Phoibe without a fight, and loot the chest in the hut before you leave.",
+    summary:
+      "Markos has spent your drachmae on a vineyard, so you're off collecting debts — and rescuing his friend Phoibe from the Cyclops's thugs on the way.",
+    aiTip:
+      "Sneak through the tall grass at the bandit camp to free Phoibe without a fight, and loot the chest in the hut before you leave.",
     walkthrough: [
       "Go to the bandit camp south-east of the vineyard where the Cyclops's thugs hold Phoibe.",
       "Sneak through the grass and take out the bandits, then free Phoibe and loot the chest in the hut.",
-      "Collect the debt from Sami.",
-      "Collect the debt from Duris.",
-      "Meet Markos at the Temple of Zeus, then follow Drucilla to repair your bow."
+      "Collect Markos's debt from Duris: smash one of his amphorae, let him off (he gives you a better sword), or kill him.",
+      "Meet Markos on the hill by the Temple of Zeus, then follow Drucilla to her workshop to repair your bow."
     ],
     video: "https://www.youtube.com/watch?v=hDveopQQFbg"
   },
@@ -50489,14 +50490,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Barnabas needs his shipment back from pirates. Your first naval fight: destroy their ship and recover the cargo.",
-    aiTip: "Your first naval fight: wear the pirate ship down with arrows and javelins, then ram or board it once it's weak.",
+    summary:
+      "Barnabas needs his shipment back from pirates. Your first naval fight: sink the pirates and recover the cargo.",
+    aiTip:
+      "Your first naval fight: attack from the side so your archers' volleys land, then ram or board once a ship is weak. Loot the wreckage before you head back.",
     walkthrough: [
       "Board the Adrestia and talk to Barnabas.",
-      "Sail to the pirate ship that took his shipment.",
-      "Destroy it with arrows and javelins, then ram or board it.",
-      "Recover the cargo.",
-      "Return to Barnabas — your ship's stats tab unlocks."
+      "Sail to the pirates who took his shipment.",
+      "Sink their ships with arrows and javelins, attacking from the side, or ram and board them.",
+      "Recover the cargo and loot the wreckage.",
+      "Return to Barnabas — Equal Employment Opportunity Program follows."
     ],
     video: "https://www.youtube.com/watch?v=bMdf7LhB8jA"
   },
@@ -50577,12 +50580,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "XP, stele piece",
-    summary: "Eppie's trail leads to the Tomb of Orion, north of Oropos Heights — another stele piece lies inside.",
-    aiTip: "The Tomb of Orion has snakes and spike traps, so watch the floor and kill the snakes before they swarm you.",
+    summary:
+      "Eppie's trail leads to the Tomb of Orion, north of Oropos Heights — another stele piece lies inside.",
+    aiTip:
+      "Inside the tomb you meet Aristomachos, and crazed worshippers attack. Clear them before you go for the stele piece.",
     walkthrough: [
       "After Language of the Ancients, talk to Eppie in the Cave of the Oracle.",
       "Travel to the Tomb of Orion at the edge of the forest north of Oropos Heights.",
-      "Get past the snakes and spike traps inside.",
+      "Enter the tomb, meet Aristomachos and kill the crazed worshippers.",
       "Recover the stele piece and return to Eppie."
     ],
     video: "https://www.youtube.com/watch?v=Nsf2ljjd2jA"
@@ -50598,14 +50603,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "XP, final stele piece",
-    summary: "The last stele piece was at the Temple of Charites in Orchomenos — until a thief stole the relics and burned it. Track him down to finish Eppie's ritual.",
-    aiTip: "Augeia, the woman waiting at the ruins, points you to the thief. Scan south-west with Ikaros to spot him.",
+    summary:
+      "The last stele piece was at the Temple of Charites in Orchomenos — until a thief stole the relics and burned it. Track him down to finish Eppie's ritual.",
+    aiTip:
+      "Augeia, the woman in green at the ruins, points you towards the beggars' market. Use Ikaros there to spot the thief.",
     walkthrough: [
       "After Chasing Phantoms, go to the Burned Temple of Charites in Orchomenos, on the north-west shore of Lake Kopais.",
       "Search the marked items around the ruins.",
-      "Talk to the waiting woman, Augeia, about the thief.",
-      "Use Ikaros to spot the culprit and head south-west.",
-      "Kill him, recover the relics and return to Eppie."
+      "Talk to Augeia, the woman in green, about the thief.",
+      "Head toward the beggars' market and use Ikaros to spot the culprit.",
+      "Kill him, take the stele piece from his body and return to Eppie."
     ],
     video: "https://www.youtube.com/watch?v=xStBM2JnFsg"
   },
@@ -50795,12 +50802,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Elpenor tried to kill you at Pilgrim's Landing. Hunt him through Phokis — past a decoy — to the Snake Temple in the Valley of the Snake.",
-    aiTip: "Sync the viewpoint south-west of the Snake Temple first, which gives you a fast-travel point and a safe place to tag the cave guards.",
+    summary:
+      "Elpenor tried to kill you at Pilgrim's Landing. Hunt him through Phokis — past a decoy — to the Snake Temple in the Valley of the Snake.",
+    aiTip:
+      "Sync the Satyr's Respite viewpoint directly above the Snake Temple first. It gives you a fast-travel point and a safe place to tag the cave guards.",
     walkthrough: [
-      "Head east of Pilgrim's Landing toward Desphina Fort and the Valley of the Snake.",
-      "Deal with the decoy Elpenor wearing his robes.",
-      "Sync at the viewpoint south-west of the Snake Temple and tag enemies with Ikaros.",
+      "Head east of Pilgrim's Landing, past Desphina Fort, toward the Valley of the Snake.",
+      "Kill the decoy Elpenor at Pharsalos Fort.",
+      "Sync at the Satyr's Respite viewpoint above the Snake Temple and tag enemies with Ikaros.",
       "Clear the soldiers outside the cave behind the temple.",
       "Kill Elpenor inside — take his Mysterious Fragment and Cult of Kosmos Ceremonial Outfit."
     ],
@@ -50883,13 +50892,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Herodotos meets you at the Lion of Leonidas at Thermopylai. When he touches your spear, you both see Leonidas's final moments, and the spear's past sends you to a strange structure on Andros.",
-    aiTip: "Upgrade the Adrestia's hull before the trip to Andros: the three pirate ships in the bay off Thermopylai have the materials.",
+    summary:
+      "Herodotos meets you at the Lion of Leonidas at Thermopylai. When he touches your spear, you both see Leonidas's final moments, and the spear's past sends you to a strange structure on Andros.",
+    aiTip:
+      "Upgrade the Adrestia's hull before the trip to Andros. It's a long voyage, and the game tells you to prepare for it here.",
     walkthrough: [
       "Meet Herodotos at the Lion of Leonidas at Thermopylai.",
       "Draw your spear when he asks, and watch the vision of Leonidas's last moments.",
       "Learn that the spear's past points to a mysterious structure on Andros.",
-      "Before sailing to Andros, consider upgrading the Adrestia's hull with materials from the three pirate ships in the bay."
+      "Upgrade the Adrestia's hull before sailing to Andros."
     ],
     video: "https://www.youtube.com/watch?v=TQhnokdawEI"
   },
@@ -51034,14 +51045,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Alkibiades's lead takes you to Korinth to find Anthousa, a hetaira who knows about your mother — and wants the Monger gone before she talks.",
-    aiTip: "Agree to help Anthousa with the Monger, because she won't talk about your mother otherwise. Three follow-ups unlock at once.",
+    summary:
+      "Alkibiades's lead takes you to Korinth to find Anthousa, a hetaira who knows about your mother — and wants the Monger gone before she talks.",
+    aiTip:
+      "At the Porneion, the woman with the search icon points you up the Akrokorinth. Clear the bandits at the temple there (three more arrive after the first three), then find Anthousa at the Spring of Peirene.",
     walkthrough: [
       "Sail to Korinth and go to the Porneion (level 19).",
-      "Find Anthousa and talk to her.",
-      "Agree to help her get rid of the Monger in exchange for information on your mother.",
-      "Meet Phoibe, here as Aspasia's emissary.",
-      "To Help a Girl, Follow That Boat and Port of Lawlessness unlock."
+      "Talk to the woman with the search icon about Anthousa.",
+      "Climb to the temple on the Akrokorinth and kill the bandits harassing the worshippers.",
+      "Head west down the rock to the Spring of Peirene and talk to Anthousa.",
+      "Agree to help her get rid of the Monger — To Help a Girl, Follow That Boat and Port of Lawlessness unlock."
     ],
     video: "https://www.youtube.com/watch?v=MQp9Go6Pu14"
   },
@@ -51421,13 +51434,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "The Naxos finale: sink Silanos's fleet and his flagship, the Amber Dawn — then learn the truth about your father.",
-    aiTip: "Sink the four escort ships before turning on the Amber Dawn, so Silanos's flagship is fighting alone.",
+    summary:
+      "The Naxos finale: sink Silanos's fleet, flagship Amber Dawn included — then learn the truth about your father.",
+    aiTip:
+      "Paros's fleet is four ships, one of them Silanos's Amber Dawn. Draw out the two smaller ships before you take on the two larger ones.",
     walkthrough: [
       "After The Paros Blockade, sail out with Myrrine's fleet.",
-      "Destroy the four ships of Paros's remaining fleet.",
-      "Sink Silanos's flagship, the Amber Dawn.",
-      "Talk to Myrrine — plan the return to Sparta and hear the truth about your father."
+      "Destroy Paros's four ships west of the island, including Silanos's flagship, the Amber Dawn.",
+      "Talk to Myrrine, who reveals that Pythagoras, not Nikolaos, is your father.",
+      "Return to Naxos — A Family's Legacy follows."
     ],
     video: "https://www.youtube.com/watch?v=6ZuFonbo2c8"
   },
@@ -51506,14 +51521,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Pausanias's Pankration champion, Testikles, won't cooperate without a special oil. Get the recipe in Gytheion and find him training alone.",
-    aiTip: "Paying the oil maker's apprentice in Gytheion is the smoothest way to get the recipe. Testikles is training alone on an island near the Shipwreck of Nestor.",
+    summary:
+      "Pausanias's Pankration champion, Testikles, won't cooperate without a special oil. Get the recipe in Gytheion and find him training alone.",
+    aiTip:
+      "Pick 'Can't we work something out?' with the oil maker's apprentice in Gytheion and she teaches you to make the oil yourself. Listen to her wording, because it tells you the last ingredient.",
     walkthrough: [
       "Talk to the trainer Alkon at Sparta's Dromos.",
-      "Go to Gytheion and get the oil recipe from the oil maker's apprentice (paying her is smoothest).",
-      "Collect the oil.",
-      "Sail toward the Bay of Hades to Testikles's island near the Shipwreck of Nestor.",
-      "Find Testikles — after his death, you'll take his place at Olympia."
+      "Go to Gytheion and talk to the oil maker's apprentice; ask 'Can't we work something out?'.",
+      "Make the oil yourself at the fire, following her recipe.",
+      "Sail to the Bay of Hades, to Testikles's island near the Shipwreck of Nestor.",
+      "Find Testikles — you'll end up taking his place at Olympia."
     ],
     video: "https://www.youtube.com/watch?v=6KoiRjwc7dc"
   },
@@ -51723,13 +51740,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "The Battle of Pylos: fight the conquest battle, then face Deimos — and Kleon's trap.",
-    aiTip: "Kill captains to drain the Athenian army fast. Then, after Deimos, Kleon's guards force an unarmed fight with no abilities.",
+    summary:
+      "The Battle of Pylos: fight the conquest battle, then face Deimos — and Kleon's trap.",
+    aiTip:
+      "Kill captains to drain the Athenian army fast. Afterwards you wake in a prison cell, where Kleon's two guards force an unarmed fight: dodge and counter.",
     walkthrough: [
       "Join the battle at Pylos.",
       "Drain the enemy army by killing captains.",
-      "Confront Deimos.",
-      "Kleon's guards move in — win the unarmed fight (no abilities)."
+      "Face Deimos after he cuts down Brasidas.",
+      "Wake in a prison cell and beat Kleon's two guards unarmed — Barnabas and Sokrates arrive."
     ],
     video: "https://www.youtube.com/watch?v=LIsyiOwkFNQ"
   },
@@ -51787,11 +51806,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Aikaterine at the House of Aphrodite won't help with the play until Commander Rhexenor is dealt with.",
-    aiTip: "Rhexenor is asleep in the small blue tent at the Weapons Storage. Tag the guards with Ikaros and you can take him quietly.",
+    summary:
+      "Aikaterine at the House of Aphrodite won't help with the play until Commander Rhexenor is dealt with.",
+    aiTip:
+      "Rhexenor is asleep in his tent at the Weapons Storage. Tag the guards with Ikaros and you can take him quietly.",
     walkthrough: [
       "Talk to Aikaterine at the House of Aphrodite.",
-      "Find Commander Rhexenor asleep in a small blue tent at the Weapons Storage.",
+      "Find Commander Rhexenor asleep in his tent at the Weapons Storage.",
       "Tag him and the guards with Ikaros and slip in.",
       "Kill Rhexenor and bring proof to Aikaterine.",
       "Watch the play."
@@ -54318,13 +54339,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Barnabas's episode, starting on Skyros. After a pirate attack, his story leads to the tomb of the sirens, the Tomb of Polybotes on Kos.",
-    aiTip: "Your companions don't help in the opening pirate fight, so clear the pirates yourself before the story moves on.",
+    summary:
+      "Barnabas's episode, starting on Skyros. Free the prisoner in the Pirate Hideout and Barnabas's visions of his wife Leda lead to the tomb of the sirens, the Tomb of Polybotes on Kos.",
+    aiTip:
+      "The episode starts at the Pirate Hideout on Skyros: free the prisoner there. Three support quests (Wine for the Swine, To Be Nobody, Beware the Siren Call) lead to Kos.",
     walkthrough: [
-      "Talk to Barnabas on Skyros.",
-      "Fight off the pirate attack on your own, since your companions won't help.",
-      "Head for the tomb of the sirens, the Tomb of Polybotes on Kos.",
-      "Follow Barnabas's story to the episode's finale."
+      "Go to the Pirate Hideout on Skyros and free the prisoner.",
+      "Hear Barnabas's visions of his wife Leda once he sobers up.",
+      "Complete Wine for the Swine, To Be Nobody and Beware the Siren Call.",
+      "Head for the tomb of the sirens, the Tomb of Polybotes on Kos, and follow Barnabas's story to the finale."
     ],
     video: "https://www.youtube.com/watch?v=YyB2LOFQvj0"
   },
@@ -54483,16 +54506,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Argolis",
     title: "Midas",
-    location: "Argolis",
+    location: "Argos (Argo's Agora), Argolis",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Eyes of Kosmos. An Eyes of Kosmos adept hiding in Argolis.",
-    aiTip: "Argolis is a big region. Fly Ikaros over it once the Cult menu reveals him instead of searching on foot.",
+    summary:
+      "Adept of the Eyes of Kosmos. Midas hides in the city of Argos, around Argo's Agora, in Argolis.",
+    aiTip:
+      "Head for Argo's Agora in the city of Argos and use Ikaros there; the city is crowded, so look for the gold crown icon.",
     walkthrough: [
       "Collect his clue from the Cultist menu.",
-      "Travel to Argolis once he's revealed.",
-      "Use Ikaros to find and mark him.",
+      "Travel to the city of Argos in Argolis.",
+      "Use Ikaros around Argo's Agora to find and mark him.",
       "Kill him and loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=wdQOJzPEH2Q"
@@ -54550,13 +54575,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Silver Vein. Epiktetos the Forthcoming dies during the main quest The Serpent's Lair — no hunt needed.",
-    aiTip: "No hunt needed: Epiktetos dies when the Cult gathering under Delphi turns violent in The Serpent's Lair. Loot him there for the Silver Vein clue.",
+    summary:
+      "Adept of the Silver Vein. Epiktetos the Forthcoming is killed by Deimos during the main quest The Serpent's Lair — no hunt needed.",
+    aiTip:
+      "No hunt needed: Deimos executes Epiktetos at the Cult gathering under Delphi in The Serpent's Lair, so he's already crossed off when the Cultists tab opens.",
     walkthrough: [
       "Reach The Serpent's Lair in the main story.",
       "Infiltrate the Cult gathering beneath Delphi.",
-      "Defeat Epiktetos when the meeting turns violent.",
-      "Loot him for the clue to the Silver Vein."
+      "Watch Deimos execute Epiktetos when the meeting turns.",
+      "He's marked as dead in the Cultist menu."
     ],
     video: "https://www.youtube.com/watch?v=TwzStbYgt6Y"
   },
@@ -54567,17 +54594,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Euboea",
     title: "The Centaur of Euboea",
-    location: "Copper Mine, Euboea",
+    location: "Abandoned Mine, Mount Dirfi (north-east Euboea)",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Silver Vein. The Centaur of Euboea guards a copper mine — the largest chamber also holds the clue to the Silver Griffin.",
-    aiTip: "After killing him, check the copper mine's largest chamber. The chest there names the Silver Griffin.",
+    summary:
+      "Adept of the Silver Vein. The Centaur of Euboea is revealed after The Serpent's Lair and hides in the Abandoned Mine in north-east Euboea.",
+    aiTip:
+      "No clue hunt needed: he's revealed once The Serpent's Lair is done. Go to the Abandoned Mine on Mount Dirfi in north-east Euboea.",
     walkthrough: [
-      "Get his clue in the Cultist menu.",
-      "Sail to Euboea and go to the Copper Mine.",
-      "Find and kill the Centaur.",
-      "Open the chest in the largest cave chamber for the Silver Griffin clue."
+      "Finish The Serpent's Lair; he's revealed in the Cultist menu.",
+      "Sail to Euboea.",
+      "Go to the Abandoned Mine on Mount Dirfi, in the north-east of the island.",
+      "Find and kill the Centaur, then loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=MURloKnQ0EA"
   },
@@ -54613,12 +54642,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Silver Vein. Machaon the Feared walks Patrai's harbour — sometimes indoors or up on the scaffolds.",
-    aiTip: "His clue is easy to miss in the Cult menu. In Patrai, scan the harbour by the ship-dock icon with Ikaros; he may be indoors or up on the scaffolding.",
+    summary:
+      "Adept of the Silver Vein. Machaon the Feared walks Patrai's harbour — sometimes indoors or up on the scaffolds.",
+    aiTip:
+      "His clue is a Dead Man's Note on a corpse on the rocks at Shipwreck Cove on the Achaian coast. In Patrai, scan the harbour by the shipyard with Ikaros; he may be indoors or up on the scaffolding.",
     walkthrough: [
-      "Find his clue (it's hard to spot) in the Cultist menu.",
+      "Loot the Dead Man's Note from the corpse at Shipwreck Cove on the Achaian coast.",
       "Go to the Port of Patrai in Achaia.",
-      "Scan the harbour by the ship-dock icon with Ikaros — he may be indoors or on scaffolding.",
+      "Scan the harbour and military shipyard with Ikaros — he may be indoors or on scaffolding.",
       "Kill him and loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=Pr2fGQa_atA"
@@ -54634,11 +54665,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Silver Vein. The Silver Griffin wanders the ruins on Prasonisia island once his identity is revealed.",
-    aiTip: "His identity is in the chest in the Centaur of Euboea's copper mine. Kill the Centaur first, then sail to Prasonisia off Mykonos.",
+    summary:
+      "Adept of the Silver Vein. The Silver Griffin wanders the ruins on Prasonisia island once his identity is revealed.",
+    aiTip:
+      "Two clues reveal him: the one the Chimera drops, and a chest on an upper ledge in the largest chamber of the Lavrio Silver Mine in Attika. Then sail to Prasonisia off Mykonos.",
     walkthrough: [
-      "Get his identity from the chest in the Centaur of Euboea's copper mine.",
-      "Sail to Prasonisia, off the coast of Mykonos.",
+      "Kill the Chimera for one clue, or open the chest in the largest chamber of the Lavrio Silver Mine in Attika.",
+      "Sail to Prasonisia, the small island south-west of Mykonos.",
       "Use Ikaros to spot him walking the ruins.",
       "Kill him and loot his clue."
     ],
@@ -54850,11 +54883,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Peloponnesian League. Silanos of Paros — sunk with his flagship Amber Dawn in Unified Front.",
-    aiTip: "Silanos dies with the Amber Dawn in Unified Front. Sink Paros's four escort ships first so you can focus the flagship.",
+    summary:
+      "Adept of the Peloponnesian League. Silanos of Paros — sunk with his flagship Amber Dawn in Unified Front.",
+    aiTip:
+      "Silanos dies with the Amber Dawn in Unified Front. It's one of Paros's four ships; draw off the two smaller ones before taking on the larger pair.",
     walkthrough: [
       "Reach Unified Front in the Naxos story.",
-      "Destroy the four ships of Paros's fleet.",
+      "Engage Paros's four-ship fleet.",
       "Sink the Amber Dawn.",
       "Silanos dies with his ship."
     ],
@@ -54957,13 +54992,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Gods of the Aegean Sea. Melanthos needs two clues: one from the Octopus and one from Messara's leader, Hektor the Sage.",
-    aiTip: "He needs two clues: kill the Octopus and Messara's leader, Hektor the Sage (near Gortyn), then hunt him off Messara's west coast.",
+    summary:
+      "Adept of the Gods of the Aegean Sea. Melanthos's clue comes from the Octopus or from Messara's leader, Hektor the Sage.",
+    aiTip:
+      "Either clue works: kill the Octopus, or Messara's leader Hektor the Sage near Gortyn. Then hunt his ship off Messara's west coast.",
     walkthrough: [
-      "Kill the Octopus for the first clue.",
-      "Kill Messara's leader, Hektor the Sage, near Gortyn for the second.",
+      "Get his clue by killing the Octopus, or Messara's leader Hektor the Sage near Gortyn.",
       "Sail off Messara's west coast.",
-      "Sink his ship."
+      "Find his ship.",
+      "Sink it."
     ],
     video: "https://www.youtube.com/watch?v=Ubxh6wPjZGA"
   },
@@ -54978,11 +55015,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Gods of the Aegean Sea. The Mytilenian Shark sails with purple sails between Samos and Kos.",
-    aiTip: "Look for the ship with purple sails between Samos and Kos. The clue in the underwater chest north of Thera is optional.",
+    summary:
+      "Adept of the Gods of the Aegean Sea. The Mytilenian Shark sails with purple sails between Samos and Kos.",
+    aiTip:
+      "Look for the ship with purple sails south of Samos, towards Kos. The clue in the shipwreck by the Palace of Amphitrite, north-east of Thera, is optional.",
     walkthrough: [
-      "Optionally get his clue from the underwater chest north of Thera.",
-      "Sail between Samos and Kos (or south of Samos).",
+      "Optionally get his clue from the shipwreck chest by the Palace of Amphitrite, north-east of Thera.",
+      "Sail south of Samos, towards Kos.",
       "Find the ship with purple sails.",
       "Sink it."
     ],
@@ -55205,16 +55244,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Boeotia",
     title: "Deianeira",
-    location: "Roams Boeotia (Cave of the Oracle during her quest)",
+    location: "Reborn Hills, Boeotia (Cave of the Oracle after Sibling Revenge)",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Heroes of the Cult. Deianeira is one of the four Boeotian champions in The Conqueror.",
-    aiTip: "She's one of the four Boeotian champions in Stentor's The Conqueror. During her quest, she's at the Cave of the Oracle.",
+    summary:
+      "Adept of the Heroes of the Cult. Deianeira is one of the four Boeotian champions in The Conqueror.",
+    aiTip:
+      "She's one of the four Boeotian champions in Stentor's The Conqueror. She usually wanders the Reborn Hills; after Sibling Revenge she moves into the Cave of the Oracle.",
     walkthrough: [
       "Start The Conqueror with Stentor in Boeotia.",
       "Take on Deianeira's champion quest.",
-      "Find her roaming Boeotia (or at the Cave of the Oracle during her quest).",
+      "Find her in the Reborn Hills (or the Cave of the Oracle after Sibling Revenge).",
       "Defeat her."
     ],
     video: "https://www.youtube.com/watch?v=xZOusr6Ka5A"
@@ -55251,12 +55292,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Heroes of the Cult. Pallas the Silencer fights on the battleground in Achaia.",
-    aiTip: "Pallas only appears in an Achaia conquest battle. Start one on the battleground there, then pick him out of the enemy ranks.",
+    summary:
+      "Adept of the Heroes of the Cult. Pallas the Silencer fights on the battleground in Achaia.",
+    aiTip:
+      "Pallas only appears in an Achaia conquest battle fought on Athens' side; on Sparta's side he never spawns. He turns up about halfway through.",
     walkthrough: [
       "Get his clue in the Cultist menu.",
-      "Go to the battleground in Achaia (join a conquest battle there).",
-      "Find Pallas among the enemy.",
+      "Weaken Achaia and join the conquest battle there on Athens' side.",
+      "Find Pallas among the enemy about halfway through.",
       "Defeat him and loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=c6flTE_4E2Y"
@@ -55423,15 +55466,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Arkadia",
     title: "Constellation of Kallisto",
-    location: "Arkadia, near the Argolis border",
+    location: "Constellation of Kallisto clearing, Golden Fields, Arkadia",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "One of Daphnae's legendary hunts: Kallisto, a level-37 legendary bear, near Arkadia's border with Argolis.",
-    aiTip: "Open with a fully charged bow shot before she closes in. Kallisto is level 37, so fight her on foot and only strike after she finishes a charge.",
+    summary:
+      "One of Daphnae's legendary hunts: Kallisto, a legendary bear (around level 37) in the Constellation of Kallisto clearing in Arkadia's Golden Fields.",
+    aiTip:
+      "Open with a fully charged bow shot before she closes in. Kallisto is level 37, so fight her on foot and only strike after she finishes a charge.",
     walkthrough: [
       "Take the hunt from Daphnae.",
-      "Travel to Kallisto's lair near the Arkadia–Argolis border and approach on foot.",
+      "Travel to the Constellation of Kallisto clearing in the Golden Fields of Arkadia and approach on foot.",
       "Open with a charged bow shot, then dodge her charges and strike in the recovery windows.",
       "Kill Kallisto and bring her pelt to Daphnae."
     ],
@@ -55444,15 +55489,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
     title: "The Kretan Bull",
-    location: "Fertile Battleground (central Messara), Crete",
+    location: "Western Fertile Battleground, Messara, Crete",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "One of Daphnae's legendary hunts: the Kretan Bull charges across the Fertile Battleground in the middle of Messara (recommended level 33–42).",
-    aiTip: "Fight the Kretan Bull on foot on the open Fertile Battleground. Bait a charge, sidestep, then strike while it recovers.",
+    summary:
+      "One of Daphnae's legendary hunts: the Kretan Bull roams the western part of the Fertile Battleground on Messara (recommended level about 33).",
+    aiTip:
+      "Fight the Kretan Bull on foot on the open Fertile Battleground. Bait a charge, sidestep, then strike while it recovers.",
     walkthrough: [
       "Take the hunt from Daphnae (Daughters of Artemis).",
-      "Go to the Fertile Battleground in central Messara on foot.",
+      "Go to the western part of the Fertile Battleground in Messara on foot.",
       "Bait its charges and dodge sideways, striking in the recovery windows.",
       "Kill it and bring its pelt to Daphnae."
     ],
@@ -55511,13 +55558,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
-    summary: "Brontes the Thunderer, the first mythical beast for the Gates of Atlantis. Start A God Among Men at the Pilgrimage Site on Kythera's north-west coast; rescuing Empedokles yields the key to the Cyclops's shrine on the Isle of Thisvi. Target its glowing eye with ranged attacks; the fight intensifies with falling debris halfway through.",
-    aiTip: "Rescue Empedokles first, since his cloak holds the key to Brontes's shrine. In the fight, aim for the glowing eye, and watch for falling debris in the second half.",
+    summary:
+      "Brontes the Thunderer, the first mythical beast for the Gates of Atlantis. Start A God Among Men at the Pilgrimage Site on Kythera's north-west coast; rescuing Empedokles yields the key to the Cyclops's shrine on the Isle of Thisvi. Target its glowing eye with ranged attacks; the fight intensifies with falling debris halfway through.",
+    aiTip:
+      "The disc key for Brontes's shrine is carried by a thief on the road between Kythera Town and the Murex Dyeing Facility, with two bodyguards. In the fight, aim for the glowing eye, and watch for falling debris in the second half.",
     walkthrough: [
       "Sail to Kythera and start A God Among Men at the Pilgrimage Site on the north-west coast.",
-      "Rescue Empedokles and take the key hidden in his cloak.",
-      "Sail to the Isle of Thisvi.",
-      "Slot the key into the shrine to open the gate.",
+      "Free Empedokles from the Murex Fort.",
+      "Kill the thief and his two bodyguards on the road between Kythera Town and the Murex Dyeing Facility for the disc key.",
+      "Finish Left to Dye and Stairway to Olympos, then sail to the Isle of Thisvi and open the shrine.",
       "Defeat Brontes — aim for the glowing eye — and take the artifact for Pythagoras."
     ],
     video: "https://www.youtube.com/watch?v=tLIe7X-FpIo"
@@ -55599,13 +55648,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
-    summary: "Odessa, self-proclaimed descendant of Odysseus. Free her on Ithaka, then pick up her story again in Megaris.",
-    aiTip: "Odessa's romance spans two places. Free her on Ithaka early, then look for A Family Ordeal on the farm east of Megara later.",
+    summary:
+      "Odessa, self-proclaimed descendant of Odysseus. Free her on Ithaka, then pick up her story again in Megaris.",
+    aiTip:
+      "Odessa's romance spans two places. Free her on Ithaka early, then look for A Family Ordeal on the farm east of Megara later.",
     walkthrough: [
-      "Find Odessa caged east of Odysseus's Palace on Ithaka and do A Small Odyssey.",
+      "Find Odessa caged behind Odysseus's Palace on Ithaka and do A Small Odyssey.",
       "Escort her to her boat, choosing the heart options.",
       "Later, pick up A Family Ordeal at a farm east of Megara in Megaris.",
-      "Keep choosing the romance options to finish her romance."
+      "Do A True Story in the Valley of King Lelex, then return to her farm and choose the romance option."
     ],
     video: "https://www.youtube.com/watch?v=3jO9Dv9YJok"
   },
@@ -55809,10 +55860,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
-    summary: "Diona of Kythera. Help her through I, Diona and say yes when she invites you to her villa.",
-    aiTip: "Kythera is a level 42 area. Say 'I can't wait' when she invites you to her villa, then 'Yes, let's'.",
+    summary:
+      "Diona of Kythera. Help her through I, Diona and say yes when she invites you to her villa.",
+    aiTip:
+      "Say 'I can't wait' when she invites you to her villa, then 'Yes, let's'. Remember she's a cultist: in By the Fates, the Diona on the right is the one to kill.",
     walkthrough: [
-      "Sail to Kythera (level 42) and do I, Diona.",
+      "Sail to Kythera and do I, Diona.",
       "Do her follow-up quests.",
       "When she asks you to meet at her villa, pick 'I can't wait'.",
       "Pick 'Yes, let's' to complete the romance."
@@ -55851,13 +55904,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
-    summary: "Zopheras, the daughter in Xanthe's questline in Lakonia. Romanced at the end of Not My Mother's Daughter.",
-    aiTip: "Pick the flirt options while training Zopheras in Not My Mother's Daughter. The romance happens at her secret spot at the end.",
+    summary:
+      "Zopheras, the daughter in Xanthe's questline in Lakonia. Romanced at the end of Not My Mother's Daughter.",
+    aiTip:
+      "Pick the heart options while training Zopheras in Not My Mother's Daughter. You'll need to win both a foot race and a horse race.",
     walkthrough: [
       "Unlock Not My Mother's Daughter in Lakonia (Xanthe's questline).",
-      "Help train Zopheras, picking the flirt options.",
-      "Complete all the quest objectives.",
-      "Follow her to her secret spot to complete the romance."
+      "Help train Zopheras, picking the heart options.",
+      "Win the foot race and the horse race.",
+      "Meet her again after the races and choose the heart options to complete the romance."
     ],
     video: "https://www.youtube.com/watch?v=jTI5lG7oPtI"
   },
@@ -55872,13 +55927,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
-    summary: "Aikaterine, the hetaira at the House of Aphrodite in Athens. Her romance comes with A-Musing Tale: deal with the cultist Rhexenor, who has been threatening her.",
-    aiTip: "She flirts straight away, but the romance only happens once Rhexenor is dead. Climb the barracks walls and headshot the guards to make it quick.",
+    summary:
+      "Aikaterine, the hetaira at the House of Aphrodite in Athens. Her romance comes with A-Musing Tale: deal with the cultist Rhexenor, who has been threatening her.",
+    aiTip:
+      "She flirts straight away, but the romance only happens once Rhexenor is dead. Climb the barracks walls and headshot the guards to make it quick.",
     walkthrough: [
       "Around the start of Chapter 8, take An Actor's Life for Me at Perikles's residence in Athens.",
       "After finding Thespis, A-Musing Tale sends you to Aikaterine at the House of Aphrodite.",
-      "Kill the cultist Rhexenor at the barracks north of the House of Aphrodite.",
-      "Return to Aikaterine to complete the quest and the romance."
+      "Kill the cultist Rhexenor in his tent at the Weapons Storage and take his sword as proof.",
+      "Return to Aikaterine and choose 'I can stay awhile…' to complete the romance."
     ],
     video: "https://www.youtube.com/watch?v=bLbRFQkGCVY"
   },
@@ -56062,13 +56119,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
-    summary: "Orion's tomb on the forest edge north of Oropos Heights in Boeotia, full of snakes and spike traps, with the stele behind a weakened wall. Eppie's quest Chasing Phantoms also brings you here.",
-    aiTip: "Kill the snakes before you deal with the spike traps, so you aren't dodging both at once.",
+    summary:
+      "Orion's tomb on the forest edge north of Oropos Heights in Boeotia, with urns and snakes on the way to the stele. Eppie's quest Chasing Phantoms also brings you here.",
+    aiTip:
+      "Break the boards at the entrance and go left at the crossroads; the passage ahead is blocked. Kill the snakes among the urns on the way.",
     walkthrough: [
       "Go to the northern part of Oropos Heights, at the edge of the forest.",
-      "Enter the tomb.",
-      "Kill or avoid the snakes and watch for spike traps.",
-      "Break through the weakened wall and follow the passage to the Ancient Stele."
+      "Break the wooden boards at the entrance and go left.",
+      "At the crossroads, head left past the urns and snakes.",
+      "Enter the stele room on the left and read the Ancient Stele."
     ],
     video: "https://www.youtube.com/watch?v=rTP5P1VKXv4"
   },
@@ -56100,17 +56159,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Tomb of Brizo",
-    location: "Beneath the Sacred Lands of Artemis, Delos",
+    location: "Kynthos Ruins, Mount Kynthos (northern Delos)",
     length: "short",
     difficulty: "Low",
     reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
-    summary: "A tomb beneath the Sacred Lands of Artemis on Delos, the small sacred island of the Silver Islands.",
-    aiTip: "Delos is small. Head straight for the Sacred Lands of Artemis, since the entrance is beneath them.",
+    summary:
+      "A shrine-tomb to the goddess Brizo in the Kynthos Ruins on Mount Kynthos, in the north of Delos.",
+    aiTip:
+      "Head for the Kynthos Ruins on Mount Kynthos in northern Delos. The passage that looks like a dead end is a breakable wall hiding the stele.",
     walkthrough: [
       "Sail to Delos.",
-      "Find the entrance beneath the Sacred Lands of Artemis.",
-      "Make your way through the tomb.",
-      "Read the Ancient Stele for an ability point."
+      "Climb to the Kynthos Ruins on Mount Kynthos in the north of the island.",
+      "Make your way through the tomb past the snakes.",
+      "Smash the wall at the apparent dead end and read the Ancient Stele."
     ],
     video: "https://www.youtube.com/watch?v=c9Kpi-IaLQU"
   },
@@ -56167,13 +56228,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
-    summary: "A tomb carved into the rocky shore at the northern tip of Artemision Point on Euboea. You reach the entrance by climbing down from a fireplace, and inside wait cobwebs, spike traps and snakes.",
-    aiTip: "The entrance is reached from the fireplace at the site. Climb down from there rather than searching the beach.",
+    summary:
+      "A tomb in the rocky shore on the north-western side of Artemision Point on Euboea. You climb down the cliff to the entrance, then drop into a flooded area inside.",
+    aiTip:
+      "The entrance is down the cliff on the north-western side of Artemision Point, near the shore. Inside, drop through the floor hole into the flooded section.",
     walkthrough: [
-      "Sail to Euboea and go to the northern tip of Artemision Point on the north-west of the island.",
-      "Climb down from the fireplace at the site to the entrance in the rocky shore.",
-      "Break the wooden barrier and follow the corridor past the cobweb, spike traps and snakes.",
-      "Reach the room with the large hole in the floor and read the Ancient Stele."
+      "Sail to Euboea and go to the north-western part of Artemision Point.",
+      "Climb down the cliff near the shore to the tomb entrance.",
+      "Drop through the hole in the floor into the flooded area and follow the tunnel.",
+      "Move the shelf at the end and read the Ancient Stele."
     ],
     video: "https://www.youtube.com/watch?v=Fsi-KWKTVoM"
   },
@@ -56311,15 +56374,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Cyclades Islands",
     title: "Alkaios Tomb",
-    location: "North-east Paros, near the shore (Atoll point)",
+    location: "East end of Atoll Point, the small island south of Paros",
     length: "short",
     difficulty: "Low",
     reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
-    summary: "A shoreline tomb at Atoll point in the north-east of Paros.",
-    aiTip: "Land near the shore at Atoll point in north-east Paros. The tomb is close to the water.",
+    summary:
+      "A cavernous tomb on Atoll Point, the small island just south of Paros.",
+    aiTip:
+      "It isn't on Paros itself: sail to Atoll Point, the small neighbouring island, and land on its eastern end.",
     walkthrough: [
-      "Sail to Paros.",
-      "Go to the north-east of the island near the shore (Atoll point).",
+      "Sail to Atoll Point, the small island south of Paros.",
+      "Go to the eastern end of the island near the shore.",
       "Enter the tomb and make your way through.",
       "Read the Ancient Stele for an ability point."
     ],
@@ -56568,10 +56633,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Engraving: +2% crit chance at full health",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Farm of Tripodiskos; the answer is beside a ship with a dog on the Tripodiskos shore.",
-    aiTip: "Check the second-northernmost ship on the shore, the one with a dog and a bowl beside it. The crossed bones are near its bow.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Farm of Tripodiskos; the answer is beside a ship with a dog on the Tripodiskos shore.",
+    aiTip:
+      "The tablet is on a pile of hay at the top of the hill by the Farm of Tripodiskos. On the shore, check the second-northernmost ship, the one with a dog beside it. The crossed bones are near its bow.",
     walkthrough: [
-      "Climb to the top of the guarded building at the Farm of Tripodiskos for the tablet.",
+      "Climb the hill at the Farm of Tripodiskos and take the tablet from the pile of hay at the top.",
       "Go to the shore of the Occupied Forest of Tripodiskos.",
       "Find the second-northernmost ship — a dog sits by it with a bowl.",
       "Interact with the two crossed bones near the front of the ship."
@@ -56627,14 +56694,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Attika",
     title: "Backstage Pass",
-    location: "Theater of Dionysos (south of the Akropolis), Athens",
+    location: "Textile Workshop → Theater of Dionysos (south of the Akropolis), Athens",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle whose answer is backstage at the Theater of Dionysos.",
-    aiTip: "Go into the skene, the backstage building, through the central doorway that faces the seats.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in Athens's Textile Workshop; its answer is backstage at the Theater of Dionysos.",
+    aiTip:
+      "Go into the skene, the backstage building, through the central doorway that faces the seats.",
     walkthrough: [
-      "Pick up the tablet and read the clue about the theatre.",
+      "Pick up the tablet on the ground floor of the Textile Workshop in Athens (Ikaros can spot it).",
       "Go to the Theater of Dionysos, south of the Akropolis.",
       "Enter the skene through the central doorway on the south side, facing the seats.",
       "Interact with the stack of blankets by the small staircase."
@@ -56669,15 +56738,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Attika",
     title: "War Eagle",
-    location: "Ruined Sanctuary of Ajax, Salamis",
+    location: "Salamis Marble Quarry → Ruined Sanctuary of Ajax, Salamis",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle on Salamis: the answer is a marble eagle south of the Ruined Sanctuary of Ajax.",
-    aiTip: "Follow the road south from Salamis's quarry. The marble eagle is just south of the Ruined Sanctuary of Ajax.",
+    summary:
+      "Ainigmata Ostraka riddle on Salamis: the answer is a marble eagle south of the Ruined Sanctuary of Ajax.",
+    aiTip:
+      "Follow the road south from Salamis's quarry. The marble eagle is just south of the Ruined Sanctuary of Ajax.",
     walkthrough: [
-      "Pick up the tablet (on a small woven basket).",
-      "Sail to Salamis and follow the road south from the quarry.",
+      "Pick up the tablet on a small woven basket in the living quarters at the north end of the Salamis Marble Quarry.",
+      "Follow the road south from the quarry.",
       "Find the Ruined Sanctuary of Ajax.",
       "Inspect the marble eagle statue just south of the ruins."
     ],
@@ -56732,17 +56803,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Attika",
     title: "Killer View",
-    location: "Mount Pentelikos Marble Quarry, Attika",
+    location: "Mount Pentelikos Marble Quarry → Temple of Hephaistos, Attika",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Mount Pentelikos Marble Quarry, Attika. Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is at the Mount Pentelikos Marble Quarry. Read it there, since its answer is in the same area.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Mount Pentelikos Marble Quarry, Attika. Its riddle points to a spot in the same area.",
+    aiTip:
+      "The tablet is in the middle of the Mount Pentelikos Marble Quarry, north-east of Greater Athens. The answer is between two pillars on the south side of the Temple of Hephaistos.",
     walkthrough: [
-      "Pick up the tablet at the Mount Pentelikos Marble Quarry, Attika.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet in the central part of the Mount Pentelikos Marble Quarry, Attika.",
+      "Head to the Temple of Hephaistos in Athens.",
+      "Go to its south side.",
+      "Interact with the spot between the two pillars to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=qKSngBS_0DM"
   },
@@ -56862,12 +56935,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Engraving: Overpower ability damage",
-    summary: "Ainigmata Ostraka riddle: the tablet is by the entrance of the Ancient Stronghold on Lemnos, under a painting; the answer lies by a broken statue above the lion's lair.",
-    aiTip: "The riddle's eternal king lies in the southern ruins. Find the lion's lair, then search by the broken statue above it.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is by the entrance of the Ancient Stronghold on Lemnos, under a painting; the answer lies by a broken statue above the lion's lair.",
+    aiTip:
+      "The tablet is by the entrance of the Ancient Stronghold on Lemnos. The answer is at the broken statue to the south of the fortress.",
     walkthrough: [
-      "Pick up the tablet to the right of the Ancient Stronghold's entrance on Lemnos, under the painting.",
+      "Pick up the tablet near the entrance of the Ancient Stronghold on Lemnos.",
       "Read the riddle: an eternal king lies in the southern ruins.",
-      "Find the lion's lair and the broken statue above it.",
+      "Head south of the fortress to the broken statue.",
       "Search beside the statue."
     ],
     video: "https://www.youtube.com/watch?v=6t_dygODKTA"
@@ -56883,13 +56958,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Engraving: critical chance at full health",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Anavatos Ruins on Chios. Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is at the Anavatos Ruins on Chios, which is also where the cultist Iokaste hides, so watch out for her.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Anavatos Ruins on Chios. Its riddle points to a spot in the same area.",
+    aiTip:
+      "The tablet is at the Anavatos Ruins on Chios, where the cultist Iokaste also hides. One guide places the answer inside Angelos Cave on Chios's east coast.",
     walkthrough: [
       "Pick up the tablet at the Anavatos Ruins on Chios.",
       "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Head for Angelos Cave on the east coast of Chios.",
+      "Interact with the spot inside the cave to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=qnTYXTZM60g"
   },
@@ -56967,13 +57044,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is in Aetios's House in the Cradle of Myths on Seriphos; the answer lies underwater in the Cradle of Myths lagoon.",
-    aiTip: "The riddle's 'hole set in stone' is the arch-shaped rock in the Cradle of Myths lagoon. Dive near it.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in Aetios's House in the Cradle of Myths on Seriphos; the answer lies underwater in the Cradle of Myths lagoon.",
+    aiTip:
+      "The riddle's 'hole set in stone' is the arch-shaped rock in the Cradle of Myths lagoon. Dive near it.",
     walkthrough: [
       "Pick up the tablet from the table at the back of Aetios's House, in the centre of the town in the Cradle of Myths, Seriphos.",
-      "Go to the lagoon in the Cradle of Myths.",
-      "Find the arch-shaped rock formation (the riddle's \"hole set in stone\").",
-      "Dive and search underwater near the arch."
+      "Go to the lagoon north-east of the house.",
+      "Swim under the arch-shaped rock formation (the riddle's \"hole set in stone\").",
+      "Find the wooden barrel in the sand near the centre of the lagoon and interact with it."
     ],
     video: "https://www.youtube.com/watch?v=ZZVrKao8VQY"
   },
@@ -57005,14 +57084,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Pirate Islands",
     title: "Pride of Place",
-    location: "Pirate Islands",
+    location: "Wailing Cavern, Pirate Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of the 60 Ainigmata Ostraka riddle collectibles, in the Pirate Islands. The tablet's riddle points to a hidden spot nearby; solving it awards a permanent Engraving upgrade.",
-    aiTip: "This tablet is somewhere in the Pirate Islands. Check the Ainigmata Ostraka menu once you have it, since the riddle names the nearby spot.",
+    summary:
+      "One of the 60 Ainigmata Ostraka riddle collectibles, in the Pirate Islands. The tablet's riddle points to a hidden spot nearby; solving it awards a permanent Engraving upgrade.",
+    aiTip:
+      "The tablet is in the Wailing Cavern in the Pirate Islands. Check the Ainigmata Ostraka menu once you have it, since the riddle names the nearby spot.",
     walkthrough: [
-      "Find and pick up the tablet in the Pirate Islands.",
+      "Pick up the tablet in the Wailing Cavern in the Pirate Islands.",
       "Read the riddle in the Ainigmata Ostraka menu.",
       "Travel to the spot it describes and search it to solve the riddle."
     ],
@@ -57109,16 +57190,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Grave Discovery",
-    location: "Silver Islands",
+    location: "Kynthos Ruins → Temple of the Delians, Delos (Silver Islands)",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of the 60 Ainigmata Ostraka riddle collectibles, in the Silver Islands. The tablet's riddle points to a hidden spot nearby; solving it awards a permanent Engraving upgrade.",
-    aiTip: "This tablet is somewhere in the Silver Islands. Read it from the Ainigmata Ostraka menu once found, since its answer is nearby.",
+    summary:
+      "One of the 60 Ainigmata Ostraka riddle collectibles, in the Silver Islands. The tablet's riddle points to a hidden spot nearby; solving it awards a permanent Engraving upgrade.",
+    aiTip:
+      "The tablet is by an altar at the Kynthos Ruins on Delos. One guide says the answer is behind a blue curtain near the bronze statues at the Temple of the Delians, by the Grand Temple of Apollo.",
     walkthrough: [
-      "Find and pick up the tablet in the Silver Islands.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Travel to the spot it describes and search it to solve the riddle."
+      "Pick up the tablet near the altar at the Kynthos Ruins on Delos.",
+      "Read the riddle: a secret passage behind a bronze statue in the Birthplace of Apollo.",
+      "Go to the Temple of the Delians by the Grand Temple of Apollo and find the group of bronze statues.",
+      "Go through the entrance hidden behind the blue curtain and search there."
     ],
     video: "https://www.youtube.com/watch?v=aTAZP42bdCg"
   },
@@ -57280,10 +57364,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Engraving: heavy weapon damage",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the southern end of the Epidauros Akropolis; the answer lies at a statue in the lava inside the Foundry of Hephaistos.",
-    aiTip: "Sync the highest point of the Foundry of Hephaistos first, then leap into the underground lake to get inside the volcano.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the southern end of the Epidauros Akropolis; the answer lies at a statue in the lava inside the Foundry of Hephaistos.",
+    aiTip:
+      "Sync the highest point of the Foundry of Hephaistos first, then leap into the underground lake to get inside the volcano.",
     walkthrough: [
-      "Pick up the tablet at the southern end of the Epidauros Akropolis.",
+      "Pick up the tablet outside, behind the temple at the Epidauros Akropolis.",
       "Sail to the Foundry of Hephaistos, the volcanic island east of Epidauros, and sync its highest point.",
       "Leap from the sync point into the underground lake, then follow the path deeper into the volcano.",
       "Past the small broken bridge, interact with the waist-high statue on a rock in the lava."
@@ -57364,13 +57450,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is on a rooftop at the Deserted Farm in northern Arkadia. The riddle points north to the village of Stymphalos.",
-    aiTip: "The riddle points north from the Deserted Farm to the village of Stymphalos. Start your search there.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is on a rooftop at the Deserted Farm in northern Arkadia. The riddle points north to the village of Stymphalos.",
+    aiTip:
+      "The riddle points north from the Deserted Farm to the sunken ruins beside Stymphalos. The answer is on the roof of one of the submerged buildings.",
     walkthrough: [
-      "Pick up the tablet on a rooftop at the Deserted Farm in northern Arkadia.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet on the roof of the farm building at the Deserted Farm in northern Arkadia.",
+      "Head north to the peak overlooking the Golden Fields, then on to Stymphalos.",
+      "Find the sunken ruins beside the village.",
+      "Climb onto the roof of the building in the ruins and interact with the spot."
     ],
     video: "https://www.youtube.com/watch?v=5-SuoXayXgg"
   },
@@ -57490,13 +57578,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is near the Altar of the Dioskouroi in the Chasms of Taygetos; the answer lies at the altar of the Menelaion.",
-    aiTip: "The answer is the altar at the Menelaion, so head straight there from the Chasms of Taygetos.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is near the Altar of the Dioskouroi in the Chasms of Taygetos; the answer lies in the Pond of Tainaros to the south.",
+    aiTip:
+      "The riddle's map of rocks is the Pond of Tainaros, south of the Chasms of Taygetos. Look for the answer in the water.",
     walkthrough: [
-      "Pick up the tablet near the Altar of the Dioskouroi in the Chasms of Taygetos.",
-      "Travel to the Menelaion.",
-      "Find its altar.",
-      "Interact with the altar to solve the riddle."
+      "Pick up the tablet next to the Altar of the Dioskouroi in the Chasms of Taygetos.",
+      "Head south to the Pond of Tainaros.",
+      "Look for the rocks in the water that form the riddle's map.",
+      "Interact with the spot in the pond to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=keupa87g2Xg"
   },
@@ -57549,17 +57639,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Korinthia",
     title: "Rock and Roll",
-    location: "Diolkos West Ramp → Grave of Sisyphos, Korinthia",
+    location: "Diolkos West Camp → Grave of Sisyphos, Korinthia",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Diolkos West Ramp; the answer lies at the Grave of Sisyphos.",
-    aiTip: "The answer is at the Grave of Sisyphos in Korinthia, a fitting spot for a riddle called Rock and Roll.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Diolkos West Ramp; the answer lies at the Grave of Sisyphos.",
+    aiTip:
+      "Follow the Diolkos to the statue of Sisyphos pushing his boulder. The answer is the altar with a dead body in the cave behind it, the Grave of Sisyphos.",
     walkthrough: [
-      "Pick up the tablet at the Diolkos West Ramp.",
-      "Read the riddle.",
-      "Travel to the Grave of Sisyphos.",
-      "Interact with the spot there to solve the riddle."
+      "Pick up the tablet at one of the docks of the Diolkos West Camp.",
+      "Follow the Diolkos to the statue of Sisyphos.",
+      "Enter the cave behind it, the Grave of Sisyphos.",
+      "Interact with the altar holding a dead body."
     ],
     video: "https://www.youtube.com/watch?v=83HoT_nLQOw"
   },
@@ -57570,17 +57662,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Achaia",
     title: "Belly Flop",
-    location: "Sanctuary of Poseidon, Kyllene Foothills, Achaia",
+    location: "Sanctuary of Poseidon → Scavenger's Coast, Achaia",
     length: "short",
     difficulty: "Low",
     reward: "Engraving: spear and staff damage",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Sanctuary of Poseidon in the south-west of the Kyllene Foothills. Its riddle mentions Scavenger's Coast.",
-    aiTip: "The riddle mentions Scavenger's Coast. Head there from the Sanctuary of Poseidon in the Kyllene Foothills.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Sanctuary of Poseidon in the south-west of the Kyllene Foothills. Its riddle mentions Scavenger's Coast.",
+    aiTip:
+      "The tablet is inside the temple at the Sanctuary of Poseidon. The answer is a dead body in a small cave at Scavenger's Coast, north of Pellene.",
     walkthrough: [
-      "Pick up the tablet at the Sanctuary of Poseidon in the south-west of the Kyllene Foothills.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet inside the temple at the Sanctuary of Poseidon in the south-west of the Kyllene Foothills.",
+      "Head to Scavenger's Coast, north of Pellene.",
+      "Find the small cave by the cliff.",
+      "Interact with the dead body inside."
     ],
     video: "https://www.youtube.com/watch?v=0P6eQIFvYSw"
   },
@@ -57589,14 +57683,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Ainigmata Ostraka",
     game: "Assassin's Creed Odyssey",
-    region: "Various",
+    region: "Elis",
     title: "Centaur Field",
-    location: "Region not confirmed",
+    location: "Elis",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of the 60 Ainigmata Ostraka riddle collectibles in the base game. Each tablet holds a riddle that points to a hidden spot in the same region; solving it awards a permanent Engraving upgrade.",
-    aiTip: "This tablet's region isn't confirmed here. Read the riddle from the Ainigmata Ostraka menu once you have it, since it names a landmark in the same region.",
+    summary:
+      "One of the 60 Ainigmata Ostraka riddle collectibles in the base game. Each tablet holds a riddle that points to a hidden spot in the same region; solving it awards a permanent Engraving upgrade.",
+    aiTip:
+      "One guide lists this tablet among the Elis riddles. Read the riddle from the Ainigmata Ostraka menu once you have it, since it names a landmark in the same region.",
     walkthrough: [
       "Find and pick up the Centaur Field tablet.",
       "Read the riddle from the Ainigmata Ostraka menu. It describes a landmark in the same region as the tablet.",
