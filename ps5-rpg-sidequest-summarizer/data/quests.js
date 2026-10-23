@@ -16944,6 +16944,363 @@ const quests = [
     video: "https://www.youtube.com/watch?v=FSw_UQ9ujJQ"
   },
 {
+    id: 2882,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Equine Phantoms",
+    location: "Pinastri's Hermitage, northeast of Dun Tynne Crossroads, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP; payment in potatoes",
+    summary:
+      "The hermit Pinastri is tormented by a phantom horse at night. A hallucinogenic brew lets Geralt talk to Roach, and together they chase the spirit back to its tomb.",
+    aiTip:
+      "Drink the Common Graytop Brew she gives you so Roach can talk. At the gravestone, forgiving the spirit, or letting Roach decide, lets Pinastri live; refusing means a fight.",
+    walkthrough: [
+      "Talk to Pinastri at her hermitage northeast of Dun Tynne Crossroads.",
+      "Examine the hut with Witcher Senses (moths, note, bloody pillow, locked window) and follow the blood trail.",
+      "Drink the Common Graytop Brew and investigate with Roach.",
+      "Ride after the umbra when it appears and follow it to the tomb.",
+      "Defeat the apparitions, examine the gravestone and decide whether to forgive the spirit."
+    ],
+    video: "https://www.youtube.com/watch?v=k9cENIDHWVI"
+  },
+{
+    id: 2883,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Chuchote Cave",
+    location: "Chuchote Cave, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP and 150 crowns",
+    summary:
+      "A wine merchant wants Chuchote Cave for storing barrels, but six arachnomorphs have made it their nest.",
+    aiTip:
+      "Two arachnomorphs hide in side tunnels and four wait in the big chamber to the north, so take the side ones first. If the quest won't complete, meditating for a few days can respawn a missed one.",
+    walkthrough: [
+      "Talk to the wine merchant outside Chuchote Cave.",
+      "Kill the two arachnomorphs in the side tunnels.",
+      "Clear the four in the large northern chamber.",
+      "Return to the merchant for your fee."
+    ],
+    video: "https://www.youtube.com/watch?v=xhlJn1irRfw"
+  },
+{
+    id: 2884,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Cleaning Those Hard-to-Reach Places",
+    location: "Cave north of Gelenser Farm, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP and 200 crowns",
+    summary:
+      "A wine merchant north of Gelenser Farm wants to age his wine in a nearby cave. Two gargoyles stand in the way.",
+    aiTip:
+      "Gargoyles hit hard and knock you back. Keep Quen up and attack from the sides, or throw Dimeritium Bombs from range.",
+    walkthrough: [
+      "Talk to the wine merchant just north of Gelenser Farm.",
+      "Enter the cave and take the left passage to the first gargoyle.",
+      "Kill the second gargoyle in the room past the waterfall.",
+      "Return to the merchant to hand in the contract."
+    ],
+    video: "https://www.youtube.com/watch?v=n9cQpXebuOc"
+  },
+{
+    id: 2885,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Dun Tynne Hillside",
+    location: "Cave west of Dun Tynne Crossroads, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP and 150 crowns; the merchant's discounted wares",
+    summary:
+      "An injured wine merchant near Dun Tynne needs the giant centipedes cleared out of the cave he wants for storage.",
+    aiTip:
+      "Cast Yrden where the centipedes burrow to trap them as they surface. Two attack at once in the lower chamber, so don't rush in.",
+    walkthrough: [
+      "Talk to the injured wine merchant west of Dun Tynne Crossroads.",
+      "Kill the giant centipede in the first chamber.",
+      "Drop into the larger room below and kill the remaining two.",
+      "Return to the merchant for your pay."
+    ],
+    video: "https://www.youtube.com/watch?v=5exR76dihqI"
+  },
+{
+    id: 2886,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Duchaton Crest",
+    location: "Cave at Duchaton Crest, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP and 200 crowns; the merchant's discounted wares",
+    summary:
+      "Originally called 'Griffin-in-the-Vines', this contract sends Geralt into a cave a vintner wants for his wine cellar. The monster inside is a shaelmaar.",
+    aiTip:
+      "Stun the shaelmaar with Aard, or dodge its charges so it slams into the wall, then punish it while it's dazed. Relic Oil helps.",
+    walkthrough: [
+      "Talk to the wine merchant near the Duchaton Crest cave.",
+      "Enter the cave and find the shaelmaar.",
+      "Kill it using Aard stuns and wall crashes.",
+      "Loot the cave and return to the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=R4JH54li6rQ"
+  },
+{
+    id: 2887,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Rivecalme Storehouse",
+    location: "Storehouse cave north of the Cockatrice Inn, Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 100 XP and 150 crowns",
+    summary:
+      "A wine merchant's storehouse cave has been taken over by ghouls and an alghoul.",
+    aiTip:
+      "One ghoul hides in a tunnel behind a wooden platform near the pool, so check there if the quest won't finish. There are two chests underwater.",
+    walkthrough: [
+      "Talk to the wine merchant west of Dulcinea Windmill.",
+      "Enter the storehouse and kill the ghouls and the alghoul.",
+      "Find the last ghoul behind the wooden platform by the pool.",
+      "Loot the underwater chests and return to the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=gpJQDE_6ksE"
+  },
+{
+    id: 2888,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "A Knight's Tales",
+    location: "Castel Ravello area and the woods of western Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 150-313 XP and 100-369 crowns",
+    summary:
+      "A woodcutter, Jacob, finds a tree that bleeds when cut. It's Daphne, a girl cursed long ago, and Geralt has to find a way to free her.",
+    aiTip:
+      "There are several endings. Lifting the curse without the witch's help gives the best one, and killing Daphne's wraith is the worst. Burn the kikimore eggs in the hillside cave with Igni.",
+    walkthrough: [
+      "Take the notice from the Castel Ravello board and meet Jacob at the bleeding tree.",
+      "Examine the tree with Witcher Senses and get the 'Tales and Fables' book from Jacob.",
+      "Search the witch's hut and find the Silk Kerchief behind the bear pelt.",
+      "Clear the kikimores in the cave on the hill.",
+      "Choose how to break the curse: on your own, with the Witch of Lynx Crag, or by force."
+    ],
+    video: "https://www.youtube.com/watch?v=qsLeDqkMCVE"
+  },
+{
+    id: 2889,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "A Portrait of the Witcher as an Old Man",
+    location: "Tent square south of the Gran'place, Beauclair, and a cave nearby",
+    length: "short",
+    difficulty: "Medium",
+    reward: "300 crowns; a Griffin trophy; the chance to buy Geralt's portrait for Corvo Bianco",
+    summary:
+      "A painter wants Geralt as his model. The sitting goes wrong when his paints go missing, and then a griffin interrupts the session.",
+    aiTip:
+      "It only appears after The Warble of a Smitten Knight. Buying the finished portrait for 1,000 crowns counts as Proof of Generosity for There Can Be Only One.",
+    walkthrough: [
+      "Meet the painter in the tent square south of the Gran'place.",
+      "Join him around noon at the palace's western gate and go to the picnic site.",
+      "Track the spilled paint with Witcher Senses into the cave and take it back from the nekkers.",
+      "Pick one of three poses, then fight the griffin.",
+      "Wait a day and view the finished painting at the market."
+    ],
+    video: "https://www.youtube.com/watch?v=BXXKhG97zd4"
+  },
+{
+    id: 2890,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Big Feet to Fill",
+    location: "Ardaiso Quarry and the Prophet Lebioda statue site, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 150 XP and 800 crowns",
+    summary:
+      "After Bovine Blues, the foreman Pafnuzio at Ardaiso Quarry needs help getting a giant statue of the Prophet Lebioda built. Five worker groups each have their own trouble to sort out.",
+    aiTip:
+      "The five groups can be helped in any order. Once all five are done, the foreman pays out at the statue site.",
+    walkthrough: [
+      "Finish Contract: Bovine Blues, then talk to Foreman Pafnuzio at Ardaiso Quarry.",
+      "Find the five worker groups and solve each group's problem.",
+      "Return to the foreman once all five are done.",
+      "Collect the 800 crowns at the Prophet Lebioda statue."
+    ],
+    video: "https://www.youtube.com/watch?v=qc81w9R44EE"
+  },
+{
+    id: 2891,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Knight for Hire",
+    location: "Toussaint notice boards and the ducal camerlengo, Beauclair",
+    length: "long",
+    difficulty: "High",
+    reward: "About 300 XP, 1,500 crowns (100 per task) and a trophy that boosts XP and gold",
+    summary:
+      "The ducal camerlengo hires Geralt to clear 15 sites across Toussaint of bandits and monsters, including the hanse holed up at Mont Crane Castle.",
+    aiTip:
+      "Most of the 15 sites are undiscovered locations you'll clear while exploring anyway. Collect your 100 crowns per task as you go or all at once at the end. The quest can't be failed.",
+    walkthrough: [
+      "Take the notice from a Toussaint board (e.g. the Cockatrice Inn).",
+      "Talk to the ducal camerlengo for the list of tasks.",
+      "Clear all 15 marked sites of enemies.",
+      "Return to the camerlengo for your pay and the trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=GTYUe5JMeXg"
+  },
+{
+    id: 2892,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Paperchase",
+    location: "Cianfanelli Bank, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and the Reckoner sword if you wait; 200 crowns if you force it",
+    summary:
+      "An old client says he banked Geralt's fee years ago. Withdrawing it at the Cianfanelli Bank means running a gauntlet of forms, windows and a clerk who has Geralt down as dead.",
+    aiTip:
+      "Give the banker a week and you get 500 crowns plus the sword The Reckoner. Demanding the money now means a fight and bans you from the bank's exchange.",
+    walkthrough: [
+      "Meet the vineyard owner near Trentin's workshop.",
+      "Go to the Cianfanelli Bank and ask about your account.",
+      "Get Permit A38 from Window 1, then Form 202 from the records office upstairs.",
+      "Charm the clerk (flowers, perfume or flattery) and learn you're listed as dead.",
+      "Show Giacomo Cianfanelli the duchess's summons, then wait a week or demand the money."
+    ],
+    video: "https://www.youtube.com/watch?v=9Yv7Y_Bqf_Y"
+  },
+{
+    id: 2893,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Raging Wolf",
+    location: "Docks at the northeastern end of Beauclair",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 200 XP, crowns and the Fist Fighting Championship Trophy",
+    summary:
+      "Having beaten Beauclair's three lesser champions in Fists of Fury: Toussaint, Geralt challenges the reigning champion, the Maestro, who insists they get drunk first.",
+    aiTip:
+      "Losing doesn't end the quest; you can keep challenging him. Winning counts as Proof of Valor for There Can Be Only One.",
+    walkthrough: [
+      "Beat the three lesser champions in Fists of Fury: Toussaint.",
+      "Find the Maestro at the Beauclair docks.",
+      "Match him drink for drink.",
+      "Win the fistfight."
+    ],
+    video: "https://www.youtube.com/watch?v=J--u0rZbNzY"
+  },
+{
+    id: 2894,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Belgaard",
+    location: "Plegmund's Bridge and the Belgaard estate, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "About 150 XP and 900+ crowns; naming the new wine; weekly bottles at Corvo Bianco",
+    summary:
+      "Liam and Matilda now co-own Belgaard. After the auction, Geralt clears five monster and bandit sites around the estate, then comes back to name their new wine.",
+    aiTip:
+      "Return after three days to name the wine. 'Butcher of Blaviken' has the same effect as the other names but lasts 30 seconds longer.",
+    walkthrough: [
+      "Take the notice at Plegmund's Bridge and meet Liam and Matilda at Belgaard.",
+      "Attend the auction.",
+      "Clear the five monster and bandit sites around the estate.",
+      "Return after three days and name the new wine."
+    ],
+    video: "https://www.youtube.com/watch?v=ZLGIW6C0sns"
+  },
+{
+    id: 2895,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Coronata",
+    location: "Coronata vineyard and nearby sites, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Crowns and XP; leads to The Deus in the Machina",
+    summary:
+      "Liam de Coronata asks Geralt to sort out five problems on his vineyard. Archespores and a note on the bodies suggest someone is sabotaging him.",
+    aiTip:
+      "Loot every corpse and read every note to reveal the optional objectives. Leave the last task open if you want Consorting and the joint Belgaard ending.",
+    walkthrough: [
+      "Agree to help Liam at Plegmund's Bridge.",
+      "Clear the archespores from the Coronata vineyard and the nearby sites.",
+      "Kill the monsters near the bodies and read the note about sabotage.",
+      "Work through the rest of the five tasks."
+    ],
+    video: "https://www.youtube.com/watch?v=TwPJE3zC8Ig"
+  },
+{
+    id: 2896,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Vermentino",
+    location: "Vermentino vineyard and sites around Corvo Bianco, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 525 crowns plus XP",
+    summary:
+      "Matilda Vermentino needs five troubles on her estate resolved. Archespores have overrun abandoned sites near Corvo Bianco, and a key and a letter on a corpse hint at a larger scheme.",
+    aiTip:
+      "Like Coronata, leave the final task open until The Deus in the Machina is done if you want the two families to share Belgaard.",
+    walkthrough: [
+      "Agree to help Matilda at Plegmund's Bridge.",
+      "Kill the archespores north of Corvo Bianco and take the heavy brass key and letter from the corpse.",
+      "Clear the other troubled sites on her estate.",
+      "Finish the last abandoned site west of Corvo Bianco."
+    ],
+    video: "https://www.youtube.com/watch?v=L3dVe7sa3Sk"
+  },
+{
+    id: 2897,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: The Deus in the Machina",
+    location: "An isolated house and its cellar in southeastern Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP for the bulbs plus XP for the fight",
+    summary:
+      "A note found during Coronata or Vermentino reveals a third party behind the vineyard sabotage. The trail leads to a cellar where a giant archespore is being grown.",
+    aiTip:
+      "The key opens the door underneath the house, not the front door. Burn the dormant bulbs along the northwest wall with Igni for 100 XP, and use Golden Oriole against the poison.",
+    walkthrough: [
+      "Read the note found during Coronata or Vermentino.",
+      "Find the isolated house in southeastern Toussaint.",
+      "Use the key on the door beneath the house and enter the cellar.",
+      "Kill the archespore and burn the dormant bulbs with Igni.",
+      "Report back to Liam and Matilda."
+    ],
+    video: "https://www.youtube.com/watch?v=t4P7XX0geGw"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
