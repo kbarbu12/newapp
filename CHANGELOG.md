@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (2)
+
+- **Release workflow no longer double-tags a deploy** — `v2.9.1` patch
+  (#358). GitHub delivered the v2.8.0 push to `main` twice and the workflow
+  tagged the same commit again as `v2.9.0`; it now skips any commit that
+  already has a version tag. `v2.9.0` is a duplicate of `v2.8.0` (same
+  commit, no extra changes); deleting it is on the owner list in `TODO.md`.
+  No app or quest-data changes.
+
 ## 2026-10-23
 
 - **Witcher 3 complete: 290 quests, every original entry corrected** — `v2.8.0`
