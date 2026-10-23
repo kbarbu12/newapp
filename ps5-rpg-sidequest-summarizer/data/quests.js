@@ -17301,6 +17301,252 @@ const quests = [
     video: "https://www.youtube.com/watch?v=t4P7XX0geGw"
   },
 {
+    id: 2898,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "There Can Be Only One",
+    location: "Lac Célavy, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "About 300-350 XP and the silver sword Aerondight",
+    summary:
+      "A hermit on an island in Lac Célavy challenges Geralt to prove the five chivalric virtues: honor, compassion, wisdom, generosity and valor. Proving all five earns a duel beneath the lake and Aerondight from the Lady of the Lake.",
+    aiTip:
+      "Read the five stones on the island's north side for hints. Proofs come from other quests: sparing the shaelmaar and the basilisk (compassion), the greenhouse riddle (wisdom), buying Geralt's portrait (generosity) and beating the Maestro (valor).",
+    walkthrough: [
+      "Read 'Test Yourself with the Trials of the Virtues!' in Beauclair, or go straight to the hermit at Lac Célavy.",
+      "Read the inscriptions on the five stones on the island.",
+      "Earn each virtue through your choices in other Toussaint quests.",
+      "Return to the hermit and fight him beneath the lake.",
+      "Receive Aerondight from the Lady of the Lake."
+    ],
+    video: "https://www.youtube.com/watch?v=QCcK6FV6UNs"
+  },
+{
+    id: 2899,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Mutual of Beauclair's Wild Kingdom",
+    location: "Cockatrice Inn notice board and the trading post at Venin Rocks, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 200 XP and 350-400 crowns, depending on the choice",
+    summary:
+      "Geralt joins the Crinfrid Reavers on the trail of a rare silver basilisk, Iocaste. At its nest he has to choose between killing it with the Reavers and taking the count's money to let it live.",
+    aiTip:
+      "Killing Iocaste counts as valor for There Can Be Only One, sparing her counts as compassion, and sparing her while refusing the extra payment counts as generosity. The quest can't be failed.",
+    walkthrough: [
+      "Take the notice from the Cockatrice Inn board.",
+      "Go to the trading post at Venin Rocks.",
+      "Track the basilisk and meet the Crinfrid Reavers.",
+      "Decide Iocaste's fate: fight her with the Reavers, or let her live.",
+      "Collect your payment."
+    ],
+    video: "https://www.youtube.com/watch?v=f0PDuJ65K9A"
+  },
+{
+    id: 2900,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Fists of Fury: Toussaint",
+    location: "Beauclair (Gran'place notice board, uptown and southern districts)",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 100 XP per opponent plus wagers; unlocks Raging Wolf",
+    summary:
+      "Beauclair's fistfighting circuit has three lesser champions: Still Waters, Mancomb and Colossus. Beating all three earns a shot at the Maestro in Raging Wolf.",
+    aiTip:
+      "Mancomb can be beaten with insults: pick the rhyming retort each time. Accept Colossus's parry challenge and parry him three times for bonus XP.",
+    walkthrough: [
+      "Take the notice from the Gran'place board.",
+      "Beat Still Waters in a normal fistfight.",
+      "Out-insult Mancomb near the Nilfgaardian Embassy.",
+      "Take on Colossus's parry challenge (or just fight him).",
+      "Raging Wolf begins once all three are beaten."
+    ],
+    video: "https://www.youtube.com/watch?v=bOnlRmvKaOM"
+  },
+{
+    id: 2901,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Gwent: Never Fear, Skellige's Here",
+    location: "The Pheasantry in Beauclair and players across Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "All 19 cards for the new Skellige deck",
+    summary:
+      "Blood and Wine adds a Skellige Gwent deck. Count Monnier at the Pheasantry gives Geralt a basic one, and the rest of the cards are won from players scattered across Toussaint.",
+    aiTip:
+      "Finishing the deck unlocks the Beauclair Gwent tournament. Card holders include the innkeep at the Barrel and Bung (Cerys) and the herbalist at Castel Ravello.",
+    walkthrough: [
+      "Get a basic Skellige deck from Count Monnier at the Pheasantry (or win any Skellige card).",
+      "Play the marked card holders around Toussaint.",
+      "Win all 19 Skellige cards.",
+      "Move on to the Beauclair tournament."
+    ],
+    video: "https://www.youtube.com/watch?v=cu6oHzLft9k"
+  },
+{
+    id: 2902,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Gwent: To Everything - Turn, Turn, Tournament!",
+    location: "The Pheasantry, Beauclair",
+    length: "short",
+    difficulty: "High",
+    reward: "The Victor's Cup, 1,000 crowns, and the steel sword Blave if you take Hamal's bet",
+    summary:
+      "The grand Gwent tournament at the Pheasantry: beat Hamal ogn Dangbahli, Ambassador von Hinn and Count Monnier, then face Yaki Rafiberg in a last match for a bigger payout.",
+    aiTip:
+      "Take Hamal's side bet (your silver sword against his) to win the Blave sword. Your silver sword comes back at the end. Losing to Yaki doesn't cost you the cup.",
+    walkthrough: [
+      "Pick up the tournament notice from a Beauclair board.",
+      "Beat Hamal ogn Dangbahli (Monsters), taking his side bet.",
+      "Beat Ambassador von Hinn (Nilfgaard).",
+      "Beat Count Monnier (Skellige) to win the Victor's Cup.",
+      "Play Yaki Rafiberg for the full 1,000-crown payout."
+    ],
+    video: "https://www.youtube.com/watch?v=j_p-_0hHlQ4"
+  },
+{
+    id: 2903,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Truth is in the Stars",
+    location: "Benek and a cave to the southeast, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP",
+    summary:
+      "An old sage in Benek is said to be a swindler. He'll read Geralt's fate if Geralt brings him dragonsroot from a ghoul-infested cave, and the reading turns out to be about Ciri and Ithlinne's prophecy.",
+    aiTip:
+      "Answer 'I'll see what I can do'. Refusing to fetch the root fails the quest at once. The sage is also a Gwent player worth beating.",
+    walkthrough: [
+      "Read 'Careful! There's a Swindler About!' in Oxenfurt, or go straight to the old sage in Benek.",
+      "Agree to fetch the dragonsroot.",
+      "Clear the four ghouls in the cave southeast of Benek.",
+      "Find the root with Witcher Senses and bring it back for your reading."
+    ],
+    video: "https://www.youtube.com/watch?v=NxhDqsePdTU"
+  },
+{
+    id: 2904,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Taken as a Lass",
+    location: "East coast of Ard Skellig (south of Redgill) and Freya's temple, Hindarsfjall",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Up to about 125 XP",
+    summary:
+      "A warrior fighting pirates on Ard Skellig's east coast is searching for his sister Kurisu, who was taken by pirates. She jumped overboard in a storm and is recovering at Freya's temple on Hindarsfjall.",
+    aiTip:
+      "You can meet either sibling first. If you find the brother first, the beached wreck off southwest Hindarsfjall has the 'Notes of a Pirate' that point to her.",
+    walkthrough: [
+      "Help the warrior fight off two pirates on Ard Skellig's east coast.",
+      "Agree to look for his sister.",
+      "Sail to the smallest island off southwest Hindarsfjall, kill the ekhidna and read the 'Notes of a Pirate'.",
+      "Find Kurisu at Freya's temple and tell her about her brother."
+    ],
+    video: "https://www.youtube.com/watch?v=ix88-4LtZH0"
+  },
+{
+    id: 2905,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Stranger in a Strange Land",
+    location: "Arinbjorn tavern and Madman Lugos' keep, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP; opens The Cave of Dreams and An Unpaid Debt",
+    summary:
+      "After The Phantom of Eldberg, two brothers start a fight in the Arinbjorn tavern and kill Jorund. Geralt kills them, is tried for it, and ends up in Madman Lugos' prison owing a blood price.",
+    aiTip:
+      "Use Axii on the guard, or take Simun Brambling's offer to blackmail him. Taking Simun's help starts An Unpaid Debt later.",
+    walkthrough: [
+      "After The Phantom of Eldberg, go outside the Arinbjorn tavern to check the commotion.",
+      "Fight Kori and Kraki after they kill Jorund.",
+      "Accept the trial and be locked up in Madman Lugos' keep.",
+      "Get out with Axii, the blood price, or Simun's blackmail."
+    ],
+    video: "https://www.youtube.com/watch?v=rOGQQNCtMDo"
+  },
+{
+    id: 2906,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Cave of Dreams",
+    location: "Cave on Ard Skellig's southern beach",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25-50 XP",
+    summary:
+      "To work off his debt, Geralt joins Blueboy Lugos at the Cave of Dreams. After fighting off nekkers, they drink a potion that sends Geralt into a dream version of the cave to face his fears.",
+    aiTip:
+      "It disappears once King's Gambit starts, so do it right after Stranger in a Strange Land. Expect a fire spirit and ice-armored Wild Hunt warriors in the dream.",
+    walkthrough: [
+      "After Stranger in a Strange Land, find Blueboy Lugos' boat by the southern cave.",
+      "Enter the cave and kill the nekkers.",
+      "Drink Lugos' concoction to enter the dream cave.",
+      "Face the visions of your fears and return to Lugos."
+    ],
+    video: "https://www.youtube.com/watch?v=1HoCwwGwUSQ"
+  },
+{
+    id: 2907,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "An Unpaid Debt",
+    location: "New Port Inn at Kaer Trolde, and a hut by a lake near Blandare, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 50 XP",
+    summary:
+      "Simun Brambling, who got Geralt out of Lugos' prison, comes to collect. At a hut near Blandare he wants Geralt to kill Volund, a man who says Simun murdered his brother.",
+    aiTip:
+      "Only available if you took Simun's help in Stranger in a Strange Land and finished The Cave of Dreams, and only before King's Gambit. Either choice gives the same XP, so pick what you can live with.",
+    walkthrough: [
+      "Meet Simun outside the New Port Inn at Kaer Trolde a few days later.",
+      "Go to the lakeside hut near Blandare.",
+      "Hear Volund's accusation.",
+      "Kill Volund for Simun, or refuse and fight Simun."
+    ],
+    video: "https://www.youtube.com/watch?v=2OHxU943s5Q"
+  },
+{
+    id: 2908,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Thou Shalt Not Pass",
+    location: "The Border Post (Velen) or the Western Gate of Oxenfurt",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 75 XP",
+    summary:
+      "Redanian guards won't let Geralt into Novigrad or Oxenfurt without a pass. He can buy one from the shady merchant, earn one in Family Matters, or get one during A Deadly Plot.",
+    aiTip:
+      "Pay the guard 10 crowns or use Axii to hear how to get a pass. You can also just swim the Pontar far from a post or fast travel across, but the quest stays open until you show a pass.",
+    walkthrough: [
+      "Talk to the Redanian guard at the Border Post or Oxenfurt's Western Gate.",
+      "Pay or use Axii to learn how to get a pass.",
+      "Get one: the shady merchant (Fake Papers), Family Matters, or A Deadly Plot.",
+      "Return and show the guard your pass."
+    ],
+    video: "https://www.youtube.com/watch?v=3dHFaPjc4Lc"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
