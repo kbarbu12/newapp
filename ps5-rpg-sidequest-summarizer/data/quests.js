@@ -13197,45 +13197,44 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Tedd Deireadh, the Final Age",
-    location: "Undvik / Skellige",
-    length: "long",
-    difficulty: "High",
-    reward: "Final battle, Eredin defeated",
+    location: "Undvik and the tower of Tor Gvalch'ca, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story conclusion; sets up the ending",
     summary:
-      "The climactic confrontation with the Wild Hunt's king, Eredin Bréacc Glas.",
+      "With Eredin dead, Yennefer teleports Geralt to Undvik and they fight through the White Frost to the tower of Tor Gvalch'ca, where Avallac'h and Ciri wait. Ciri then decides to face the Frost herself.",
     aiTip:
-      "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
+      "Stay under Yennefer's shield in the freezing stretch. How Geralt has treated Ciri across the game, not just here, decides which of the three endings you get.",
     walkthrough: [
-      "Rally the alliance for the final stand against Eredin at Undvik.",
-      "Fight through the Wild Hunt's forces to reach Eredin.",
-      "Battle Eredin — dodge his teleport strikes, use Yrden and Quen, punish openings.",
-      "Defeat Eredin and secure the Sunstone's power.",
-      "Set up the confrontation with the White Frost."
+      "Leave Naglfar with Yennefer and head for the tower on Undvik.",
+      "Follow her on foot and horseback, dodging the falling projectiles.",
+      "Kill the Hounds of the Wild Hunt and keep under her protective dome in the cold.",
+      "Pass through the barrier alone; Avallac'h throws down his sword instead of fighting.",
+      "Hear Ciri's plan and answer her as you see fit."
     ],
-    video: "https://www.youtube.com/watch?v=zC_0ldgttto"
+    video: "https://www.youtube.com/watch?v=epuJdDA6rgc"
   },
 {
     id: 608,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Kaer Morhen",
+    region: "White Orchard",
     title: "Something Ends, Something Begins",
-    location: "Various",
+    location: "Varies by ending: White Orchard, Vizima or Crookback Bog",
     length: "short",
-    difficulty: "Medium",
-    reward: "Epilogue, Ciri's fate",
+    difficulty: "Low",
+    reward: "The ending: Ciri becomes a witcher, becomes Empress, or does not return",
     summary:
-      "The quiet epilogue where Geralt's and Ciri's fates are sealed by everything you've done.",
+      "The epilogue plays out according to Geralt's earlier choices with Ciri. She returns to become a witcher or the Empress of Nilfgaard, or she doesn't come back and Geralt hunts the last Crone in Crookback Bog.",
     aiTip:
-      "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
+      "The witcher and Empress endings both need Ciri to survive, which takes mostly supportive choices. The Empress ending also needs Emhyr alive, so don't help kill him in Reason of State.",
     walkthrough: [
-      "Play through the epilogue following the final battle.",
-      "Visit the people and places shaped by your choices.",
-      "See Ciri's fate resolve based on your key decisions.",
-      "Tie off the remaining character threads.",
-      "Conclude Geralt's story."
+      "Witcher ending: find the sword in the ruins and give it to Ciri at the White Orchard inn.",
+      "Empress ending: meet the hunter at Mislav's hut, kill the forktail at the Griffin's nest, then see Ciri in Vizima.",
+      "Death ending: track down the Crone Weavess in Crookback Bog.",
+      "Watch the closing slides for the world's fate."
     ],
-    video: "https://www.youtube.com/watch?v=EUj1Tg33dO8"
+    video: "https://www.youtube.com/watch?v=YLthjIMAjII"
   },
 {
     id: 609,
@@ -13243,22 +13242,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Evil's Soft First Touches",
-    location: "Oxenfurt (Hearts of Stone)",
+    location: "Seven Cats Inn notice board, the Garin Estate and the Oxenfurt sewers (Hearts of Stone)",
     length: "medium",
-    difficulty: "High",
-    reward: "Olgierd's pact, Gaunter O'Dimm",
+    difficulty: "Medium",
+    reward: "XP; Gaunter O'Dimm's pact and Olgierd's three wishes",
     summary:
-      "Bound to the immortal Olgierd von Everec by Gaunter O'Dimm, Geralt must grant three impossible wishes.",
+      "A contract leads Geralt to Olgierd von Everec and a toad in the Oxenfurt sewers. Killing it reveals an Ofieri prince, so Geralt is shipped off as a prisoner until Gaunter O'Dimm frees him in exchange for serving Olgierd.",
     aiTip:
-      "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
+      "Drink Golden Oriole before the Toad Prince fight to be immune to its poison. On the ship, choose the bottom line '…alle'khe uhl eghullath!' for bonus XP.",
     walkthrough: [
-      "Take the Oxenfurt contract and confront Olgierd's target, Gaunter O'Dimm's mark.",
-      "Fight the Ofieri prince's monster/the toad prince in the sewers, using Quen and dodging its tongue.",
-      "Survive O'Dimm's bargain and accept the pact's terms.",
-      "Begin serving Olgierd's three impossible wishes.",
-      "Advance the Hearts of Stone story."
+      "Take the notice at the Seven Cats Inn and meet Olgierd at the Garin Estate.",
+      "Enter the Oxenfurt sewers through the well and break the wall with Aard.",
+      "Follow the slime with Witcher Senses and lure the Toad Prince out with alcohol.",
+      "Kill it, wake aboard the Ofieri ship and accept O'Dimm's pact.",
+      "Escape the wreck, meet Master Mirror at midnight, then return to the Garin Estate."
     ],
-    video: "https://www.youtube.com/watch?v=7OkR8EmjRnw"
+    video: "https://www.youtube.com/watch?v=0fGeUXStPiQ"
   },
 {
     id: 610,
@@ -13266,46 +13265,44 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Whatsoever a Man Soweth...",
-    location: "Oxenfurt (Hearts of Stone)",
+    location: "The Alchemy Inn, Oxenfurt Academy and the Temple of Lilvani (Hearts of Stone)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Olgierd's first wish, heist prep",
+    reward: "Iris (sword) if you save Olgierd, or a wish from O'Dimm",
     summary:
-      "Fulfill Olgierd's first bizarre wish involving a rowdy wedding and a runaway spirit.",
+      "After the third wish, O'Dimm orders Geralt to bring Olgierd to the Temple of Lilvani to settle their contract. Geralt can let O'Dimm take Olgierd's soul or challenge him to a riddle contest for it.",
     aiTip:
-      "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
+      "Visit Shani and Professor Shakeslock at the Academy beforehand, or you can't challenge O'Dimm. The riddle's answer is the reflection in the water: Aard the cracked wall by the dry fountain.",
     walkthrough: [
-      "Take on Olgierd's wish and travel to the marked estate.",
-      "Investigate the site with Witcher Senses.",
-      "Deal with the supernatural obstacle in your way.",
-      "Complete the wish's task as instructed.",
-      "Report back to Olgierd to continue the pact."
+      "Meet O'Dimm at the Alchemy Inn in Oxenfurt.",
+      "See Shani, then Professor Shakeslock at the Academy, to learn how to beat O'Dimm.",
+      "Take Olgierd to the Temple of Lilvani and hand over the rose.",
+      "Choose to intervene and enter O'Dimm's riddle world.",
+      "Find the reflection by the dry fountain, then accept Olgierd's thanks and his sword Iris."
     ],
     video: "https://www.youtube.com/watch?v=_RtNHhOZ8ww"
   },
 {
     id: 611,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Midnight Clear",
-    location: "Garin Estate (Hearts of Stone)",
-    length: "medium",
-    difficulty: "High",
-    reward: "O'Dimm's game, final choice",
+    location: "The wedding in Dead Man's Party, near Oxenfurt (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; romance scene with Shani",
     summary:
-      "The reckoning with Gaunter O'Dimm — outwit the devil in a deadly riddle to save your soul.",
+      "At the wedding Geralt attends with Shani in Dead Man's Party, he can look for a gift to cheer her up. The night ends with a scene between them, which plays out differently depending on the gift.",
     aiTip:
-      "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
+      "Rowanberry brandy from the barn or the rowan flowers on the nearby tree are the right gifts; a bottle of mead is a poor choice. Leaving the wedding fails the quest.",
     walkthrough: [
-      "Attend the heist/wedding at the Borsodi/Garin estate as the plan requires.",
-      "Move through the event, handling guests and guards.",
-      "Enter the spirit-world segment and relive Iris's painted memories.",
-      "Fight the manifestations of Olgierd's past (the caretaker/creatures).",
-      "Reach the heart of the estate and make the pivotal choice.",
-      "Resolve the confrontation and advance toward the finale."
+      "Pick up the quest during the wedding in Dead Man's Party.",
+      "Use Witcher Senses to find a gift for Shani.",
+      "Take rowanberry brandy from the barn or rowan flowers from the tree.",
+      "Give it to Shani and see the night through with her."
     ],
-    video: "https://www.youtube.com/watch?v=TTEmgmPJUcI"
+    video: "https://www.youtube.com/watch?v=oPkouAEmCko"
   },
 {
     id: 612,
@@ -13313,20 +13310,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Envoys, Wineboys",
-    location: "Toussaint (Blood and Wine)",
-    length: "medium",
+    location: "Velen notice boards and Holloway (Stonecutters' Settlement) west of Oxenfurt; then Toussaint",
+    length: "short",
     difficulty: "Medium",
-    reward: "Toussaint arrives, knights' errand",
+    reward: "XP; travel to Toussaint",
     summary:
-      "Duchess Anna Henrietta's knights summon Geralt to fairy-tale Toussaint to hunt a beast slaying knights.",
+      "A notice addressed to Geralt brings him to the knights Milton and Palmerin, sent from Toussaint. A band of level-35 bandits troubles their camp; Geralt can wait and fight them, or talk the knights out of it, before riding south.",
     aiTip:
-      "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
+      "The notice 'Appeal to Sir Geralt of Rivia, the Bridge his Crest' can turn up on any Velen board. You can skip the bandit fight by pointing out that new bandits would just replace them.",
     walkthrough: [
-      "Arrive in Toussaint and meet the knights errant sent to fetch you.",
-      "Investigate the first beast attack site with Witcher Senses.",
-      "Follow the trail to the victim and the clues left behind.",
-      "Report to Duchess Anna Henrietta at Beauclair Palace.",
-      "Accept the investigation into the Beast of Beauclair."
+      "Take the 'Appeal to Sir Geralt of Rivia' notice from a Velen board.",
+      "Meet Milton and Palmerin at Holloway, west of Oxenfurt.",
+      "Wait until morning and fight the bandits, or talk the knights out of it.",
+      "Ride with the knights to Toussaint."
     ],
     video: "https://www.youtube.com/watch?v=UDswuA6sYuc"
   },
@@ -13336,20 +13332,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Blood Run",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
-    difficulty: "High",
-    reward: "Dettlaff confrontation, Syanna lead",
+    location: "Beauclair, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Regis returns",
     summary:
-      "Chase the vampire Dettlaff through Beauclair as the conspiracy tightens around Syanna.",
+      "Geralt catches up with the Beast, the higher vampire Dettlaff, in a building in Beauclair. Win or lose, the fight is cut short when Regis steps in.",
     aiTip:
-      "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
+      "Use Black Blood and Vampire Oil, and keep Active Shield Quen up. If he blocks two hits in a row he teleports behind you, so dodge then counter.",
     walkthrough: [
-      "Follow the lead on Dettlaff through Beauclair with Witcher Senses.",
-      "Investigate Syanna's trail and the vineyard clues.",
-      "Fight through the ambushes as the conspiracy unfolds.",
-      "Reach the confrontation the trail leads to.",
-      "Resolve the encounter and advance the mystery."
+      "Follow the Beast's trail into Beauclair.",
+      "Corner Dettlaff in the building he flees to.",
+      "Fight him; the outcome doesn't change the story.",
+      "Watch Regis intervene and talk with him."
     ],
     video: "https://www.youtube.com/watch?v=yHttMKZf8UU"
   },
@@ -13359,20 +13354,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Tesham Mutna",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
+    location: "The Tesham Mutna ruins, Toussaint",
+    length: "medium",
     difficulty: "High",
-    reward: "Regis's aid, vampire lore",
+    reward: "Tesham Mutna armor set; Regis's lead on Dettlaff",
     summary:
-      "Delve into vampire history with Regis to find a way to stop Dettlaff's rampage.",
+      "Regis needs the blood of a higher vampire in a frenzy, his own. At the ruins of Tesham Mutna he locks himself in a cage while Geralt baits the chamber and holds off the monsters until Regis's bloodlust peaks.",
     aiTip:
-      "Regis is a fantastic companion here — soak in the lore before the finale.",
+      "Loot the Tesham Mutna armor chests before you start the cage section, because the area locks you in. Keep Quen up, since monsters come from all four entrances.",
     walkthrough: [
-      "Travel to Tesham Mutna to find the way to reach Dettlaff.",
-      "Explore the ancient vampire ruin, using Senses and clearing its guardians.",
-      "Undergo or arrange the ritual needed to summon/parley with Dettlaff.",
-      "Deal with Regis's plan and the fallout.",
-      "Set up the final confrontation with Dettlaff."
+      "Reach the Tesham Mutna ruins with Regis and collect the armor from the chests.",
+      "Place the bait around the chamber, clearing the spots with Aard.",
+      "Talk to Regis to lock him in the cage.",
+      "Kill the monsters pouring in from all four entrances.",
+      "Hold out until Regis's bloodlust is high enough."
     ],
     video: "https://www.youtube.com/watch?v=k6M-NTUIoUQ"
   },
@@ -13382,20 +13377,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Pomp and Strange Circumstance",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
-    difficulty: "High",
-    reward: "Blood and Wine finale, ending choice",
+    location: "Beauclair Palace and the city, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blood and Wine ending (Syanna and the duchess)",
     summary:
-      "The climax of Blood and Wine, where the fate of Dettlaff, Syanna, and the duchess is decided.",
+      "After Dettlaff is defeated, Geralt can track down his fifth intended victim and talk with Syanna before her trial. What he says decides whether the sisters reconcile, one of them dies, or both do.",
     aiTip:
-      "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
+      "You need the ribbon from the flint girl (win at Gwent or pay 500 crowns) for Syanna to survive. Find the bootblack for the fifth-victim letter, and at the trial say \"You were children then, both.\"",
     walkthrough: [
-      "Reach the finale and confront Dettlaff over Syanna's fate.",
-      "Make the pivotal choice that decides the confrontation.",
-      "Fight Dettlaff — dodge his claw combos and summoned monsters, use Yrden and Vampire Oil.",
-      "Resolve the battle and its consequences for Beauclair.",
-      "See the Blood and Wine story to its ending."
+      "Follow the bootblack lead, then speak with the beggar to learn the fifth victim's name.",
+      "Get the letter that reveals the fifth victim.",
+      "Talk with Syanna: tell her Anna turned her back on her and ask if she ever thought to forgive her.",
+      "Attend the trial and choose \"You were children then, both.\"",
+      "See the ending play out."
     ],
     video: "https://www.youtube.com/watch?v=JlsjC9a4ziQ"
   },
