@@ -13400,20 +13400,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Fake Papers",
-    location: "Velen",
+    location: "Refugee camp by the bridge north of the Hangman's Tree, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Refugee saved, coin",
+    reward: "A transit pass into Novigrad; small XP",
     summary:
-      "Help a refugee forge papers to escape Velen's war and the Nilfgaardian dragnet.",
+      "A shady merchant at a refugee camp in Velen sells forged transit passes for crossing into Novigrad. He'll take 100 crowns, less if Geralt uses Axii or helps his brother-in-law in Bitter Harvest.",
     aiTip:
-      "A small mercy quest — the outcome depends on trusting the right smuggler.",
+      "If you take on Bitter Harvest, keep Albin Hart alive, or the merchant refuses to sell you a pass at all. A strong enough Axii halves the price.",
     walkthrough: [
-      "Take the job in Velen to obtain forged papers from the local fixer.",
-      "Run the errand or recover the item the forger demands.",
-      "Deal with any guards or complications.",
-      "Return with the payment/goods to get the papers.",
-      "Collect the reward and finish the quest."
+      "Talk to the shady merchant at the refugee camp near the bridge north of the Hangman's Tree.",
+      "Pay 100 crowns, use Axii to haggle, or ask about another way.",
+      "For the cheaper price, help his brother-in-law in Bitter Harvest and keep Albin Hart alive.",
+      "Return to the merchant and buy the transit pass."
     ],
     video: "https://www.youtube.com/watch?v=yx2VlkUYAvk"
   },
@@ -13423,22 +13422,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Greedy God",
-    location: "Velen",
+    location: "Ruins with an altar south of Wastrel Manor, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Sylvan/godling lore, reward",
+    difficulty: "Low",
+    reward: "Up to 100 XP and 100 crowns, depending on the outcome",
     summary:
-      "Investigate a bog 'god' extorting a village and decide the fate of the creature behind it.",
+      "Two peasants, Dagmar and Preben, argue at a ruined altar over the 'Allgod' that demands ever-richer offerings. The god turns out to be a sylvan hiding in a cellar behind an illusion.",
     aiTip:
-      "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
+      "You need the Eye of Nehaleni from Keira Metz to dispel the illusion. Loot the cellar chests before you finish, since you may not get back in. 'Settle for humble offerings – or die' pays best.",
     walkthrough: [
-      "Investigate the Velen villagers' offerings to their 'god' in the woods.",
-      "Follow the trail with Witcher Senses to the creature's grove.",
-      "Discover it's a monster exploiting the village (a godling/sylvan).",
-      "Confront it — fight it or broker a resolution.",
-      "Report back to settle the village's fate."
+      "Meet Dagmar and Preben at the ruined altar south of Wastrel Manor.",
+      "Use Witcher Senses on the crack in the wall and the vinegar-smelling bottle.",
+      "Dispel the illusory rubble with the Eye of Nehaleni and go down to the cellar.",
+      "Confront the Allgod: kill it, or bargain it down to humble offerings.",
+      "Report back to the peasants for your reward."
     ],
-    video: "https://www.youtube.com/watch?v=98LFNd6Sl4I"
+    video: "https://www.youtube.com/watch?v=yOh9UiIArV8"
   },
 {
     id: 620,
@@ -13446,22 +13445,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Volunteer",
-    location: "Velen",
+    location: "White Eagle Fort and Oxenfurt, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Elf's fate, karma",
+    reward: "50 XP; sparing him gives the Gven'nel and Axeman's Gauntlets diagrams plus hides",
     summary:
-      "An elf begs Geralt to help find her people amid the ruins of a flooded elven bath house.",
+      "A rock troll at White Eagle Fort believes he's a Redanian soldier guarding the boats, after accidentally killing everyone there. Geralt can kill him or help him paint the Redanian eagle on his shield.",
     aiTip:
-      "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
+      "Sparing him pays better: buy the paint from the marked merchant in Oxenfurt. Check the chest on the nearby island first for the Enhanced Griffin Armor diagram.",
     walkthrough: [
-      "Meet the young volunteer near the plague-struck site in Velen.",
-      "Escort or assist him to the marked location, clearing monsters.",
-      "Uncover the grim situation he's walked into.",
-      "Make the choice the situation demands.",
-      "Resolve the quest and report back."
+      "Read the 'Beware of Trolls!' notice in Oxenfurt, or go straight to White Eagle Fort.",
+      "Talk to the troll and hear his story.",
+      "Kill him, or agree to fetch paint for his shield.",
+      "Buy the paint from the merchant in Oxenfurt.",
+      "Give it to the troll and help him paint the eagle."
     ],
-    video: "https://www.youtube.com/watch?v=2D9AD-2_c8A"
+    video: "https://www.youtube.com/watch?v=fGjSARozF38"
   },
 {
     id: 621,
@@ -13469,20 +13468,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Funeral Pyres",
-    location: "Velen",
+    location: "Road west of Mulbrydale and three corpse pits, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Coin, karma",
+    reward: "Small XP and coin, or a bigger bribe if you question the priest",
     summary:
-      "Deal with the Nilfgaardian soldiers desecrating the dead across Velen's battlefields.",
+      "A priest of the Eternal Fire hires Geralt to burn three pits of corpses. At the last pit a survivor, Titus, reveals the priest's men killed people over a fisstech deal and want the evidence burned.",
     aiTip:
-      "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
+      "The pits can be done in any order: clear the necrophages, douse the bodies with the holy oil and light them with Igni. Save Titus to learn the truth before you go back.",
     walkthrough: [
-      "Take the request to deal with the unburied dead around Velen.",
-      "Travel to the battlefield and clear the necrophages feeding there.",
-      "Build and light the funeral pyres as instructed.",
-      "Defend the site while the bodies burn.",
-      "Return to complete the quest."
+      "Meet the priest on the road west of Mulbrydale and take the three flasks of oil.",
+      "Clear the rotfiend and ghouls at each pit.",
+      "Douse the bodies and light them with Igni.",
+      "Rescue Titus at the last pit and hear his story.",
+      "Return to the priest near the Novigrad bridge and take the fee, or his bribe."
     ],
     video: "https://www.youtube.com/watch?v=BI3KTQscdSg"
   },
@@ -13492,20 +13491,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Fall of the House of Reardon",
-    location: "Velen",
+    location: "Reardon Manor, Lindenvale, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Wraith lore, treasure",
+    difficulty: "Low",
+    reward: "About 25-205 XP and 100 florens from Dolores's lockbox",
     summary:
-      "Investigate a haunted, abandoned estate and the tragedy that cursed the Reardon family.",
+      "Old Dolores Reardon wants her abandoned family estate cleared. What Geralt finds depends on Letho's fate in The Witcher 2: wraiths if he died, traps and a hidden figure if he lived.",
     aiTip:
-      "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
+      "With Letho alive, the visit starts Ghosts of the Past, so watch for tripwires. Use Witcher Senses on the barn wall to find the lockbox, and read Dolores's diary for extra XP.",
     walkthrough: [
-      "Investigate the haunted Reardon manor in Velen.",
-      "Explore the house with Witcher Senses to follow the ghostly clues.",
-      "Piece together the family's grim end.",
-      "Confront and put down the wraith/monster inside (Specter Oil, Yrden).",
-      "Resolve the haunting and claim the reward."
+      "Take the Lindenvale notice or speak to Dolores, and get her lockbox key.",
+      "Go to Reardon Manor and clear the wraiths (or disarm the traps if Letho lived).",
+      "Find the Sturdy Barn Key in the small chest in the eastern house.",
+      "Reveal the writing on the barn wall with Witcher Senses and open the lockbox.",
+      "Optionally read Dolores's diary and search the cellar behind the barn."
     ],
     video: "https://www.youtube.com/watch?v=n02RlOoI6X8"
   },
@@ -13515,20 +13514,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Gwent: Old Pals",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Rare Gwent cards",
+    location: "Novigrad, The Nowhere Inn and Kaer Morhen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Eithné, Saesenthessis and Triss Merigold cards, plus XP per win",
     summary:
-      "Play Novigrad's finest Gwent players to win rare cards for your collection.",
+      "Geralt plays Gwent against four old friends: Zoltan, Vernon Roche, Lambert and Thaler. Each win earns a unique card.",
     aiTip:
-      "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
+      "Thaler is easy to lose: if you side with Dijkstra and Thaler dies in Reason of State, you can't finish. This quest is required for the Card Collector achievement.",
     walkthrough: [
-      "Find the old-timers in Novigrad who play Gwent and challenge each in turn.",
-      "Win matches to collect the cards they wager.",
-      "Track down each named player across the city.",
-      "Beat the toughest of them to claim their rare card.",
-      "Complete the set to finish the quest."
+      "Beat Zoltan (during Broken Flowers, or after A Poet Under Pressure).",
+      "Find Roche at the Temerian partisan hideout and beat him.",
+      "Track down Lambert at The Nowhere Inn or Kaer Morhen.",
+      "Beat Thaler before Reason of State resolves."
     ],
     video: "https://www.youtube.com/watch?v=hHubdnDzwOo"
   },
@@ -13538,20 +13536,18 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Gwent: Playing Innkeeps",
-    location: "Velen",
-    length: "short",
-    difficulty: "Low",
-    reward: "Gwent cards, coin",
+    location: "Inn at the Crossroads (Velen), The Alchemy (Oxenfurt) and The Kingfisher (Novigrad)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Menno Coehoorn, Yennefer of Vengerberg and Tibor Eggebracht cards, plus XP",
     summary:
-      "Tour the taverns of Velen and Novigrad beating innkeepers at Gwent.",
+      "Three innkeepers play Gwent for unique cards: the innkeeper at the Inn at the Crossroads, Stjepan at The Alchemy in Oxenfurt, and Olivier at The Kingfisher in Novigrad.",
     aiTip:
-      "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
+      "Stjepan's Emhyr leader cancels yours, so build a deck that doesn't rely on it. If Olivier dies in Now or Never, his Tibor Eggebracht card is in a lockbox in the room next to the bar.",
     walkthrough: [
-      "Travel Velen's inns and challenge each innkeep to Gwent.",
-      "Win matches to earn the cards they stake.",
-      "Visit every marked tavern on the map.",
-      "Beat them all to collect their cards.",
-      "Finish the quest once each innkeep is defeated."
+      "Beat the innkeeper at the Inn at the Crossroads for Menno Coehoorn.",
+      "Get a pass into Oxenfurt and beat Stjepan at The Alchemy for Yennefer.",
+      "Beat Olivier at The Kingfisher in Novigrad for Tibor Eggebracht."
     ],
     video: "https://www.youtube.com/watch?v=BuBHQRo4XCg"
   },
@@ -13561,22 +13557,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Deadly Plot",
-    location: "Novigrad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Triss & mages arc, ambush foiled",
+    location: "Passiflora, Novigrad, and the Redanian border south of the bridge",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP",
     summary:
-      "Uncover a witch-hunter plot targeting Triss and the fleeing mages of Novigrad.",
+      "Dijkstra's contact Thaler has gone missing on the way into Novigrad. Geralt follows a trail of shoes from his abandoned cart to a troll cave, where three trolls are holding the cobbler-spy.",
     aiTip:
-      "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
+      "Pick the second dialogue option twice to talk the trolls down without a fight. Finish it before The Isle of Mists or it fails.",
     walkthrough: [
-      "Begin the Novigrad plot uncovering a conspiracy against a target.",
-      "Follow the leads with Witcher Senses through the city.",
-      "Infiltrate the meeting/hideout to learn the plan.",
-      "Fight or outmaneuver the plotters.",
-      "Foil (or allow) the plot and report the outcome."
+      "Meet Dijkstra at the Passiflora after Now or Never.",
+      "Talk to Gregor at the Redanian border post.",
+      "Find the abandoned cart south of the bridge and kill the wolves.",
+      "Follow the trail of shoes to Rogg, then to the trolls' cave.",
+      "Free Thaler and escort him back to his cart."
     ],
-    video: "https://www.youtube.com/watch?v=5Y5lUv384Xk"
+    video: "https://www.youtube.com/watch?v=ueKvJgQPYKY"
   },
 {
     id: 626,
@@ -13584,20 +13580,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Contract: The Phantom of Eldberg",
-    location: "Skellige",
+    location: "Arinbjorn tavern and the Eldberg lighthouse, Skellige",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, wraith trophy",
+    reward: "About 184 crowns and 250-310 XP; Wraith trophy and the Ashrune sword",
     summary:
-      "A lighthouse keeper's death has loosed a vicious wraith on a Skellige isle.",
+      "Jorund in Arinbjorn hires Geralt to deal with a wraith haunting the Eldberg lighthouse. The keeper, Mikkjal, has a guilty past, and the wraith (the Penitent) only shows itself when the brazier is lit.",
     aiTip:
-      "Restore the lighthouse flame and use Yrden against the penitent wraith.",
+      "Read the letter on the lighthouse's second floor before relighting the brazier. Specter Oil and Yrden make the Penitent much easier.",
     walkthrough: [
-      "Take the contract and travel to the Eldberg lighthouse in Skellige.",
-      "Investigate the keeper's fate with Witcher Senses; relight the lighthouse fire.",
-      "Apply Specter Oil and use Yrden to trap the penitent wraith it summons.",
-      "Dodge its strikes and dispel its illusions with Igni.",
-      "Banish the penitent, take the trophy, and claim the fee."
+      "Talk to Jorund in the Arinbjorn tavern.",
+      "Sail to Eldberg and find Mikkjal.",
+      "Examine the lighthouse with Witcher Senses and read the letter upstairs.",
+      "Help Mikkjal light the brazier and kill the Penitent.",
+      "Take the trophy and return to Jorund for your pay."
     ],
     video: "https://www.youtube.com/watch?v=vFU3uJazcVU"
   },
@@ -13605,24 +13601,24 @@ const quests = [
     id: 627,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "White Orchard",
+    region: "Velen",
     title: "Contract: Missing Brother",
-    location: "White Orchard",
+    location: "Inn at the Crossroads and the old mine southwest of the Border Post, Velen",
     length: "short",
-    difficulty: "Low",
-    reward: "Coin, cockatrice/monster trophy",
+    difficulty: "Medium",
+    reward: "Crowns and XP; Arachas trophy",
     summary:
-      "A woman's brother has vanished on the road; follow the grisly trail to the culprit.",
+      "Bruno at the Inn at the Crossroads wants his brother Mikkel found. Mikkel led a group of women to an old mine near the Border Post, and the mine is now the lair of an arachas called Harrisi.",
     aiTip:
-      "An early contract that teaches monster tracking with Witcher Senses.",
+      "Destroy the arachas eggs with Signs as you go. Use Insectoid Oil and Quen against Harrisi's venom.",
     walkthrough: [
-      "Take the White Orchard contract and question the man about his missing brother.",
-      "Follow the trail with Witcher Senses toward the marked search area.",
-      "Clear the necrophages/monsters at the site.",
-      "Find the brother's fate and any survivors.",
-      "Report back to the contract-giver for the reward."
+      "Take the notice at the Inn at the Crossroads and talk to Bruno.",
+      "Go to the old mine southwest of the Border Post and examine the tracks outside.",
+      "Track through the mine with Witcher Senses, swimming through the flooded passage.",
+      "Destroy the eggs and kill Harrisi.",
+      "Return to Bruno with the news."
     ],
-    video: "https://www.youtube.com/watch?v=JpsLmcTnKLw"
+    video: "https://www.youtube.com/watch?v=pbEm6es_ilo"
   },
 {
     id: 628,
@@ -13630,22 +13626,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Contract: The Merry Widow",
-    location: "Velen",
+    location: "Lindenvale cemetery and a nearby hut, Velen",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, grave hag trophy",
+    reward: "About 190-240 XP and 180-260 crowns; grave hag trophy",
     summary:
-      "Villagers near a crossroads are slain by a grave hag feeding on the war dead.",
+      "The gravedigger of Lindenvale posts a notice about trouble at the cemetery and a missing boy. The culprit is a grave hag, Mourntart, who has to be lured out with the skulls from her hut.",
     aiTip:
-      "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
+      "Wait until midnight at the cemetery after placing the skulls, or she won't appear. Necrophage Oil and Igni work well, so dodge her tongue lash.",
     walkthrough: [
-      "Accept the Velen contract and question the widow and villagers about the grave attacks.",
-      "Track the disturbance with Witcher Senses to the haunted cemetery.",
-      "Apply Necrophage Oil and ready Igni/Quen for the Grave Hag.",
-      "Bait its tongue-grab, dodge, and burn it down.",
-      "Kill the Grave Hag, take the trophy, and claim the reward."
+      "Take the notice in Lindenvale and talk to the gravedigger.",
+      "Clear the cemetery and follow the cadaverine scent to the hut.",
+      "Examine the clues and take the skulls.",
+      "Place the skulls in the cemetery and wait for midnight.",
+      "Kill Mourntart, take the trophy and collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=gifrgo8GM-M"
+    video: "https://www.youtube.com/watch?v=xzFKT02Nz1I"
   },
 {
     id: 629,
@@ -13676,22 +13672,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scavenger Hunt: Cat School Gear",
-    location: "Velen / Novigrad",
+    location: "Velen and Novigrad (base set); upgrades across the map",
     length: "medium",
     difficulty: "Medium",
-    reward: "Feline witcher armor set",
+    reward: "Feline (Cat School) gear diagrams",
     summary:
-      "Follow old maps to recover the fast, light Feline (Cat) School witcher gear.",
+      "The light, fast Feline gear is scattered across Velen and Novigrad. Picking up any diagram starts the hunt, and the treasure maps only add markers.",
     aiTip:
-      "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
+      "The first map is sold by a merchant in Blackbough, but you can skip it and grab the diagrams directly. Higher tiers continue in later parts, ending with the Grandmaster set in Toussaint.",
     walkthrough: [
-      "Pick up the Cat School Gear diagrams' scavenger-hunt maps (Velen/Novigrad).",
-      "Follow each map with Witcher Senses to its stash, clearing guardians.",
-      "Collect all six diagrams for the set (swords, armor, gauntlets, trousers, boots).",
-      "Loot the required crafting materials for each piece.",
-      "Take the diagrams and mats to a craftsman to forge the Feline set."
+      "Buy the first map in Blackbough, or pick up any Cat diagram to start the hunt.",
+      "Follow each marker with Witcher Senses and clear the guardians.",
+      "Collect the swords, armor, gauntlets, trousers and boots diagrams.",
+      "Take them to a blacksmith and armorer to craft the Feline set."
     ],
-    video: "https://www.youtube.com/watch?v=a1nlEzNIs9A"
+    video: "https://www.youtube.com/watch?v=wkgIiGGbU2k"
   },
 {
     id: 631,
@@ -13699,20 +13694,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scavenger Hunt: Griffin School Gear",
-    location: "Velen",
+    location: "Dragonslayer's Grotto and Velen (base set); upgrades in Novigrad and Skellige",
     length: "medium",
     difficulty: "Medium",
-    reward: "Griffin witcher armor set",
+    reward: "Griffin School gear diagrams (good for Sign builds)",
     summary:
-      "Track down the Griffin School gear diagrams, ideal for a Sign-focused build.",
+      "Edwin Greloff's maps, sold by the armorer in Midcopse, all point to Dragonslayer's Grotto first. The base Griffin set is spread around Velen, including Hindhold and an underwater cave by Lornruk.",
     aiTip:
-      "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
+      "Harpies nest on Hindhold's roof by the steel sword diagram. To get into Lornruk, dive next to the shrine.",
     walkthrough: [
-      "Pick up the Griffin School Gear scavenger-hunt maps in Velen.",
-      "Follow each clue with Witcher Senses to its hidden chest, defeating guards.",
-      "Collect all the Griffin (Ursine-style) diagrams across the region.",
-      "Gather the crafting materials each piece needs.",
-      "Craft the Griffin set at a blacksmith and armorer."
+      "Buy Edwin Greloff's map from the Midcopse armorer, or find any Griffin diagram.",
+      "Start at Dragonslayer's Grotto, northwest of Downwarren.",
+      "Collect the steel sword diagram at Hindhold and the silver sword near Lornruk.",
+      "Gather the remaining diagrams across Velen.",
+      "Craft the set with a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/watch?v=dXFYFSZK_nE"
   },
@@ -13722,22 +13717,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Scavenger Hunt: Bear School Gear",
-    location: "Skellige",
+    location: "Skellige (base and enhanced sets); later tiers in Velen",
     length: "medium",
     difficulty: "High",
-    reward: "Ursine (Bear) witcher armor set",
+    reward: "Ursine (Bear School) gear diagrams: heavy armor",
     summary:
-      "Climb Skellige's peaks and dive its wrecks for the heavy, tanky Ursine gear.",
+      "Ibrahim Savi's maps lead to the heavy Ursine set. The first is sold by the Oxenfurt armorer and the rest by the armorer at Kaer Trolde, with the base and enhanced pieces across Skellige's isles.",
     aiTip:
-      "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
+      "Several stashes sit in monster dens: the Grossbart brothers' grotto and a troll cave both hold diagrams. The Superior and Mastercrafted tiers move back to Velen.",
     walkthrough: [
-      "Pick up the Bear (Ursine) School Gear maps in Skellige.",
-      "Sail and climb to each stash, using Senses and clearing the tough guardians.",
-      "Collect all the Ursine diagrams scattered across the isles.",
-      "Gather the required materials (some need higher-level components).",
-      "Forge the Bear School set with a smith and armorer."
+      "Buy Ibrahim Savi's first map from the armorer in Oxenfurt.",
+      "Buy the later maps from the armorer at Kaer Trolde.",
+      "Sail to each marked spot in Skellige and clear its guardians.",
+      "Collect the swords, armor and crossbow diagrams.",
+      "Craft the Ursine set with a blacksmith and armorer."
     ],
-    video: "https://www.youtube.com/watch?v=ETR_BCc-jck"
+    video: "https://www.youtube.com/watch?v=ClH5G7iyfwU"
   },
 {
     id: 633,
@@ -13745,20 +13740,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "Scavenger Hunt: Wolf School Gear",
-    location: "Kaer Morhen",
+    location: "The Old Signal Tower near Kaer Morhen (base set); Velen and Skellige for upgrades",
     length: "medium",
     difficulty: "Medium",
-    reward: "Wolven witcher armor set (balanced)",
+    reward: "Wolven (Wolf School) gear diagrams: balanced armor",
     summary:
-      "Recover the balanced Wolf School gear scattered around Kaer Morhen and Velen.",
+      "The balanced Wolven set starts at the Old Signal Tower just south of the Kaer Morhen signpost. Notes sold by the blacksmith in Lindenvale or by Hattori in Novigrad mark the way.",
     aiTip:
-      "A well-rounded set — a safe default while you gather the specialized schools.",
+      "The enhanced silver sword diagram is in the underground passage to Crow's Perch, the same well route as in Family Matters. Later tiers' maps are sold at Kaer Trolde and Kaer Muire.",
     walkthrough: [
-      "Pick up the Wolf School Gear maps around Kaer Morhen and Velen.",
-      "Follow each clue with Witcher Senses to its cache, clearing monsters.",
-      "Collect all the Wolven diagrams for the set.",
-      "Gather the crafting materials each piece requires.",
-      "Craft the Wolf School set at a blacksmith and armorer."
+      "Buy the 'slightly torn notes' from the Lindenvale blacksmith or Hattori.",
+      "Go to the Old Signal Tower south of the Kaer Morhen signpost for the armor diagrams.",
+      "Follow the remaining markers around Kaer Morhen.",
+      "Craft the Wolven set with a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/watch?v=CP70nZSEYIg"
   },
@@ -13768,22 +13762,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Scavenger Hunt: Grandmaster Manticore Gear",
-    location: "Toussaint (Blood and Wine)",
+    location: "Bastoy Prison ruins, Lebioda's temple, a hidden chapel cave and the Lake of Cleansing, Toussaint (Blood and Wine)",
     length: "medium",
     difficulty: "High",
-    reward: "Manticore witcher set (alchemy)",
+    reward: "Grandmaster Manticore gear diagrams (alchemy set)",
     summary:
-      "Hunt the Manticore School gear across Toussaint for a potent alchemy-focused set.",
+      "Lafargue, the smith in Beauclair, starts the hunt for the alchemy-focused Manticore set during Master Master Master Master!. Merten's six diagrams are scattered across Toussaint.",
     aiTip:
-      "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
+      "The gauntlets are at the bottom of the Lake of Cleansing, northeast of Basane Farm, so clear the bandits before diving. Crafting it needs a grandmaster smith.",
     walkthrough: [
-      "Start the Manticore School Gear hunt in Toussaint (Blood and Wine).",
-      "Follow each map with Witcher Senses to its stash, defeating the guardians.",
-      "Collect all the Manticore diagrams across Toussaint.",
-      "Gather the high-tier crafting materials the set needs.",
-      "Forge the Manticore set at a master craftsman."
+      "Ask Lafargue in Beauclair about Manticore gear.",
+      "Get the steel sword diagram at the Bastoy Prison ruins.",
+      "Get the armor in the cliff tunnel, and the trousers and boots at Lebioda's temple.",
+      "Find the silver sword in the hidden chapel cave.",
+      "Dive for the gauntlets in the Lake of Cleansing, then have the set crafted."
     ],
-    video: "https://www.youtube.com/watch?v=cnti-X6O794"
+    video: "https://www.youtube.com/watch?v=DOqe5LJtvYk"
   },
 {
     id: 635,
@@ -13791,22 +13785,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Fists of Fury: Skellige",
-    location: "Skellige",
+    location: "Kaer Trolde Harbor, Arinbjorn, Faroe and the arena near Urialla Harbor, Skellige",
     length: "short",
     difficulty: "Medium",
-    reward: "Boxing champion coin",
+    reward: "About 70 crowns per fighter (90 for Olaf); The Digger and Nilfgaardian guardsman armor diagrams; the Gwestog sword",
     summary:
-      "Beat Skellige's toughest brawlers in bare-knuckle boxing matches.",
+      "Geralt fist-fights his way through Skellige's champions, Valgard, Grim and Einar, to reach the island's champion Olaf, who turns out to be a bear.",
     aiTip:
-      "Dodge and counter — trading blows with the islanders is a losing game.",
+      "Valgard asks you to throw the fight to impress Eryka, but you can refuse. Block and counter rather than trading blows, especially against Olaf.",
     walkthrough: [
-      "Take the Fists of Fury challenge in Skellige and find the local brawlers.",
-      "Beat each opponent in bare-knuckle fights (block and counter, watch stamina).",
-      "Work up the ladder to the island's champion.",
-      "Defeat the champion in the final bout.",
-      "Claim the prize money and complete the tournament."
+      "Beat Valgard outside the New Port Inn at Kaer Trolde Harbor.",
+      "Beat Grim in Arinbjorn.",
+      "Beat Einar on Faroe.",
+      "Face Olaf in the arena northeast of Urialla Harbor on An Skellig."
     ],
-    video: "https://www.youtube.com/watch?v=ugogRW-mnJg"
+    video: "https://www.youtube.com/watch?v=zeLREkG8d2g"
   },
 {
     id: 2354,
