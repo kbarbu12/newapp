@@ -105,9 +105,15 @@ Prod is `v2.9.3`; `staging` and `main` match. In priority order:
      - Other `v2.7.0` games: 11 of 26 (5 clear errors).
      - AC Valhalla: 4 of 20 (1 clear error).
      - Witcher 3: 5 of 30 (2 clear errors).
-   - **Do first (about 1 in 5 had a clear error):** the 248 unchecked entries
+   - **AC Odyssey full pass: DONE (2026-10-23).** All 179 remaining entries
+     were checked: 8 had a clear error and 29 a smaller problem, all fixed.
+     Another 10 ostraka riddles that only had generic steps now have their
+     solution from the guides. 9 ostraka still have generic steps because no
+     guide gave a solution: Goat's Gruff, Pigsty, Fire in the Belly, Stadium
+     Love, Bridging the Gap, Star-Crossed Lovers, Needle in a Haystack,
+     Rightful King and Prophecy Prevention.
+   - **Do next (about 1 in 5 had a clear error):** the 69 unchecked entries
      in these games:
-     - AC Odyssey: 179.
      - Cyberpunk: 21.
      - TotK: 18.
      - Jedi: Survivor: 11.
