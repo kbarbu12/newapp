@@ -17830,6 +17830,161 @@ const quests = [
     video: "https://www.youtube.com/watch?v=rASKq5shJ3Q"
   },
 {
+    id: 2922,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Master Master Master Master!",
+    location: "Lafargue's workshop, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and 150 XP; unlocks Grandmaster crafting",
+    summary:
+      "Lazare Lafargue, a grandmaster smith in Beauclair, knows where the lost Grandmaster witcher-gear diagrams are. Asking him about each school opens the five Grandmaster scavenger hunts.",
+    aiTip:
+      "You only need to bring him one full set of diagrams to finish. The quest can't be missed or failed, even after the main story.",
+    walkthrough: [
+      "Take the Beauclair notice, pick up any Grandmaster diagram, or go straight to Lafargue.",
+      "Ask him about the contract and the vanished witchers to start the five hunts.",
+      "Complete one school's Grandmaster hunt.",
+      "Return to Lafargue with the diagrams for your pay."
+    ],
+    video: "https://www.youtube.com/watch?v=mtWptGb2uKc"
+  },
+{
+    id: 2923,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Feline Gear",
+    location: "Bartolomé de Launay's estate, the Arthach Palace ruins and the Pits of Brume, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Feline (Cat School) diagrams",
+    summary:
+      "The final tier of the Cat School set. Lafargue's lead takes Geralt to Bartolomé de Launay's estate in northern Toussaint, then to the Arthach Palace ruins and the Pits of Brume.",
+    aiTip:
+      "At de Launay's estate, examine the portrait to find the first diagrams. Crafting the set needs Lafargue or another grandmaster smith.",
+    walkthrough: [
+      "Start the hunt by asking Lafargue about the Cat School.",
+      "Search Bartolomé de Launay's estate and examine the portrait.",
+      "Follow the trail to the Arthach Palace ruins.",
+      "Finish in the Pits of Brume and collect the remaining diagrams."
+    ],
+    video: "https://www.youtube.com/watch?v=jEN9jTs0SpI"
+  },
+{
+    id: 2924,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Griffin Gear",
+    location: "Fort Ussar ruins and Mont Crane Castle, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Griffin School diagrams",
+    summary:
+      "The last tier of the Griffin set. The steel sword, gauntlets and boots are hidden at the Fort Ussar ruins; the armor, trousers and silver sword are at Mont Crane Castle to the northwest.",
+    aiTip:
+      "At Fort Ussar, kill the reptilian guardians first, then check the chest under the broken stairs on the east side. Mont Crane holds the rest, so expect a fight there too.",
+    walkthrough: [
+      "Ask Lafargue about the Griffin School.",
+      "Go to the Fort Ussar ruins and defeat the guardians.",
+      "Open the chest under the broken stairs on the east side for three diagrams.",
+      "Head northwest to Mont Crane Castle for the armor, trousers and silver sword."
+    ],
+    video: "https://www.youtube.com/watch?v=HuLdW1f5ZD4"
+  },
+{
+    id: 2925,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Ursine Gear",
+    location: "Flovive and the Tufo vineyard area, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Ursine (Bear School) diagrams",
+    summary:
+      "The final tier of the heavy Bear School set. The trail runs through Flovive and the area around the Tufo vineyard, where a rubble-blocked chest holds several diagrams.",
+    aiTip:
+      "Use Aard to clear the rubble in Flovive and reach the chest. Doing Contract: The Tufo Monster first clears the area.",
+    walkthrough: [
+      "Ask Lafargue about the Bear School.",
+      "Go to Flovive and blast the rubble with Aard to reach the chest.",
+      "Follow the trail to the Tufo vineyard area.",
+      "Collect the remaining diagrams."
+    ],
+    video: "https://www.youtube.com/watch?v=qyUquj_Qt1w"
+  },
+{
+    id: 2926,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Wolven Gear",
+    location: "An archaeologists' camp and a burial site, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Wolven (Wolf School) diagrams",
+    summary:
+      "The final tier of the balanced Wolf School set. The hunt starts at an abandoned archaeologists' camp and leads to a burial room holding most of the diagrams and a dead witcher.",
+    aiTip:
+      "The armor, trousers and boots are in the burial room. Search the witcher's remains for the swords and gauntlets.",
+    walkthrough: [
+      "Ask Lafargue about the Wolf School.",
+      "Find the archaeologists' camp.",
+      "Search the burial room for the armor, trousers and boots diagrams.",
+      "Take the swords and gauntlets from the witcher's remains."
+    ],
+    video: "https://www.youtube.com/watch?v=OFiCml9aezk"
+  },
+{
+    id: 2927,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "In Wolf's Clothing",
+    location: "Freya's Garden and Larvik, Hindarsfjall",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and crowns; the curse lifted or the werewolf slain",
+    summary:
+      "The werewolf Morkvarg haunts Freya's Garden on Hindarsfjall. His journal shows he and the 'innocent' survivor Einar were once on the same pirate crew, and that the curse is his punishment.",
+    aiTip:
+      "Don't kill Morkvarg before you learn how the curse works, or you lose the option to lift it. The key to the chapter house is in a flooded cave past the floodgates.",
+    walkthrough: [
+      "Meet Morkvarg in Freya's Garden (during Nameless or from the Larvik contract).",
+      "Work the two levers by the southeastern bridge to open the right-hand floodgate.",
+      "Find the key in the flooded cave with Witcher Senses.",
+      "Unlock the chapter house and read Morkvarg's journal.",
+      "Confront Einar, then lift Morkvarg's curse or kill him."
+    ],
+    video: "https://www.youtube.com/watch?v=nd1gkmItvt0"
+  },
+{
+    id: 2928,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Perks of Being a Jailbird",
+    location: "Toussaint prison courtyard",
+    length: "short",
+    difficulty: "Low",
+    reward: "A prison poster for Corvo Bianco",
+    summary:
+      "Only available if Syanna died and Geralt was thrown in prison. A note in a loose courtyard brick says another inmate needs a hammer and chisel.",
+    aiTip:
+      "Finish it before Burlap is the New Stripe ends, or it fails. The tools are in the wagon under the gallows.",
+    walkthrough: [
+      "Find the loose brick in the courtyard wall with Witcher Senses and read the note.",
+      "Get the hammer and chisel from the wagon under the gallows.",
+      "Put them back in the brick.",
+      "Wait seven days and collect the poster from the same spot."
+    ],
+    video: "https://www.youtube.com/watch?v=3m8ls4Ulhl8"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
