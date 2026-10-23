@@ -112,16 +112,16 @@ Prod is `v2.9.3`; `staging` and `main` match. In priority order:
      guide gave a solution: Goat's Gruff, Pigsty, Fire in the Belly, Stadium
      Love, Bridging the Gap, Star-Crossed Lovers, Needle in a Haystack,
      Rightful King and Prophecy Prevention.
-   - **Do next (about 1 in 5 had a clear error):** the 69 unchecked entries
-     in these games:
-     - Cyberpunk: 21.
-     - TotK: 18.
-     - Jedi: Survivor: 11.
-     - Hogwarts Legacy: 6.
-     - Deadfire: 6.
-     - Ghost of Tsushima: 4.
-     - Pillars of Eternity: 3.
-   - **Then (fewer errors):** the 354 unchecked Witcher 3 (245) and AC
+   - **Smaller `v2.7.0` games full pass: DONE (2026-10-23).** All 69
+     remaining entries were checked. 7 had a clear error and 6 a smaller
+     problem; all are fixed, and 3 more got extra detail from the guides.
+     - Jedi: Survivor was the worst, with 6 of its 11 rumors wrong (for
+       example, Pili is on Jedha, Zee's shop is on the Mantis, and the
+       watchtower is at Riverbed Watch).
+     - Cyberpunk had 1 clear error out of 21.
+     - TotK, Hogwarts Legacy, Ghost of Tsushima, Deadfire and Pillars of
+       Eternity had none.
+   - **Next (fewer errors):** the 354 unchecked Witcher 3 (245) and AC
      Valhalla (109) entries.
    - **Method:** check each entry's location, rewards and amounts, choices,
      requirements and tip against the guides. Fix anything wrong and hedge

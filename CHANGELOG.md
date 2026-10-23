@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (6)
+
+- **Smaller-games fact-check: 16 entries fixed** — `v2.9.5` patch (#373).
+  All 69 remaining Cyberpunk, TotK, Jedi: Survivor, Hogwarts Legacy, Ghost
+  of Tsushima, Deadfire and Pillars of Eternity entries were checked against
+  the guides. There were 7 clear errors, 6 of them in Jedi: Survivor rumors:
+  Pili is on Jedha, Zee's shop is on the Mantis, and the Raider Watchtower is
+  at Riverbed Watch. There were also 6 smaller fixes, and 3 entries got more
+  detail.
+
 ## 2026-10-23 (5)
 
 - **AC Odyssey fact-check: 48 entries fixed** — `v2.9.4` patch (#370). All
