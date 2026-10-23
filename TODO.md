@@ -39,14 +39,11 @@ rule verify the *real* deployment:
 
 Until then, prod QA = `npm run build:prod` + local headless render.
 
-## Delete the duplicate `v2.9.0` release (agent can't; git proxy rejects ref deletion)
-The v2.8.0 deploy (PR #357, commit `215e9c4`) was tagged twice because GitHub
-delivered the push to `main` twice. `v2.8.0` is the real release; `v2.9.0` points
-at the same commit. Delete the `v2.9.0` release and its tag in the GitHub UI
-(Releases → v2.9.0 → Delete, then Tags → v2.9.0 → Delete). This is cleanup
-only: the next deploy (`v2.9.1`, #360) already numbered from it, so deleting it
-won't change future versions. `release.yml` now skips already-tagged commits
-(#358, live in `v2.9.1`), so this can't recur.
+## ~~Delete the duplicate `v2.9.0` release~~ — DONE 2026-10-23
+The v2.8.0 deploy (PR #357) was tagged twice because GitHub delivered the push
+to `main` twice. The owner deleted the duplicate `v2.9.0` release and tag;
+tags now run `v2.7.0`, `v2.8.0`, `v2.9.1`. `release.yml` skips already-tagged
+commits (#358, live in `v2.9.1`), so this can't recur.
 
 ## Delete merged branches (agent can't; git proxy rejects ref deletion)
 These are merged into `main` and safe to delete via the GitHub UI:
@@ -109,7 +106,6 @@ Prod is `v2.9.1`; `staging` and `main` match. In priority order:
    Disturbed, A Warm Welcome, Drunken Rabble, Strumpet in Distress, Suspicious
    Shakedown, The Price of Passage, A Dog's Life, Looters, Caravan Attack.
 5. **Owner actions (agent can't do these):**
-   - Delete the duplicate `v2.9.0` release and tag (see above).
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
 6. **Parked:**
