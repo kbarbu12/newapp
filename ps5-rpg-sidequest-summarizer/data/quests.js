@@ -17985,6 +17985,315 @@ const quests = [
     video: "https://www.youtube.com/watch?v=3m8ls4Ulhl8"
   },
 {
+    id: 2929,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad, Closed City II",
+    location: "Silverton, northwest of the Golden Sturgeon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "No fixed reward; loot from the bandits if you fight",
+    summary:
+      "After A Matter of Life and Death, some bandits ask Geralt to help find their wounded friend. The 'friend' is a witch hunter they want to finish off.",
+    aiTip:
+      "Follow the slime-covered footprints to the northeast. Wandering off in other directions makes the bandits give up and fails the quest. Protecting the hunter means fighting three bandits.",
+    walkthrough: [
+      "Talk to the bandits between the Silverton fish market and the flower-garden house.",
+      "Track the two sewer-slime footprints to the northeast with Witcher Senses.",
+      "Find the wounded witch hunter.",
+      "Let the bandits kill him, or protect him and fight them.",
+      "If you saved him, take him to the hospital or leave him."
+    ],
+    video: "https://www.youtube.com/watch?v=dSj9lr9GD9c"
+  },
+{
+    id: 2930,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Highwayman's Cache",
+    location: "Bandits' Camp bridge east of the Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin and one or two random crafting diagrams",
+    summary:
+      "Three bandits demand a toll to cross a bridge in the Mire. Their stash is hidden under the bridge itself.",
+    aiTip:
+      "Show them your witcher medallion and they leave without a fight. Then follow the footprints from their campfire to the chest in the reeds under the bridge.",
+    walkthrough: [
+      "Head east from the Boatmakers' Hut to the bridge.",
+      "Pay the toll, fight, or show your medallion to scare them off.",
+      "Use Witcher Senses at the campfire and follow the footprints.",
+      "Open the chest hidden under the bridge."
+    ],
+    video: "https://www.youtube.com/watch?v=PB9rf9QTqqY"
+  },
+{
+    id: 2931,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Siren's Call",
+    location: "Road west of Sund, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP",
+    summary:
+      "A shepherd and his flock are under attack by sirens on the road west of Sund. Save him and he says the sirens are coming from Undvik.",
+    aiTip:
+      "Bring a crossbow to ground the sirens. A few days later you can find the shepherd reunited with his brother in Arinbjorn.",
+    walkthrough: [
+      "Find the shepherd fighting sirens on the road west of Sund.",
+      "Kill the sirens.",
+      "Talk to him about where they came from.",
+      "Visit Arinbjorn a few days later to see him with his brother."
+    ],
+    video: "https://www.youtube.com/watch?v=JvQZV1EijzA"
+  },
+{
+    id: 2932,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Woe Is Me",
+    location: "The Palisade, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 15 XP",
+    summary:
+      "A 'wounded' man by the Palisade calls for help. It's a bandit ambush, and his two accomplices are waiting nearby.",
+    aiTip:
+      "It's easy to miss: the encounter only triggers from one direction, so if it doesn't appear, approach the Palisade from the other side.",
+    walkthrough: [
+      "Approach the Palisade fast-travel point.",
+      "Talk to the wounded man, or walk past him.",
+      "Kill him and the two ambushers who jump out."
+    ],
+    video: "https://www.youtube.com/watch?v=l0oCl0-BNho"
+  },
+{
+    id: 2933,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Crime and Punishment",
+    location: "Peninsula east of the Ancient Crypt, Ard Skellig, and Rogne",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 10 XP",
+    summary:
+      "Harpies are attacking Yorg, a man chained to the rocks for his uncle's murder. He swears he was framed. A visit to Rogne afterwards reveals what really happened.",
+    aiTip:
+      "The journal says Undvik, but he's actually on Ard Skellig east of the Ancient Crypt. Shoot the harpies from your boat. Then talk to the girl by Gretter's grave in Rogne for the full story.",
+    walkthrough: [
+      "Sail to the peninsula east of the Ancient Crypt.",
+      "Kill the three harpies attacking Yorg.",
+      "Hear his story, then free him or leave him.",
+      "Travel to Rogne and speak with the crying girl by Gretter's grave."
+    ],
+    video: "https://www.youtube.com/watch?v=IaeUAUkFCeg"
+  },
+{
+    id: 2934,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Finders Keepers",
+    location: "Islet north of the Giants' Toes, and Svorlag on Spikeroog",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 55 crowns and 25-75 XP for returning the sword",
+    summary:
+      "Bandits are looting a shipwreck of Clan Brokvar cargo on a small islet. Among the crates is a sword its owner, a merchant in Svorlag, wants back.",
+    aiTip:
+      "Check the chest under the rocks on the islet's western side for the sword. Returning it pays 55 crowns; keeping it pays slightly less if you sell it.",
+    walkthrough: [
+      "Sail to the islet north of the Giants' Toes and kill the looting bandits.",
+      "Use Witcher Senses on the crates and the inscription.",
+      "Take the sword from the chest under the rocks on the west side.",
+      "Return it to the dock merchant in Svorlag."
+    ],
+    video: "https://www.youtube.com/watch?v=YkaLt8bV40Y"
+  },
+{
+    id: 2935,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "From Ofier's Distant Shores",
+    location: "Upper Mill and bandit camps around Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ofieri scale armor, boots, gauntlets and sharovary diagrams",
+    summary:
+      "An Ofieri merchant at Upper Mill was robbed of his armor diagrams. The thieves split them among several bandit camps.",
+    aiTip:
+      "Crafting the four Ofieri pieces is needed for the 'I Wore Ofieri Before It Was Cool' achievement. The merchant needs a day to translate the diagrams.",
+    walkthrough: [
+      "Talk to the Ofieri merchant at Upper Mill, or find one of the stolen diagrams.",
+      "Track the robbers from the ambush site to the hatch of their underground hideout.",
+      "Take the scale armor diagram and the letter with orders.",
+      "Clear the three camps the letter names for the boots, gauntlets and sharovary.",
+      "Return the diagrams and collect the translations the next day."
+    ],
+    video: "https://www.youtube.com/watch?v=yWC8TS3L6Gc"
+  },
+{
+    id: 2936,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Surprise Inheritance",
+    location: "Hilltop north of Heddel (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Runestones and some coin",
+    summary:
+      "A body on a ghoul-infested hilltop carries Knut Kreutzman's journal and a key to a hidden chest. An archgriffin nests between Geralt and the treasure.",
+    aiTip:
+      "Clear the ghouls first, then bring the archgriffin down with crossbow bolts or Aard while it's flying. The chest is in a cellar under the small ruin at the north end.",
+    walkthrough: [
+      "Kill the ghouls on the hilltop north of Heddel and loot the body.",
+      "Read Kreutzman's journal and take the key.",
+      "Kill the archgriffin guarding the area.",
+      "Open the trapdoor in the northern ruin and use the key on the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=a49U3DslBek"
+  },
+{
+    id: 2937,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Cursed Chapel",
+    location: "Old chapel between Brunwich and Upper Mill (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Dazhbog runestone and loot",
+    summary:
+      "A diary on a body at an old chapel tells of a curse on its crypt. Wraiths guard the courtyard, and a wraith called the Cursed Mother waits below.",
+    aiTip:
+      "Use Yrden and Specter Oil. Hit the Cursed Mother while she's trapped in the circle. Loot the body in the crypt to finish.",
+    walkthrough: [
+      "Loot the body at the chapel and read Father Glaedfried's diary.",
+      "Kill the three wraiths in the courtyard behind the chapel.",
+      "Enter the crypt and defeat the Cursed Mother.",
+      "Loot the corpse in the crypt."
+    ],
+    video: "https://www.youtube.com/watch?v=V-uSc7SFdAg"
+  },
+{
+    id: 2938,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Royal Air Force",
+    location: "Vikk Watchtower, Novigrad outskirts (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "New Moon trousers, runestone diagrams, horse blinders and loot",
+    summary:
+      "Nicolas Vogel tried to train harpies at Vikk Watchtower. His notebook and key lead to a chest at the top of the ruined tower, now home to his harpies.",
+    aiTip:
+      "Use the collapsed floors on the eastern side as ramps to climb. The chest is next to a harpy nest, so clear the harpies first.",
+    walkthrough: [
+      "Loot Vogel's body at the watchtower entrance and read his notebook.",
+      "Climb the ruined tower using the collapsed floors.",
+      "Kill the harpies at the top.",
+      "Open the chest by the nest with Vogel's key."
+    ],
+    video: "https://www.youtube.com/watch?v=CmrLaJlCkm4"
+  },
+{
+    id: 2939,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "At the Mercy of Strangers",
+    location: "Riverbank west of Mulbrydale, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25-50 XP; later 50 crowns or a fight",
+    summary:
+      "A Temerian deserter, John Verdun, is tied up on a riverbank among drowners. If Geralt frees him, they meet again north of the Pontar, where John now leads a band of brigands.",
+    aiTip:
+      "Leave him tied and you'll find his body later. If you free him, you can take his coin or fight him when you meet again.",
+    walkthrough: [
+      "Follow the screams to the riverbank west of Mulbrydale and kill the drowners.",
+      "Untie John Verdun, or leave him.",
+      "Later, find John's camp between the Widows' Grotto and Ursten.",
+      "Take his coin, or kill him and his men."
+    ],
+    video: "https://www.youtube.com/watch?v=D6CEi9nSoHU"
+  },
+{
+    id: 2940,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Racists of Novigrad",
+    location: "North of Portside Gate, then the dye pits northeast of Tretogor Gate, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "No fixed reward",
+    summary:
+      "Townsmen harass an elf woman near Portside Gate. Defending her sets up a second encounter, where a group of men are beating two male elves by the dye pits.",
+    aiTip:
+      "The female-elf encounter has to come first. In the second part, standing up for the elves means killing the townsmen, then you can warn the elves to leave the city.",
+    walkthrough: [
+      "Find the elf woman being harassed at the second intersection north of Portside Gate.",
+      "Defend her, or stay out of it.",
+      "Later, go to the dye pits northeast of Tretogor Gate.",
+      "Defend the male elves and warn them to leave Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=Z40y4PEiMyM"
+  },
+{
+    id: 2941,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Farting Trolls",
+    location: "Cave between Arinbjorn and Kaer Muire, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Troll livers; the Enhanced Ursine Boots diagram is in the cave",
+    summary:
+      "Three chatty rock trolls in a cave on Ard Skellig, an easter egg named after three YouTubers. They attack the moment Geralt walks in.",
+    aiTip:
+      "Stay back and let their thrown debris hit each other. Grab the chest by the boat for the Enhanced Ursine Boots diagram. The cave is a good spot to farm troll mutagens.",
+    walkthrough: [
+      "Fast travel to Holmstein's Port and head north to the cave.",
+      "Enter and listen to the trolls.",
+      "Kill all three, staying on the defensive.",
+      "Loot the chest by the boat."
+    ],
+    video: "https://www.youtube.com/watch?v=7lqUN-drBnA"
+  },
+{
+    id: 2942,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Man's Best Friend",
+    location: "A hut in northern Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "The book 'In Beast's Clothing' (Werewolf Decoction manuscript)",
+    summary:
+      "A wild dog prowls outside a hut where starving orphans are hiding. Geralt can feed them, give them coin or walk away.",
+    aiTip:
+      "The marker only appears when you're near the hut. Give food or 25 crowns and the girl hands over a book holding the Werewolf Decoction manuscript.",
+    walkthrough: [
+      "Kill the wild dog outside the hut.",
+      "Examine the scene, including the second dog by the campfire.",
+      "Knock and talk to the girl inside.",
+      "Give food or money for the book, or leave."
+    ],
+    video: "https://www.youtube.com/watch?v=uJRsaAGh4iA"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
