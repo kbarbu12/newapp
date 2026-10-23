@@ -77,20 +77,18 @@ walkthrough is duplicated in the data. Still open:
   Novigrad secondary quests; batch 5 14 Skellige/Kaer Morhen secondary quests
   (193/290); batch 6 13 Hearts of Stone quests; batch 7 14 Blood and Wine
   quests; batch 8 the 9 quests held back for conflicting sources, now verified
-  (229/290). Correcting the original entries: #342–#345 merged. Remaining:
-  batch 5 (endgame + DLC main quests), batch 6 (IDs 618–635), a final pass
-  over IDs 13–44, then ~61 more Blood and Wine quests to reach 290. Full list
-  in PROGRESS.md "Session 2026-10-20 → 21".
+  (229/290). All 100 original entries have been re-checked against the guides
+  and 82 corrected (#341–#345, #348–#350). Remaining: ~61 more quests, mostly Blood
+  and Wine side quests and contracts, to reach 290.
 
 ## What's left (as of 2026-10-21)
 Prod is `v2.7.0`. In priority order:
-1. **Ship the Witcher 3 batches waiting on `staging`** (#332, #335–#345):
-   - About 129 new quests (Witcher 3 at 229 / 290) and 52 corrected original
+1. **Ship the Witcher 3 batches waiting on `staging`** (#332, #335–#350):
+   - About 129 new quests (Witcher 3 at 229 / 290) and 82 corrected original
      entries.
    - Needs: QA on staging, then the owner's go-ahead to promote.
 2. **Finish Witcher 3:**
-   - Re-check the rest of the original entries: endgame + DLC main quests
-     (607–617), IDs 618–635, then a final pass over 13–44.
+   - ~~Re-check the original entries~~ Done (#348–#350).
    - Add the remaining Blood and Wine side quests and contracts (61 short of
      the 290 target).
 3. **Replace the 2 allowlisted shared videos** with quest-specific ones:

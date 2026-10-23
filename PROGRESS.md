@@ -31,21 +31,15 @@ The Witcher 3 work (#332 onward) is on `staging` only.
 - Correcting the original entries to match the guides (many described the
   wrong quest, had generic text, or the wrong main/side type): #342 (IDs
   349–362), #343 (363–375), #344 (376–382, 594, 597–600, 629), #345 (589–606
-  main quests).
+  main quests), #348 (607–617 endgame and DLC main quests), #349 (618–635),
+  #350 (final pass: 13, 42, 2354, 2355). All original entries now checked.
 
 ### Still to do
-1. Batch 5: Tedd Deireadh, Something Ends Something Begins, Evil's Soft
-   First Touches, Whatsoever a Man Soweth, A Midnight Clear (actually the
-   optional Shani side quest), Envoys Wineboys, Blood Run, Tesham Mutna, Pomp
-   and Strange Circumstance. Researched, not yet written; videos unchecked.
-2. Batch 6: original side quests/Gwent/contracts/scavenger hunts (IDs
-   618–628, 630–635).
-3. Final pass over IDs 13–44, 2354–2357, 2607–2612 (look mostly right).
-4. Add ~61 more quests to reach 290, mostly Blood and Wine (Wine Wars
+1. Add ~61 more quests to reach 290, mostly Blood and Wine (Wine Wars
    Belgaard/Coronata/Vermentino/Deus in the Machina, Knight for Hire, Equine
    Phantoms, There Can Be Only One, A Portrait of the Witcher as an Old Man,
    Fists of Fury: Toussaint, vineyard contracts).
-5. Promote to prod only on the owner's say-so, then CHANGELOG + prod QA.
+2. Promote to prod only on the owner's say-so, then CHANGELOG + prod QA.
 
 ---
 ## 2026-10-21 — quest data release (v2.7.0)

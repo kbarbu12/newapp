@@ -831,8 +831,10 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, moral consequences",
-    summary: "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
-    aiTip: "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
+    summary:
+      "The Baron of Crow's Perch will share what he knows of Ciri if Geralt finds his missing wife Anna and daughter Tamara. The search exposes his drinking, his violence and a buried child, and it's one of the game's defining stories.",
+    aiTip:
+      "Don't rush the dialogue. Your choice at the Whispering Hillock decides how the Baron's family story ends.",
     walkthrough: [
       "Arrive at Crow's Perch and meet Phillip Strenger, the Bloody Baron, while hunting for Ciri.",
       "Win his trust (or fight his men), then investigate Ciri's trail around the keep with Witcher Senses.",
@@ -1354,14 +1356,16 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Tournament rewards, unique armor, romance option",
-    summary: "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
-    aiTip: "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
+    summary:
+      "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
+    aiTip:
+      "Finish it before you meet Captain de la Tour in Capture the Castle, or it fails. The alias you enter under decides one fight: Prince Anséis as Geralt, or Tailles and his thugs as Ravix of Fourhorn.",
     walkthrough: [
-      "After saving Guillaume de Launfal in The Beast of Toussaint, agree to stand in for him at the tourney.",
-      "Train in horsemanship, marksmanship and fencing (take the horse race slowly).",
-      "Enter as Geralt or as 'Ravix of Fourhorn' and win the three events.",
-      "Follow Vivienne into the woods tracking the bird with Witcher Senses; fight the panthers and the wight in the cave.",
-      "Tell Guillaume about the curse for an extra way to save Vivienne."
+      "Visit Guillaume in the medics' tent at the Tourney Grounds and agree to stand in for him.",
+      "Compete in archery (right to left), the horse race (all nine checkpoints) and the melee.",
+      "Enter as Geralt of Rivia or as 'Ravix of Fourhorn'; the alias changes your final opponent.",
+      "Search Vivienne's tent with Witcher Senses, then follow the bird to the cave, fighting barghests and wights.",
+      "Learn of Vivienne's curse and choose whether to tell Guillaume, then kill the panther in the glade with her."
     ],
     video: "https://www.youtube.com/watch?v=EHhayw2Na0Y"
   },
@@ -13807,20 +13811,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Last Wish",
-    location: "Skellige (Larvik / sunken ship)",
+    location: "Larvik, Hindarsfjall, the seas off Skellige and a mountaintop on Ard Skellig",
     length: "medium",
     difficulty: "Medium",
     reward: "Djinn's last wish, Yennefer romance path",
     summary:
-      "Yennefer asks Geralt to help her recapture the djinn that once bound their fates, so she can learn whether their love is real or just the product of his final wish. The hunt leads to a sunken ship off Skellige and a dangerous confrontation with the freed genie.",
+      "Yennefer wants to find the djinn that bound her fate to Geralt's, to learn whether their love is real or just the effect of his last wish. They sail from Larvik to search the wrecks for the djinn's seal.",
     aiTip:
-      "Bring Elementa Oil and keep Quen up — the djinn hits hard with wind and lightning. Completing this is the gateway to Geralt and Yennefer's romance, so mind your dialogue at the end.",
+      "Stay inside each search area until Yennefer moves on, or she leaves and the quest fails. Finish it before Ugly Baby. On the mountaintop, don't try to climb down: sliding off the summit kills Geralt.",
     walkthrough: [
-      "Meet Yennefer in Larvik on Skellige and sail out to the marked spot to find the seal fragments.",
-      "Dive to the sunken ship and recover the broken seal pieces, avoiding the sirens and drowners.",
-      "Return to Yennefer so she can perform the ritual that frees the djinn.",
-      "Apply Elementa Oil and cast Quen, then fight the djinn — dodge its wind vortex and lightning strikes.",
-      "Defeat the djinn to break the bond, then choose honestly in the conversation with Yennefer that follows.",
+      "After Nameless, find Yennefer at the inn in Larvik on Hindarsfjall.",
+      "Sail with her to the first two wreck sites (a Clan Drummond wreck, then old Heymaey longships), both the wrong ships.",
+      "At the third site, dive to the wreck and bring back the broken seal.",
+      "Go through Yennefer's portal to the mountaintop on Ard Skellig.",
+      "Face the djinn with her, then say what you really feel about Yennefer."
     ],
     video: "https://www.youtube.com/watch?v=cE7Bdij1sJ8"
   },
@@ -13830,8 +13834,6 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Reason of State",
-    missable: true,
-    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first",
     location: "Novigrad / Oxenfurt",
     length: "long",
     difficulty: "High",
@@ -13839,16 +13841,17 @@ const quests = [
     summary:
       "The conspiracy to assassinate the mad King Radovid comes to a head. Working with Roche, Ves, Thaler and Dijkstra, Geralt helps set the trap — but Dijkstra has his own designs on the throne, forcing a final, bloody choice.",
     aiTip:
-      "This quest is highly missable: you must side correctly in 'An Eye for an Eye' and 'Blindingly Obvious' (get Philippa from Dijkstra) to unlock it. After Radovid falls, decide whether to stand with Dijkstra or Roche's group — it shapes the Northern Kingdoms' fate.",
+      "To unlock it, finish A Deadly Plot (which needs Triss's A Matter of Life and Death and Now or Never), An Eye for an Eye and Redania's Most Wanted. In Blindingly Obvious, settle things with Dijkstra peacefully. Finish it before On Thin Ice or it fails.",
     walkthrough: [
-      "Complete the lead-in quests (An Eye for an Eye, Blindingly Obvious) so the conspirators trust you and Philippa is freed.",
-      "Meet the plotters and take up your position to lure Radovid off his ship.",
-      "Spring the ambush and let Philippa deliver the killing blow to Radovid.",
-      "When Dijkstra turns on Roche's group, choose your side.",
-      "Fight Dijkstra and his men if you side with Roche (or stand aside), then survive the confrontation.",
-      "See the outcome that sets Nilfgaard or Redania on the path to victory.",
+      "Complete the lead-in quests so Roche, Dijkstra and Philippa all trust you.",
+      "Take Vizimir II's ring from Philippa as proof to lure Radovid.",
+      "Board Radovid's ship at the docks, show him the ring and lead him to St. Gregory's Bridge.",
+      "Watch Philippa kill Radovid.",
+      "When Dijkstra turns on Roche, Ves and Thaler, defend them (fight Dijkstra) or walk away."
     ],
-    video: "https://www.youtube.com/watch?v=OIstcrq-IIc"
+    video: "https://www.youtube.com/watch?v=OIstcrq-IIc",
+    missable: true,
+    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first"
   },
 {
     id: 2356,
