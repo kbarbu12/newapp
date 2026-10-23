@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (4)
+
+- **Fact-check fixes for 30 quest entries** — `v2.9.3` patch (#366). A
+  sample of 101 entries from `v2.7.0` and the Witcher 3 work was checked
+  against the guides. 13 had a clear error (wrong location, price, timing or
+  mechanic) and 17 had an unsupported or imprecise detail. All 30 are
+  corrected across AC Odyssey, AC Valhalla, Witcher 3, Cyberpunk, TotK, Jedi:
+  Survivor and Wukong. `TODO.md` records the error rate per game.
+
 ## 2026-10-23 (3)
 
 - **Every quest has its own video** — `v2.9.2` patch (#363). The last five
