@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (3)
+
+- **Every quest has its own video** — `v2.9.2` patch (#363). The last five
+  quests that shared a video now each have their own: Jedi: Survivor's Kle-0,
+  Fenn Finau and Masi Finau (one combined bounty fight, so three different
+  uploads of it) and Metaphor's Efflorescent Youth and Dental Distress. The
+  audit's shared-video allowlist is now empty, so any reuse is flagged.
+  Docs: `TODO.md` updated with what's left (#361, #362).
+
 ## 2026-10-23 (2)
 
 - **Release workflow no longer double-tags a deploy** — `v2.9.1` patch
