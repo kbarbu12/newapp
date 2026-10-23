@@ -39,13 +39,11 @@ rule verify the *real* deployment:
 
 Until then, prod QA = `npm run build:prod` + local headless render.
 
-## Delete the duplicate `v2.9.0` release (agent can't; git proxy rejects ref deletion)
-The v2.8.0 deploy (PR #357, commit `215e9c4`) was tagged twice because GitHub
-delivered the push to `main` twice. `v2.8.0` is the real release; `v2.9.0` points
-at the same commit. Delete the `v2.9.0` release and its tag in the GitHub UI
-(Releases → v2.9.0 → Delete, then Tags → v2.9.0 → Delete), or the next prod
-deploy will be numbered from v2.9.0. `release.yml` now skips already-tagged
-commits so this can't recur.
+## ~~Delete the duplicate `v2.9.0` release~~ — DONE 2026-10-23
+The v2.8.0 deploy (PR #357) was tagged twice because GitHub delivered the push
+to `main` twice. The owner deleted the duplicate `v2.9.0` release and tag;
+tags now run `v2.7.0`, `v2.8.0`, `v2.9.1`. `release.yml` skips already-tagged
+commits (#358, live in `v2.9.1`), so this can't recur.
 
 ## Delete merged branches (agent can't; git proxy rejects ref deletion)
 These are merged into `main` and safe to delete via the GitHub UI:
@@ -68,7 +66,7 @@ These are merged into `main` and safe to delete via the GitHub UI:
   fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.~~ All done
   (#300, #301, #307–#330); live in `v2.5.0` and `v2.7.0`.
 
-## ~~Quest data: coverage gaps + templated tips~~ — DONE 2026-10-20
+## ~~Quest data: coverage gaps + templated tips + Witcher 3~~ — DONE, live in `v2.8.0`
 D4 and D2 from the 2026-10-20 QA report were done in PRs #307–#328 (to `staging`)
 (coverage: Hogwarts, Witcher 3, Cyberpunk, Ghost of Tsushima, Wukong, plus a
 corrected FF7 Rebirth target; tips/summaries: AC Odyssey, Cyberpunk, Jedi:
@@ -87,28 +85,31 @@ walkthrough is duplicated in the data. Still open:
   quests; batch 8 the 9 quests held back for conflicting sources, now verified
   (229/290). All 100 original entries have been re-checked against the guides
   and 82 corrected (#341–#345, #348–#350). New quests since: #351–#355. **Witcher 3 is complete at
-  290/290** (only names confirmed by the guide lists were added).
+  290/290** (only names confirmed by the guide lists were added) and shipped
+  in `v2.8.0` (#357).
 
-## What's left (as of 2026-10-21)
-Prod is `v2.7.0`. In priority order:
-1. **Ship the Witcher 3 batches waiting on `staging`** (#332, #335–#355):
-   - About 190 new quests (Witcher 3 at 290 / 290) and 82 corrected original
-     entries.
-   - Needs: QA on staging, then the owner's go-ahead to promote.
-2. **Finish Witcher 3:**
-   - ~~Re-check the original entries~~ Done (#348–#350).
-   - ~~Add the last quests to reach 290~~ Done (#355).
-3. **Replace the 2 allowlisted shared videos** with quest-specific ones:
-   `jDvmQQVqWGs` on #1320–1322 and `X1deZpHKJ9I` on #725–726.
-4. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
-5. **Fact-check the new quest data** (v2.7.0 and the Witcher 3 batches):
-   - Game facts and video contents weren't verified, because the guide sites
-     and YouTube are blocked from the agent environment.
-   - The data was written from search snippets. Spot-check in-game, or re-run
-     with network access.
-6. **Owner reviews still pending:**
-   - The video-candidates review page and the AC Odyssey leftovers (see above).
-   - The merged branches to delete (see above).
-7. **Parked:**
+## What's left (as of 2026-10-23)
+Prod is `v2.9.1`; `staging` and `main` match. In priority order:
+1. ~~**Replace the 2 allowlisted shared videos**~~ Done (#363): each of
+   #1320–1322 and #725–726 now has its own video and the audit allowlist is
+   empty. Jedi: Survivor's three are one combined fight, so their videos all
+   show that fight from different uploads.
+2. **Fact-check the new quest data** (`v2.7.0` and the Witcher 3 work in
+   `v2.8.0`):
+   - Game facts and video contents weren't verified first-hand, because the
+     guide sites and YouTube are blocked from the agent environment.
+   - The data was written from search snippets where several guides agreed;
+     reward amounts that guides disagreed on use "about" or a range.
+     Spot-check in-game, or re-run with network access.
+3. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
+4. **Optional Witcher 3 extras beyond the 290 target:** small unmarked
+   encounters the guide lists name but that weren't added, because 290 was
+   reached first or the sources were thin: Call of the Wild, Yustianna
+   Disturbed, A Warm Welcome, Drunken Rabble, Strumpet in Distress, Suspicious
+   Shakedown, The Price of Passage, A Dog's Life, Looters, Caravan Attack.
+5. **Owner actions (agent can't do these):**
+   - Review the video-candidates page and the AC Odyssey leftovers (see above).
+   - Delete the merged branches (see above).
+6. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
