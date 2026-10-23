@@ -17547,6 +17547,289 @@ const quests = [
     video: "https://www.youtube.com/watch?v=3dHFaPjc4Lc"
   },
 {
+    id: 2909,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Kaer Trolde",
+    location: "Road northeast of Rannvaig to Kaer Trolde's gate, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 80 crowns, 30 XP and Zerrikanian blinders",
+    summary:
+      "One of three qualifying horse races for Skellige's Heroes' Pursuits. The course runs along the roads to Kaer Trolde's gate with no obstacles.",
+    aiTip:
+      "Win all three qualifiers (Kaer Trolde, Fayrlund and Fyresdal) to unlock the final race on Hindarsfjall. The blinders keep Roach calmer around monsters.",
+    walkthrough: [
+      "Talk to the race master on the road northeast of Rannvaig.",
+      "Race along the roads to Kaer Trolde's gate.",
+      "Finish first to win the blinders."
+    ],
+    video: "https://www.youtube.com/watch?v=Kpg4w80wLZY"
+  },
+{
+    id: 2910,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Fyresdal",
+    location: "From between Blandare and the Palisade to Fyresdal, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 crowns, 25 XP and a cavalry saddle",
+    summary:
+      "A long qualifying race for the Heroes' Pursuits, run from between Blandare and the Palisade down to Fyresdal on Ard Skellig's south coast while a storm rolls overhead.",
+    aiTip:
+      "The storm is cosmetic and doesn't affect the race. You can do it before speaking to Svana in Larvik by talking to the race master directly.",
+    walkthrough: [
+      "Find the race master between Blandare and the Palisade.",
+      "Race through the Palisade to Fyresdal.",
+      "Finish first for the cavalry saddle."
+    ],
+    video: "https://www.youtube.com/watch?v=16Vr5_s0Jxk"
+  },
+{
+    id: 2911,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Fayrlund",
+    location: "Road east-northeast of Fayrlund, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 crowns, 25 XP and Zerrikanian saddlebags",
+    summary:
+      "The shortest of the three Heroes' Pursuits qualifiers, raced against Red Rikka on the roads around Fayrlund.",
+    aiTip:
+      "The track is short, so take the corners carefully. Rikka is faster off the line but doesn't always take the best line, so catch her on the bends.",
+    walkthrough: [
+      "Talk to the race master on the road east-northeast of Fayrlund.",
+      "Race Red Rikka along the short course.",
+      "Finish first for the saddlebags."
+    ],
+    video: "https://www.youtube.com/watch?v=2s12b5Rkbn8"
+  },
+{
+    id: 2912,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: For the Goddess' Glory!",
+    location: "Larvik to Freya's Garden, Hindarsfjall",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 90 crowns, 50 XP and the Zerrikanian saddle",
+    summary:
+      "The Heroes' Pursuits final. Once Geralt has won the three qualifiers, the priestess Svana in Larvik lets him race the reigning champion, Astrid the Vipress, to Freya's Garden.",
+    aiTip:
+      "Cut the sharp turn by taking the path just before the crossroads. Winning every base-game race counts toward the Fast and Furious achievement.",
+    walkthrough: [
+      "Read the Larvik notice and talk to Svana.",
+      "Win the Kaer Trolde, Fayrlund and Fyresdal qualifiers.",
+      "Return to Svana and line up at Larvik's western gate.",
+      "Beat Astrid the Vipress to Freya's Garden."
+    ],
+    video: "https://www.youtube.com/watch?v=R7gzBFEn_Tk"
+  },
+{
+    id: 2913,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Races: Crow's Perch",
+    location: "Crow's Perch notice board and race start, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Racing saddle, saddlebags, horse blinders, 20-40 crowns per race plus double your bet",
+    summary:
+      "The first horse races in the game: Stuttering Matko, Iron-Arse Hans and Black Bogdan, each for Roach upgrades and a wager.",
+    aiTip:
+      "Bet 1 to 50 crowns per race. A win pays double, and you can rerun any race you lose. Matko's racing saddle is the most useful prize early.",
+    walkthrough: [
+      "Read the race notice at Crow's Perch and talk to Radko at the start.",
+      "Beat Stuttering Matko for the racing saddle.",
+      "Beat Iron-Arse Hans for the saddlebags.",
+      "Beat Black Bogdan for the horse blinders."
+    ],
+    video: "https://www.youtube.com/watch?v=JukV8QWfUD0"
+  },
+{
+    id: 2914,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Master of the Arena",
+    location: "The arena at Hov, Spikeroog",
+    length: "short",
+    difficulty: "Low",
+    reward: "15 crowns plus a later 20-crown share; about 10-25 XP",
+    summary:
+      "Hov's arena is haunted by Ulle the Unlucky, a fighter who can't rest until he finally wins a bout. Geralt can't kill him, so he has to find another way to send him on.",
+    aiTip:
+      "Talk to the guards in the tower before fighting Ulle, or your blows won't land and you lose the second payment. Let Ulle win by dropping to about a quarter health. Champion of Champions needs this done.",
+    walkthrough: [
+      "Go to the arena at Hov on Spikeroog.",
+      "Talk to the guards in the tower about Ulle.",
+      "Fight Ulle; the bout stops once he's at half health.",
+      "Let him win so his spirit can rest.",
+      "Return to the guards a few days later for their share of the profits."
+    ],
+    video: "https://www.youtube.com/watch?v=42wEDW_hWZ4"
+  },
+{
+    id: 2915,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Fists of Fury: Champion of Champions",
+    location: "The arena at Hov, Spikeroog",
+    length: "short",
+    difficulty: "High",
+    reward: "About 50 XP, 90 crowns and The Tamer diagram; the Brawl Master achievement",
+    summary:
+      "With Velen, Novigrad and Skellige's fist-fighting circuits won and Ulle laid to rest, the bookie in Hov sets up the final bout: a rock troll.",
+    aiTip:
+      "Save first: if you lose and the quest locks, the achievement is gone. Weapons and signs are disabled, so eat food and drink potions during the fight.",
+    walkthrough: [
+      "Win Fists of Fury in Velen, Novigrad and Skellige.",
+      "Finish Master of the Arena.",
+      "Talk to the bookie at the Hov arena.",
+      "Beat the rock troll bare-handed."
+    ],
+    video: "https://www.youtube.com/watch?v=nRh3ozYGLiE"
+  },
+{
+    id: 2916,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Collect 'Em All",
+    location: "White Orchard Inn, then every region",
+    length: "long",
+    difficulty: "Medium",
+    reward: "The Card Collector achievement (expansion cards don't count)",
+    summary:
+      "Aldert Geert at the White Orchard Inn teaches Geralt Gwent and starts the hunt for one copy of every base-game card: 120 unique cards.",
+    aiTip:
+      "Several cards are missable: the Vegelbud masquerade tournament and quest-specific players like Thaler. Buy from innkeepers and merchants in each region before story events remove them. A Miraculous Guide to Gwent tracks what's left.",
+    walkthrough: [
+      "Beat Aldert Geert at the White Orchard Inn for Zoltan Chivay and the Gwent guide book.",
+      "Buy and win cards from innkeepers and merchants in each region.",
+      "Complete the named Gwent quests and the two tournaments.",
+      "Collect all 120 unique base-game cards."
+    ],
+    video: "https://www.youtube.com/watch?v=Kdc1PLwtMj8"
+  },
+{
+    id: 2917,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Gwent: Playing Thaler",
+    location: "Thaler's wagon, then the Seven Cats Inn, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25 XP and the Geralt of Rivia card",
+    summary:
+      "Once A Deadly Plot is done, Thaler is open to a game of Gwent. Beating him wins the Geralt of Rivia hero card.",
+    aiTip:
+      "Play him right after A Deadly Plot. It fails once Reason of State starts, and the card can be lost if Thaler dies there. If A Deadly Plot ended before you played Roche, Thaler moves into Gwent: Old Pals instead.",
+    walkthrough: [
+      "Finish A Deadly Plot.",
+      "Challenge Thaler at his wagon or at the Seven Cats Inn.",
+      "Win for the Geralt of Rivia card."
+    ],
+    video: "https://www.youtube.com/watch?v=8wYrLBtCjgo"
+  },
+{
+    id: 2918,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Never Trust Children",
+    location: "Near Triss's house in The Bits, Novigrad (and a road between Sund and Arinbjorn, Skellige)",
+    length: "short",
+    difficulty: "Low",
+    reward: "None directly; the Novigrad part unlocks Hidden Messages of the Nilfgaardian Kind",
+    summary:
+      "A crying child near Triss's house begs for help, then leads Geralt into an ambush. A second child on a Skellige road pulls the same trick.",
+    aiTip:
+      "It's proximity-based: once the marker appears, staying away makes it vanish. Kill the thugs in Novigrad to open Hidden Messages of the Nilfgaardian Kind.",
+    walkthrough: [
+      "Find the crying child at the corner just north of Triss's house in The Bits.",
+      "Ask what's wrong and follow the child.",
+      "Kill the two thugs waiting in the alley.",
+      "On Skellige, follow the boy on the road between Sund and Arinbjorn into the second ambush."
+    ],
+    video: "https://www.youtube.com/watch?v=dAC0xanFsPw"
+  },
+{
+    id: 2919,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Strangers in the Night",
+    location: "Riverbank camp on Novigrad's outskirts",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP; siding with Rufus also gives the Skellige gambeson diagram",
+    summary:
+      "Three men at a campfire, Manfred, Rufus and Theophile, invite Geralt to sit down. The conversation turns deadly depending on who he believes.",
+    aiTip:
+      "Leaving right after introductions is the only way nobody dies. Siding with Rufus gets the gambeson diagram. Refusing to give your name turns them hostile.",
+    walkthrough: [
+      "Find the three men at the riverbank campfire.",
+      "Introduce yourself and listen.",
+      "Leave, side with Rufus, or refuse to help.",
+      "Collect your reward, if any."
+    ],
+    video: "https://www.youtube.com/watch?v=kfRxGeuvBY4"
+  },
+{
+    id: 2920,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Soldier Statuette",
+    location: "Caesar Bilzen's house, then Triss's hideout or the Chameleon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 10 XP",
+    summary:
+      "The jade figurine of a Nilfgaardian soldier from Caesar Bilzen's treasure room is a real man, magically compressed. Triss can restore him.",
+    aiTip:
+      "Grab the figurine during A Dangerous Game, and show Triss before Now or Never. If she leaves Novigrad, you have to wait until after Kaer Morhen.",
+    walkthrough: [
+      "Take the jade figurine from the drawers in Caesar Bilzen's secret room during A Dangerous Game.",
+      "Show it to Triss at her hideout or the Chameleon.",
+      "Follow her to a quiet house and watch her restore the soldier.",
+      "Hear his story; Triss sends him to Ambassador var Attre."
+    ],
+    video: "https://www.youtube.com/watch?v=xxaVO8amVRE"
+  },
+{
+    id: 2921,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Hidden Messages of the Nilfgaardian Kind",
+    location: "The Bits, Crippled Kate's archway and the Gildorf sewers, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP, 50 crowns and random loot (often a runestone or armor)",
+    summary:
+      "Two men leave a note behind a brick west of Triss's house. It's the first of a chain of Nilfgaardian dead drops that ends in a chest in the sewers.",
+    aiTip:
+      "It only triggers after the Novigrad part of Never Trust Children. Expect drowners in the sewer before you can open the chest.",
+    walkthrough: [
+      "Finish the Novigrad part of Never Trust Children.",
+      "Go west of Triss's house to the arches, and check the brick with Witcher Senses after the two men leave.",
+      "Find the second brick at Crippled Kate's archway for the note and key.",
+      "Go down into the Gildorf sewers, kill the drowners and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=rASKq5shJ3Q"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
