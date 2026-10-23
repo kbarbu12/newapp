@@ -79,10 +79,8 @@ for (const g of Object.keys(byGame)) {
 // ── 4. Video-link health ─────────────────────────────────────────────────────
 // Video IDs intentionally shared across quests (same boss/location covered by one
 // guide), owner-approved. Reuse of these is allowed instead of flagged as an error.
-const SHARED_VIDEOS = new Set([
-  "jDvmQQVqWGs", // SW Jedi: Survivor — Kle-0 / Fenn Finau / Masi Finau (same arena)
-  "X1deZpHKJ9I", // Metaphor — Efflorescent Youth / Dental Distress (one video covers both)
-]);
+// (empty: the last two shared videos were replaced with per-quest ones)
+const SHARED_VIDEOS = new Set([]);
 const watchIds = {};
 const searchTerms = {};
 for (const q of quests) {
