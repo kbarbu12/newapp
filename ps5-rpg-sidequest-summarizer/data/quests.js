@@ -6154,17 +6154,19 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: Second Chances",
-    location: "Vasquez Pass – Badlands",
+    location: "Windmill platform past a smoking car, Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Zion Wylde is out at Vasquez Pass. Bring a blunt weapon or non-lethal quickhacks if you want the bonus for taking him alive.",
+    summary:
+      "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Zion Wylde snipes from a high platform under a windmill, and mines surround it (two at the top of the stairs). Shoot the mines from below, then use a blunt weapon or non-lethal quickhacks if you want him alive.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
-      "Drive to Vasquez Pass in the Badlands.",
-      "Scan the scene with your Kiroshi optics.",
-      "Subdue Zion Wylde non-lethally if you can.",
+      "Scan the bodies, tire tracks and footprints and follow them to the smoking car.",
+      "Find the windmill just past it; Zion Wylde is on the high platform underneath.",
+      "Clear the mines around the windmill and stairs, then subdue him non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/watch?v=IZmRjPBx3yk"
@@ -6175,17 +6177,19 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: The Wasteland",
-    location: "Crashed vehicles → bridge, eastern Badlands",
+    location: "Crashed truck south-east of Edgewood Farm → junkyard, Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos: Euralio Alma, in the eastern Badlands. A large shield and an exoskeleton protect him, and his battery is the weak point.",
-    aiTip: "Shoot for Euralio Alma's battery. His shield and exoskeleton soak damage until you break it.",
+    summary:
+      "One of Night City's 17 cyberpsychos: Euralio Alma, in the eastern Badlands. A large shield and an exoskeleton protect him, and his battery is the weak point.",
+    aiTip:
+      "Shoot for Euralio Alma's battery. His shield and exoskeleton soak damage until you break it.",
     walkthrough: [
       "Accept the Cyberpsycho Sighting from Regina Jones.",
-      "Go to the two crashed vehicles in the east of the Badlands and scan the scene.",
-      "Follow the trail to Euralio Alma by the bridge.",
-      "Target his battery to get past his shield and exoskeleton, using non-lethal damage to take him alive.",
+      "Go to the crashed truck south-east of the Edgewood Farm fast travel point and scan the scene.",
+      "Follow the blood trail to Euralio Alma in the junkyard.",
+      "Target the battery on his back (grenades from high ground work) to get past his exoskeleton, using non-lethal damage to take him alive.",
       "Loot the shard and call Regina."
     ],
     video: "https://www.youtube.com/watch?v=34OvcZxR0mI"
@@ -6280,17 +6284,19 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Six Feet Under",
-    location: "Train tracks near Ebunike Docks, Northside – Watson",
+    location: "Warehouse by the train tracks, east of Offshore St, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Follow the train tracks from the Ebunike Docks fast travel point to find Lely Hein.",
+    summary:
+      "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Lely Hein is a sniper in the warehouse by the train tracks, east of the Offshore St fast travel point. Use the parked train as cover to get behind him.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
-      "Follow the train tracks near the Ebunike Docks fast travel point.",
+      "Go east of the Offshore St fast travel point in Northside to the warehouse beside the train tracks.",
       "Scan the scene with your Kiroshi optics.",
-      "Subdue Lely Hein non-lethally if you can.",
+      "Use the parked train for cover and subdue Lely Hein non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/watch?v=1zl4vbLlpoE"
@@ -6452,14 +6458,16 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos: Gaston Phillips, a rogue enforcer taking the law into his own hands near Wellsprings' southern beach.",
-    aiTip: "Gaston Phillips is on the southern beach in west Heywood, near Wellsprings.",
+    summary:
+      "One of Night City's 17 cyberpsychos: Gaston Phillips, a rogue enforcer taking the law into his own hands near Wellsprings' southern beach.",
+    aiTip:
+      "The area around Gaston Phillips is full of tripmines (red lasers). Clear them before the fight. Afterwards, read the computer under the scaffold on the west side.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
-      "Go to the southern beach in west Heywood.",
-      "Scan the scene with your Kiroshi optics.",
-      "Subdue Gaston Phillips non-lethally if you can.",
-      "Loot the shard and send it to Regina."
+      "Head to the southern edge of Wellsprings, approaching from west of the Parque del Mar fast travel point.",
+      "Disarm or avoid the tripmines around the area.",
+      "Subdue Gaston Phillips non-lethally if you can, then loot his shard.",
+      "Read the computer under the scaffold on the west side and text Regina."
     ],
     video: "https://www.youtube.com/watch?v=oz8CD89TfFo"
   },
@@ -31945,17 +31953,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
     title: "Find the Musician and Their Droid",
-    location: "Pyloon's Saloon",
+    location: "Harvest Ridge → Pyloon's Saloon",
     length: "short",
     difficulty: "Medium",
-    reward: "Jukebox music; saloon ambiance",
-    summary: "Monk at the saloon asks Cal to track down a wandering musician and their droid to bring music back to Pyloon's.",
-    aiTip: "Talk to Monk in Pyloon's Saloon for this one. Recovering the droid's jukebox parts is what brings music back to the saloon and unlocks Use the Saloon's Jukebox.",
+    reward: "Ashe Javi and DD-EC recruited; saloon music",
+    summary:
+      "Monk at Pyloon's Saloon mentions a musician and their droid. Find Ashe Javi and the DJ droid DD-EC at Harvest Ridge and bring them to the saloon.",
+    aiTip:
+      "Monk offers this after the Forest Array. Ashe Javi and DD-EC are at Harvest Ridge by the yellow water wheel; talking to them is enough to send them to the saloon.",
     walkthrough: [
-      "Speak to Monk in Pyloon's Saloon to receive the rumor.",
-      "Follow the lead across Koboh to locate the musician's droid.",
-      "Recover the jukebox components as directed.",
-      "Return to the saloon to restore the music."
+      "After the Forest Array, speak to Monk in Pyloon's Saloon to receive the rumor.",
+      "Travel to Harvest Ridge on Koboh.",
+      "Find Ashe Javi and DD-EC by the yellow water wheel and talk to them.",
+      "Return to the saloon, where DD-EC now plays music."
     ],
     video: "https://www.youtube.com/watch?v=wr5bFtDqXjA"
   },
@@ -32031,17 +32041,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
     title: "Find Missing Prospectors",
-    location: "Southern Reach",
+    location: "Sodden Grotto, Hunter's Quarry (from the Southern Reach)",
     length: "short",
     difficulty: "Medium",
     reward: "Prospector rewards; lore",
-    summary: "A prospector at the Southern Reach reports colleagues who ventured out and never came back.",
-    aiTip: "The prospector is in front of the Rambler's Reach meditation point, not inside the saloon.",
+    summary:
+      "A prospector at the Southern Reach reports colleagues who went into the Sodden Grotto and never came back.",
+    aiTip:
+      "The prospector is beside the Rambler's Reach Outpost meditation point. The trail ends at a Rancor deep in the Sodden Grotto.",
     walkthrough: [
-      "Speak to the Koboh Prospector at the Southern Reach, in front of the Rambler's Reach meditation point.",
-      "Follow the trail toward the missing prospectors' last location.",
-      "Deal with the creatures that trapped them.",
-      "Recover the prospectors' effects to close out the rumor."
+      "Speak to the prospector in the Southern Reach, by the Rambler's Reach Outpost meditation point.",
+      "Head west into the Sodden Grotto, just inside Hunter's Quarry (swing on the pipe and Force Pull the wall to get in).",
+      "Work through the cave.",
+      "Kill the Rancor to complete the rumor."
     ],
     video: "https://www.youtube.com/watch?v=0eikmvhmBv4"
   },
@@ -32121,12 +32133,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Skill point; Essence",
-    summary: "A rumor points to an unexplored High Republic chamber tucked into the Basalt Forest.",
-    aiTip: "Toa gives this one. Search the Basalt Forest carefully, since the chamber entrance is concealed.",
+    summary:
+      "Toa's rumor points to a hidden Jedi chamber, the Chamber of Reason, in the Basalt Forest.",
+    aiTip:
+      "Toa gives this one. Search the Basalt Forest carefully, since the chamber entrance is concealed.",
     walkthrough: [
-      "Talk to Toa in Pyloon's Saloon to get the rumor.",
+      "Talk to Toa on the main path through the Basalt Rift to get the rumor.",
       "Travel to the Basalt Forest on Koboh.",
-      "Locate the concealed chamber entrance.",
+      "Find the entrance to the Chamber of Reason.",
       "Solve the chamber's puzzle to claim its reward."
     ],
     video: "https://www.youtube.com/watch?v=ybiBPI7QUws"
@@ -32157,19 +32171,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
+    region: "Jedha",
     title: "Check in With Pili",
-    location: "Fogged Expanse",
+    location: "Small cave on the main route, Jedha",
     length: "short",
     difficulty: "Medium",
     reward: "Pili recruited; garden unlocked",
-    summary: "Cal hears that Pili Wintan, a would-be gardener, is in trouble out in the Fogged Expanse.",
-    aiTip: "Clearing the threats around Pili in the Fogged Expanse sends her to the saloon, which opens the rooftop garden.",
+    summary:
+      "Cal hears of Pili, a would-be gardener on Jedha. Talk to Pili and they move to Pyloon's Saloon, opening the rooftop garden.",
+    aiTip:
+      "Pili is in a small cave you pass on the main route through Jedha. Talking to them is enough; the next time you visit the rooftop on Koboh, they're there.",
     walkthrough: [
-      "Unlock the rumor by speaking with Pili during your travels on Koboh.",
-      "Travel to the Fogged Expanse to find her.",
-      "Clear the threats surrounding Pili.",
-      "Send her back to Pyloon's Saloon to open the rooftop garden."
+      "Look for Pili in the small cave on the main route through Jedha.",
+      "Talk to Pili.",
+      "Return to Pyloon's Saloon on Koboh.",
+      "Visit the rooftop garden, where Pili now tends the plots."
     ],
     video: "https://www.youtube.com/watch?v=E3d4AIBmWOM"
   },
@@ -32183,9 +32199,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Path of Persistence",
     length: "short",
     difficulty: "Medium",
-    reward: "Skill reward; lore",
-    summary: "Cordova asks Cal to survey ancient ruins in Jedha's northern desert along the Path of Persistence.",
-    aiTip: "Push the sliding rock into place first. The orb won't go up until it's set.",
+    reward: "Perk slot; one of the three Wayfinder's Tomb puzzles",
+    summary:
+      "Cordova asks Cal to survey ancient ruins in Jedha's northern desert along the Path of Persistence.",
+    aiTip:
+      "You need the mid-air dash. Push the sliding rock into place first. The orb won't go up until it's set. This is one of the three ruins that open the Wayfinder's Tomb.",
     walkthrough: [
       "Speak to Eno Cordova at the Jedha Archive to receive the rumor.",
       "Travel to the ruins on the Path of Persistence.",
@@ -32245,17 +32263,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
     title: "Investigate the Raider Watchtower",
-    location: "Boiling Bluff",
+    location: "Riverbed Watch",
     length: "short",
     difficulty: "Medium",
-    reward: "Priorite Shards; cleared outpost",
-    summary: "A prospector reports Bedlam Raiders have fortified a watchtower overlooking the Koboh wilds and are harassing travelers.",
-    aiTip: "The watchtower is garrisoned by Bedlam Raiders and battle droids. Clear the base before climbing to the stashed loot at the top.",
+    reward: "Health Essence; Cal Hairstyle (Bun) chest",
+    summary:
+      "A prospector reports Bedlam Raiders have fortified a watchtower above the river at Riverbed Watch on Koboh.",
+    aiTip:
+      "The rumor is optional; you can explore the tower without it. The Health Essence is in the house on top of the stone tower, and the chest with the Bun hairstyle is on the cliff at the top.",
     walkthrough: [
-      "Pick up the rumor from a prospector at Pyloon's Saloon.",
-      "Ride out to the raider watchtower on Koboh.",
+      "Pick up the rumor from a prospector at Rambler's Reach Outpost (optional).",
+      "Travel to the raider watchtower at Riverbed Watch on Koboh.",
       "Clear the Bedlam Raiders and battle droids garrisoned there.",
-      "Reach the top of the tower and claim the stashed loot to complete the rumor."
+      "Climb to the house on top of the tower for the Health Essence, and open the chest on the cliff above."
     ],
     video: "https://www.youtube.com/watch?v=NYNvwABvGko"
   },
@@ -32266,16 +32286,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
     title: "Explore the High Republic Chamber in the Valley",
-    location: "Untamed Downs",
+    location: "Chamber of Fortitude, Southern Reach",
     length: "medium",
     difficulty: "Medium",
     reward: "Skill point; perk",
-    summary: "Another High Republic chamber lies buried in the Untamed Downs valley, waiting to be uncovered.",
-    aiTip: "Toa's second chamber rumor. The entrance is hidden in the Untamed Downs valley, so scan the cliffs as you explore.",
+    summary:
+      "Toa's second chamber rumor sends Cal to the Chamber of Fortitude in the Southern Reach.",
+    aiTip:
+      "Toa's second chamber rumor. The Chamber of Fortitude is in the Southern Reach; don't confuse it with the Chamber of Clarity in the Untamed Downs, which Toa doesn't give a rumor for.",
     walkthrough: [
-      "Talk to Toa in Pyloon's Saloon to get the rumor.",
-      "Travel to the Untamed Downs on Koboh.",
-      "Find the concealed chamber entrance in the valley.",
+      "Talk to Toa to get the rumor.",
+      "Travel to the Southern Reach on Koboh.",
+      "Find the entrance to the Chamber of Fortitude.",
       "Complete the chamber's puzzle to earn its reward."
     ],
     video: "https://www.youtube.com/watch?v=y-EIYnhosnY"
@@ -32290,14 +32312,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Pyloon's Saloon",
     length: "short",
     difficulty: "Low",
-    reward: "Saloon music playlist",
-    summary: "Once the musician's droid is recovered, Cal can spin up tracks on the restored jukebox in Pyloon's Saloon.",
-    aiTip: "This only works after Find the Musician and Their Droid. The jukebox is on the saloon's ground floor.",
+    reward: "Choose the saloon's music",
+    summary:
+      "Once Ashe Javi and DD-EC have moved into Pyloon's Saloon, Cal can pick the music by talking to DD-EC. Tracks are found around the galaxy or bought from Doma.",
+    aiTip:
+      "This needs Find the Musician and Their Droid done first. Talk to DD-EC to pick a song; otherwise the droid shuffles the tracks.",
     walkthrough: [
-      "Complete Find the Musician and Their Droid to restore the jukebox.",
-      "Head to the jukebox on the ground floor of Pyloon's Saloon.",
-      "Interact with it to browse the unlocked tracks.",
-      "Play a song to complete the rumor."
+      "Complete Find the Musician and Their Droid so DD-EC moves into the saloon.",
+      "Collect music tracks around the galaxy or buy them from Doma.",
+      "Talk to DD-EC in Pyloon's Saloon.",
+      "Pick a track to play."
     ],
     video: "https://www.youtube.com/watch?v=NZRylg_72II"
   },
@@ -32327,19 +32351,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
+    region: "All Planets",
     title: "Visit Zee's Shop",
-    location: "Pyloon's Saloon",
+    location: "The Mantis",
     length: "short",
     difficulty: "Low",
-    reward: "Region maps and databank data",
-    summary: "Zee, the saloon's archivist, sells the region maps and databank data that make Koboh and beyond far easier to explore.",
-    aiTip: "Zee's region maps reveal collectibles and points of interest. Buy them before hunting for 100% on a planet.",
+    reward: "Region maps and databank data for Datadiscs",
+    summary:
+      "Zee sets up shop aboard the Mantis, selling region maps and databank data for the Datadiscs Cal collects.",
+    aiTip:
+      "You get this rumor automatically once you've been on the Mantis. Zee takes Datadiscs, and her region maps reveal collectibles, so buy them before hunting for 100% on a planet.",
     walkthrough: [
-      "Head to Zee inside Pyloon's Saloon.",
-      "Open her shop and review the available maps and data.",
-      "Buy a region map to reveal collectibles and points of interest.",
-      "Complete a purchase to finish the rumor."
+      "Board the Mantis; the rumor is added automatically.",
+      "Talk to Zee aboard the ship.",
+      "Open her shop and review the maps and data.",
+      "Buy something with Datadiscs to finish the rumor."
     ],
     video: "https://www.youtube.com/watch?v=QTWghQ5MB5c"
   },
@@ -40616,20 +40642,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1705,
     type: "side",
-    questType: "Side Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "Legacy of the Rito",
     location: "Rito Village",
     length: "short",
     difficulty: "Low",
     reward: "Great Eagle Bow",
-    summary: "After the Wind Temple, Teba wants to craft a new Great Eagle Bow (his old one went to Tulin) and offers to make one for Link too, if you bring the materials.",
-    aiTip: "If you're short on wood, the bundles are outside the Hebra Trailhead Lodge south-east of the Rospro Pass Skyview Tower.",
+    summary:
+      "After the Wind Temple, Teba wants to craft a new Great Eagle Bow (his old one went to Tulin) and offers to make one for Link too, if you bring the materials.",
+    aiTip:
+      "Teba needs a Swallow Bow (the Flight Range north-west of Rito Village has them), five bundles of wood and three diamonds. Goron City's diamond shop sells diamonds if you're short.",
     walkthrough: [
       "Finish the Wind Temple and talk to Teba in Rito Village.",
-      "Gather the bundles of wood and diamonds he asks for (the Adventure Log has the exact counts).",
-      "Bring them back to Teba."
+      "Get a Swallow Bow from the Flight Range, five bundles of wood and three diamonds.",
+      "Bring them back to Teba for the Great Eagle Bow."
     ],
+    questType: "Side Quest",
     video: "https://www.youtube.com/watch?v=-lS8A09dvMo"
   },
   {
@@ -58935,13 +58963,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Faction reputation, Knights of the Crucible rewards",
-    summary: "Knights of the Crucible: Commander Clyver at Crucible Keep has a job that opens the Knights' questline.",
-    aiTip: "Built to Last on its own doesn't commit you. The lock-in comes with Winds of Steel, so you can do this job and still keep your options open.",
+    summary:
+      "Knights of the Crucible: Commander Clyver at Crucible Keep has a job that opens the Knights' questline.",
+    aiTip:
+      "Built to Last on its own doesn't commit you. The lock-in comes with Winds of Steel, so you can do this job and still keep your options open.",
     walkthrough: [
-      "Go to Crucible Keep in First Fires.",
-      "Speak to Commander Clyver.",
-      "Complete his task.",
-      "Return to Clyver — Winds of Steel unlocks."
+      "Go to Crucible Keep in First Fires and speak to Commander Clyver in the war room.",
+      "Ask at the Scriveners' Dormitory in Copperlane about the researcher Vianna.",
+      "Follow her trail to Ondra's Gift, where the Dozens are holding her, and fight through to recover her notes.",
+      "Return the notes to Forge Master Dunstan at Crucible Keep — his shop opens and Winds of Steel unlocks."
     ],
     video: "https://www.youtube.com/watch?v=Xv1wDPejJkY"
   },
@@ -58999,13 +59029,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Faction reputation, House Doemenel rewards",
-    summary: "House Doemenel: after A Two Story Job, Gedmar Doemenel has work for you. Taking it commits you to House Doemenel.",
-    aiTip: "Taking Gedmar's job locks out the Knights and The Dozens. If you're going with Doemenel, do A Two Story Job quietly first for the bigger reputation bonus.",
+    summary:
+      "House Doemenel: after A Two Story Job, Gedmar Doemenel has work for you. Taking it commits you to House Doemenel.",
+    aiTip:
+      "Taking Gedmar's job locks out the Knights and The Dozens. If you're going with Doemenel, do A Two Story Job quietly first for the bigger reputation bonus.",
     walkthrough: [
-      "Finish A Two Story Job for Abrecan Doemenel.",
-      "Enter House Doemenel in Brackenbury — the upper-door guards let you pass now.",
-      "Speak to Gedmar Doemenel and accept his job (this locks out the other factions).",
-      "Complete it and report back — you can call on Doemenel allies during A Return to Court."
+      "Finish A Two Story Job in House Doemenel's favour.",
+      "Enter House Doemenel in Brackenbury and speak to Gedmar Doemenel (this locks out the other factions).",
+      "Kill the Crucible Knight Marshal Wenfeld and plant the Dozens token Gedmar gives you (Abrecan asks you not to).",
+      "Report back — you can call on Doemenel allies during A Return to Court."
     ],
     video: "https://www.youtube.com/watch?v=HMH5nAGx6Jw"
   },
