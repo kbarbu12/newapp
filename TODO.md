@@ -94,7 +94,7 @@ Prod is `v2.9.3`; `staging` and `main` match. In priority order:
    #1320–1322 and #725–726 now has its own video and the audit allowlist is
    empty. Jedi: Survivor's three are one combined fight, so their videos all
    show that fight from different uploads.
-2. **[HIGH] Full fact-check pass on the new quest data.** The sample is done
+2. ~~**[HIGH] Full fact-check pass on the new quest data.**~~ DONE (2026-10-23). The sample is done
    and fixed (`v2.9.3`, #366), but it found too many errors to leave the rest
    unchecked.
    - **The sample (2026-10-23):** 101 entries with the most specific claims
@@ -127,7 +127,12 @@ Prod is `v2.9.3`; `staging` and `main` match. In priority order:
      School first map is sold at Kaer Trolde (not Oxenfurt), the Ofieri
      saddle adds stamina (not carry weight), Tinker, Hunter, Soldier, Spy is
      a base-game quest, and the Aerondight virtue proofs were wrong.
-   - **Next (fewer errors):** the 109 unchecked AC Valhalla entries.
+   - **AC Valhalla full pass: DONE (2026-10-23).** All 109 remaining World
+     Events were checked: 7 had a clear error and 14 a smaller problem, all
+     fixed; 5 more got extra detail from the guides. Examples: A Dog's Rescue
+     saves a dog called Dandy (not a fox), King of Shitsby is at Cruwland and
+     ends in a fight, and Tiny Black Market's password and hoard map were made
+     up. **The fact-check pass is now complete for all games.**
    - **Method:** check each entry's location, rewards and amounts, choices,
      requirements and tip against the guides. Fix anything wrong and hedge
      anything only one guide supports. Ship one PR per game.
