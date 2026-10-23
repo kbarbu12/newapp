@@ -47376,11 +47376,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Bil has lost her Elk-Antler Comb in the freezing pool she's sitting beside. Dive in and bring it back.",
     aiTip:
-      "The comb is at the bottom of the pool right next to Bil. Dive straight down. At the end you can accept or turn down her advances.",
+      "The comb is in a narrow crevice on the western side of the pool, near the rock in front of the waterfall. Use Odin's Sight underwater, and surface before the cold water drains your breath. At the end you can accept or turn down Bil's advances.",
     walkthrough: [
-      "Talk to Bil on the shore of the pool south-east of Adrift Refuge.",
-      "Dive into the pool.",
-      "Pick up the Elk-Antler Comb from the bottom.",
+      "Talk to Bil on the shore of the pool near Adrift Refuge.",
+      "Dive in by the rock in front of the waterfall.",
+      "Use Odin's Sight to find the crevice on the western side and take the Elk-Antler Comb.",
       "Return it to Bil and choose whether to spend time with her."
     ],
     video: "https://www.youtube.com/watch?v=ytwEC8BYFSw"
@@ -47976,7 +47976,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Grantebridgescire",
     title: "The Walloper",
-    location: "Cottages by a well north of Walden, Grantebridgescire",
+    location: "Cottages by a well between Black Peak and Walden, Grantebridgescire",
     length: "short",
     difficulty: "Medium",
     reward: "XP and the loot in his cabin",
@@ -48004,11 +48004,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "East of Elmenham, northern East Anglia",
     length: "short",
     difficulty: "Low",
-    reward: "XP and a gift from the green children",
+    reward: "XP and a necklace from the green children",
     summary:
       "A trail of small green footprints leads from an offering altar into the woods, where two strange green-skinned children are waiting. Eivor sits with them and decides how to treat them.",
     aiTip:
-      "This event follows on from Cedd's Stone offering altar next to it, so clear the altar first. Odin's Sight makes the faint green footprints much easier to follow.",
+      "This follows on from Cedd's Stone, the offering altar next to it (200 silver), so do that first. Odin's Sight makes the faint green footprints much easier to follow.",
     walkthrough: [
       "Head east of Elmenham to the offering altar and complete Cedd's Stone.",
       "Use Odin's Sight to pick up the trail of green footprints.",
@@ -48029,7 +48029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Northwic longhouse, East Anglia",
     length: "short",
     difficulty: "Low",
-    reward: "XP and silver if you sell the arrows",
+    reward: "XP and about 90 silver if you sell the arrows",
     summary:
       "The throne of the martyred King Edmund in Northwic is still bristling with arrows, and a woman nearby is very interested in them. Pull the arrows and decide whether to sell them.",
     aiTip:
@@ -48172,17 +48172,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Burning house between Linforda and Buckingham, Oxenefordscire",
     length: "short",
     difficulty: "Low",
-    reward: "Dandelion Puff, a pet fox that moves into Ravensthorpe",
+    reward: "Dandy the dog, who then joins your settlement",
     summary:
-      "A distraught woman outside a burning house begs Eivor to save her dog. Break your way through the back of the building to find the trapped pet, which turns out to be a fox called Dandelion Puff.",
+      "A distraught woman outside a burning house begs Eivor to save her dog, Dandy. Break your way in through the back of the building to reach him.",
     aiTip:
       "The front of the house is fully ablaze, so go around the back. Every blocked route has a breakable wall or a pot to smash nearby, so look for those rather than running through the fire.",
     walkthrough: [
       "Talk to the woman outside the burning house.",
       "Go around the back and smash the breakable wall to get inside.",
       "Smash the pot blocking the barricade, then move the barricade aside.",
-      "Break through the last wall to reach the fox.",
-      "Lead the fox back to the woman and speak to her to complete the event."
+      "Break through the last wall to reach the dog.",
+      "Lead Dandy back to the woman and speak to her to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=gKp9Yw9CO98"
   },
@@ -48369,11 +48369,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Pier south of the Temple of Mithras, Lunden",
     length: "short",
     difficulty: "Low",
-    reward: "XP",
+    reward: "About 1,200 XP",
     summary:
       "A woman on the pier mourns a sunken ship. Dive to the wreck, read what's left aboard, and recover the silver necklace she's looking for from the belly of a fish.",
     aiTip:
-      "You need a fishing line for this, which comes from building the Fishing Hut in Ravensthorpe. Build it before you visit.",
+      "Stand at the end of the pier and use Odin's Sight to spot fish, then shoot them with your bow or use a fishing line. You may need to catch several before one has the necklace.",
     walkthrough: [
       "Speak to the woman by the pier south of the Temple of Mithras.",
       "Dive down to the wreck and loot both chests, one of which holds a message.",
@@ -48517,14 +48517,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     difficulty: "Low",
     reward: "XP and a little silver",
     summary:
-      "A dead man lies in front of an iron door in a cliffside, and a voice from beyond asks Eivor for silver. Find out who is really speaking.",
+      "A dead man lies by the cliffs west of Wenlocan Abbey, and his 'corpse' asks Eivor for silver to reach the afterlife. Find out who is really speaking.",
     aiTip:
-      "Paying or refusing doesn't matter much. The voice belongs to a living man, so head west to the house by the Roman columns and follow the hidden passage to him.",
+      "Paying or refusing doesn't matter much. It's a con: climb to the house north of the marker, move the shelf to reveal a hole, and follow the tunnel to the man behind it.",
     walkthrough: [
-      "Find the iron door in the cliff with the dead man in front of it.",
+      "Find the dead man by the cliffs west of Wenlocan Abbey.",
       "Listen to the voice and choose whether to pay the silver.",
-      "Head a short way west to the house beside the Roman columns.",
-      "Take the hidden passage through the tunnels to the man behind the voice.",
+      "Climb to the house north of the marker and move the shelf to reveal a hole.",
+      "Follow the tunnel underground to the man behind the voice.",
       "Kill him to complete the event and loot the area."
     ],
     video: "https://www.youtube.com/watch?v=eijBKINJ1ss"
@@ -48568,13 +48568,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A boy is locked inside a lone hilltop house he says belongs to a witch. Break in, find the key and free him, only to learn the 'witch' was his mother.",
     aiTip:
-      "The front door is barred, so aim through a window to shoot the lock. The key is in a side room behind a movable shelf.",
+      "Shoot the weak wooden wall at the back, then shoot the front door's lock through the back door at the top of the stairs. The key by the back door only opens that door; the boy's key is up in the attic behind a rack.",
     walkthrough: [
       "Go to the lone building on the hill near Wesberie and talk to the boy.",
-      "Shoot the lock on the barred front door through a window.",
-      "Move the shelf inside to reach the key.",
-      "Use the key to open the back room.",
-      "Free the boy to complete the event."
+      "Shoot the weak wooden wall at the back of the house.",
+      "Shoot the front door's lock through the back door, then go in.",
+      "Climb into the attic and move the rack to take the key.",
+      "Unlock the boy's room to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=A6fV27hCtWw"
   },
@@ -48807,20 +48807,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Essexe",
     title: "Mother",
-    location: "House south of Halstead outpost, Essexe",
+    location: "House south-east of Halstead outpost, Essexe",
     length: "short",
     difficulty: "Low",
-    reward: "XP, and a necklace for the right answer",
+    reward: "XP",
     summary:
-      "A voice from inside a locked house won't open the door until Eivor brings some pretty flowers. Deal with the wolves outside and win the recluse's trust.",
+      "A voice from inside a locked house won't open the door until Eivor brings some pretty flowers. The 'damsel in distress' inside turns out to be a lonely man.",
     aiTip:
-      "Kill the wolf pack before doing anything else. Pick the flowers from the roof, and choose 'You should move closer to people' for the necklace.",
+      "Kill the wolf pack before doing anything else. The flowers are on the roof (some guides say by a nearby grave; Odin's Sight helps). Any dialogue option inside ends the event.",
     walkthrough: [
-      "Go to the locked house south of Halstead outpost.",
+      "Go to the locked house south-east of Halstead outpost.",
       "Kill the pack of wolves outside.",
-      "Climb onto the roof and pick the flowers.",
+      "Find the flowers on the roof or by the nearby grave.",
       "Bring the flowers to unlock the house and go inside.",
-      "Pick 'You should move closer to people' to receive a necklace and complete the event."
+      "Talk to the man inside to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=EZT0BRgzUSo"
   },
@@ -48832,18 +48832,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Essexe",
     title: "The Prodigy",
-    location: "Ruins north-west of Colcestre, Essexe",
+    location: "Agnitum Tower, west of Colcestre, Essexe",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
-      "A pair of musicians argue at the foot of a statue in the ruins, and their quarrel ends with Eivor in a fist fight against the Bishop of the Ruins.",
+      "A bard and his band are being harassed over their singing by a holy man, and the dispute ends with Eivor in a fist fight against the Bishop of the Ruins.",
     aiTip:
       "It's a fist fight, so dodge his wild swings and counter. The whole event is a 'Smack My Bishop' joke on the band The Prodigy.",
     walkthrough: [
-      "Talk to the men arguing at the base of the statue.",
-      "Talk to the bishop standing opposite them.",
-      "Defeat the Bishop of the Ruins in a fist fight to complete the event."
+      "Talk to the bard at Agnitum Tower.",
+      "Agree to settle things with the bishop.",
+      "Defeat the Bishop of the Ruins in a fist fight.",
+      "Speak to the bard again to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=Hsvt0HlUZlc"
   },
@@ -48951,18 +48952,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Lincolnscire",
     title: "King of Shitsby",
-    location: "Ruined chapel at Curlow, Lincolnscire",
+    location: "Ruins of Cruwland, north of Medeshamstede Abbey, southern Lincolnscire",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
-      "A crumbling chapel in Curlow holds an abandoned throne that seems to be waiting for a ruler. Take a seat and hear how the 'king' got his title.",
+      "A ruined chapel at Cruwland holds an abandoned throne. Take a seat, and the bandits who claim it will want you off.",
     aiTip:
-      "There's nothing to fight or solve. Walk in and sit on the throne to complete it.",
+      "Your dialogue choice on the throne doesn't matter. The bandits attack either way, and one is a Man-at-Arms, so take him seriously. If you can't interact with the throne, try entering from the roof or a window.",
     walkthrough: [
-      "Travel to the ruined chapel at Curlow.",
-      "Find the throne inside.",
-      "Sit on the throne to complete the event."
+      "Travel to the ruins of Cruwland, north of Medeshamstede Abbey.",
+      "Find the throne on the northern side of the chapel.",
+      "Sit on the throne and answer the bandits.",
+      "Kill the bandits, including the Man-at-Arms, to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=PuWxyXo0L4Q"
   },
@@ -49071,14 +49073,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Lincolnscire",
     title: "The Ignominious Bandit",
-    location: "Tree in Lincolnscire",
+    location: "Road east of Lincoln, central Lincolnscire",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "A man kneels by a tree, apparently in need of help. It's a trap, and his bandit friends are waiting to jump Eivor.",
     aiTip:
-      "Expect the ambush as soon as you speak to him, so go in with your health topped up and your back to the tree.",
+      "Expect the ambush as soon as you speak to him. He's a Man-at-Arms who parries most ranged attacks, and the bandits throw dirt, so keep moving.",
     walkthrough: [
       "Talk to the man kneeling by the tree.",
       "Fight off the bandits who ambush you.",
@@ -49094,19 +49096,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Lincolnscire",
     title: "The Twit Saga, Part II",
-    location: "Lincolnscire",
+    location: "South of the Lacestone viewpoint, north-western Lincolnscire",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "The bumbling brothers from Ledecestrescire are back, and once again in over their heads, this time captured by bandits. Rescue them and give them some advice.",
     aiTip:
-      "If you can't pick up the second brother, save and reload to reset the event.",
+      "You need to finish The Twit Saga, Part I in Ledecestrescire first. Wolves may attack on the road, so set the unconscious brother down before you fight.",
     walkthrough: [
-      "Find the brothers in trouble with bandits in Lincolnscire.",
-      "Kill the bandits.",
-      "Carry the injured brother to safety if needed.",
-      "Talk to the freed brother again, and Eivor's advice completes the event."
+      "Find the brothers held captive by Saxons south of Lacestone.",
+      "Kill the Saxons and free the brothers.",
+      "Carry the unconscious brother and follow the other south along the road, fighting off any wolves.",
+      "Talk to the conscious brother to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=n59xTBl1YzU"
   },
@@ -49143,19 +49145,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Suthsexe",
     title: "Aflanc the Terrible",
-    location: "Banks of the Emberr River, Suthsexe",
+    location: "Riverbank south of Briggworth, central Suthsexe",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "A father rants over a woman he's tied up on the riverbank, convinced she has wronged his family. Free her and find out what lies at the bottom of the river.",
     aiTip:
-      "Cut the woman loose first, then dive straight down off the bank. The object you need is on the riverbed nearby.",
+      "Free Griseld first, then dive straight down off the bank. The 'monster' is just a shipwreck, and its Viking Ship Rope is your proof.",
     walkthrough: [
-      "Find the ranting father and the tied-up woman on the Emberr River bank.",
-      "Free the woman.",
-      "Dive into the river and search the riverbed for the artifact.",
-      "Bring it back to complete the event."
+      "Find the ranting father and the tied-up Griseld south of Briggworth.",
+      "Free her and talk to her.",
+      "Dive into the river and take the Viking Ship Rope from the wreck.",
+      "Show it to them both to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=9Eck6P3G2T0"
   },
@@ -49261,19 +49263,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Suthsexe",
     title: "Tiny Black Market",
-    location: "Tree houses in Suthsexe",
+    location: "Treehouse Shop north of Brimclif Monastery, south-west Suthsexe",
     length: "short",
     difficulty: "Low",
-    reward: "Items and a Suthsexe treasure hoard map",
+    reward: "The three items the children sell",
     summary:
-      "A child runs a secret shop from a network of tree houses, but you need the password to trade. Buy out her whole stock.",
+      "Two children run a hidden shop from a tree house. Buy their stock, or walk away.",
     aiTip:
-      "The password is 'Apple'. Bring 105 silver to buy everything, since the hoard map is part of the stock.",
+      "Climb the tree to reach the shop. You can buy all three items on offer or none, and either way the event completes.",
     walkthrough: [
-      "Climb up into the tree houses and talk to the child.",
-      "Give the password 'Apple'.",
-      "Buy every item she sells (105 silver in total).",
-      "The event completes once her stock is gone, and the hoard map is yours."
+      "Find the tree house north of Brimclif Monastery and climb up to the shop.",
+      "Talk to the children running it.",
+      "Buy all three items, or none.",
+      "The event completes once you've made your choice."
     ],
     video: "https://www.youtube.com/watch?v=jNV96eO1IKw"
   },
@@ -49360,16 +49362,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Bear camp at Vithrloekr, Vinland",
     length: "short",
     difficulty: "Medium",
-    reward: "XP and a key to a chest of crafting materials",
+    reward: "XP",
     summary:
-      "Bears have overrun the camp at Vithrloekr, and a man is trapped in the middle of them. Clear out the bears and save him.",
+      "Bears have overrun the camp at Vithrloekr, and a Norse man is stranded among them. Save him, or let him die.",
     aiTip:
-      "Pull the bears one at a time if you can, since several at once hit very hard. The man gives you a key to a chest of crafting materials.",
+      "Sneak in to avoid alerting the bears, or clear them out before you talk to him. Letting him die still completes the event, but carrying him up onto the cliffs is the kind choice.",
     walkthrough: [
       "Head to the bear camp at Vithrloekr.",
-      "Kill the bears threatening the trapped man.",
-      "Talk to the man and take the key he gives you.",
-      "Open the chest with the key to complete the event."
+      "Sneak past or kill the bears around the stranded man.",
+      "Talk to him.",
+      "Carry him up onto the cliffs above (or let him die) to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=DKenSS9mP70"
   },
@@ -49386,14 +49388,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     difficulty: "Medium",
     reward: "XP",
     summary:
-      "Once the other Vinland events are done, a group of toothbreakers sets out to hunt a dangerous wild cat. Join the hunt and bring the beast down.",
+      "Once Flight of Fancy is done, a hunter by a campfire in Nyhofn is waiting for his scattered companions. Find them and join the hunt.",
     aiTip:
-      "This only appears after you finish Vinland's other three world events. The big cat is fast, so dodge its pounce and hit it during the recovery.",
+      "Finish Flight of Fancy first, or this one won't appear. Wild animals attack along the way, so keep your health up.",
     walkthrough: [
-      "Complete A Dead Man's Tale, Flight of Fancy and Ursine Takeover first.",
-      "Find the toothbreakers in Nyhofn and join their hunt.",
-      "Track the wild cat with the group.",
-      "Kill the cat when it attacks to complete the event."
+      "Complete Flight of Fancy first.",
+      "Talk to the hunter by the campfire in Nyhofn.",
+      "Find his scattered companions.",
+      "Fight off the wild animals that attack to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=bz_GvuInuW4"
   },
@@ -49508,7 +49510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Berk the bard in Donecaestre will sing a song for a little silver. Pay up and enjoy the performance.",
     aiTip:
-      "Paying him completes the event, and you can pickpocket your silver back from Berk once he's finished.",
+      "Paying him (about 295 silver) completes the event, and you can pickpocket your silver back from Berk once he's finished.",
     walkthrough: [
       "Find Berk the bard in Donecaestre.",
       "Talk to him and pay the silver he asks for.",
@@ -49552,16 +49554,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "North of Picheringa, north-eastern Eurvicscire",
     length: "short",
     difficulty: "Low",
-    reward: "XP, plus a gold ring and coins if you follow the rabbit",
+    reward: "XP",
     summary:
       "A Norseman called Thickskull is having a furious argument with a rabbit he thinks is a god in disguise. Talk to him, then settle it with your fists.",
     aiTip:
-      "After the fist fight, follow the rabbit and it leads you to its cave, which holds a gold ring and some coins.",
+      "It's a straight fist fight against Thickskull, who's waiting for a challenger sent by his 'Loki Rabbit'. Dodge and counter, and the event ends when he's down.",
     walkthrough: [
       "Find Thickskull arguing with the rabbit north of Picheringa.",
       "Talk to him, which starts a fist fight.",
-      "Beat him to complete the event.",
-      "Optionally follow the rabbit to its cave for a gold ring and coins."
+      "Beat him to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=PrOGElyWknY"
   },
@@ -49580,12 +49581,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Bertha is hopelessly in love with Aldwyn the ale-maker but doesn't know how he feels. Help her find out, and maybe get them together.",
     aiTip:
-      "Don't pick 'Speak of his beauty and charm', which ends the event with Bertha rejected. Choose to look for clues and search all three around Aldwyn's house for a better ending.",
+      "Guides only confirm one way to end it: talk to Bertha and choose 'Speak of his strength and beauty'.",
     walkthrough: [
       "Talk to Bertha at Taedden's Shelf.",
-      "Choose to look for clues instead of praising Aldwyn's charm.",
-      "Investigate the three clues around Aldwyn's house.",
-      "Report back to Bertha and pick the ending to complete the event."
+      "Hear her out about Aldwyn.",
+      "Choose 'Speak of his strength and beauty' to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=o2iZEPCcxrY"
   },
@@ -49645,18 +49645,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Glowecestrescire",
     title: "The Goddess of Birth",
-    location: "Glowecestrescire",
+    location: "Near Thieves Warren, north-western Glowecestrescire",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "A heavily pregnant woman is determined to give birth at the sacred ruins on the hill. Help her get there.",
     aiTip:
-      "Don't carry her on foot. Call your horse and ride her up to the ruins, which is much quicker.",
+      "Expect wolf ambushes on the way, so stay close and protect her. The ruins are on the hill to the east.",
     walkthrough: [
-      "Talk to the pregnant woman.",
-      "Call your horse and get her mounted.",
-      "Ride her up to the ruins on the hill to complete the event."
+      "Talk to the pregnant woman near Thieves Warren.",
+      "Escort her east to the ruins on the hill, fighting off wolves.",
+      "Stay with her at the ruins to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=L-RvDLGA__A"
   },
@@ -49675,12 +49675,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A strange woman sings by the lake. Once her song ends she invites Eivor inside, where things quickly take a poisonous turn.",
     aiTip:
-      "When the poison gas fills the house, move the rack covering the window and climb out through it. Don't try to go back out the door.",
+      "Kill the snakes around the altar first. When poison gas fills the house, move the rack covering the window and climb out, then deal with the woman.",
     walkthrough: [
-      "Listen to the singing woman by the lake until she stops.",
-      "Talk to her, and the door to her house opens.",
+      "Kill the snakes around the altar by the lake.",
+      "Talk to the singing woman, and the door to her house opens.",
       "Go inside, where poison gas starts to fill the room.",
-      "Move the rack blocking the window and escape outside to complete the event."
+      "Move the rack blocking the window and escape outside.",
+      "Kill the woman to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=X1cqkviRgGc"
   },
@@ -49699,7 +49700,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Gill sits on a ruined wall clutching a love letter he's too shy to deliver. Choose who at the bee farm should receive it.",
     aiTip:
-      "Give the letter to Serle for the happy ending. Warin politely turns Gill down, and Mille turns out to be Gill's sister.",
+      "You choose who gets the letter: Warin, Mille or Serle. Guides differ on how each choice plays out, so pick whoever seems the best match.",
     walkthrough: [
       "Talk to Gill on the ruined wall and take his letter.",
       "Go to the nearby bee farm.",
@@ -49915,12 +49916,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A precious jewel linked to King Aelfred is hidden in a house in Wincestre. Retrieve it, then decide whether to keep it or give it to the man waiting outside.",
     aiTip:
-      "Giving the jewel to the man outside earns a reward, and keeping it is also an option. If he doesn't appear, run away from the house with the jewel to end the event.",
+      "Break the weak planks on the back (south) window to get in. The jeweller wants double his price: paying him 230 silver gets the jewel, and one guide says level 4 Charisma also works.",
     walkthrough: [
-      "Find the house in Wincestre holding Aelfred's jewel.",
-      "Get inside and take the jewel.",
-      "Talk to the man waiting outside.",
-      "Give him the jewel for a reward, or keep it, to complete the event."
+      "Talk to Cedric outside the jeweller's house in Wincestre.",
+      "Break through the barricaded back window to get inside.",
+      "Talk to the jeweller and pay him (about 230 silver) for the jewel.",
+      "Give the jewel to Cedric, or keep it, to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=dUv-a2kt6io"
   },
@@ -50199,11 +50200,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Motull, a warrior who died with his weapon in hand, weeps by a well because he can't reach his wife in Helheim. Decide how to answer him.",
     aiTip:
-      "Pick 'Helheim has nothing for you' to end it peacefully. The other choice leads to a fight. He may only appear after you finish Asgard's main story arc.",
+      "Motull wants to reach his wife in Helheim. Guides differ on how it plays out: one says he challenges you to a fight, another that you just listen and resolve it in conversation.",
     walkthrough: [
       "Find Motull by the well north-east of Litamiotvitr.",
       "Talk to him about his wife in Helheim.",
-      "Choose 'Helheim has nothing for you' to end it peacefully, or fight him.",
+      "Answer him, or fight him if he challenges you.",
       "The event completes once he's dealt with."
     ],
     video: "https://www.youtube.com/watch?v=hXQcukouGTk"
@@ -50337,18 +50338,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Jotunheim",
     title: "The Puppeteer (Jotunheim)",
-    location: "Hut beside a pond north of Aegir's Hall, Jotunheim",
+    location: "Hut beside a pond north of Ymir's Altar, eastern Jotunheim",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "A jotun is locked in a cage near a hunter's hut, and only the hunter has the key. Break in, take it from him and set the prisoner free.",
     aiTip:
-      "Break the bracket on the hut door to get in. The hunter hands over the key whatever you say once you've beaten him.",
+      "Break the exposed link on the hut's north door to get in. You can kill the hunter upstairs or steal the key while he sleeps; the woman is happier if he dies. A chest inside holds a Ymir's Tear stone.",
     walkthrough: [
-      "Find the caged jotun by the pond north of Aegir's Hall.",
-      "Break the bracket on the hunter's hut door.",
-      "Enter the hut and defeat the hunter.",
+      "Talk to the jotun woman by the caged prisoner north of Ymir's Altar.",
+      "Break the link on the hut's north door.",
+      "Kill the hunter upstairs, or steal the key while he sleeps.",
       "Take the key and free the caged jotun to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=uOm73-5QtTg"
