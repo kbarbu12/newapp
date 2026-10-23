@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (5)
+
+- **AC Odyssey fact-check: 48 entries fixed** — `v2.9.4` patch (#370). All
+  179 AC Odyssey entries the sample hadn't covered were checked against the
+  guides. 8 had a clear error (for example Epiktetos's death, the Silver
+  Griffin's clue, the Unified Front fleet, and the Tomb of Brizo and Alkaios
+  Tomb locations) and 29 had a smaller one. 10 ostraka riddles that only had
+  generic steps now have their solutions.
+
 ## 2026-10-23 (4)
 
 - **Fact-check fixes for 30 quest entries** — `v2.9.3` patch (#366). A
