@@ -3,6 +3,24 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23
+
+- **Witcher 3 complete: 290 quests, every original entry corrected** — `v2.8.0`
+  minor. 190 new Witcher 3 quests and 79 corrected originals (Witcher 3 goes
+  from 100 to 290 entries):
+  - **New quests:** main quests (#332), contracts (#335), White Orchard,
+    Velen, Novigrad, Skellige and Kaer Morhen side quests (#336–#338), Hearts
+    of Stone (#339) and Blood and Wine (#340), held-back quests once the guides
+    agreed (#341), then Blood and Wine vintner's contracts, Wine Wars and side
+    quests (#351), the virtues, Gwent and fist fights (#352), horse races,
+    arena and Novigrad encounters (#353), Grandmaster gear hunts (#354) and
+    the last unmarked encounters and Hearts of Stone treasure hunts (#355).
+  - **Original entries corrected to match the guides:** several described the
+    wrong quest, had templated steps, or the wrong main/side type (#342–#345,
+    #348–#350). Videos that couldn't be confirmed were replaced.
+  - Docs: session log and what's left (#345, #350, #354, #355); TODO list
+    updates from a parallel session (#346, #347).
+
 ## 2026-10-21
 
 - **Quest data: coverage gaps, real tips and Valhalla World Events** — `v2.7.0`
