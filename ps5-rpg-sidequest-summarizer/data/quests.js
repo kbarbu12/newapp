@@ -12208,10 +12208,12 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary: "A late Rogue gig (Street Cred 35, after Ghost Town): grab Rebeca Price from the basement of the Data Inc. store, held by the Animals.",
-    aiTip: "Use the free side shutter on the left of the Data Inc. store if you don't have Body 5. If Rebeca dies, you can just leave.",
+    summary:
+      "A late Rogue gig (about Street Cred 32–35, after Ghost Town): grab Rebeca Price from the basement of the Data Inc. store, held by the Animals.",
+    aiTip:
+      "Use the free side shutter on the left of the Data Inc. store if you don't have Body 5. If Rebeca dies, you can just leave.",
     walkthrough: [
-      "Finish Ghost Town and reach Street Cred 35 — Rogue gives this gig.",
+      "Finish Ghost Town and reach Street Cred 32–35 (guides differ) — Rogue gives this gig.",
       "Get into Data Inc. through a side shutter (Body 5 on the right, free on the left).",
       "Go to the back and down to the basement.",
       "Quietly take out the Animal, then deal with Rebeca at her computer.",
@@ -12494,17 +12496,19 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Santo Domingo",
     title: "Over the Edge",
-    location: "David's apartment, Megabuilding H4, Arroyo – Santo Domingo",
+    location: "Alley by Megabuilding H4, Arroyo – Santo Domingo → Dam Viewpoint",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary: "A hidden side job from the Edgerunners update (patch 1.6): pick up a braindance in David Martinez's old apartment to start the story that earns his jacket.",
-    aiTip: "This one isn't on the map. Go to David's old apartment in Megabuilding H4 and pick up the braindance to start it.",
+    summary:
+      "A hidden side job from the Edgerunners update (patch 1.6): a braindance left in an alley by Megabuilding H4 starts the trail that earns David Martinez's jacket.",
+    aiTip:
+      "This one isn't on the map. Look for the green Edgerunners graffiti in the alley outside Megabuilding H4; the braindance is in the trash can there.",
     walkthrough: [
       "Go to Megabuilding H4 in Arroyo.",
-      "Find David's old apartment.",
-      "Pick up the braindance to start the cutscene.",
-      "Follow the Over the Edge story to the end for David's Edgerunners jacket."
+      "Find the alley with the green Edgerunners graffiti and take the braindance from the trash can.",
+      "Text El Capitan about David Martinez and wait for Falco's message.",
+      "Meet El Capitan at the Dam Viewpoint and open the case behind him for David's jacket."
     ],
     video: "https://www.youtube.com/watch?v=xzKbYnZTvPY"
   },
@@ -12602,12 +12606,14 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary: "A Padre Gun for Hire gig (Street Cred 1): take out Gustavo Orta in his high-rise apartment.",
-    aiTip: "Gustavo Orta is on floor 32. Streetkids can talk past the intercom; otherwise use the front door (Body 17), the side door (Tech 9) or the balcony via the garage.",
+    summary:
+      "A Padre Gun for Hire gig (Street Cred 1): take out Gustavo Orta in his high-rise apartment.",
+    aiTip:
+      "Gustavo Orta is on floor 32. Streetkids can talk past the intercom; otherwise force the front door (Body 17) or hack its keypad, or reach the balcony through the shutters on the left.",
     walkthrough: [
       "Take the gig from Padre and go to Petrel St in Corpo Plaza.",
       "Take the elevator to floor 32.",
-      "Get in: front door (Body 17), the side door (Tech 9) or the balcony via the garage (Streetkids can talk past the intercom).",
+      "Get in: front door (Body 17 or hack the keypad), or the balcony through the shutters on the left (Streetkids can talk past the intercom).",
       "Neutralize Gustavo Orta.",
       "If he's alive, carry him to the car below; otherwise just leave."
     ],
@@ -13506,7 +13512,7 @@ const quests = [
     walkthrough: [
       "Take the Lindenvale notice or speak to Dolores, and get her lockbox key.",
       "Go to Reardon Manor and clear the wraiths (or disarm the traps if Letho lived).",
-      "Find the Sturdy Barn Key in the small chest in the eastern house.",
+      "Find the Sturdy Barn Key in the small chest in the north-western house.",
       "Reveal the writing on the barn wall with Witcher Senses and open the lockbox.",
       "Optionally read Dolores's diary and search the cellar behind the barn."
     ],
@@ -16213,7 +16219,8 @@ const quests = [
     walkthrough: [
       "Meet the runewright at the Ofieri camp at the Upper Mill.",
       "Pay him 5,000 crowns.",
-      "This starts Enchanting: Quality Has Its Price."
+      "Take the pickaxe from the nearby barn and mine the jade he needs in Bloodrot Pit.",
+      "Bring him the jade. This starts Enchanting: Quality Has Its Price."
     ],
     video: "https://www.youtube.com/watch?v=4nZpOTpsMxw"
   },
@@ -17476,7 +17483,7 @@ const quests = [
       "After The Phantom of Eldberg, go outside the Arinbjorn tavern to check the commotion.",
       "Fight Kori and Kraki after they kill Jorund.",
       "Accept the trial and be locked up in Madman Lugos' keep.",
-      "Get out with Axii, the blood price, or Simun's blackmail."
+      "Get out with Axii on the guard, by fighting the other prisoners, or with Simun Brambling's blackmail."
     ],
     video: "https://www.youtube.com/watch?v=rOGQQNCtMDo"
   },
@@ -17670,8 +17677,8 @@ const quests = [
     walkthrough: [
       "Go to the arena at Hov on Spikeroog.",
       "Talk to the guards in the tower about Ulle.",
-      "Fight Ulle; the bout stops once he's at half health.",
-      "Let him win so his spirit can rest.",
+      "Fight Ulle, but don't hit back.",
+      "Let him bring you down to about a quarter health so he wins and his spirit can rest.",
       "Return to the guards a few days later for their share of the profits."
     ],
     video: "https://www.youtube.com/watch?v=42wEDW_hWZ4"
@@ -17733,7 +17740,7 @@ const quests = [
     summary:
       "Once A Deadly Plot is done, Thaler is open to a game of Gwent. Beating him wins the Geralt of Rivia hero card.",
     aiTip:
-      "Play him right after A Deadly Plot. It fails once Reason of State starts, and the card can be lost if Thaler dies there. If A Deadly Plot ended before you played Roche, Thaler moves into Gwent: Old Pals instead.",
+      "Play him right after A Deadly Plot; the quest fails once Reason of State starts. If Thaler dies there, his Geralt of Rivia card can still be looted at the Seven Cats Inn. If A Deadly Plot ended before you played Roche, Thaler moves into Gwent: Old Pals instead.",
     walkthrough: [
       "Finish A Deadly Plot.",
       "Challenge Thaler at his wagon or at the Seven Cats Inn.",
@@ -22814,9 +22821,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "SECRET: Bishui Cave (Flaming Mountains)",
     length: "medium",
     difficulty: "High",
-    reward: "Bull King Iron Horn (Bull King armor set material), secret cutscene",
-    summary: "The optional boss at the end of Chapter 5's secret Bishui Cave, reached only by finishing the Five Element Carts quest. Beating it plays a secret cutscene.",
-    aiTip: "You can only get four Bull King Iron Horns per playthrough, and this boss is one source. Don't skip it if you want the Bull King set.",
+    reward: "Three of the four Bull King's Iron Horns (Bull King armor set material), secret cutscene",
+    summary:
+      "The optional boss at the end of Chapter 5's secret Bishui Cave, reached only by finishing the Five Element Carts quest. Beating it plays a secret cutscene.",
+    aiTip:
+      "There are only four Bull King's Iron Horns per playthrough, and this boss drops three of them. Don't skip it if you want the Bull King set.",
     walkthrough: [
       "Finish the Five Element Carts quest for the Pale-Axe Stalwart. Destroying the last cart, the Rusty Gold Cart near the Cooling Slope, opens the way.",
       "Once the flames are fanned out, return to the Ashen Pass III shrine and take the path where you fought the Flint Vanguard and Mother of Flamlings.",
@@ -32003,13 +32012,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Holotactics table at the saloon",
-    summary: "Moran mentions an odd pair out at the Boiling Bluff, unlocking the Holotactics mini-game once resolved.",
-    aiTip: "Moran only offers this after you can ride Nekko and have finished Leave the Forest Array. The reward is the Holotactics table upstairs in the saloon.",
+    summary:
+      "Moran mentions an odd pair out at the Boiling Bluff, unlocking the Holotactics mini-game once resolved.",
+    aiTip:
+      "Moran offers this after Leave the Forest Array. The reward is the Holotactics table upstairs in the saloon.",
     walkthrough: [
-      "Speak to Moran in Pyloon's Saloon after unlocking Nekko riding and completing Leave the Forest Array.",
+      "Speak to Moran in Pyloon's Saloon after completing Leave the Forest Array.",
       "Ride out to the Boiling Bluff on Koboh.",
-      "Investigate the odd pair and resolve the encounter.",
-      "Return to unlock the Holotactics Table on the saloon's second floor."
+      "Cross the rock spires from the Boiling Bluff meditation point and kill the Mogu, then talk to the pair (Bhima and Tulli).",
+      "Return to find the Holotactics Table on the saloon's second floor."
     ],
     video: "https://www.youtube.com/watch?v=zGz6OqbXvlA"
   },
@@ -32065,14 +32076,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Alignment Control Center",
     length: "short",
     difficulty: "Medium",
-    reward: "Gear upgrade; lore",
-    summary: "Reports of activity at a High Republic facility in the Untamed Downs draw Cal to the Alignment Control Center.",
-    aiTip: "Expect a fight. The Alignment Control Center in the Untamed Downs has defenses to get through before its puzzles.",
+    reward: "Lore only; no item reward",
+    summary:
+      "Turgle's report of ancient technology draws Cal to the Alignment Control Center, a High Republic facility beneath the Untamed Downs.",
+    aiTip:
+      "There's no reward. You need double jump and dash to reach the entrance near Rambler's Reach Outpost, and interacting with the device inside completes the rumor.",
     walkthrough: [
-      "Pick up the rumor from a prospector at Pyloon's Saloon.",
-      "Travel to the Alignment Control Center in the Untamed Downs.",
-      "Fight through its defenses and solve the interior puzzles.",
-      "Reach the facility's core to complete the investigation."
+      "Talk to Turgle at Pyloon's Saloon to get the rumor.",
+      "Head to the entrance a short way from Rambler's Reach Outpost (double jump and dash needed).",
+      "Take the elevator down to the Alignment Control Center.",
+      "Interact with the device to complete the rumor."
     ],
     video: "https://www.youtube.com/watch?v=G9h0Wenr67A"
   },
@@ -32213,13 +32226,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Perk slot; Cordova's lightsaber lead",
-    summary: "The third of Cordova's ruins rumors points Cal to the Path of Conviction in Jedha's western desert; solving all three reveals Cordova's lightsaber.",
-    aiTip: "This is the last of Cordova's three desert ruins. Finishing all three leads to Cordova's lightsaber and a map upgrade.",
+    summary:
+      "The third of Cordova's ruins rumors points Cal to the Path of Conviction in Jedha's western desert; solving all three reveals Cordova's lightsaber.",
+    aiTip:
+      "This is the last of Cordova's three desert ruins. Finishing all three opens the Wayfinder's Tomb and Cordova's lightsaber.",
     walkthrough: [
       "Speak to Eno Cordova at the Jedha Archive to unlock the rumor.",
       "Travel to the Path of Conviction ruins in Jedha's western desert.",
-      "Solve the Orb-and-slider puzzle to align the mechanism.",
-      "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
+      "Solve the orb puzzle to align the mechanism.",
+      "Complete it — finishing all three desert ruins opens the Wayfinder's Tomb and Cordova's lightsaber."
     ],
     video: "https://www.youtube.com/watch?v=oozyaJ47kao"
   },
@@ -38965,21 +38980,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1624,
     type: "side",
-    questType: "Shrine Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "Maca's Special Place",
     location: "Korok Forest",
     length: "short",
     difficulty: "Low",
     reward: "Ninjis Shrine (Rauru's Blessing); Light of Blessing",
-    summary: "Maca, a Korok in Korok Forest, tells you about her special place. Find Ninjis Shrine hidden in the misty Lost Woods. It's a Rauru's Blessing shrine, so the reward comes as soon as you enter.",
-    aiTip: "Look down from the sky over the large circular island in the Lost Woods to spot the shrine through the mist. Dropping from Simosiwak Shrine above is an easy way in.",
+    summary:
+      "Maca, a Korok in Korok Forest, tells you about her special place. Find Ninjis Shrine hidden in the misty Lost Woods. It's a Rauru's Blessing shrine, so the reward comes as soon as you enter.",
+    aiTip:
+      "Look down from the sky over the Lost Woods to spot the shrine's clearing through the mist. Bravery Island in the North Hyrule Sky Archipelago is an easy place to drop from.",
     walkthrough: [
       "Unlock the Lost Woods (Trail of the Master Sword), then talk to Maca in Korok Forest.",
-      "Launch from the Thyphlo Ruins Skyview Tower, or drop from Simosiwak Shrine in the sky.",
-      "Glide over the Lost Woods and look for the shrine on the large circular island.",
+      "Launch from the Thyphlo Ruins Skyview Tower and head to Bravery Island in the sky.",
+      "Glide down through the mist over the Lost Woods to the shrine's clearing.",
       "Land and enter Ninjis Shrine to claim the Rauru's Blessing."
     ],
+    questType: "Shrine Quest",
     video: "https://www.youtube.com/watch?v=eNNNhjwKmWQ"
   },
   {
@@ -39025,22 +39042,24 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1627,
     type: "side",
-    questType: "Shrine Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "Rock for Sale",
     location: "Tarrey Town",
     length: "short",
     difficulty: "Low",
     reward: "Jochi-ihiga Shrine (Rauru's Blessing); Light of Blessing",
-    summary: "In Tarrey Town, a man is selling the green shrine crystal on the west side of town. Haggle him down, then move the crystal by railcar and raft to Jochi-ihiga Shrine.",
-    aiTip: "Turn down every price he offers and leave the conversation. When you talk to him again, it drops to 50 rupees. The railcar costs another 20.",
+    summary:
+      "In Tarrey Town, a man is selling the green shrine crystal on the west side of town. Haggle him down, then move the crystal by railcar and raft to Jochi-ihiga Shrine.",
+    aiTip:
+      "Hagie asks 100 rupees, but his wife Ruli steps in and makes him sell it for 50. The railcar costs another 20, and stick the crystal on with Ultrahand or it falls off.",
     walkthrough: [
-      "Talk to the man next to the green crystal on the west side of Tarrey Town and refuse every offer.",
-      "Talk to him again and buy the rock for 50 rupees.",
-      "Pay 20 rupees for the nearby railcar, attach the crystal and ride it down to the construction site.",
+      "Talk to Hagie next to the green crystal on the west side of Tarrey Town; his wife Ruli talks his 100-rupee price down to 50.",
+      "Buy the rock for 50 rupees.",
+      "Pay 20 rupees for the nearby railcar, attach the crystal with Ultrahand and ride it down to the construction site.",
       "Put the crystal on a raft with a Zonai Fan and follow the beam of light across the river.",
       "Set the crystal in front of the shrine to open Jochi-ihiga Shrine."
     ],
+    questType: "Shrine Quest",
     video: "https://www.youtube.com/watch?v=IhwTYC4rQ1c"
   },
   {
@@ -39127,22 +39146,24 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1632,
     type: "side",
-    questType: "Shrine Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "The High Spring and the Light Rings",
     location: "Mount Lanayru",
     length: "medium",
     difficulty: "Medium",
     reward: "Zakusu Shrine appears; Light of Blessing",
-    summary: "Nazbi at the Spring of Wisdom tells you about the high spring. Shield-surf from a light-bulb-shaped sky island down through a course of green rings to make Zakusu Shrine appear on Mount Lanayru's western side.",
-    aiTip: "You need level-2 cold resistance and a paraglider or fairy. Drop a Travel Medallion before the run, since a missed ring means starting over.",
+    summary:
+      "Nazbi at the Spring of Wisdom tells you about the high spring. Shield-surf from a sky island with a large pond down through a course of green rings to make Zakusu Shrine appear south-west of the Mount Lanayru Skyview Tower.",
+    aiTip:
+      "You need level-2 cold resistance and a paraglider or fairy. Drop a Travel Medallion before the run, since a missed ring means starting over.",
     walkthrough: [
       "Talk to Nazbi at the Spring of Wisdom (optional).",
-      "Reach the light-bulb-shaped sky island from the Mount Lanayru Skyview Tower.",
+      "Reach the sky island with the large pond from the Mount Lanayru Skyview Tower.",
       "Activate the Zonai terminal on the island.",
       "Shield-surf and glide down through the green rings before each one's timer runs out.",
-      "Pass the last ring and Zakusu Shrine appears on the Naydra Snowfield."
+      "Pass the last ring and Zakusu Shrine appears south-west of the Skyview Tower."
     ],
+    questType: "Shrine Quest",
     video: "https://www.youtube.com/watch?v=TgBYw_AvNsE"
   },
   {
@@ -40433,21 +40454,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1697,
     type: "side",
-    questType: "Side Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "Goddess Statue of Power",
     location: "Spring of Power",
     length: "medium",
     difficulty: "Medium",
     reward: "Ruby",
-    summary: "The Goddess Statue at the Spring of Power sends you to check on the Mother Goddess Statue at the Forgotten Temple, then asks for one of Dinraal's claws.",
-    aiTip: "Dinraal often heads to the East Akkala Plains Chasm between 7 and 8 pm game time. Wait for it there, then shoot a limb.",
+    summary:
+      "The Goddess Statue at the Spring of Power sends you to check on the Mother Goddess Statue at the Forgotten Temple, then asks for one of Dinraal's claws.",
+    aiTip:
+      "Dinraal flies out of the East Akkala Plains Chasm, south of the spring, at about 2:50 pm game time. Wait for it there, then shoot a claw.",
     walkthrough: [
       "Pray at the Goddess Statue at the Spring of Power.",
       "Visit the toppled Mother Goddess Statue in the Forgotten Temple, then report back.",
       "Find Dinraal and shoot one of its limbs to drop a claw, then glide over to grab it.",
       "Offer the claw at the Spring of Power."
     ],
+    questType: "Side Quest",
     video: "https://www.youtube.com/watch?v=-ewtrCDpiEY"
   },
   {
@@ -47642,7 +47665,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "An old woman living beneath Ledecestre's bathhouse wants viper eggs for a brew, and the result clears the bathhouse above in spectacular fashion.",
     aiTip:
-      "She wants 9 eggs in batches (2, then 3, then 4). Vipers are plentiful along the river banks nearby and respawn, so hunt them there.",
+      "She wants 9 eggs in batches (2, then 3, then 4). Vipers are around the tunnels and just outside them, so you don't have to go far.",
     walkthrough: [
       "Enter the passage beneath the city by the river and find the woman behind the bars.",
       "Kill vipers nearby and collect 2 eggs for her.",
@@ -48198,7 +48221,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "The Norse warrior Sten stands by the funeral pyre of his raiding crew, unable to mourn because a warrior shouldn't weep. Give him permission to grieve.",
     aiTip:
-      "You need Charisma level 3 to give him the right words. Fighting him ends in a non-lethal holmgang that doesn't solve anything, so skip it.",
+      "You need Charisma level 3 to give him the right words. If you don't have it, you can fight him instead; either way the event completes.",
     walkthrough: [
       "Find Sten beside the funeral pyre east of Evesham Abbey.",
       "Talk to him about his fallen crew.",
@@ -48215,14 +48238,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Oxenefordscire",
     title: "The Anchoress",
-    location: "Barred church near Evesham Abbey, Oxenefordscire",
+    location: "Barred church north of Buckingham, Oxenefordscire",
     length: "short",
     difficulty: "Low",
     reward: "XP",
     summary:
       "An anchoress has sealed herself inside a church to live in holy isolation. Find a way in and talk her into returning to the world.",
     aiTip:
-      "The front door is barred from inside, so go around the back. Shoot the lock through the open window behind the chapel to get in. The persuasion option needs Charisma level 2.",
+      "The front door is barred from inside, so go around the back. Shoot the lock through the barred window, then go down through the basement to get in. Most guides say the persuasion option needs Charisma level 2.",
     walkthrough: [
       "Go to the barred church and walk around the building.",
       "Shoot the lock on the door through the open window at the back.",
@@ -50262,17 +50285,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Valhalla",
     region: "Jotunheim",
     title: "The Giants of Fimbulwinter",
-    location: "Altar in southern Utgard, Jotunheim",
+    location: "Runestone south of the Enchanted Tower, south-west Utgard, Jotunheim",
     length: "short",
     difficulty: "High",
     reward: "XP",
     summary:
-      "Twin jotnar, Kala and Vindr, are conjuring an endless blizzard from an altar in Utgard. Stop them.",
+      "Twin jotnar, Kala and Vindr, are conjuring an endless blizzard from a runestone in Utgard. Stop them.",
     aiTip:
       "This unlocks after A Feast to Remember. Fighting two jotnar at once is tough, so keep moving to stay out of the middle and focus on one twin at a time.",
     walkthrough: [
       "Progress Jotunheim's story through A Feast to Remember.",
-      "Travel to the altar in southern Utgard.",
+      "Travel to the runestone high in the mountains south of the Enchanted Tower, in south-west Utgard.",
       "Fight the twin jotnar Kala and Vindr.",
       "Defeat both to end the blizzard and complete the event."
     ],
@@ -50618,13 +50641,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Stentor wants Megaris's Athenian leader, Teukros the Vindictive, dead. Weaken the Athenian hold first and the job gets easier.",
-    aiTip: "Do the support quests (Portion Control, The Athenian Treasure Trove, The Missing Map, Hunting Hyrkanos) before going after Teukros. Each one weakens the Athenian hold and makes the kill easier.",
+    summary:
+      "Stentor wants the Athenian leader of Megaris dead. Weaken the Athenian hold first and the job gets easier.",
+    aiTip:
+      "Do the support quests (Crumble and Burn, One Man Army, The Athenian Treasure Trove, The Missing Map, Portion Control, Hunting Hyrkanos) before going after the leader. Each one weakens the Athenian hold and makes the kill easier.",
     walkthrough: [
       "Talk to Stentor at the Spartan camp.",
-      "Weaken the Athenians with the support quests (Portion Control, The Athenian Treasure Trove, The Missing Map, Hunting Hyrkanos).",
-      "Find Teukros the Vindictive in Megara.",
-      "Kill him to empty the Athenian leader's hold on the region.",
+      "Weaken the Athenians with the support quests (Crumble and Burn, One Man Army, The Athenian Treasure Trove, The Missing Map, Portion Control, Hunting Hyrkanos).",
+      "Find the Athenian leader in Megara.",
+      "Kill them to break the Athenian hold on the region.",
       "Report back to Stentor."
     ],
     video: "https://www.youtube.com/watch?v=7v56DJJEnr0"
@@ -54201,15 +54226,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Elis",
     title: "The Show Must Go On",
-    location: "Elis (Fort Demiurgi, Spring of Piera)",
+    location: "Elis",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Available from Episode 5 in Elis. The actor Thespis needs help staging his play: fetch a rare wine, sort out his troupe's problems, then step on stage yourself as Leonidas.",
-    aiTip: "The wine fetch means clearing Fort Demiurgi, a medium-large fort. Go in ready for a fight. Enemies scale to your level.",
+    summary:
+      "Available from Episode 5 in Elis. The actor Thespis needs help staging his play: fetch a rare wine, sort out his troupe's problems, then step on stage yourself as Leonidas.",
+    aiTip:
+      "There are two ways to get the wine. Everyman's Drink sends you to the Stable of Ares, while A Sophisticated Tipple goes through Fort Demiurgi. Guides recommend about level 46. Enemies scale to your level.",
     walkthrough: [
       "Reach Episode 5 and find Thespis in Elis to start Setting the Stage.",
-      "Get one of the two wines he asks for. A Sophisticated Tipple means clearing Fort Demiurgi.",
+      "Get one of the two wines he asks for: Everyman's Drink (Stable of Ares) or A Sophisticated Tipple (Fort Demiurgi).",
       "Complete Evening the Odds, The Curse of Fame and The Hedonistic Method (Ephialtes prays at the Spring of Piera).",
       "Play Leonidas in Thespis's play in Showtime."
     ],
@@ -54247,10 +54274,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "A Lost Tales episode set in an Elis village that worships you as a god. It starts with The Measure of a Man, and Ubisoft recommends level 35.",
-    aiTip: "Ubisoft recommends level 35 before starting The Measure of a Man, even though it opens after Chapter 5.",
+    summary:
+      "A Lost Tales episode set in an Elis village that worships you as a god. It starts with The Measure of a Man, from the blue marker by Polykleitos in eastern Elis.",
+    aiTip:
+      "Look for the blue quest marker by Polykleitos in eastern Elis to start The Measure of a Man. It opens after Chapter 5.",
     walkthrough: [
-      "After Chapter 5 (Ubisoft recommends level 35), start The Measure of a Man in Elis.",
+      "After Chapter 5, talk to Polykleitos at the blue marker in eastern Elis to start The Measure of a Man.",
       "Reach the village that reveres you as a god.",
       "Continue with Down From On High.",
       "Talk to Priestess Hexione for Chicken or Egg and follow the episode to its end."
@@ -54668,10 +54697,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Delian League. Iobates the Stoic hides at Myrina Fort on Lemnos; the clue drops from a level-5+ mercenary or from Kodros.",
-    aiTip: "You can go to Myrina Fort on Lemnos even without the clue. Killing Kodros also gives it to you.",
+    summary:
+      "Adept of the Delian League. Iobates the Stoic hides at Myrina Fort on Lemnos; the clue drops from a tier-5+ mercenary or from Kodros.",
+    aiTip:
+      "You can go to Myrina Fort on Lemnos even without the clue. Killing Kodros also gives it to you.",
     walkthrough: [
-      "Get his clue from a level 5+ mercenary or from Kodros.",
+      "Get his clue from a tier 5+ mercenary or from Kodros.",
       "Sail to Lemnos.",
       "Go to Myrina Fort (you can go even without the clue).",
       "Kill him and loot his clue."
@@ -54731,11 +54762,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Delian League. Commander Rhexenor — Aikaterine's price in A-Musing Tale.",
-    aiTip: "He's asleep in the small blue tent at the Weapons Storage. Mark his guards with Ikaros and you can take him quietly for Aikaterine.",
+    summary:
+      "Adept of the Delian League. Commander Rhexenor — Aikaterine's price in A-Musing Tale.",
+    aiTip:
+      "He's asleep in his tent at the Weapons Storage. Mark his guards with Ikaros and you can take him quietly for Aikaterine.",
     walkthrough: [
       "Reach A-Musing Tale in Chapter 8.",
-      "Find Rhexenor asleep in the small blue tent at the Weapons Storage.",
+      "Find Rhexenor asleep in his tent at the Weapons Storage.",
       "Tag him and his guards with Ikaros.",
       "Kill him and bring proof to Aikaterine."
     ],
@@ -54767,19 +54800,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Cult of Kosmos",
     game: "Assassin's Creed Odyssey",
-    region: "Greece (open world)",
+    region: "Elis",
     title: "Kallias",
-    location: "Greece (open world)",
+    location: "Fort Koroibos, Valley of Olympia, Elis",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Kallias is unmasked during the Olympic Games quests in Elis, after The Contender, then patrols Elis between Fort Koroibos and the main city.",
-    aiTip: "He's unmasked during the Olympic quests after The Contender. Once revealed, he patrols Elis between Fort Koroibos and the main city.",
+    summary:
+      "Kallias is one of the Olympic judges suspected during The Contender. He stays at Fort Koroibos in the Valley of Olympia, and you can kill him there early.",
+    aiTip:
+      "You don't have to wait for the Olympic quests to reveal him: he can be found and killed at Fort Koroibos in the Valley of Olympia ahead of time.",
     walkthrough: [
-      "Play the Olympic Games quests in Elis through The Contender.",
-      "Kallias is unmasked and appears in the Cult menu.",
-      "Look for him (level 36) patrolling between Fort Koroibos and the main city of Elis, or on the road between them.",
-      "Kill him and loot his clue."
+      "Play the Olympic Games quests in Elis; he's one of the judges suspected during The Contender.",
+      "Go to Fort Koroibos in the Valley of Olympia (you can do this early).",
+      "Find and kill Kallias.",
+      "Loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=2njLo_OBX0E"
   },
@@ -54857,11 +54892,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Peloponnesian League. Lagos, archon of Arkadia — kill him or, with the right choices, turn him against the Cult.",
-    aiTip: "Lagos can defect instead of dying. Save his family in Gluten Free and kill the Monger quietly, then persuade him at Fort Samikon.",
+    summary:
+      "Adept of the Peloponnesian League. Lagos, archon of Arkadia — kill him or, with the right choices, turn him against the Cult.",
+    aiTip:
+      "Lagos can defect instead of dying. In Monger Down follow Brasidas's route rather than killing the Monger in the theater for Anthousa, finish White Lies and Blackmail and Gluten Free, then persuade him at Fort Samikon.",
     walkthrough: [
       "Play the Lagos chain from To Kill or Not to Kill.",
-      "Save his family (Gluten Free) and kill the Monger quietly if you want him to defect.",
+      "If you want him to defect: in Monger Down follow Brasidas's route (don't kill the Monger in the theater for Anthousa), and finish White Lies and Blackmail and Gluten Free.",
       "Confront him at Fort Samikon in Judge, Jury, Executioner.",
       "Persuade him to join Brasidas — or kill him."
     ],
@@ -55231,16 +55268,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
     title: "\"Swordfish\"",
-    location: "Fisherman's Beacon / underwater cave, Messara",
+    location: "Hermit's Dive (underwater cave), Octopus Bay, Messara",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Heroes of the Cult. The Swordfish is tied to Ardos's Myths and Minotaurs chain on Crete (Blood in the Water).",
-    aiTip: "Ask the fish-market villagers about him in Blood in the Water (Ardos's Myths and Minotaurs chain). He's at the Fisherman's Beacon / underwater cave on Messara's east side.",
+    summary:
+      "Adept of the Heroes of the Cult. The Swordfish is tied to Ardos's Myths and Minotaurs chain on Crete (Blood in the Water).",
+    aiTip:
+      "He's tied to Ardos's Myths and Minotaurs chain (Blood in the Water). His hideout, Hermit's Dive, is an underwater cave in Octopus Bay whose hidden entrance is at the Fisherman's Beacon.",
     walkthrough: [
       "Do Myths and Minotaurs with Ardos on Messara.",
-      "Investigate the Swordfish through the fish-market villagers in Blood in the Water.",
-      "Find him at the Fisherman's Beacon / underwater cave on Messara's east side.",
+      "Follow Blood in the Water to learn where the Swordfish hides.",
+      "Dive into Hermit's Dive, the underwater cave in Octopus Bay; its hidden entrance is at the Fisherman's Beacon.",
       "Defeat him and loot his clue."
     ],
     video: "https://www.youtube.com/watch?v=16G9UhA7tp8"
@@ -55294,17 +55333,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Phokis",
     title: "Kalydonian Boar",
-    location: "Northern Sacred Lands of Apollo, Phokis",
+    location: "Cliff top west of the Temple of Artemis, Sacred Lands of Apollo, Phokis",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "Daphnae of the Daughters of Artemis sends you after the Kalydonian Boar, a level-20 legendary beast that lairs in a cave in the marshes of northern Phokis.",
-    aiTip: "At level 20 this is the gentlest of the seven hunts. Lure the boar out of its cave lair onto the marsh plateau so you have room to dodge its charges.",
+    summary:
+      "Daphnae of the Daughters of Artemis sends you after the Kalydonian Boar, a legendary beast on a cliff top at the north-west edge of Phokis's Sacred Lands of Apollo.",
+    aiTip:
+      "This is the first and gentlest of the seven hunts, though its level varies between guides. Fight it on the open cliff top so you have room to dodge its charges.",
     walkthrough: [
       "Meet Daphnae near the Temple of Artemis in northern Phokis and take the Daughters of Artemis hunts.",
-      "Travel to the marshy plateau in the northern Sacred Lands of Apollo, at the foot of the mountain.",
-      "Find the boar's cave lair.",
-      "Defeat the Kalydonian Boar (level 20).",
+      "Head about 400 m west of the Temple of Artemis, to the cliff top at the north-west edge of the Sacred Lands of Apollo.",
+      "Find the Kalydonian Boar there.",
+      "Defeat it, dodging its charges.",
       "Take its pelt back to Daphnae."
     ],
     video: "https://www.youtube.com/watch?v=-MVqy9m5Bnk"
@@ -55338,15 +55379,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Argolis",
     title: "The Nemean Lion",
-    location: "Near the Ancient Ruins of Perseus, Argolis",
+    location: "Sinkholes of Herakles, Argolis",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "One of Daphnae's legendary hunts: the Nemean Lion prowls near the Ancient Ruins of Perseus in Argolis (around level 22–25).",
-    aiTip: "The Nemean Lion pounces. Dodge sideways as it lands and punish it during the recovery instead of trying to block.",
+    summary:
+      "One of Daphnae's legendary hunts: the Nemean Lion lairs in the Sinkholes of Herakles in Argolis (around level 22–25).",
+    aiTip:
+      "The Nemean Lion pounces. Dodge sideways as it lands and punish it during the recovery instead of trying to block.",
     walkthrough: [
       "Take the hunt from Daphnae (Daughters of Artemis).",
-      "Go to the Ancient Ruins of Perseus in Argolis.",
+      "Go to the Sinkholes of Herakles in Argolis.",
       "Fight the Nemean Lion — dodge its pounces and punish.",
       "Bring its pelt to Daphnae."
     ],

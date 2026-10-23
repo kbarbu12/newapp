@@ -89,18 +89,25 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-23)
-Prod is `v2.9.1`; `staging` and `main` match. In priority order:
+Prod is `v2.9.2`; `staging` and `main` match. In priority order:
 1. ~~**Replace the 2 allowlisted shared videos**~~ Done (#363): each of
    #1320–1322 and #725–726 now has its own video and the audit allowlist is
    empty. Jedi: Survivor's three are one combined fight, so their videos all
    show that fight from different uploads.
 2. **Fact-check the new quest data** (`v2.7.0` and the Witcher 3 work in
-   `v2.8.0`):
-   - Game facts and video contents weren't verified first-hand, because the
-     guide sites and YouTube are blocked from the agent environment.
-   - The data was written from search snippets where several guides agreed;
-     reward amounts that guides disagreed on use "about" or a range.
-     Spot-check in-game, or re-run with network access.
+   `v2.8.0`). A risk-based sample was done on 2026-10-23: 101 entries with the
+   most specific claims, checked against guide search results.
+   - 13 entries had a clear error and 17 had a smaller problem (an unsupported,
+     overstated or imprecise detail). All 30 are fixed.
+   - Results by game:
+     - AC Odyssey: 10 of 25 (5 errors).
+     - Other `v2.7.0` games: 11 of 26 (5 errors).
+     - AC Valhalla: 4 of 20 (1 error).
+     - Witcher 3: 5 of 30 (2 errors).
+   - **Still open:** a full pass over the rest of AC Odyssey and the smaller
+     `v2.7.0` games (Cyberpunk, TotK, Jedi: Survivor), where the error rate
+     was highest. Witcher 3 and Valhalla are lower priority.
+   - Video contents still haven't been checked first-hand.
 3. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
 4. **Optional Witcher 3 extras beyond the 290 target:** small unmarked
    encounters the guide lists name but that weren't added, because 290 was
