@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (7)
+
+- **Witcher 3 fact-check: 31 entries fixed** — `v2.9.6` patch (#376). All
+  245 Witcher 3 entries the sample hadn't covered were checked against the
+  guides. 8 had a clear error (for example the Bear School map seller, the
+  Missing Son reward, the High Stakes tip, the Ofieri saddle's stat and the
+  Aerondight virtue proofs) and 21 had a smaller one. 2 entries got more
+  reward detail.
+
 ## 2026-10-23 (6)
 
 - **Smaller-games fact-check: 16 entries fixed** — `v2.9.5` patch (#373).
