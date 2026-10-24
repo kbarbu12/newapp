@@ -32722,7 +32722,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather leads around the capital and recruit your first allies.",
       "Follow the trail to the Regalith Grand Cathedral to push the story forward."
     ],
-    video: "https://www.youtube.com/watch?v=_l-JneTM0iM"
+    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
   },
   {
     id: 1133,
@@ -32743,7 +32743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Scepter Chamber and chase the necromancer Zorba to the roof.",
       "Defeat him (no weakness, resists most elements; burn his Corpsethralls) — Healer, Warrior and Knight work well."
     ],
-    video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
+    video: "https://www.youtube.com/watch?v=xvx9T0nTQuM"
   },
   {
     id: 1059,
@@ -32764,7 +32764,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expect four actions per turn once its health is low.",
       "Win for the Avades's Eggshell and the story's next step."
     ],
-    video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
+    video: "https://www.youtube.com/watch?v=N0irFe9xtPY"
   },
   {
     id: 1060,
@@ -32784,7 +32784,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Chase Morris into the depths of Kriegante Castle (beat the 07/16 deadline).",
       "Catch him, learn who backs him and defeat what lurks below — Bardon joins as a follower."
     ],
-    video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
+    video: "https://www.youtube.com/watch?v=voAb--1Nn1c"
   },
   {
     id: 1061,
@@ -32825,7 +32825,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Work through both parts: the temple and Drakongrace Shinjuku.",
       "Reach the Altar of the Twelve and defeat Drakodios's guardian."
     ],
-    video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
+    video: "https://www.youtube.com/watch?v=JDMyrrYyJqM"
   },
   {
     id: 1063,
@@ -32845,7 +32845,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Grand Trad and buy Parchwater from Comfort Concoctions on Sunshade Row.",
       "Bring it back to make the potion and open the Dragon Temple."
     ],
-    video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
+    video: "https://www.youtube.com/watch?v=3SsvFr4jSls"
   },
   {
     id: 1064,
@@ -32865,7 +32865,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch its aura — Reversal Prayer changes its weaknesses; hit whatever element it's now weak to.",
       "Defeat it to free the island."
     ],
-    video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
+    video: "https://www.youtube.com/watch?v=DpqsZ0uAlWM"
   },
   {
     id: 1065,
@@ -32905,7 +32905,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push on to the top and the showdown.",
       "Clearing it isn't the point of no return — you return to the ground afterward (Trials of the Dragon unlock here)."
     ],
-    video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
+    video: "https://www.youtube.com/watch?v=0I9zZxnVfcw"
   },
   {
     id: 1067,
@@ -33078,7 +33078,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to St. Fermis Church and buy a Breath of Fresh Air.",
       "Bring it back to him to finish (+Tolerance)."
     ],
-    video: "https://www.youtube.com/watch?v=Qp8q2DB5MFw"
+    video: "https://www.youtube.com/watch?v=sV6vLeCJoJE"
   },
   {
     id: 16,
@@ -33692,7 +33692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Jewelled Root x3; Courage +4; 90,000 Reeve",
     summary: "The Dejected Man asks you to defeat the boss at the top of the Spire of Blind Faith.",
     aiTip: "The Spire is a full climb — stock up before entering and pace your MP for the summit boss.",
-    video: "https://www.youtube.com/watch?v=xzDUyGLWI_k",
+    video: "https://www.youtube.com/watch?v=Zi9SxQvdRBY",
     walkthrough: [
       "Accept the quest from the Dejected Man.",
       "Climb the Spire of Blind Faith.",
@@ -33712,7 +33712,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 90,000 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of Scoundrel's Hold.",
     aiTip: "Clear Scoundrel's Hold to its final chamber for the bounty target.",
-    video: "https://www.youtube.com/watch?v=L4JWI9tTRlE",
+    video: "https://www.youtube.com/watch?v=FGT5DIBNCiI",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to Scoundrel's Hold.",
@@ -33993,7 +33993,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 112,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Abandoned Path.",
     aiTip: "Clear the Abandoned Path to its final boss chamber.",
-    video: "https://www.youtube.com/watch?v=JTi9bon1Uk8",
+    video: "https://www.youtube.com/watch?v=2MME-TQOwwg",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Abandoned Path.",
@@ -34013,7 +34013,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 172,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Disgraced Ruins.",
     aiTip: "One of the toughest bounties — come well-leveled with revival items.",
-    video: "https://www.youtube.com/watch?v=h5lleNiuM_A",
+    video: "https://www.youtube.com/watch?v=P9tRF06xAIg",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Disgraced Ruins.",
@@ -34033,7 +34033,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 157,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Manor of the Ascendant.",
     aiTip: "The cockatrice inflicts petrify — bring status cures and act fast.",
-    video: "https://www.youtube.com/watch?v=o4bzlvZsGmE",
+    video: "https://www.youtube.com/watch?v=cdu7HPCUrnw",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Manor of the Ascendant.",
@@ -34113,7 +34113,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragon Trial progress",
     summary: "The Gabby Mustari sets a dragon trial: defeat the Dragon at the top of the Forsaken Tower.",
     aiTip: "The last of the three prerequisite dragon trials before Essence of Power.",
-    video: "https://www.youtube.com/watch?v=vDAPW5MsJJc",
+    video: "https://www.youtube.com/watch?v=XPRoDHEVxLY",
     walkthrough: [
       "Accept the trial from the Gabby Mustari.",
       "Climb the Forsaken Tower.",
