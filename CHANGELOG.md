@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (5)
+
+- **Video title check, round 3: God of War Ragnarök** — `v2.9.12` patch
+  (#399, #400).
+  - 68 quest videos checked with a YouTube search per quest title: 63
+    match, 3 swapped for clearly titled videos (Forging Destiny, In the
+    Dead of Night, Fit for a King), 2 left as is.
+  - Flagged for the owner: Atreus's Search, Mimir's Knowledge and The
+    Applecore aren't in-game quest names.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (4)
 
 - **Fix A Dog's Rescue: Dandy is a fox** — `v2.9.11` patch (#396, #397).

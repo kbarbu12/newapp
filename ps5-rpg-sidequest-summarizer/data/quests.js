@@ -8965,7 +8965,7 @@ const quests = [
       "Follow Brok into the lake at The Forge and watch the cutscene.",
       "Take the Draupnir Spear — it shatters the yellow cracks across the realms."
     ],
-    video: "https://www.youtube.com/watch?v=Pq0Y2xWFJd4"
+    video: "https://www.youtube.com/watch?v=ZSShqMRfMz0"
   },
 {
     id: 417,
@@ -9357,7 +9357,7 @@ const quests = [
       "Find the dreki's lair on The Plains.",
       "Defeat the poison-empowered dreki (dodge its poison spit and charge)."
     ],
-    video: "https://www.youtube.com/watch?v=zdnXYjLbQVI"
+    video: "https://www.youtube.com/watch?v=WuOU-iZVFjo"
   },
 {
     id: 436,
@@ -9458,7 +9458,7 @@ const quests = [
       "Defeat every Berserker soul — several gravestones hold two or more.",
       "With all the others down, the King of the Berserkers appears — the toughest of them all."
     ],
-    video: "https://www.youtube.com/watch?v=34SHxlFdYFA"
+    video: "https://www.youtube.com/watch?v=Z9fikYfG7og"
   },
 {
     id: 441,
