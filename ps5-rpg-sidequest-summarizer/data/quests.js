@@ -48423,17 +48423,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Burning house between Linforda and Buckingham, Oxenefordscire",
     length: "short",
     difficulty: "Low",
-    reward: "Dandy the dog, who then joins your settlement",
+    reward: "Dandelion Puff (\"Dandy\"), a pet fox who joins your settlement at Ravensthorpe",
     summary:
-      "A distraught woman outside a burning house begs Eivor to save her dog, Dandy. Break your way in through the back of the building to reach him.",
+      "A distraught woman outside a burning house begs Eivor to save her \"dog\", Dandy. Break your way in through the back of the building to find that Dandy, short for Dandelion Puff, is actually a fox.",
     aiTip:
       "The front of the house is fully ablaze, so go around the back. Every blocked route has a breakable wall or a pot to smash nearby, so look for those rather than running through the fire.",
     walkthrough: [
       "Talk to the woman outside the burning house.",
       "Go around the back and smash the breakable wall to get inside.",
       "Smash the pot blocking the barricade, then move the barricade aside.",
-      "Break through the last wall to reach the dog.",
-      "Lead Dandy back to the woman and speak to her to complete the event."
+      "Break through the last wall to reach Dandy, who turns out to be a fox.",
+      "Lead Dandy back to the woman. She dies of her burns and asks Eivor to find Dandy a good home.",
+      "Walk (don't run) away from the house so Dandy keeps following, then ask her to join your settlement; she heads to Ravensthorpe."
     ],
     video: "https://www.youtube.com/watch?v=gKp9Yw9CO98"
   },
