@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (9)
+
+- **Video title check, round 3: Ghost of Tsushima** — `v2.9.16` patch
+  (#413, #414).
+  - The 40 Ghost of Tsushima videos not checked in earlier rounds were
+    checked with a YouTube search per quest title: 27 match, 13 swapped for
+    videos titled with the quest's name.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (8)
 
 - **No quest or PR numbers in News** — `v2.9.15` patch (#409, #410, #411).
