@@ -47562,7 +47562,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let Erlend fight it, weakening it without killing it yourself.",
       "Once Erlend deals the decisive blow, talk to him."
     ],
-    video: "https://www.youtube.com/watch?v=27tneV2Cylw"
+    video: "https://www.youtube.com/watch?v=oYY9L6zS0Jw"
   },
 {
     id: 2627,
@@ -47634,7 +47634,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Odin's Sight to find the crevice on the western side and take the Elk-Antler Comb.",
       "Return it to Bil and choose whether to spend time with her."
     ],
-    video: "https://www.youtube.com/watch?v=ytwEC8BYFSw"
+    video: "https://www.youtube.com/watch?v=e-yJ0iUFums"
   },
 {
     id: 2630,
@@ -47830,7 +47830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the women to the river and kill the wolves that attack.",
       "Meet them at the fire across the river and talk to the Abbess."
     ],
-    video: "https://www.youtube.com/watch?v=IDe1fou8jJw"
+    video: "https://www.youtube.com/watch?v=mYpa46adwkw"
   },
 {
     id: 2638,
@@ -47927,7 +47927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick up the fallen leaf.",
       "Talk to Mae again."
     ],
-    video: "https://www.youtube.com/watch?v=u5Lzpgz5vHk"
+    video: "https://www.youtube.com/watch?v=XgSbO3xqVkI"
   },
 {
     id: 2642,
@@ -47975,7 +47975,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interact with the spot in front of the stairs to begin guard duty.",
       "Defeat the second man who approaches the tower."
     ],
-    video: "https://www.youtube.com/watch?v=iHyD4lltZLY"
+    video: "https://www.youtube.com/watch?v=c_xfB8vHBCc"
   },
 {
     id: 2644,
@@ -48025,7 +48025,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let the cat out to clear the rats.",
       "Return to the farmer for his house key."
     ],
-    video: "https://www.youtube.com/watch?v=Y-cjPMkRveA"
+    video: "https://www.youtube.com/watch?v=xCyYx-zCViA"
   },
 {
     id: 2646,
@@ -48048,7 +48048,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to him and answer truthfully or lie.",
       "Pull the axe out to end the event."
     ],
-    video: "https://www.youtube.com/watch?v=5nOiC8830M4"
+    video: "https://www.youtube.com/watch?v=ZBZuwvNMTJ8"
   },
 {
     id: 2647,
@@ -48072,7 +48072,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Light the last brazier on the riverbank opposite Soham Hideout.",
       "Cross the river and kill all the bandits in Soham Hideout."
     ],
-    video: "https://www.youtube.com/watch?v=rJ-T7Fmf4rY"
+    video: "https://www.youtube.com/watch?v=IG_qL_qtOCg"
   },
 {
     id: 2648,
@@ -48096,7 +48096,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the girl.",
       "Shoot an arrow at the platform Degolas is standing on."
     ],
-    video: "https://www.youtube.com/watch?v=NhrEAVszAno"
+    video: "https://www.youtube.com/watch?v=kHeeGOtQaT0"
   },
 {
     id: 2649,
@@ -48145,7 +48145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the crate of clothes.",
       "Deliver it next to Winchell."
     ],
-    video: "https://www.youtube.com/watch?v=7X3OWHTq1fk"
+    video: "https://www.youtube.com/watch?v=nXvQucstbyQ"
   },
 {
     id: 2651,
@@ -48315,7 +48315,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Corner the cat when it stops and pick it up.",
       "The cat now appears as a companion on your longship."
     ],
-    video: "https://www.youtube.com/watch?v=DgAUYqVz2dg"
+    video: "https://www.youtube.com/watch?v=kia4gaICbjg"
   },
 {
     id: 2658,
@@ -48363,7 +48363,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Parry her attacks until she is stunned, then land a stun attack.",
       "Talk to her as she lies dying to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=Gqs00KKAXy0"
+    video: "https://www.youtube.com/watch?v=SZn44l-8nQ4"
   },
 {
     id: 2660,
@@ -48532,7 +48532,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the Charisma option to persuade her to leave.",
       "The event completes once she steps outside."
     ],
-    video: "https://www.youtube.com/watch?v=DTH393xkEyo"
+    video: "https://www.youtube.com/watch?v=l00OyRlkQV8"
   },
 {
     id: 2667,
@@ -48607,7 +48607,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Move the last shelf to open an exit.",
       "Speak to the man again to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=CMUsgAhRUpg"
+    video: "https://www.youtube.com/watch?v=Tg42REvS5aI"
   },
 {
     id: 2670,
@@ -48729,7 +48729,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When he breaks his promise and challenges you again, beat him again.",
       "Keep winning until he finally concedes the hill and the event completes."
     ],
-    video: "https://www.youtube.com/watch?v=b_tWTuhwHEU"
+    video: "https://www.youtube.com/watch?v=ItF0vPMBZN4"
   },
 {
     id: 2675,
@@ -48851,7 +48851,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Odin's Sight to find the key on a body near the well or at the back.",
       "Unlock the door, read the note and examine the body inside to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=lhkGE5dSa0M"
+    video: "https://www.youtube.com/watch?v=70FucPfraXc"
   },
 {
     id: 2680,
@@ -49361,7 +49361,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry the unconscious brother and follow the other south along the road, fighting off any wolves.",
       "Talk to the conscious brother to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=n59xTBl1YzU"
+    video: "https://www.youtube.com/watch?v=BU_A6ahMLMM"
   },
 {
     id: 2701,
@@ -49410,7 +49410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dive into the river and take the Viking Ship Rope from the wreck.",
       "Show it to them both to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=9Eck6P3G2T0"
+    video: "https://www.youtube.com/watch?v=YCn3y1aAOzI"
   },
 {
     id: 2703,
@@ -49744,7 +49744,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow her as she runs off to the south-west.",
       "Speak to her again at the grave to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=QIkyCgiz4g8"
+    video: "https://www.youtube.com/watch?v=RzyDF7PTdwI"
   },
 {
     id: 2717,
@@ -49768,7 +49768,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Listen to his song to complete the event.",
       "Optionally steal your coins back from him afterwards."
     ],
-    video: "https://www.youtube.com/watch?v=CfDGelRL73k"
+    video: "https://www.youtube.com/watch?v=ctG4rXQmK40"
   },
 {
     id: 2718,
@@ -49909,7 +49909,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort her east to the ruins on the hill, fighting off wolves.",
       "Stay with her at the ruins to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=L-RvDLGA__A"
+    video: "https://www.youtube.com/watch?v=G6yb53rtQR0"
   },
 {
     id: 2724,
@@ -50340,7 +50340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the bard when he attacks.",
       "Kill him to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=9FH1bcTm1M4"
+    video: "https://www.youtube.com/watch?v=QtA_pD9BV-w"
   },
 {
     id: 2742,

@@ -43,6 +43,7 @@ per PR, the same way as round 2.
 | Game | Match | Swapped | Left as is (quest IDs) |
 |---|---|---|---|
 | The Witcher 3 | 157 / 253 | 86 | 2779, 2787, 2859, 2871, 2887, 2901, 2923, 2926, 2934, 2942 (no YouTube result for the title) |
+| Assassin's Creed Valhalla | 109 / 135 | 22 | 1971, 2635, 2750 (no YouTube result for the title), 2640 (only result didn't name the quest) |
 
 ## Title check (2026-10-17)
 
