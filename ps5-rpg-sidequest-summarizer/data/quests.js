@@ -49414,7 +49414,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A baker in Jorvik is hunting whoever keeps stealing his pies. Follow him on the trail and help him find the culprit, who turns out to be a hungry child.",
     aiTip:
-      "When the baker stops and loses the trail, switch on Odin's Sight. The child hiding nearby lights up straight away.",
+      "Guides describe it slightly differently, but the key step is the same: when the baker loses the trail, switch on Odin's Sight to spot the hidden child.",
     walkthrough: [
       "Talk to the baker north-west of the Eboracum Sewers.",
       "Follow him as he tracks the pie thief.",
@@ -49438,11 +49438,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Two priests on the riverbank urge a nervous man in a boat to jump into the water to be cleansed of his demons, but he won't take the plunge. Give him the push he needs.",
     aiTip:
-      "You don't need to talk anyone into anything. Just jump onto the boat yourself and the man ends up in the river.",
+      "Guides give three ways to get him in the water: jump onto the boat yourself, take the boat so he jumps to escape, or blow your horn nearby to give him the nerve. Any of them works.",
     walkthrough: [
       "Find the small crowd on the riverbank by Coppergate Market.",
       "Listen to the priests urging the man in the boat to jump.",
-      "Jump onto the boat to tip him into the water.",
+      "Get him into the water: jump onto the boat, take it, or blow your horn nearby.",
       "The event completes once he's in the river."
     ],
     video: "https://www.youtube.com/watch?v=d7ax8RBjsOs"
@@ -49462,11 +49462,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A blinded man stranded on scaffolding under a Jorvik bridge wants to get back up to the bridge. Carry him there safely.",
     aiTip:
-      "With the man on your back you can't climb freely, so take the boat across to the far shore and use the stairs up to the bridge.",
+      "With the man on your back you can't climb freely. Guides describe different routes: take the boat to the far shore and use the stairs, or cross on the planks and floating jars. Either way Eivor sets him down on the bridge.",
     walkthrough: [
       "Talk to the blind man on the scaffolding beneath the northern bridge.",
       "Pick him up and carry him down to the water.",
-      "Use the boat to cross to the opposite shore.",
+      "Cross the river by boat (or over the planks and floating jars).",
       "Climb the stairs up to the bridge, and Eivor sets him down to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=0ORS3cQpnSs"
@@ -56811,17 +56811,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Attika",
     title: "Goat's Gruff",
-    location: "Camp Dekelia, Attika",
+    location: "Camp Dekelia → Cave of Pan near Marathon Beach, Attika",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at Camp Dekelia, Attika. Its riddle points to a spot in the same area.",
-    aiTip: "Pick up the tablet at Camp Dekelia and read it there, since its answer is in the same area of Attika.",
+    reward: "An engraving: 4% more damage with heavy weapons (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in a barracks-like building at Camp Dekelia, Attika. Its riddle points north-east to the Cave of Pan by Marathon Beach.",
+    aiTip:
+      "Head north-east to Marathon Beach and follow the path lined with stone figures to the Cave of Pan. The answer is the goat statue with blood on its face.",
     walkthrough: [
-      "Pick up the tablet at Camp Dekelia, Attika.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet in the barracks-like building at Camp Dekelia, Attika.",
+      "Travel north-east to Marathon Beach.",
+      "Follow the path lined with stone figures to the Cave of Pan.",
+      "Interact with the goat statue with blood on its face to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=iPt1D-UMY5I"
   },
@@ -56897,17 +56899,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Boeotia",
     title: "Stadium Love",
-    location: "Leader House, Thebes, Boeotia",
+    location: "Leader House, Thebes → heart-shaped lake east of Thebes, Boeotia",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is in the Leader House in Thebes. The riddle says the treasure is beside a helmet that was left behind.",
-    aiTip: "The riddle mentions a helmet left behind. Look for that once you've taken the tablet from the Leader House in Thebes.",
+    reward: "An engraving: +2% critical chance at full health (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in the Leader House in Thebes. The riddle's left-behind helmet is on the bridge over the heart-shaped lake east of the city.",
+    aiTip:
+      "Head east of Thebes to the heart-shaped lake. The answer is on the bridge, beside the helmet that was left behind.",
     walkthrough: [
       "Pick up the tablet in the Leader House in Thebes.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Travel east to the heart-shaped lake.",
+      "Find the bridge over the lake and the helmet left on it.",
+      "Interact with the spot beside the helmet to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=zESxS91wnF0"
   },
@@ -56918,17 +56922,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Boeotia",
     title: "Bridging the Gap",
-    location: "Bandit Raid, Cursed Land of Oedipous, Boeotia",
+    location: "Bandit Raid, Cursed Land of Oedipous → unfinished bridge toward Euboea, Boeotia",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
-    aiTip: "The tablet is in the Bandit Raid camp in the north-east of the Cursed Land of Oedipous, so expect a fight to reach it.",
+    reward: "An engraving: +1 second of burning duration (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Bandit Raid in the north-east of the Cursed Land of Oedipous. Its riddle points to the bridge being built toward Euboea.",
+    aiTip:
+      "The tablet is by the campfire in front of the house at the Bandit Raid, so expect a fight. The answer is the last plank at the unfinished end of the bridge toward Euboea.",
     walkthrough: [
-      "Pick up the tablet at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet by the campfire at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
+      "Head to the bridge under construction toward Euboea.",
+      "Walk out to its unfinished end.",
+      "Interact with the last plank to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=yy-bkyXBgdw"
   },
@@ -57048,17 +57054,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Petrified Islands",
     title: "Star-Crossed Lovers",
-    location: "Alkidas Fort, Lesbos",
+    location: "Alkidas Fort → broken bridge near Eresos, Lesbos",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is inside a building at Alkidas Fort on Lesbos (climb the ladder). Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is up a ladder inside one of the buildings at Alkidas Fort on Lesbos. Check the buildings with ladders first.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is inside a building at Alkidas Fort on Lesbos (climb the ladder). Its 'wooden behemoth' is a broken bridge over a river between the Ancient Pearl and Eresos.",
+    aiTip:
+      "The answer is under the broken wooden bridge on the river between the Ancient Pearl and Eresos, east of the fort. Jump into the water beneath it to find the spot.",
     walkthrough: [
       "Pick up the tablet inside a building at Alkidas Fort on Lesbos (climb the ladder).",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Head east to the river between the Ancient Pearl and Eresos.",
+      "Find the broken wooden bridge.",
+      "Jump into the water beneath it and interact with the spot to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=sDbU_RE8l10"
   },
@@ -57198,17 +57206,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Needle in a Haystack",
-    location: "Sunken Wrecks Cavern of Datis, Silver Islands",
+    location: "Sunken Wrecks Cavern of Datis → farm in the south of the island, Silver Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is on a shipwreck inside the Sunken Wrecks Cavern of Datis, so bring breath upgrades for the swim.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. One guide says the answer is in a haystack at a farm in the south of the island.",
+    aiTip:
+      "Bring breath upgrades for the swim to the tablet. Then look for a farm in the south of the island and search the haystack (only one guide gives this answer, so check nearby if it doesn't match).",
     walkthrough: [
       "Pick up the tablet on a shipwreck in the Sunken Wrecks Cavern of Datis.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Travel to the farm in the south of the island.",
+      "Find the haystack.",
+      "Interact with it to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=JKPAO3StTc0"
   },
