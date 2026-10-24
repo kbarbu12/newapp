@@ -7,6 +7,37 @@
 
 ---
 
+## 2026-10-24 (2) — video title check, round 3: Witcher 3, AC Valhalla, Jedi: Survivor (staging only)
+Round 3 of the title check covers the 1,078 videos added since round 2
+(2026-10-18). Each video gets one YouTube search for its quest title, logged
+in `docs/video-candidates/title-check.json` with `"file": "quests.js"`. When
+the current video doesn't come up and a clearly titled video of that quest
+does, it's swapped in. Results are in the round-3 table in
+`docs/video-candidates/README.md`. All three PRs are merged to `staging` but
+not yet on prod (prod is still `v2.9.9`).
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #390 | The Witcher 3 | 253 | 157 | 86 | 10 |
+| #391 | AC Valhalla | 135 | 109 | 22 | 4 |
+| #392 | Star Wars Jedi: Survivor | 87 | 33 | 27 | 27 |
+| | **Total** | **475** | **299** | **135** | **41** |
+
+- **Witcher 3 (#390):** a few videos pointed somewhere else entirely. For
+  example, #43 Beyond Hill and Dale was a soundtrack track. #2856 Tinker,
+  Hunter, Soldier, Spy was also put back to the Hearts of Stone quest; #376
+  had wrongly changed it.
+- **Jedi: Survivor (#392):** most of the entries left as is are story missions
+  and the "Collectible Hunt" entries. Searches for those only return written
+  guides or generic numbered playthrough parts.
+- "Left as is" means nothing better came up. It doesn't mean the video is
+  wrong. Videos were matched by title only; none were watched.
+- Each PR: `npm test` clean (no reused videos), staging build plus headless QA
+  of every swapped ID (0 page errors), CI green before merge, staging deploy
+  green.
+
+---
+
 ## 2026-10-24 — fact-check leftovers, Hogwarts and Witcher 3 extras (v2.9.8 → v2.9.9)
 - **v2.9.8** (#382, #383, #384): docs only. TODO "What's left" and the
   previous PROGRESS entry.
