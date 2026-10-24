@@ -1,9 +1,51 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-21
+**Last updated:** 2026-10-24
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-10-21 → 24 — Witcher 3 to prod, release fix, every quest its own video, full fact-check (v2.8.0 → v2.9.7)
+Everything below is on prod; `staging` and `main` match at `v2.9.7`.
+
+### Releases
+- **v2.8.0** (#357): Witcher 3 complete at 290 quests, with every original
+  entry corrected (the 2026-10-21 work above).
+- **v2.9.1** (#358): `release.yml` skips commits that are already tagged.
+  GitHub had delivered the v2.8.0 push to `main` twice, which created a
+  duplicate `v2.9.0` tag; the owner deleted it.
+- **v2.9.2** (#363): the last 2 allowlisted shared videos were replaced, so
+  every quest now has its own video and the audit allowlist is empty.
+- **v2.9.3** (#366): fact-check sample. 101 entries with the most specific
+  claims were checked against guide search results; 13 clear errors and 17
+  smaller problems were fixed. The rest was then marked [HIGH] in TODO (#369).
+- **v2.9.4** (#370): AC Odyssey full pass. 179 entries; 8 clear errors and 29
+  smaller problems fixed, plus 10 ostraka solutions added.
+- **v2.9.5** (#373): smaller `v2.7.0` games. 69 entries; 7 clear errors (6 of
+  them Jedi: Survivor rumors) and 6 smaller problems fixed.
+- **v2.9.6** (#376): Witcher 3. 245 entries; 8 clear errors and 21 smaller
+  problems fixed (for example the Bear School map seller, the Missing Son
+  reward, the High Stakes tip, the Ofieri saddle's stat, the Aerondight
+  virtue proofs).
+- **v2.9.7** (#379): AC Valhalla. 109 World Events; 7 clear errors and 14
+  smaller problems fixed (for example A Dog's Rescue saves a dog, not a fox;
+  King of Shitsby is at Cruwland and ends in a fight; Tiny Black Market's
+  password and hoard map were made up).
+
+Each release had its own changelog PR (#356, #359, #364, #367, #371, #374,
+#377, #380), prod-build QA of the changed IDs (0 page errors each time) and a
+staging → main promotion PR.
+
+### Method used for the fact-check
+For each entry, the location, rewards and amounts, choices, requirements and
+tip were compared with guide search results. Anything wrong was fixed,
+anything only one guide supported was hedged, and claims no guide supported
+were removed. One PR per game.
+
+### Still to do
+See TODO.md "What's left (as of 2026-10-24)".
 
 ---
 
