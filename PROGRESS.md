@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-24 (6) — video title check, round 3: Ghost of Tsushima (staging only)
+## 2026-10-24 (6) — video title check, round 3: Ghost of Tsushima (v2.9.16)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
