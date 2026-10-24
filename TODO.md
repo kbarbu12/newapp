@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.12`; `staging` and `main` match.
+Prod is `v2.9.13`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -123,36 +123,40 @@ in `docs/video-candidates/README.md`.
 **Done on 2026-10-24 (`v2.9.12`):** God of War Ragnarök (#399):
 68 videos checked, 63 matched, 3 swapped, 2 left as is.
 
+**Done on 2026-10-24 (`v2.9.13`):** Metaphor: ReFantazio (#402):
+37 videos checked, 15 matched, 15 swapped, 7 left as is.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 535 videos left, one game per
+1. **Finish the video title check (round 3).** 382 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
-   `docs/video-candidates/title-check.json`):
+   `docs/video-candidates/title-check.json`). Counts are videos with no row
+   in `title-check.json` yet (recounted 2026-10-24; the earlier table also
+   counted videos checked in rounds 1–2):
 
    | Game | Videos |
    |---|---|
-   | Metaphor: ReFantazio | 56 |
-   | Sekiro | 46 |
-   | Elden Ring | 45 |
-   | Ghost of Tsushima | 45 |
-   | Black Myth: Wukong | 40 |
-   | Zelda: Tears of the Kingdom | 39 |
-   | Baldur's Gate 3 | 35 |
+   | Ghost of Tsushima | 40 |
+   | Sekiro | 39 |
+   | Black Myth: Wukong | 37 |
+   | Zelda: Tears of the Kingdom | 36 |
+   | Elden Ring | 32 |
    | Final Fantasy VII Remake | 30 |
-   | Cyberpunk 2077 | 29 |
    | Star Wars Jedi: Fallen Order | 28 |
-   | Final Fantasy VII Rebirth | 25 |
-   | Persona 5 Royal | 23 |
-   | Demon's Souls | 18 |
-   | Horizon Forbidden West | 17 |
-   | Pillars of Eternity II: Deadfire | 15 |
-   | Skyrim | 14 |
+   | Baldur's Gate 3 | 26 |
+   | Cyberpunk 2077 | 22 |
+   | Final Fantasy VII Rebirth | 19 |
+   | Persona 5 Royal | 18 |
+   | Demon's Souls | 13 |
    | Hogwarts Legacy | 13 |
-   | Ghost of Yōtei | 12 |
-   | Pillars of Eternity | 5 |
+   | Horizon Forbidden West | 11 |
+   | Ghost of Yōtei | 9 |
+   | Pillars of Eternity II: Deadfire | 4 |
+   | Skyrim | 4 |
+   | Pillars of Eternity | 1 |
 
-   The 43 videos left as is (IDs in the README table) need a look from the
-   owner or a better source. Most are Jedi: Survivor story missions and
-   collectible hunts. God of War Ragnarök #162 Atreus's Search, #164
+   The 50 videos left as is (IDs in the README table) need a look from the
+   owner or a better source. Most are Jedi: Survivor story missions,
+   collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
    Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
    (two umbrella entries and an area); decide whether to rename or drop them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a

@@ -7,6 +7,28 @@
 
 ---
 
+## 2026-10-24 (4) — video title check, round 3: Metaphor: ReFantazio (v2.9.13)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up. Only 37 of Metaphor's 76 videos had no title-check row
+yet; the rest were checked in rounds 1–2. TODO's per-game table was
+recounted the same way and now lists 382 videos left.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #402 | Metaphor: ReFantazio | 37 | 15 | 15 | 7 |
+
+- Most swaps are main quests (Save the Prince from Death's Curse,
+  Necromancer Takedown, Thwart Zorba's Plan, Apprehend the Real Kidnapper,
+  Obtain Drakodios, Eliminate Virga Island's Threat, Skybound Avatar
+  Conquest), whose videos didn't come up for either wording. Each now
+  points to a video titled with the quest's name.
+- Left as is: #1065 Prepare for the Final Battle (only a generic
+  playthrough part came up) and six of the More's Task chapters (only
+  parts of multi-part series, or nothing).
+- Shipped to prod as `v2.9.13` (#404) on 2026-10-24.
+
+---
+
 ## 2026-10-24 (3) — video title check, round 3: God of War Ragnarök (v2.9.12)
 Same method as the earlier round-3 games: one YouTube search per quest title,
 and a second wording before giving up. Logged in
