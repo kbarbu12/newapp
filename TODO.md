@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.11`; `staging` and `main` match.
+Prod is `v2.9.12`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -120,7 +120,7 @@ Survivor (#392) are done: 475 videos checked, 135 swapped for clearly
 titled alternatives, and 41 left as is. See PROGRESS.md and the round-3 table
 in `docs/video-candidates/README.md`.
 
-**Done since (on `staging`, not yet on prod):** God of War Ragnarök (#399):
+**Done on 2026-10-24 (`v2.9.12`):** God of War Ragnarök (#399):
 68 videos checked, 63 matched, 3 swapped, 2 left as is.
 
 Still open, in priority order:
