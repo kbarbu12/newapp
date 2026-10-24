@@ -151,16 +151,12 @@ Still open, in priority order:
    The 41 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions and
    collectible hunts.
-2. **Recheck AC Valhalla's A Dog's Rescue (#2662).** #379 changed it to "saves
-   a dog, not a fox", but the guides that came up in the title check
-   (Gamepur, Neoseeker, the AC wiki) say the animal is a fox named Dandelion
-   Puff. Confirm which is right.
-3. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
+2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
-4. **Owner actions (agent can't do these):**
+3. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
-5. **Parked:**
+4. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
