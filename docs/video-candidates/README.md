@@ -46,6 +46,7 @@ per PR, the same way as round 2.
 | Assassin's Creed Valhalla | 109 / 135 | 22 | 1971, 2635, 2750 (no YouTube result for the title), 2640 (only result didn't name the quest) |
 | Star Wars Jedi: Survivor | 33 / 87 | 27 | 1282, 1284, 1288, 1290, 1295–1298, 1304, 1310, 1323, 1337–1343, 1345, 1369, 2589, 2591 (no YouTube result for the title); 1287, 1292, 1299, 1305, 2588 (only generic playthrough videos came up) |
 | God of War Ragnarök | 63 / 68 | 3 | 162, 164 (not in-game quest titles: umbrella entries for Atreus's sections and Mimir's lore); 663 matched, but "The Applecore" is an area, not a favour |
+| Metaphor: ReFantazio | 15 / 37 | 15 | 1065 (only a generic numbered playthrough part came up); 1068–1070, 1072–1074 (More's Task chapters: only parts of multi-part series or nothing came up) |
 
 ## Title check (2026-10-17)
 
