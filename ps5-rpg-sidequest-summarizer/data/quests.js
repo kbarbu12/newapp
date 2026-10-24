@@ -842,7 +842,7 @@ const quests = [
       "Visit the Crones at Crookback Bog with the Baron's clues.",
       "Your choices decide whether the Baron, Anna and Tamara get any kind of ending."
     ],
-    video: "https://www.youtube.com/watch?v=dVv0wLSYCB4"
+    video: "https://www.youtube.com/watch?v=BY56hP3kTSQ"
   },
 {
     id: 14,
@@ -1200,7 +1200,7 @@ const quests = [
       "Find the woman's bones and the hairpin, and burn them in the well — or fight the Noonwraith first.",
       "Defeat the Noonwraith during the day (Yrden traps it in physical form) and collect the reward."
     ],
-    video: "https://www.youtube.com/watch?v=Q4GLjCF0rHg"
+    video: "https://www.youtube.com/watch?v=IG98e99GV3M"
   },
 {
     id: 34,
@@ -1344,7 +1344,7 @@ const quests = [
       "Decide how to deal with the hym — trusting Cerys (throw the baby into the oven) frees Udalryk and strengthens her claim.",
       "Finish before The Isle of Mists."
     ],
-    video: "https://www.youtube.com/watch?v=uTEAl3zf1Ws"
+    video: "https://www.youtube.com/watch?v=6LkkCSxBhws"
   },
 {
     id: 42,
@@ -1388,7 +1388,7 @@ const quests = [
       "Get the ribbon from the Little Flint Girl (buy it or win it at Gwent) — it matters for the best ending.",
       "Find Syanna and leave the fairy-tale land."
     ],
-    video: "https://www.youtube.com/watch?v=lRL8pJR45bU"
+    video: "https://www.youtube.com/watch?v=oPpoEe8Xx7U"
   },
 {
     id: 44,
@@ -7592,7 +7592,7 @@ const quests = [
       "Brew the Swallow potion.",
       "Give it to Tomira for Lena before leaving White Orchard."
     ],
-    video: "https://www.youtube.com/watch?v=npXGOpCTbow"
+    video: "https://www.youtube.com/watch?v=KpJKjAl4Ybo"
   },
 {
     id: 350,
@@ -7638,7 +7638,7 @@ const quests = [
       "Kill the bear that appears near the cave.",
       "Lead the goat back to the Pellar."
     ],
-    video: "https://www.youtube.com/watch?v=fDZ0myVByY0"
+    video: "https://www.youtube.com/watch?v=RuL1-s1TxhQ"
   },
 {
     id: 354,
@@ -7661,7 +7661,7 @@ const quests = [
       "Examine the skull in the side room to open a portal.",
       "Step through to meet Keira Metz."
     ],
-    video: "https://www.youtube.com/watch?v=CxBwZprqjfg"
+    video: "https://www.youtube.com/watch?v=iCGlHrvEpqg"
   },
 {
     id: 355,
@@ -7684,7 +7684,7 @@ const quests = [
       "Guard Keira while she closes three White Frost portals.",
       "Defeat Nithral of the Wild Hunt."
     ],
-    video: "https://www.youtube.com/watch?v=W62TX8-03tI"
+    video: "https://www.youtube.com/watch?v=vBt0qxk6yeY"
   },
 {
     id: 356,
@@ -7753,7 +7753,7 @@ const quests = [
       "Find the godling Sarah in the cellar.",
       "Make a deal with Sarah or drive her out, then hold the séance."
     ],
-    video: "https://www.youtube.com/watch?v=OcXmW6s1DMM"
+    video: "https://www.youtube.com/watch?v=1BLYM-yQazE"
   },
 {
     id: 359,
@@ -7776,7 +7776,7 @@ const quests = [
       "Cast the play with Irina.",
       "Perform, choosing the right lines when prompted."
     ],
-    video: "https://www.youtube.com/watch?v=GcRT5MVhW4U"
+    video: "https://www.youtube.com/watch?v=fj1M78VlQ20"
   },
 {
     id: 360,
@@ -7845,7 +7845,7 @@ const quests = [
       "Meet Triss and go with her to Caleb Menge.",
       "Kill Menge and his witch hunters, then take the vault key to Dijkstra."
     ],
-    video: "https://www.youtube.com/watch?v=uTI7E-1wyNM"
+    video: "https://www.youtube.com/watch?v=MwNg2DcNuHI"
   },
 {
     id: 363,
@@ -7959,7 +7959,7 @@ const quests = [
       "Get through the cave (past Old Speartip) and deal with the trolls.",
       "Light the lanterns at the altar and place the phylactery."
     ],
-    video: "https://www.youtube.com/watch?v=jetvPkAfrn0"
+    video: "https://www.youtube.com/watch?v=B5-R5CrBZRQ"
   },
 {
     id: 368,
@@ -8005,7 +8005,7 @@ const quests = [
       "Throw the silver dagger into the fire to summon the noonwraith.",
       "Kill her, take a trophy and collect your reward from Helma."
     ],
-    video: "https://www.youtube.com/watch?v=PSSC_m27Dno"
+    video: "https://www.youtube.com/watch?v=LdLIL4wd8dw"
   },
 {
     id: 370,
@@ -8097,7 +8097,7 @@ const quests = [
       "Break into the vault and choose between Horst and Ewald.",
       "Escape and bring the casket to Olgierd."
     ],
-    video: "https://www.youtube.com/watch?v=ssRaolY46Sk"
+    video: "https://www.youtube.com/watch?v=GHaNRSRcj6M"
   },
 {
     id: 375,
@@ -8191,7 +8191,7 @@ const quests = [
       "Decide whether to spare him or fight him.",
       "Spare him to unlock Take What You Want, or loot Teigr from his body."
     ],
-    video: "https://www.youtube.com/watch?v=hLzRLwC0SPY"
+    video: "https://www.youtube.com/watch?v=Kky_t6C68kI"
   },
 {
     id: 379,
@@ -13186,7 +13186,7 @@ const quests = [
       "Fight Imlerith across his two phases at the summit.",
       "Loot the Magic Acorn and the chest near the throne, then regroup with Ciri."
     ],
-    video: "https://www.youtube.com/watch?v=XKCdkVwpKkk"
+    video: "https://www.youtube.com/watch?v=3jAODHJlc8A"
   },
 {
     id: 606,
@@ -13277,7 +13277,7 @@ const quests = [
       "Kill it, wake aboard the Ofieri ship and accept O'Dimm's pact.",
       "Escape the wreck, meet Master Mirror at midnight, then return to the Garin Estate."
     ],
-    video: "https://www.youtube.com/watch?v=0fGeUXStPiQ"
+    video: "https://www.youtube.com/watch?v=0RlXHOoKRRY"
   },
 {
     id: 610,
@@ -13322,7 +13322,7 @@ const quests = [
       "Take rowanberry brandy from the barn or rowan flowers from the tree.",
       "Give it to Shani and see the night through with her."
     ],
-    video: "https://www.youtube.com/watch?v=oPkouAEmCko"
+    video: "https://www.youtube.com/watch?v=4xnP576ZvQo"
   },
 {
     id: 612,
@@ -13457,7 +13457,7 @@ const quests = [
       "Confront the Allgod: kill it, or bargain it down to humble offerings.",
       "Report back to the peasants for your reward."
     ],
-    video: "https://www.youtube.com/watch?v=yOh9UiIArV8"
+    video: "https://www.youtube.com/watch?v=h9y3awgTju4"
   },
 {
     id: 620,
@@ -13480,7 +13480,7 @@ const quests = [
       "Buy the paint from the merchant in Oxenfurt.",
       "Give it to the troll and help him paint the eagle."
     ],
-    video: "https://www.youtube.com/watch?v=fGjSARozF38"
+    video: "https://www.youtube.com/watch?v=D2mMRlYw3ls"
   },
 {
     id: 621,
@@ -13503,7 +13503,7 @@ const quests = [
       "Rescue Titus at the last pit and hear his story.",
       "Return to the priest near the Novigrad bridge and take the fee, or his bribe."
     ],
-    video: "https://www.youtube.com/watch?v=BI3KTQscdSg"
+    video: "https://www.youtube.com/watch?v=7YNUTwjE7Oc"
   },
 {
     id: 622,
@@ -13661,7 +13661,7 @@ const quests = [
       "Place the skulls in the cemetery and wait for midnight.",
       "Kill Mourntart, take the trophy and collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=xzFKT02Nz1I"
+    video: "https://www.youtube.com/watch?v=gifrgo8GM-M"
   },
 {
     id: 629,
@@ -13706,7 +13706,7 @@ const quests = [
       "Collect the swords, armor, gauntlets, trousers and boots diagrams.",
       "Take them to a blacksmith and armorer to craft the Feline set."
     ],
-    video: "https://www.youtube.com/watch?v=wkgIiGGbU2k"
+    video: "https://www.youtube.com/watch?v=pH__y1zdMDY"
   },
 {
     id: 631,
@@ -13752,7 +13752,7 @@ const quests = [
       "Collect the swords, armor and crossbow diagrams.",
       "Craft the Ursine set with a blacksmith and armorer."
     ],
-    video: "https://www.youtube.com/watch?v=ClH5G7iyfwU"
+    video: "https://www.youtube.com/watch?v=ETR_BCc-jck"
   },
 {
     id: 633,
@@ -13842,7 +13842,7 @@ const quests = [
       "Go through Yennefer's portal to the mountaintop on Ard Skellig.",
       "Face the djinn with her, then say what you really feel about Yennefer."
     ],
-    video: "https://www.youtube.com/watch?v=cE7Bdij1sJ8"
+    video: "https://www.youtube.com/watch?v=yzdz0wLnslE"
   },
 {
     id: 2355,
@@ -13865,7 +13865,7 @@ const quests = [
       "Watch Philippa kill Radovid.",
       "When Dijkstra turns on Roche, Ves and Thaler, defend them (fight Dijkstra) or walk away."
     ],
-    video: "https://www.youtube.com/watch?v=OIstcrq-IIc",
+    video: "https://www.youtube.com/watch?v=rTsf2oC1XvE",
     missable: true,
     missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first"
   },
@@ -13891,7 +13891,7 @@ const quests = [
       "Dodge her teleport strikes, kill the lesser wraiths with Igni, and cut Jenny down.",
       "Take the trophy and claim the reward from Bolko.",
     ],
-    video: "https://www.youtube.com/watch?v=6WJKD3LXP3k"
+    video: "https://www.youtube.com/watch?v=n2Cq7h9IIdI"
   },
 {
     id: 2357,
@@ -13914,7 +13914,7 @@ const quests = [
       "Deal with the guardians and uncover how the curse turned the villagers into pigs.",
       "Decide what to do about the cursed gold and the swine, then resolve the quest.",
     ],
-    video: "https://www.youtube.com/watch?v=4mryuJ3SLjM"
+    video: "https://www.youtube.com/watch?v=Gw0WaVdaKYw"
   },
 {
     id: 2607,
@@ -13960,7 +13960,7 @@ const quests = [
       "Fight off the cursed berserkers when they attack the hall.",
       "Examine the crime scene with Witcher Senses; the quest ends with Coronation at Gedyneith.",
     ],
-    video: "https://www.youtube.com/watch?v=rrzdVZR8GhM"
+    video: "https://www.youtube.com/watch?v=LgFu1O5LZTk"
   },
 {
     id: 2609,
@@ -13982,7 +13982,7 @@ const quests = [
       "Take any of the optional activities: swap stories, play Never Ever, play gwent, or dress up as sorceresses.",
       "When the alcohol runs out and Eskel disappears, track him with Witcher Senses — he's passed out outside the keep with Lil' Bleater.",
     ],
-    video: "https://www.youtube.com/watch?v=cE6ccmxhp20"
+    video: "https://www.youtube.com/watch?v=hOKkHhdejrk"
   },
 {
     id: 2610,
@@ -14051,7 +14051,7 @@ const quests = [
       "Take the trophy and return to Orianna.",
       "Tell the birds you're ready to meet Regis.",
     ],
-    video: "https://www.youtube.com/watch?v=vO1qHy2feh4"
+    video: "https://www.youtube.com/watch?v=fO19eo1G_f8"
   },
 {
     id: 2753,
@@ -14096,7 +14096,7 @@ const quests = [
       "Open with Igni to hit several of them at once, then clean up with your sword.",
       "Watch the cutscene as the Nilfgaardian escort arrives, which starts Imperial Audience."
     ],
-    video: "https://www.youtube.com/watch?v=TeXDNlsatq8"
+    video: "https://www.youtube.com/watch?v=yCgwHozluEE"
   },
 {
     id: 2755,
@@ -14119,7 +14119,7 @@ const quests = [
       "Fight off the second pack of wolves that attacks.",
       "Get Gretka home to finish the flashback."
     ],
-    video: "https://www.youtube.com/watch?v=csDDCyqt4cI"
+    video: "https://www.youtube.com/watch?v=4X3agI-f27c"
   },
 {
     id: 2756,
@@ -14163,7 +14163,7 @@ const quests = [
       "Climb the ledges of the tower.",
       "Reach the Baron at the top and rescue him."
     ],
-    video: "https://www.youtube.com/watch?v=hCt4aJ1hX64"
+    video: "https://www.youtube.com/watch?v=uPNqAv9AVHU"
   },
 {
     id: 2758,
@@ -14230,7 +14230,7 @@ const quests = [
       "Dismount to get through the door into the Great Temple of the Eternal Fire.",
       "Kill Junior's henchmen guarding the door."
     ],
-    video: "https://www.youtube.com/watch?v=phb6aY6FeNE"
+    video: "https://www.youtube.com/watch?v=gbvABZ9fhFg"
   },
 {
     id: 2761,
@@ -14274,7 +14274,7 @@ const quests = [
       "Talk to the priestesses about Craven, the man seen with Ciri.",
       "Follow Craven's trail to Freya's Garden, which starts Nameless."
     ],
-    video: "https://www.youtube.com/watch?v=KOVL3QJy44o"
+    video: "https://www.youtube.com/watch?v=BFGzc9G3U-M"
   },
 {
     id: 2763,
@@ -14319,7 +14319,7 @@ const quests = [
       "Follow its signal to the sealed container near Uma's cage.",
       "Examine the container to trigger the cutscene."
     ],
-    video: "https://www.youtube.com/watch?v=tC-iCXubkXM"
+    video: "https://www.youtube.com/watch?v=dLIDZsYF1zg"
   },
 {
     id: 2765,
@@ -14431,7 +14431,7 @@ const quests = [
       "Refuse his condition that Morvran Voorhis leads them.",
       "Leave without Nilfgaard's support."
     ],
-    video: "https://www.youtube.com/watch?v=fWZT9bi0Jvg"
+    video: "https://www.youtube.com/watch?v=nzJb53Wdb0Y"
   },
 {
     id: 2770,
@@ -14454,7 +14454,7 @@ const quests = [
       "Enter the prison through the well and search the ruins.",
       "Find the missing part of the mechanism, repair it and free the prisoner."
     ],
-    video: "https://www.youtube.com/watch?v=YRbZPTyED00"
+    video: "https://www.youtube.com/watch?v=H6c05idk_EY"
   },
 {
     id: 2771,
@@ -14477,7 +14477,7 @@ const quests = [
       "Talk your way past Dijkstra's troll.",
       "Defeat Philippa's fire elemental and capture her, then deal with Dijkstra."
     ],
-    video: "https://www.youtube.com/watch?v=nio1O0mGZEs"
+    video: "https://www.youtube.com/watch?v=N-27fPa5jLg"
   },
 {
     id: 2772,
@@ -14523,7 +14523,7 @@ const quests = [
       "Complete Child of the Elder Blood.",
       "Optionally complete Skjall's Grave, then head into On Thin Ice."
     ],
-    video: "https://www.youtube.com/watch?v=N1z3nu1ZV34"
+    video: "https://www.youtube.com/watch?v=9xSdI7-JoZM"
   },
 {
     id: 2774,
@@ -14546,7 +14546,7 @@ const quests = [
       "Solve the mirror puzzle by pulling each of the three levers once.",
       "Return to Yennefer at Kaer Trolde harbor with the Sunstone."
     ],
-    video: "https://www.youtube.com/watch?v=9vuMvVJ9xwE"
+    video: "https://www.youtube.com/watch?v=1E2lAPlvwlU"
   },
 {
     id: 2775,
@@ -14592,7 +14592,7 @@ const quests = [
       "Search the lab with Witcher Senses.",
       "Talk to Yennefer and Ciri, and agree to go with Ciri."
     ],
-    video: "https://www.youtube.com/watch?v=roT4K65sZ_E"
+    video: "https://www.youtube.com/watch?v=BHU7M3jtv5o"
   },
 {
     id: 2777,
@@ -14729,7 +14729,7 @@ const quests = [
       "Craft the Chort Lure and spread it at four points around the hill.",
       "Kill Howler when it appears and take its trophy."
     ],
-    video: "https://www.youtube.com/watch?v=nPxuBvVMuAY"
+    video: "https://www.youtube.com/watch?v=nHqdeQqoJ0w"
   },
 {
     id: 2783,
@@ -14752,7 +14752,7 @@ const quests = [
       "Hear the villagers admit they dug into the elven ruins below.",
       "Go down into the ruins and kill Sarasti, the ekimmara."
     ],
-    video: "https://www.youtube.com/watch?v=s3jHYP1qEd4"
+    video: "https://www.youtube.com/watch?v=20QNeqeQ1bE"
   },
 {
     id: 2784,
@@ -14889,7 +14889,7 @@ const quests = [
       "Deactivate the magic barrier.",
       "Kill the earth elemental and report back."
     ],
-    video: "https://www.youtube.com/watch?v=FJVUn1ZHc-k"
+    video: "https://www.youtube.com/watch?v=LwyF2amLFdQ"
   },
 {
     id: 2790,
@@ -14934,7 +14934,7 @@ const quests = [
       "Follow the clues to the nekker nest.",
       "Kill Hagubman and his nekkers."
     ],
-    video: "https://www.youtube.com/watch?v=CGjRG-D3cOA"
+    video: "https://www.youtube.com/watch?v=Aq6n5-uz8Ak"
   },
 {
     id: 2792,
@@ -15003,7 +15003,7 @@ const quests = [
       "Or tell Sven instead, destroy the leshen's totems and kill the leshen and its wolves.",
       "Return to the village to see the outcome."
     ],
-    video: "https://www.youtube.com/watch?v=UFE47DVQ2JQ"
+    video: "https://www.youtube.com/watch?v=tweZ13E8k6E"
   },
 {
     id: 2795,
@@ -15026,7 +15026,7 @@ const quests = [
       "Fight Wham-a-Wham at the back of the cave until he stops to talk.",
       "Spare him for his reward or kill him for the trophy."
     ],
-    video: "https://www.youtube.com/watch?v=fJxZtGAM5X4"
+    video: "https://www.youtube.com/watch?v=9_fm5EnGiUw"
   },
 {
     id: 2796,
@@ -15049,7 +15049,7 @@ const quests = [
       "Use Axii on Vagn's sheep and lead it near the lair as bait.",
       "Kill the forktail and take its trophy."
     ],
-    video: "https://www.youtube.com/watch?v=UyUvL1rMyF4"
+    video: "https://www.youtube.com/watch?v=6-9TePlOQsw"
   },
 {
     id: 2797,
@@ -15095,7 +15095,7 @@ const quests = [
       "Take the frying pan from the bench by the oven.",
       "Return it to the old woman."
     ],
-    video: "https://www.youtube.com/watch?v=od2Y-NzDRys"
+    video: "https://www.youtube.com/watch?v=m9-aHUyokr4"
   },
 {
     id: 2799,
@@ -15118,7 +15118,7 @@ const quests = [
       "Find the little box by the dead horse.",
       "Return the box, chase him down, or take him to the Nilfgaardians."
     ],
-    video: "https://www.youtube.com/watch?v=cExfxD3x5uo"
+    video: "https://www.youtube.com/watch?v=WsZH01NQk04"
   },
 {
     id: 2800,
@@ -15141,7 +15141,7 @@ const quests = [
       "Survive all four waves with Albin alive.",
       "Collect your pay from Albin."
     ],
-    video: "https://www.youtube.com/watch?v=zPBaqJdWANE"
+    video: "https://www.youtube.com/watch?v=5wzg1TH1jgw"
   },
 {
     id: 2801,
@@ -15207,7 +15207,7 @@ const quests = [
       "Take the package back to her hut.",
       "Choose whether to stay with Keira."
     ],
-    video: "https://www.youtube.com/watch?v=uxGT96_5aY0"
+    video: "https://www.youtube.com/watch?v=eTBruKeitXc"
   },
 {
     id: 2804,
@@ -15275,7 +15275,7 @@ const quests = [
       "Place the ring and use the Magic Lamp to see the ghosts reconcile.",
       "Return to the old woman."
     ],
-    video: "https://www.youtube.com/watch?v=9YBgNrU1ydY"
+    video: "https://www.youtube.com/watch?v=goJrEiIYqVU"
   },
 {
     id: 2807,
@@ -15298,7 +15298,7 @@ const quests = [
       "Follow the blood trail with Witcher Senses and open the door under the cabin with Aard.",
       "Fight the werewolf and decide what to tell Niellen."
     ],
-    video: "https://www.youtube.com/watch?v=cQH4e-2zN8g"
+    video: "https://www.youtube.com/watch?v=yj1coHmnDiY"
   },
 {
     id: 2808,
@@ -15388,7 +15388,7 @@ const quests = [
       "Fight off the witch hunters.",
       "Defeat the wraiths to finish the ritual."
     ],
-    video: "https://www.youtube.com/watch?v=8d0VmSkms94"
+    video: "https://www.youtube.com/watch?v=l71hgUXLvh0"
   },
 {
     id: 2812,
@@ -15587,7 +15587,7 @@ const quests = [
       "Follow the footprints with Witcher Senses to Yantra.",
       "Recover your gear and decide whether to let the bards go or take their belongings."
     ],
-    video: "https://www.youtube.com/watch?v=iUT3hJgP_tU"
+    video: "https://www.youtube.com/watch?v=A-ODcMmeD0w"
   },
 {
     id: 2821,
@@ -15632,7 +15632,7 @@ const quests = [
       "Fight the Nilfgaardians in Mulbrydale and keep Ves alive.",
       "Decide whether to spare or kill the last Nilfgaardian soldier."
     ],
-    video: "https://www.youtube.com/watch?v=hUMkZ_zXEqU"
+    video: "https://www.youtube.com/watch?v=EXxafxCRepk"
   },
 {
     id: 2823,
@@ -15743,7 +15743,7 @@ const quests = [
       "Beat Luc Vegelbud in the third race.",
       "Collect your winnings and the messenger's letter as you leave."
     ],
-    video: "https://www.youtube.com/watch?v=O9xBkyWj568"
+    video: "https://www.youtube.com/watch?v=ADXMLLW_Bvg"
   },
 {
     id: 2828,
@@ -15990,7 +15990,7 @@ const quests = [
       "Find the pearl and kill the drowners attacking Nidas.",
       "Meet him in Novigrad to see the bittersweet ending."
     ],
-    video: "https://www.youtube.com/watch?v=yHAWwCN-N0I"
+    video: "https://www.youtube.com/watch?v=4lplYyo7W2I"
   },
 {
     id: 2839,
@@ -16210,7 +16210,7 @@ const quests = [
       "For Quinto, go to the mercenary camp and pay for his release.",
       "Bring the safecracker back to the crew."
     ],
-    video: "https://www.youtube.com/watch?v=6nkjSC7ivkE"
+    video: "https://www.youtube.com/watch?v=1NCaGmFsQYE"
   },
 {
     id: 2849,
@@ -16376,12 +16376,12 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Tinker, Hunter, Soldier, Spy",
-    location: "Watchtower near Mohrin and a nearby pond, Velen",
+    location: "Watchtower near Mohrin and a lake nearby, Novigrad Far Outskirts (Hearts of Stone)",
     length: "short",
     difficulty: "Medium",
-    reward: "A chest of loot",
+    reward: "Over 200 florens and some items",
     summary:
-      "A corpse in a watchtower near Mohrin has a bloody letter and an encrusted key. The dead man was a Nilfgaardian spy posing as a tinker, and his letter points to a stash by a pond.",
+      "A corpse in a watchtower near Mohrin has a bloody letter and an encrusted key. The dead man was a Nilfgaardian spy posing as a tinker, and his letter points to a drop box under a pier on a nearby lake.",
     aiTip:
       "The stash is by the pier in the pond you can see from the tower. Use Witcher Senses from the shore to spot it.",
     walkthrough: [
@@ -16482,7 +16482,7 @@ const quests = [
       "Tap the 1269 Sangreal barrels and see that the wine isn't right.",
       "Fight off Hornitz and his bandits on the way out."
     ],
-    video: "https://www.youtube.com/watch?v=UwVfFAsSb3Y"
+    video: "https://www.youtube.com/watch?v=3El1AO3FUlA"
   },
 {
     id: 2861,
@@ -16505,7 +16505,7 @@ const quests = [
       "Use Witcher Senses on the refreshment tables to find the heart-shaped box.",
       "Follow the tracks across the balconies and investigate the room."
     ],
-    video: "https://www.youtube.com/watch?v=Qttn45voNRU"
+    video: "https://www.youtube.com/watch?v=DWPPLeRNEUA"
   },
 {
     id: 2862,
@@ -16528,7 +16528,7 @@ const quests = [
       "Defeat Roderick's group and choose whether to help him.",
       "Push on through the castle."
     ],
-    video: "https://www.youtube.com/watch?v=cmayDR3wkfw"
+    video: "https://www.youtube.com/watch?v=ZHPcZFXF-zQ"
   },
 {
     id: 2863,
@@ -16551,7 +16551,7 @@ const quests = [
       "Reach the Unseen Elder with an offering.",
       "Answer carefully to get his help against Dettlaff."
     ],
-    video: "https://www.youtube.com/watch?v=WGDIg-y9sDY"
+    video: "https://www.youtube.com/watch?v=U-7zeU_arAY"
   },
 {
     id: 2864,
@@ -16642,7 +16642,7 @@ const quests = [
       "Find Hugo.",
       "Settle things between the brothers peacefully, or fight them."
     ],
-    video: "https://www.youtube.com/watch?v=Ig-vDH0LfO8"
+    video: "https://www.youtube.com/watch?v=sLzl-8Vb8zo"
   },
 {
     id: 2868,
@@ -16664,7 +16664,7 @@ const quests = [
       "Follow the trail to Hughes's house.",
       "Choose to give, take or lend the stones."
     ],
-    video: "https://www.youtube.com/watch?v=rLf8RV_wzZo"
+    video: "https://www.youtube.com/watch?v=PI6upwIutpA"
   },
 {
     id: 2869,
@@ -16710,7 +16710,7 @@ const quests = [
       "Brew the bait and lure out the shaelmaar.",
       "Kill it and claim the reward."
     ],
-    video: "https://www.youtube.com/watch?v=Z6VzKecVHw8"
+    video: "https://www.youtube.com/watch?v=SfM3q_T5y7c"
   },
 {
     id: 2871,
@@ -16779,7 +16779,7 @@ const quests = [
       "Complete Contract: The Griffin from the Highlands and loot the archgriffin's acid gland.",
       "Give Yoana the gland, agree to her test, and return a day later for the armour."
     ],
-    video: "https://www.youtube.com/watch?v=p9feVyNum6w"
+    video: "https://www.youtube.com/watch?v=TmrWHuWTMW8"
   },
 {
     id: 2874,
@@ -16801,7 +16801,7 @@ const quests = [
       "Kill the three bandits at the entrance.",
       "Climb down into the hole and open the chest."
     ],
-    video: "https://www.youtube.com/watch?v=KKnb_apxDNs"
+    video: "https://www.youtube.com/watch?v=5BxK1VLdAg0"
   },
 {
     id: 2875,
@@ -16868,7 +16868,7 @@ const quests = [
       "Meet Little Red on the west side of town.",
       "Let her take Bertram, or fight her werewolf and bandits."
     ],
-    video: "https://www.youtube.com/watch?v=AC0h5IJMhU4"
+    video: "https://www.youtube.com/watch?v=8CVTjZvR27Y"
   },
 {
     id: 2878,
@@ -16914,7 +16914,7 @@ const quests = [
       "Return to Snidhall Isle and find Ivar at his new spot.",
       "Hand over the books, one at a time if he won't take them all."
     ],
-    video: "https://www.youtube.com/watch?v=Il0-xX4oNXI"
+    video: "https://www.youtube.com/watch?v=elsQLtysj3Q"
   },
 {
     id: 2880,
@@ -17025,7 +17025,7 @@ const quests = [
       "Kill the second gargoyle in the room past the waterfall.",
       "Return to the merchant to hand in the contract."
     ],
-    video: "https://www.youtube.com/watch?v=n9cQpXebuOc"
+    video: "https://www.youtube.com/watch?v=bGTWk7wXCB4"
   },
 {
     id: 2885,
@@ -17069,7 +17069,7 @@ const quests = [
       "Kill it using Aard stuns and wall crashes.",
       "Loot the cave and return to the merchant."
     ],
-    video: "https://www.youtube.com/watch?v=R4JH54li6rQ"
+    video: "https://www.youtube.com/watch?v=Hgg9AqqS6Vk"
   },
 {
     id: 2887,
@@ -17114,7 +17114,7 @@ const quests = [
       "Clear the kikimores in the cave on the hill.",
       "Choose how to break the curse: on your own, with the Witch of Lynx Crag, or by force."
     ],
-    video: "https://www.youtube.com/watch?v=qsLeDqkMCVE"
+    video: "https://www.youtube.com/watch?v=9envmi6-11k"
   },
 {
     id: 2889,
@@ -17204,7 +17204,7 @@ const quests = [
       "Charm the clerk (flowers, perfume or flattery) and learn you're listed as dead.",
       "Show Giacomo Cianfanelli the duchess's summons, then wait a week or demand the money."
     ],
-    video: "https://www.youtube.com/watch?v=9Yv7Y_Bqf_Y"
+    video: "https://www.youtube.com/watch?v=hRByxocpXSk"
   },
 {
     id: 2893,
@@ -17338,7 +17338,7 @@ const quests = [
       "Return to the hermit and fight him beneath the lake.",
       "Receive Aerondight from the Lady of the Lake."
     ],
-    video: "https://www.youtube.com/watch?v=QCcK6FV6UNs"
+    video: "https://www.youtube.com/watch?v=OmeTwlhZrl8"
   },
 {
     id: 2899,
@@ -17603,7 +17603,7 @@ const quests = [
       "Race through the Palisade to Fyresdal.",
       "Finish first for the cavalry saddle."
     ],
-    video: "https://www.youtube.com/watch?v=16Vr5_s0Jxk"
+    video: "https://www.youtube.com/watch?v=UZ5tHtaf13U"
   },
 {
     id: 2911,
@@ -17624,7 +17624,7 @@ const quests = [
       "Race Red Rikka along the short course.",
       "Finish first for the saddlebags."
     ],
-    video: "https://www.youtube.com/watch?v=2s12b5Rkbn8"
+    video: "https://www.youtube.com/watch?v=837PKoEYZeI"
   },
 {
     id: 2912,
@@ -17691,7 +17691,7 @@ const quests = [
       "Let him bring you down to about a quarter health so he wins and his spirit can rest.",
       "Return to the guards a few days later for their share of the profits."
     ],
-    video: "https://www.youtube.com/watch?v=42wEDW_hWZ4"
+    video: "https://www.youtube.com/watch?v=ixDJQPOjSMI"
   },
 {
     id: 2915,
@@ -17713,7 +17713,7 @@ const quests = [
       "Talk to the bookie at the Hov arena.",
       "Beat the rock troll bare-handed."
     ],
-    video: "https://www.youtube.com/watch?v=nRh3ozYGLiE"
+    video: "https://www.youtube.com/watch?v=CX3vE2bKx9w"
   },
 {
     id: 2916,
@@ -17910,7 +17910,7 @@ const quests = [
       "Open the chest under the broken stairs on the east side for three diagrams.",
       "Head northwest to Mont Crane Castle for the armor, trousers and silver sword."
     ],
-    video: "https://www.youtube.com/watch?v=HuLdW1f5ZD4"
+    video: "https://www.youtube.com/watch?v=QWx6_uN2QgA"
   },
 {
     id: 2925,
@@ -17932,7 +17932,7 @@ const quests = [
       "Follow the trail to the Tufo vineyard area.",
       "Collect the remaining diagrams."
     ],
-    video: "https://www.youtube.com/watch?v=qyUquj_Qt1w"
+    video: "https://www.youtube.com/watch?v=o8z64VOeWmI"
   },
 {
     id: 2926,
@@ -17999,7 +17999,7 @@ const quests = [
       "Put them back in the brick.",
       "Wait seven days and collect the poster from the same spot."
     ],
-    video: "https://www.youtube.com/watch?v=3m8ls4Ulhl8"
+    video: "https://www.youtube.com/watch?v=sPzdWpNG4GI"
   },
 {
     id: 2929,
@@ -18220,7 +18220,7 @@ const quests = [
       "Kill the harpies at the top.",
       "Open the chest by the nest with Vogel's key."
     ],
-    video: "https://www.youtube.com/watch?v=CmrLaJlCkm4"
+    video: "https://www.youtube.com/watch?v=u1AJH16ZdQY"
   },
 {
     id: 2939,
@@ -30873,7 +30873,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In Rambler's Reach, defeat Zeik after he harasses Turgle.",
       "Enter Pyloon's Saloon and reunite with Greez."
     ],
-    video: "https://www.youtube.com/watch?v=NmTYDt0WfwI"
+    video: "https://www.youtube.com/watch?v=RXGe4ACmfok"
   },
 {
     id: 1284,
@@ -30936,7 +30936,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive his attack: parry his fast Force-assisted dash and punish openings.",
       "After the fight, leave through the window the battle blew out (or the elevator) — you can't fast-travel out."
     ],
-    video: "https://www.youtube.com/watch?v=kgpDU160w1I"
+    video: "https://www.youtube.com/watch?v=b6biwBR_8wk"
   },
 {
     id: 1287,
@@ -31087,7 +31087,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Dash, grapple points and wall runs to reach the machine area.",
       "Learn what became of Armias and the compass, then head back to Cere."
     ],
-    video: "https://www.youtube.com/watch?v=JfIYsdob5Mc"
+    video: "https://www.youtube.com/watch?v=lhUvtV9kZx8"
   },
 {
     id: 1294,
@@ -31235,7 +31235,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after its big slams and keep to its side.",
       "Defeat it for the Shatter perk."
     ],
-    video: "https://www.youtube.com/watch?v=b4-Sim9Bi70"
+    video: "https://www.youtube.com/watch?v=OzBvHOfkj-8"
   },
 {
     id: 1301,
@@ -31256,7 +31256,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Parry their punches and use the Force to break their guard.",
       "Destroy both to complete the Legendary fight."
     ],
-    video: "https://www.youtube.com/watch?v=mwS_l-txlc0"
+    video: "https://www.youtube.com/watch?v=rVsNFFcBHxQ"
   },
 {
     id: 1302,
@@ -31277,7 +31277,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the Gorocco Matriarch — stay mobile and punish after its heavy attacks.",
       "Defeat it to complete the Legendary entry."
     ],
-    video: "https://www.youtube.com/watch?v=L_zQp5vPHc8"
+    video: "https://www.youtube.com/watch?v=mWc6tD4D9Wc"
   },
 {
     id: 1303,
@@ -31298,7 +31298,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge its electrified rolls and punish when it stops.",
       "Destroy it for a Force Essence."
     ],
-    video: "https://www.youtube.com/watch?v=-pdB-2yQkGQ"
+    video: "https://www.youtube.com/watch?v=p-Yk8aVrSMU"
   },
 {
     id: 1304,
@@ -31361,7 +31361,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep moving and dodge both; split them up when you can.",
       "Defeat them for a Stim Container."
     ],
-    video: "https://www.youtube.com/watch?v=z-jOlMB99dE"
+    video: "https://www.youtube.com/watch?v=LfLlx6sFoT0"
   },
 {
     id: 1307,
@@ -31508,7 +31508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot his Bounty Puck from the body.",
       "This unlocks the Bounties tab and Caij Vanda's bounties at Pyloon's Saloon."
     ],
-    video: "https://www.youtube.com/watch?v=nUv0xU9eDC0"
+    video: "https://www.youtube.com/watch?v=ZHwxDQ4FWqE"
   },
 {
     id: 1314,
@@ -31530,7 +31530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=eFExq0vkQlQ"
+    video: "https://www.youtube.com/watch?v=BkabG_oPYoI"
   },
 {
     id: 1315,
@@ -31552,7 +31552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=07D5v8FjTT8"
+    video: "https://www.youtube.com/watch?v=X4M9xgkpGYs"
   },
 {
     id: 1316,
@@ -31574,7 +31574,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=dnvgVObtmyE"
+    video: "https://www.youtube.com/watch?v=4a3QAkkvmwU"
   },
 {
     id: 1317,
@@ -31596,7 +31596,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=ncucLnvmYsE"
+    video: "https://www.youtube.com/watch?v=Viw2Wbv4U8I"
   },
 {
     id: 1318,
@@ -31618,7 +31618,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=94pN_vCvX9Q"
+    video: "https://www.youtube.com/watch?v=_-gETnMKFR4"
   },
 {
     id: 1319,
@@ -31640,7 +31640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=SvKjn_fgcf4"
+    video: "https://www.youtube.com/watch?v=FrkOF7q3Gvc"
   },
 {
     id: 1320,
@@ -31662,7 +31662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=QvVTvhYurVM"
+    video: "https://www.youtube.com/watch?v=uE6FO84CRQU"
   },
 {
     id: 1321,
@@ -31794,7 +31794,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=jBgjD7q_Mhc"
+    video: "https://www.youtube.com/watch?v=kGrJQDgNbus"
   },
 {
     id: 1327,
@@ -31816,7 +31816,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=XYOePv3dN6A"
+    video: "https://www.youtube.com/watch?v=0QrEJF3TYUU"
   },
 {
     id: 1328,
@@ -31858,7 +31858,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Devastated Settlement on Koboh.",
       "Defeat Caij Vanda (Caij Match trophy) and watch the closing scene."
     ],
-    video: "https://www.youtube.com/watch?v=cNYK_2ayH6o"
+    video: "https://www.youtube.com/watch?v=ouNb12xJYEA"
   },
 {
     id: 1330,
@@ -31879,7 +31879,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use pull and push traversal to move across the chamber's moving platforms.",
       "Reach the end to finish the Chamber of Detachment."
     ],
-    video: "https://www.youtube.com/watch?v=EJTZQ-3JVIc"
+    video: "https://www.youtube.com/watch?v=Vozd0uvATwI"
   },
 {
     id: 1331,
@@ -31921,7 +31921,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the orb, rail and reflector puzzles inside.",
       "Reach the end to finish the Chamber of Clarity."
     ],
-    video: "https://www.youtube.com/watch?v=eiAPTdlKWHc"
+    video: "https://www.youtube.com/watch?v=-TZ68IcjrsI"
   },
 {
     id: 1333,
@@ -31942,7 +31942,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the ball-and-socket physics puzzles.",
       "Reach the end to finish the Chamber of Reason."
     ],
-    video: "https://www.youtube.com/watch?v=0vXOTtyPhUc"
+    video: "https://www.youtube.com/watch?v=Oim77XR2LRs"
   },
 {
     id: 1334,
@@ -32218,7 +32218,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Ashe Javi and DD-EC by the yellow water wheel and talk to them.",
       "Return to the saloon, where DD-EC now plays music."
     ],
-    video: "https://www.youtube.com/watch?v=wr5bFtDqXjA"
+    video: "https://www.youtube.com/watch?v=e7VyfqeMtLE"
   },
 {
     id: 1347,
@@ -32239,7 +32239,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the bog's creatures to reach Zygg.",
       "Escort or clear the way so Zygg can return to the saloon."
     ],
-    video: "https://www.youtube.com/watch?v=6ok4HDK0lMI"
+    video: "https://www.youtube.com/watch?v=ZkTbG6auiyI"
   },
 {
     id: 1348,
@@ -32260,7 +32260,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Bedlam Raiders and battle droids besieging the Jawas.",
       "Talk to the surviving Jawa afterward to complete the rumor and gain the recruit."
     ],
-    video: "https://www.youtube.com/watch?v=whhyRyfup48"
+    video: "https://www.youtube.com/watch?v=Dti6vuJPqho"
   },
 {
     id: 1349,
@@ -32394,7 +32394,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the entrance to the Chamber of Reason.",
       "Solve the chamber's puzzle to claim its reward."
     ],
-    video: "https://www.youtube.com/watch?v=ybiBPI7QUws"
+    video: "https://www.youtube.com/watch?v=IzOSh6K_8Vo"
   },
 {
     id: 1355,
@@ -32482,7 +32482,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
       "Reach the inner chamber to claim the perk slot."
     ],
-    video: "https://www.youtube.com/watch?v=Y_N-0SiW1Fc"
+    video: "https://www.youtube.com/watch?v=kbi317TSpkU"
   },
 {
     id: 1359,
@@ -47562,7 +47562,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let Erlend fight it, weakening it without killing it yourself.",
       "Once Erlend deals the decisive blow, talk to him."
     ],
-    video: "https://www.youtube.com/watch?v=27tneV2Cylw"
+    video: "https://www.youtube.com/watch?v=oYY9L6zS0Jw"
   },
 {
     id: 2627,
@@ -47634,7 +47634,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Odin's Sight to find the crevice on the western side and take the Elk-Antler Comb.",
       "Return it to Bil and choose whether to spend time with her."
     ],
-    video: "https://www.youtube.com/watch?v=ytwEC8BYFSw"
+    video: "https://www.youtube.com/watch?v=e-yJ0iUFums"
   },
 {
     id: 2630,
@@ -47830,7 +47830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the women to the river and kill the wolves that attack.",
       "Meet them at the fire across the river and talk to the Abbess."
     ],
-    video: "https://www.youtube.com/watch?v=IDe1fou8jJw"
+    video: "https://www.youtube.com/watch?v=mYpa46adwkw"
   },
 {
     id: 2638,
@@ -47927,7 +47927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick up the fallen leaf.",
       "Talk to Mae again."
     ],
-    video: "https://www.youtube.com/watch?v=u5Lzpgz5vHk"
+    video: "https://www.youtube.com/watch?v=XgSbO3xqVkI"
   },
 {
     id: 2642,
@@ -47975,7 +47975,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interact with the spot in front of the stairs to begin guard duty.",
       "Defeat the second man who approaches the tower."
     ],
-    video: "https://www.youtube.com/watch?v=iHyD4lltZLY"
+    video: "https://www.youtube.com/watch?v=c_xfB8vHBCc"
   },
 {
     id: 2644,
@@ -48025,7 +48025,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let the cat out to clear the rats.",
       "Return to the farmer for his house key."
     ],
-    video: "https://www.youtube.com/watch?v=Y-cjPMkRveA"
+    video: "https://www.youtube.com/watch?v=xCyYx-zCViA"
   },
 {
     id: 2646,
@@ -48048,7 +48048,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to him and answer truthfully or lie.",
       "Pull the axe out to end the event."
     ],
-    video: "https://www.youtube.com/watch?v=5nOiC8830M4"
+    video: "https://www.youtube.com/watch?v=ZBZuwvNMTJ8"
   },
 {
     id: 2647,
@@ -48072,7 +48072,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Light the last brazier on the riverbank opposite Soham Hideout.",
       "Cross the river and kill all the bandits in Soham Hideout."
     ],
-    video: "https://www.youtube.com/watch?v=rJ-T7Fmf4rY"
+    video: "https://www.youtube.com/watch?v=IG_qL_qtOCg"
   },
 {
     id: 2648,
@@ -48096,7 +48096,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the girl.",
       "Shoot an arrow at the platform Degolas is standing on."
     ],
-    video: "https://www.youtube.com/watch?v=NhrEAVszAno"
+    video: "https://www.youtube.com/watch?v=kHeeGOtQaT0"
   },
 {
     id: 2649,
@@ -48145,7 +48145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the crate of clothes.",
       "Deliver it next to Winchell."
     ],
-    video: "https://www.youtube.com/watch?v=7X3OWHTq1fk"
+    video: "https://www.youtube.com/watch?v=nXvQucstbyQ"
   },
 {
     id: 2651,
@@ -48315,7 +48315,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Corner the cat when it stops and pick it up.",
       "The cat now appears as a companion on your longship."
     ],
-    video: "https://www.youtube.com/watch?v=DgAUYqVz2dg"
+    video: "https://www.youtube.com/watch?v=kia4gaICbjg"
   },
 {
     id: 2658,
@@ -48363,7 +48363,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Parry her attacks until she is stunned, then land a stun attack.",
       "Talk to her as she lies dying to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=Gqs00KKAXy0"
+    video: "https://www.youtube.com/watch?v=SZn44l-8nQ4"
   },
 {
     id: 2660,
@@ -48532,7 +48532,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the Charisma option to persuade her to leave.",
       "The event completes once she steps outside."
     ],
-    video: "https://www.youtube.com/watch?v=DTH393xkEyo"
+    video: "https://www.youtube.com/watch?v=l00OyRlkQV8"
   },
 {
     id: 2667,
@@ -48607,7 +48607,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Move the last shelf to open an exit.",
       "Speak to the man again to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=CMUsgAhRUpg"
+    video: "https://www.youtube.com/watch?v=Tg42REvS5aI"
   },
 {
     id: 2670,
@@ -48729,7 +48729,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When he breaks his promise and challenges you again, beat him again.",
       "Keep winning until he finally concedes the hill and the event completes."
     ],
-    video: "https://www.youtube.com/watch?v=b_tWTuhwHEU"
+    video: "https://www.youtube.com/watch?v=ItF0vPMBZN4"
   },
 {
     id: 2675,
@@ -48851,7 +48851,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Odin's Sight to find the key on a body near the well or at the back.",
       "Unlock the door, read the note and examine the body inside to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=lhkGE5dSa0M"
+    video: "https://www.youtube.com/watch?v=70FucPfraXc"
   },
 {
     id: 2680,
@@ -49361,7 +49361,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry the unconscious brother and follow the other south along the road, fighting off any wolves.",
       "Talk to the conscious brother to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=n59xTBl1YzU"
+    video: "https://www.youtube.com/watch?v=BU_A6ahMLMM"
   },
 {
     id: 2701,
@@ -49410,7 +49410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dive into the river and take the Viking Ship Rope from the wreck.",
       "Show it to them both to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=9Eck6P3G2T0"
+    video: "https://www.youtube.com/watch?v=YCn3y1aAOzI"
   },
 {
     id: 2703,
@@ -49744,7 +49744,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow her as she runs off to the south-west.",
       "Speak to her again at the grave to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=QIkyCgiz4g8"
+    video: "https://www.youtube.com/watch?v=RzyDF7PTdwI"
   },
 {
     id: 2717,
@@ -49768,7 +49768,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Listen to his song to complete the event.",
       "Optionally steal your coins back from him afterwards."
     ],
-    video: "https://www.youtube.com/watch?v=CfDGelRL73k"
+    video: "https://www.youtube.com/watch?v=ctG4rXQmK40"
   },
 {
     id: 2718,
@@ -49909,7 +49909,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort her east to the ruins on the hill, fighting off wolves.",
       "Stay with her at the ruins to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=L-RvDLGA__A"
+    video: "https://www.youtube.com/watch?v=G6yb53rtQR0"
   },
 {
     id: 2724,
@@ -50340,7 +50340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the bard when he attacks.",
       "Kill him to complete the event."
     ],
-    video: "https://www.youtube.com/watch?v=9FH1bcTm1M4"
+    video: "https://www.youtube.com/watch?v=QtA_pD9BV-w"
   },
 {
     id: 2742,

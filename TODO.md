@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.9`; `staging` and `main` match.
+Prod is `v2.9.10`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -114,20 +114,53 @@ steps were solved and the 3 conflicting Jorvik events now list every method
 missing Hogwarts relationship quests were added (#386, now 133 / 130). 7 of
 the 10 optional Witcher 3 encounters were added (#387, now 297 / 290).
 
+**Done on 2026-10-24 (`v2.9.10`):** the video title check (round 3) has
+started. The Witcher 3 (#390), AC Valhalla (#391) and Jedi:
+Survivor (#392) are done: 475 videos checked, 135 swapped for clearly
+titled alternatives, and 41 left as is. See PROGRESS.md and the round-3 table
+in `docs/video-candidates/README.md`.
+
 Still open, in priority order:
-1. **Video title check for the newer videos.** 1,139 videos (mostly the
-   Witcher 3, AC Valhalla and AC Odyssey entries added since 2026-10-18)
-   have never been title-checked the way the first 1,440 were (a YouTube
-   search per quest title, logged in `docs/video-candidates/title-check.json`).
-   Watching each video first-hand isn't possible from the agent environment;
-   a title check is the realistic next step. It's large, so do it one game
-   per PR.
-2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
+1. **Finish the video title check (round 3).** 603 videos left, one game per
+   PR, same method (a YouTube search per quest title, logged in
+   `docs/video-candidates/title-check.json`):
+
+   | Game | Videos |
+   |---|---|
+   | God of War Ragnarök | 68 |
+   | Metaphor: ReFantazio | 56 |
+   | Sekiro | 46 |
+   | Elden Ring | 45 |
+   | Ghost of Tsushima | 45 |
+   | Black Myth: Wukong | 40 |
+   | Zelda: Tears of the Kingdom | 39 |
+   | Baldur's Gate 3 | 35 |
+   | Final Fantasy VII Remake | 30 |
+   | Cyberpunk 2077 | 29 |
+   | Star Wars Jedi: Fallen Order | 28 |
+   | Final Fantasy VII Rebirth | 25 |
+   | Persona 5 Royal | 23 |
+   | Demon's Souls | 18 |
+   | Horizon Forbidden West | 17 |
+   | Pillars of Eternity II: Deadfire | 15 |
+   | Skyrim | 14 |
+   | Hogwarts Legacy | 13 |
+   | Ghost of Yōtei | 12 |
+   | Pillars of Eternity | 5 |
+
+   The 41 videos left as is (IDs in the README table) need a look from the
+   owner or a better source. Most are Jedi: Survivor story missions and
+   collectible hunts.
+2. **Recheck AC Valhalla's A Dog's Rescue (#2662).** #379 changed it to "saves
+   a dog, not a fox", but the guides that came up in the title check
+   (Gamepur, Neoseeker, the AC wiki) say the animal is a fox named Dandelion
+   Puff. Confirm which is right.
+3. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
-3. **Owner actions (agent can't do these):**
+4. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
-4. **Parked:**
+5. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
