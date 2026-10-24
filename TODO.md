@@ -120,14 +120,16 @@ Survivor (#392) are done: 475 videos checked, 135 swapped for clearly
 titled alternatives, and 41 left as is. See PROGRESS.md and the round-3 table
 in `docs/video-candidates/README.md`.
 
+**Done since (on `staging`, not yet on prod):** God of War Ragnarök (#399):
+68 videos checked, 63 matched, 3 swapped, 2 left as is.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 603 videos left, one game per
+1. **Finish the video title check (round 3).** 535 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`):
 
    | Game | Videos |
    |---|---|
-   | God of War Ragnarök | 68 |
    | Metaphor: ReFantazio | 56 |
    | Sekiro | 46 |
    | Elden Ring | 45 |
@@ -148,9 +150,11 @@ Still open, in priority order:
    | Ghost of Yōtei | 12 |
    | Pillars of Eternity | 5 |
 
-   The 41 videos left as is (IDs in the README table) need a look from the
+   The 43 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions and
-   collectible hunts.
+   collectible hunts. God of War Ragnarök #162 Atreus's Search, #164
+   Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
+   (two umbrella entries and an area); decide whether to rename or drop them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.

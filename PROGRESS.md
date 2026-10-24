@@ -7,6 +7,31 @@
 
 ---
 
+## 2026-10-24 (3) — video title check, round 3: God of War Ragnarök (staging only)
+Same method as the earlier round-3 games: one YouTube search per quest title,
+and a second wording before giving up. Logged in
+`docs/video-candidates/title-check.json`, with a row added to the round-3
+table in `docs/video-candidates/README.md`.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #399 | God of War Ragnarök | 68 | 63 | 3 | 2 |
+
+- Swapped: #416 Forging Destiny, #435 In the Dead of Night, #440 Fit for a
+  King. Their videos didn't come up for either wording, and a clearly titled
+  video of the quest did.
+- Most of the matches are from one channel's "Full Walkthrough (God of War
+  Ragnarok 100% Guide)" series.
+- Data problems spotted: #162 Atreus's Search and #164 Mimir's Knowledge
+  aren't in-game quest names (they're umbrella entries for Atreus's playable
+  sections and Mimir's lore), so their videos were left as is. #663 The
+  Applecore is an area of Svartalfheim, not a favour; its video (an area
+  walkthrough) matched. All three are in TODO for the owner to decide.
+- Prod is `v2.9.11` (the round-3 work through #392 and the A Dog's Rescue
+  fix, #396, shipped on 2026-10-24).
+
+---
+
 ## 2026-10-24 (2) — video title check, round 3: Witcher 3, AC Valhalla, Jedi: Survivor (staging only)
 Round 3 of the title check covers the 1,078 videos added since round 2
 (2026-10-18). Each video gets one YouTube search for its quest title, logged
