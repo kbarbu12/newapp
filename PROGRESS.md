@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-24 (3) — video title check, round 3: God of War Ragnarök (staging only)
+## 2026-10-24 (3) — video title check, round 3: God of War Ragnarök (v2.9.12)
 Same method as the earlier round-3 games: one YouTube search per quest title,
 and a second wording before giving up. Logged in
 `docs/video-candidates/title-check.json`, with a row added to the round-3
