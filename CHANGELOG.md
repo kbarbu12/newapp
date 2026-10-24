@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (3)
+
+- **Video title check, round 3: Witcher 3, AC Valhalla, Jedi: Survivor** —
+  `v2.9.10` patch (#390, #391, #392, #393, #394).
+  - 475 quest videos checked with a YouTube search per quest title; 135
+    swapped for clearly titled alternatives (Witcher 3 86, Valhalla 22,
+    Jedi: Survivor 27), 41 left as is for the owner to review.
+  - Results logged in `docs/video-candidates/title-check.json` and the
+    round-3 table in `docs/video-candidates/README.md`.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (2)
 
 - **Fact-check leftovers, 4 Hogwarts quests and 7 Witcher 3 encounters** —
