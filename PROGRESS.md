@@ -7,6 +7,33 @@
 
 ---
 
+## 2026-10-24 — fact-check leftovers, Hogwarts and Witcher 3 extras (v2.9.8 → v2.9.9)
+- **v2.9.8** (#382, #383, #384): docs only. TODO "What's left" and the
+  previous PROGRESS entry.
+- **Fact-check leftovers (#385):** the last 5 AC Odyssey ostraka with generic
+  steps now have their solutions (Goat's Gruff, Stadium Love, Bridging the
+  Gap, Star-Crossed Lovers, and Needle in a Haystack, which is hedged because
+  only one guide gives it). Pigsty, Fire in the Belly, Rightful King and
+  Prophecy Prevention had already been solved, so the TODO list was stale.
+  Silver Wind Elder, Deviled Water and Bridges of Oppression now list each
+  method the guides give.
+- **Hogwarts Legacy (#386):** guide lists of the relationship quests showed 4
+  missing: Natty's Finding Focus, Harlow's Last Stand and Acting on Instinct,
+  and Poppy's A Dragon Debrief (IDs 2943–2946). Grief and Vengeance was
+  corrected: it was listed as a long, hard "arc finale" but is a short
+  conversation. Hogwarts is now 133 / 130.
+- **Witcher 3 (#387):** 7 unmarked encounters added (IDs 2947–2953):
+  Yustianna Disturbed, Drunken Rabble, Strumpet in Distress, Suspicious
+  Shakedown, A Dog's Life, Looters and Caravan Attack. A Warm Welcome, The
+  Price of Passage and Call of the Wild weren't added, because no guide could
+  confirm them. Witcher 3 is now 297 / 290.
+- **Videos:** first-hand viewing isn't possible here. 1,139 videos haven't
+  had the title check yet; that's now the top TODO item.
+- Each PR: `npm test` clean, staging build plus headless QA of the changed
+  IDs (0 page errors), CI green before merge.
+
+---
+
 ## Session 2026-10-21 → 24 — Witcher 3 to prod, release fix, every quest its own video, full fact-check (v2.8.0 → v2.9.7)
 Everything below is on prod; `staging` and `main` match at `v2.9.7`.
 
