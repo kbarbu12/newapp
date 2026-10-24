@@ -42934,7 +42934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase changes introduce elemental-style attacks; maintain distance during charge-ups.",
       "Defeating him yields unique insight/item content tied to the Return ending questline."
     ],
-    video: "https://www.youtube.com/watch?v=dsHaqYQucAw"
+    video: "https://www.youtube.com/watch?v=cvUYTb3Ahec"
   },
 {
     id: 1805,
@@ -43186,7 +43186,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deflect the longsword combo and punish the kick-into-stomp string's end.",
       "Break posture and Deathblow."
     ],
-    video: "https://www.youtube.com/watch?v=zyq7fbI6gcE"
+    video: "https://www.youtube.com/watch?v=SJF2igJdeDg"
   },
 {
     id: 1816,
@@ -43232,7 +43232,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pressure posture between his long-reach strikes.",
       "Break posture and Deathblow him."
     ],
-    video: "https://www.youtube.com/watch?v=DGrLt0MgvYc"
+    video: "https://www.youtube.com/watch?v=xyepgeET70I"
   },
 {
     id: 1818,
@@ -43991,7 +43991,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish immediately after each deflect to keep his posture climbing.",
       "Break his posture for the Deathblow before he lands a full-power Ashina Cross."
     ],
-    video: "https://www.youtube.com/watch?v=RAYXV-Ewe5g"
+    video: "https://www.youtube.com/watch?v=39_HtZ5LEB8"
   },
 {
     id: 1853,

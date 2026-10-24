@@ -7,6 +7,25 @@
 
 ---
 
+## 2026-10-24 (7) — video title check, round 3: Sekiro (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+("<boss> Boss Fight Guide - Sekiro: Shadows Die Twice", which is how most of
+the current videos are titled) before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #416 | Sekiro | 39 | 34 | 4 | 1 |
+
+- Swapped: Genichiro, Way of Tomoe; Lone Shadow Longswordsman; Seven Ashina
+  Spears – Shikibu Toshikatsu Yamauchi; Ashina Elite – Jinsuke Saze.
+- Data problems spotted (in TODO for the owner): #1798 "Corrupted Monk"
+  (Mibu Village) looks like a duplicate of #1797, the Illusion fight, so its
+  video was left as is; #1818 "Shume Masaka Nagahiro" isn't a real boss name,
+  the Seven Ashina Spear (and its matched video) is Shume Masaji Oniwa.
+- 303 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-24 (6) — video title check, round 3: Ghost of Tsushima (v2.9.16)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
