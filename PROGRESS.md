@@ -7,6 +7,26 @@
 
 ---
 
+## 2026-10-24 (5) — News tab cleanup (v2.9.14)
+- The owner spotted a "Video title check, round 3" card in prod's News tab.
+  `redesign/scripts/gen-data.mjs` builds News from `CHANGELOG.md` and skips
+  internal entries, but its filter only matched "title-check results".
+  It now skips any title-check or workflow entry (4 cards removed), and it
+  strips repo file references (`docs/…`, `*.md`, `*.json`) and bare
+  "in #NNN" PR refs from News text (#405).
+- The Oct 23 AC Valhalla fact-check changelog entry no longer gives
+  A Dog's Rescue as an example of an error; that change was reverted in
+  #396 (#406).
+- Owner rule: News lists only what was done. Sentences about open or
+  follow-up work (TODO, "what's left", "not yet live", reminders, "#N
+  flagged.", "… remain.") are now cut from News text (#408).
+- Keep in mind for future changelog entries: News shows any entry the
+  filter doesn't skip, so internal-only work should use a title the filter
+  catches (title check, workflow, audit, TODO, …), and the text should
+  describe finished work only.
+
+---
+
 ## 2026-10-24 (4) — video title check, round 3: Metaphor: ReFantazio (v2.9.13)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up. Only 37 of Metaphor's 76 videos had no title-check row
