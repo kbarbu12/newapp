@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.12`; `staging` and `main` match.
+Prod is `v2.9.13`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -123,7 +123,7 @@ in `docs/video-candidates/README.md`.
 **Done on 2026-10-24 (`v2.9.12`):** God of War Ragnarök (#399):
 68 videos checked, 63 matched, 3 swapped, 2 left as is.
 
-**Done since (on `staging`, not yet on prod):** Metaphor: ReFantazio (#402):
+**Done on 2026-10-24 (`v2.9.13`):** Metaphor: ReFantazio (#402):
 37 videos checked, 15 matched, 15 swapped, 7 left as is.
 
 Still open, in priority order:

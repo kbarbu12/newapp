@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (6)
+
+- **Video title check, round 3: Metaphor: ReFantazio** — `v2.9.13` patch
+  (#402, #403).
+  - The 37 Metaphor videos not checked in earlier rounds were checked with
+    a YouTube search per quest title: 15 match, 15 swapped for videos titled
+    with the quest's name (mostly main quests), 7 left as is (Prepare for
+    the Final Battle and six More's Task chapters).
+  - TODO's per-game table recounted from `title-check.json`: 382 videos
+    left. TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (5)
 
 - **Video title check, round 3: God of War Ragnarök** — `v2.9.12` patch
