@@ -35,6 +35,15 @@ swapped in and noted as `swapped to <videoId>`.
 | Assassin's Creed Odyssey | 294 / 344 | 48 | 1999 (title may not be a real quest), 2141 (title likely wrong; #2140 is Myths and Minotaurs) |
 | Hogwarts Legacy | 94 / 120 | 24 | 717 (title doesn't look like a real quest), 516 (overlaps #862 The Room of Requirement) |
 
+## Title check, round 3 — videos added since 2026-10-18 (2026-10-24)
+
+Round 3 checks the 1,078 videos added to `quests.js` after round 2, one game
+per PR, the same way as round 2.
+
+| Game | Match | Swapped | Left as is (quest IDs) |
+|---|---|---|---|
+| The Witcher 3 | 157 / 253 | 86 | 2779, 2787, 2859, 2871, 2887, 2901, 2923, 2926, 2934, 2942 (no YouTube result for the title) |
+
 ## Title check (2026-10-17)
 
 `title-check.json` records a check of every candidate above (1,440 links).

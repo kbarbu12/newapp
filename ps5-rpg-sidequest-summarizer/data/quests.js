@@ -16914,7 +16914,7 @@ const quests = [
       "Return to Snidhall Isle and find Ivar at his new spot.",
       "Hand over the books, one at a time if he won't take them all."
     ],
-    video: "https://www.youtube.com/watch?v=Il0-xX4oNXI"
+    video: "https://www.youtube.com/watch?v=elsQLtysj3Q"
   },
 {
     id: 2880,
@@ -17025,7 +17025,7 @@ const quests = [
       "Kill the second gargoyle in the room past the waterfall.",
       "Return to the merchant to hand in the contract."
     ],
-    video: "https://www.youtube.com/watch?v=n9cQpXebuOc"
+    video: "https://www.youtube.com/watch?v=bGTWk7wXCB4"
   },
 {
     id: 2885,
@@ -17069,7 +17069,7 @@ const quests = [
       "Kill it using Aard stuns and wall crashes.",
       "Loot the cave and return to the merchant."
     ],
-    video: "https://www.youtube.com/watch?v=R4JH54li6rQ"
+    video: "https://www.youtube.com/watch?v=Hgg9AqqS6Vk"
   },
 {
     id: 2887,
@@ -17114,7 +17114,7 @@ const quests = [
       "Clear the kikimores in the cave on the hill.",
       "Choose how to break the curse: on your own, with the Witch of Lynx Crag, or by force."
     ],
-    video: "https://www.youtube.com/watch?v=qsLeDqkMCVE"
+    video: "https://www.youtube.com/watch?v=9envmi6-11k"
   },
 {
     id: 2889,
@@ -17204,7 +17204,7 @@ const quests = [
       "Charm the clerk (flowers, perfume or flattery) and learn you're listed as dead.",
       "Show Giacomo Cianfanelli the duchess's summons, then wait a week or demand the money."
     ],
-    video: "https://www.youtube.com/watch?v=9Yv7Y_Bqf_Y"
+    video: "https://www.youtube.com/watch?v=hRByxocpXSk"
   },
 {
     id: 2893,
@@ -17338,7 +17338,7 @@ const quests = [
       "Return to the hermit and fight him beneath the lake.",
       "Receive Aerondight from the Lady of the Lake."
     ],
-    video: "https://www.youtube.com/watch?v=QCcK6FV6UNs"
+    video: "https://www.youtube.com/watch?v=OmeTwlhZrl8"
   },
 {
     id: 2899,
@@ -17603,7 +17603,7 @@ const quests = [
       "Race through the Palisade to Fyresdal.",
       "Finish first for the cavalry saddle."
     ],
-    video: "https://www.youtube.com/watch?v=16Vr5_s0Jxk"
+    video: "https://www.youtube.com/watch?v=UZ5tHtaf13U"
   },
 {
     id: 2911,
@@ -17624,7 +17624,7 @@ const quests = [
       "Race Red Rikka along the short course.",
       "Finish first for the saddlebags."
     ],
-    video: "https://www.youtube.com/watch?v=2s12b5Rkbn8"
+    video: "https://www.youtube.com/watch?v=837PKoEYZeI"
   },
 {
     id: 2912,
@@ -17691,7 +17691,7 @@ const quests = [
       "Let him bring you down to about a quarter health so he wins and his spirit can rest.",
       "Return to the guards a few days later for their share of the profits."
     ],
-    video: "https://www.youtube.com/watch?v=42wEDW_hWZ4"
+    video: "https://www.youtube.com/watch?v=ixDJQPOjSMI"
   },
 {
     id: 2915,
@@ -17713,7 +17713,7 @@ const quests = [
       "Talk to the bookie at the Hov arena.",
       "Beat the rock troll bare-handed."
     ],
-    video: "https://www.youtube.com/watch?v=nRh3ozYGLiE"
+    video: "https://www.youtube.com/watch?v=CX3vE2bKx9w"
   },
 {
     id: 2916,
@@ -17910,7 +17910,7 @@ const quests = [
       "Open the chest under the broken stairs on the east side for three diagrams.",
       "Head northwest to Mont Crane Castle for the armor, trousers and silver sword."
     ],
-    video: "https://www.youtube.com/watch?v=HuLdW1f5ZD4"
+    video: "https://www.youtube.com/watch?v=QWx6_uN2QgA"
   },
 {
     id: 2925,
@@ -17932,7 +17932,7 @@ const quests = [
       "Follow the trail to the Tufo vineyard area.",
       "Collect the remaining diagrams."
     ],
-    video: "https://www.youtube.com/watch?v=qyUquj_Qt1w"
+    video: "https://www.youtube.com/watch?v=o8z64VOeWmI"
   },
 {
     id: 2926,
@@ -17999,7 +17999,7 @@ const quests = [
       "Put them back in the brick.",
       "Wait seven days and collect the poster from the same spot."
     ],
-    video: "https://www.youtube.com/watch?v=3m8ls4Ulhl8"
+    video: "https://www.youtube.com/watch?v=sPzdWpNG4GI"
   },
 {
     id: 2929,
@@ -18220,7 +18220,7 @@ const quests = [
       "Kill the harpies at the top.",
       "Open the chest by the nest with Vogel's key."
     ],
-    video: "https://www.youtube.com/watch?v=CmrLaJlCkm4"
+    video: "https://www.youtube.com/watch?v=u1AJH16ZdQY"
   },
 {
     id: 2939,
