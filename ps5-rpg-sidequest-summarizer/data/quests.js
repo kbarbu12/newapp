@@ -10888,11 +10888,13 @@ const quests = [
     region: "Hogwarts",
     title: "Grief and Vengeance (Natty)",
     location: "Great Hall, Hogwarts",
-    length: "long",
-    difficulty: "High",
-    reward: "Natty arc finale, Rookwood blow",
-    summary: "A short check-in after A Basis for Blackmail: Natty talks about your last adventure and how she's coping.",
-    aiTip: "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Finding Focus",
+    summary:
+      "A short check-in after A Basis for Blackmail: Natty talks about your last adventure and how she's coping.",
+    aiTip:
+      "It's a short conversation, not a fight. Natty's arc carries on through Finding Focus, Harlow's Last Stand and Acting on Instinct.",
     walkthrough: [
       "After A Basis for Blackmail, wait (map menu) until Natty's owl arrives.",
       "Go to the Great Hall and find Natty by the fireplace.",
@@ -18309,6 +18311,163 @@ const quests = [
     video: "https://www.youtube.com/watch?v=uJRsaAGh4iA"
   },
 {
+    id: 2947,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Yustianna Disturbed",
+    location: "Yustianna's Grotto, northern Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Highwayman's Journal and the steel sword Ard'aenye from the bandits' chests",
+    summary:
+      "Bandits have holed up in Yustianna's Grotto in northern Ard Skellig. They don't want visitors, and they'll take your coin to let you leave.",
+    aiTip:
+      "Paying them 150 crowns or using Axii only sends you back to the entrance, and they attack if you return, so you may as well fight. Taking the left path and using the Eye of Nehaleni skips the conversation.",
+    walkthrough: [
+      "Enter Yustianna's Grotto in northern Ard Skellig.",
+      "Follow the right-hand path to the bandits in the central chamber.",
+      "Pay 150 crowns, use Axii, or fight them.",
+      "Kill the bandits and search their bodies for the Highwayman's Journal.",
+      "Loot the chests for the steel sword Ard'aenye."
+    ],
+    video: "https://www.youtube.com/watch?v=sFPCQ53MY7A"
+  },
+{
+    id: 2948,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Drunken Rabble",
+    location: "Outside the Golden Sturgeon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP",
+    summary:
+      "Two drunk butchers outside the Golden Sturgeon demand coin from Geralt and won't take no for an answer.",
+    aiTip:
+      "Pay them 25 crowns, use Axii (Delusion level 1), or refuse and win a fist fight against the aggressive one. It's paused during the quest Payback.",
+    walkthrough: [
+      "Walk past the Golden Sturgeon in Novigrad.",
+      "Listen to the two drunk butchers asking for coin.",
+      "Pay 25 crowns, use Axii, or refuse.",
+      "If you refuse, beat the aggressive drunk in a fist fight to end it."
+    ],
+    video: "https://www.youtube.com/watch?v=qKRlJgbj6g8"
+  },
+{
+    id: 2949,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Strumpet in Distress",
+    location: "South of the Novigrad Docks signpost",
+    length: "short",
+    difficulty: "Low",
+    reward: "None",
+    summary:
+      "A hooded man is hurling abuse at a strumpet near the Novigrad docks. When Geralt steps in, it isn't what it looks like.",
+    aiTip:
+      "There's no reward and no journal entry. Walking away when she says she can handle it is the quiet ending; any other choice reveals they were roleplaying and Geralt has spoiled her paid evening.",
+    walkthrough: [
+      "Head south of the Novigrad Docks signpost and look for the exclamation point.",
+      "Find the hooded man shouting at the strumpet.",
+      "Intervene: leave when asked, or threaten him or use Axii.",
+      "Hear the truth and part ways."
+    ],
+    video: "https://www.youtube.com/watch?v=YFg6bmijFmM"
+  },
+{
+    id: 2950,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Suspicious Shakedown",
+    location: "Alley just north of the Rosemary and Thyme, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "A small discount at the merchant's shop in Silverton",
+    summary:
+      "Bandits are shaking down a merchant in a Novigrad alley. What Geralt does decides whether the merchant will trade with him later.",
+    aiTip:
+      "It only appears after Pyres of Novigrad, and it resolves itself if you wander off or wait too long. Leaving means the merchant won't trade with you; save him with Axii (Delusion level 1) or a fight for a discount.",
+    walkthrough: [
+      "Finish Pyres of Novigrad.",
+      "Find the bandits and the merchant in the alley north of the Rosemary and Thyme.",
+      "Talk to the bandits.",
+      "Leave, use Axii, or threaten and fight them.",
+      "Visit the merchant's shop in Silverton for your discount if you saved him."
+    ],
+    video: "https://www.youtube.com/watch?v=RhhnWwM_ERI"
+  },
+{
+    id: 2951,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Dog's Life",
+    location: "Road between Oreton and the abandoned village of Drudge, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP and a hidden chest's loot, including Druzus the Hermit's Notes",
+    summary:
+      "Geralt saves a dog from wolves and finds a key on its collar. The dog leads him to a house in the abandoned village of Drudge.",
+    aiTip:
+      "Don't stray too far from the dog, or the quest fails. Expect three bandits in Drudge, then use Witcher Senses on the glowing floorboards for the chest. The dog is gone once you leave the house.",
+    walkthrough: [
+      "Save the dog from the wolves on the road near Oreton.",
+      "'Talk' to the dog and take the key from its collar.",
+      "Follow it east to the abandoned village of Drudge.",
+      "Kill the three bandits there.",
+      "Use Witcher Senses in the house and open the chest under the floorboards."
+    ],
+    video: "https://www.youtube.com/watch?v=S0XlYSsEgrE"
+  },
+{
+    id: 2952,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Looters",
+    location: "Codger's Quarry, north-central Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the peasants become friendly",
+    summary:
+      "Peasants are picking over Codger's Quarry. Approach peacefully and a pack of alghouls interrupts them, and they suddenly need Geralt's help.",
+    aiTip:
+      "Sheathe your weapons before you approach, or the peasants turn hostile. Four alghouls is a real fight, so coat your silver sword with Necrophage Oil, and kill them before they reach the leader.",
+    walkthrough: [
+      "Head to Codger's Quarry in north-central Velen with your weapons sheathed.",
+      "Talk to the looters.",
+      "Fight off the four alghouls that appear.",
+      "Talk to the leader if he survives."
+    ],
+    video: "https://www.youtube.com/watch?v=geKURrJeWj8"
+  },
+{
+    id: 2953,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Caravan Attack",
+    location: "North-west of Marauders' Bridge, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP; the wagon chest holds about 20 crowns and crafting materials",
+    summary:
+      "Bandits are attacking a trading caravan near Marauders' Bridge. Geralt can save the two merchants, Anselm and Griswold, and learn who the attackers really were.",
+    aiTip:
+      "It's unmarked, so watch for the fight as you ride past Marauders' Bridge. Expect about six low-level thugs, and loot the wagon chest afterwards.",
+    walkthrough: [
+      "Ride north-west from Marauders' Bridge to the caravan under attack.",
+      "Kill the bandits attacking the merchants.",
+      "Talk to Anselm and Griswold.",
+      "Loot the wagon chest."
+    ],
+    video: "https://www.youtube.com/watch?v=bVsNWfggQPs"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -24435,6 +24594,98 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Finish each combo before the training dummy touches the floor (Story difficulty lets you skip a failed sequence)."
     ],
     video: "https://www.youtube.com/watch?v=MCCx9RC_m0Y"
+  },
+{
+    id: 2943,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "A Dragon Debrief (Poppy)",
+    location: "The Three Broomsticks, Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Poached Egg",
+    summary:
+      "After Fire and Vice, Poppy wants to talk over the dragon you freed from the poachers, and the egg it left behind. Meet her at the Three Broomsticks.",
+    aiTip:
+      "This is just a conversation, so there's nothing to prepare. Afterwards, wait for Poppy's owl to start Poached Egg.",
+    walkthrough: [
+      "Finish the Fire and Vice main quest.",
+      "Go to the Three Broomsticks in Hogsmeade.",
+      "Talk to Poppy about the dragon and its egg.",
+      "Wait for her owl, which starts Poached Egg."
+    ],
+    video: "https://www.youtube.com/watch?v=nBpuoO83mYQ"
+  },
+{
+    id: 2944,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Finding Focus (Natty)",
+    location: "Great Hall, Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Harlow's Last Stand",
+    summary:
+      "Natty is ready to plan how to take Harlow down once and for all. Meet her in the Great Hall to talk it through.",
+    aiTip:
+      "If her owl hasn't arrived after Grief and Vengeance, open the map and wait while you're in the Great Hall.",
+    walkthrough: [
+      "Finish Grief and Vengeance, then wait for Natty's owl.",
+      "Go to the Great Hall.",
+      "Talk to Natty by the fireplace about the plan for Harlow."
+    ],
+    video: "https://www.youtube.com/watch?v=mKtpb7HgXc0"
+  },
+{
+    id: 2945,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Harlow's Last Stand (Natty)",
+    location: "Meet Natty at night (guides differ on the spot), then Manor Cape",
+    length: "medium",
+    difficulty: "High",
+    reward: "Harlow defeated; unlocks Acting on Instinct",
+    summary:
+      "Natty's plan is ready. Join her at night and storm Manor Cape, where Theophilus Harlow and his Ashwinders make their last stand.",
+    aiTip:
+      "You can't use Floo Flames once it starts. Bring spells that break every shield colour (Accio and Glacius among them), clear the Ashwinder waves, and save Ancient Magic for Harlow's Protego. Some guides also require the Wand Mastery main quest first.",
+    walkthrough: [
+      "Finish Finding Focus (some guides also require Wand Mastery).",
+      "Find Natty at night (wait until dark if needed) and talk to her.",
+      "Go to Manor Cape and fight off the waves of Ashwinders in the courtyard.",
+      "Duel Theophilus Harlow, breaking his shield with Ancient Magic.",
+      "Win the final quick-time event to defeat him."
+    ],
+    video: "https://www.youtube.com/watch?v=5U3YdpJlGF8"
+  },
+{
+    id: 2946,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Acting on Instinct (Natty)",
+    location: "Hospital Wing, Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 180 XP and The Avenging Gazelle trophy",
+    summary:
+      "Natty's final relationship quest. After Harlow's fall she is recovering in the Hospital Wing and wants to talk about what happened.",
+    aiTip:
+      "It starts right after Harlow's Last Stand. Wait for Professor Onai to step away before you talk to Natty.",
+    walkthrough: [
+      "Finish Harlow's Last Stand.",
+      "Go to the Hospital Wing and find Natty in her wheelchair at the north end.",
+      "Wait for Professor Onai to move, then talk to Natty.",
+      "Watch the final cutscene to finish her questline."
+    ],
+    video: "https://www.youtube.com/watch?v=k9_DiDR37P4"
   },
 {
     id: 910,
@@ -49414,7 +49665,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A baker in Jorvik is hunting whoever keeps stealing his pies. Follow him on the trail and help him find the culprit, who turns out to be a hungry child.",
     aiTip:
-      "When the baker stops and loses the trail, switch on Odin's Sight. The child hiding nearby lights up straight away.",
+      "Guides describe it slightly differently, but the key step is the same: when the baker loses the trail, switch on Odin's Sight to spot the hidden child.",
     walkthrough: [
       "Talk to the baker north-west of the Eboracum Sewers.",
       "Follow him as he tracks the pie thief.",
@@ -49438,11 +49689,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "Two priests on the riverbank urge a nervous man in a boat to jump into the water to be cleansed of his demons, but he won't take the plunge. Give him the push he needs.",
     aiTip:
-      "You don't need to talk anyone into anything. Just jump onto the boat yourself and the man ends up in the river.",
+      "Guides give three ways to get him in the water: jump onto the boat yourself, take the boat so he jumps to escape, or blow your horn nearby to give him the nerve. Any of them works.",
     walkthrough: [
       "Find the small crowd on the riverbank by Coppergate Market.",
       "Listen to the priests urging the man in the boat to jump.",
-      "Jump onto the boat to tip him into the water.",
+      "Get him into the water: jump onto the boat, take it, or blow your horn nearby.",
       "The event completes once he's in the river."
     ],
     video: "https://www.youtube.com/watch?v=d7ax8RBjsOs"
@@ -49462,11 +49713,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary:
       "A blinded man stranded on scaffolding under a Jorvik bridge wants to get back up to the bridge. Carry him there safely.",
     aiTip:
-      "With the man on your back you can't climb freely, so take the boat across to the far shore and use the stairs up to the bridge.",
+      "With the man on your back you can't climb freely. Guides describe different routes: take the boat to the far shore and use the stairs, or cross on the planks and floating jars. Either way Eivor sets him down on the bridge.",
     walkthrough: [
       "Talk to the blind man on the scaffolding beneath the northern bridge.",
       "Pick him up and carry him down to the water.",
-      "Use the boat to cross to the opposite shore.",
+      "Cross the river by boat (or over the planks and floating jars).",
       "Climb the stairs up to the bridge, and Eivor sets him down to complete the event."
     ],
     video: "https://www.youtube.com/watch?v=0ORS3cQpnSs"
@@ -56811,17 +57062,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Attika",
     title: "Goat's Gruff",
-    location: "Camp Dekelia, Attika",
+    location: "Camp Dekelia → Cave of Pan near Marathon Beach, Attika",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at Camp Dekelia, Attika. Its riddle points to a spot in the same area.",
-    aiTip: "Pick up the tablet at Camp Dekelia and read it there, since its answer is in the same area of Attika.",
+    reward: "An engraving: 4% more damage with heavy weapons (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in a barracks-like building at Camp Dekelia, Attika. Its riddle points north-east to the Cave of Pan by Marathon Beach.",
+    aiTip:
+      "Head north-east to Marathon Beach and follow the path lined with stone figures to the Cave of Pan. The answer is the goat statue with blood on its face.",
     walkthrough: [
-      "Pick up the tablet at Camp Dekelia, Attika.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet in the barracks-like building at Camp Dekelia, Attika.",
+      "Travel north-east to Marathon Beach.",
+      "Follow the path lined with stone figures to the Cave of Pan.",
+      "Interact with the goat statue with blood on its face to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=iPt1D-UMY5I"
   },
@@ -56897,17 +57150,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Boeotia",
     title: "Stadium Love",
-    location: "Leader House, Thebes, Boeotia",
+    location: "Leader House, Thebes → heart-shaped lake east of Thebes, Boeotia",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is in the Leader House in Thebes. The riddle says the treasure is beside a helmet that was left behind.",
-    aiTip: "The riddle mentions a helmet left behind. Look for that once you've taken the tablet from the Leader House in Thebes.",
+    reward: "An engraving: +2% critical chance at full health (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is in the Leader House in Thebes. The riddle's left-behind helmet is on the bridge over the heart-shaped lake east of the city.",
+    aiTip:
+      "Head east of Thebes to the heart-shaped lake. The answer is on the bridge, beside the helmet that was left behind.",
     walkthrough: [
       "Pick up the tablet in the Leader House in Thebes.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Travel east to the heart-shaped lake.",
+      "Find the bridge over the lake and the helmet left on it.",
+      "Interact with the spot beside the helmet to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=zESxS91wnF0"
   },
@@ -56918,17 +57173,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Boeotia",
     title: "Bridging the Gap",
-    location: "Bandit Raid, Cursed Land of Oedipous, Boeotia",
+    location: "Bandit Raid, Cursed Land of Oedipous → unfinished bridge toward Euboea, Boeotia",
     length: "short",
     difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
-    aiTip: "The tablet is in the Bandit Raid camp in the north-east of the Cursed Land of Oedipous, so expect a fight to reach it.",
+    reward: "An engraving: +1 second of burning duration (one of five tiers)",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is at the Bandit Raid in the north-east of the Cursed Land of Oedipous. Its riddle points to the bridge being built toward Euboea.",
+    aiTip:
+      "The tablet is by the campfire in front of the house at the Bandit Raid, so expect a fight. The answer is the last plank at the unfinished end of the bridge toward Euboea.",
     walkthrough: [
-      "Pick up the tablet at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Pick up the tablet by the campfire at the Bandit Raid in the north-east of the Cursed Land of Oedipous.",
+      "Head to the bridge under construction toward Euboea.",
+      "Walk out to its unfinished end.",
+      "Interact with the last plank to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=yy-bkyXBgdw"
   },
@@ -57048,17 +57305,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Petrified Islands",
     title: "Star-Crossed Lovers",
-    location: "Alkidas Fort, Lesbos",
+    location: "Alkidas Fort → broken bridge near Eresos, Lesbos",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is inside a building at Alkidas Fort on Lesbos (climb the ladder). Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is up a ladder inside one of the buildings at Alkidas Fort on Lesbos. Check the buildings with ladders first.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is inside a building at Alkidas Fort on Lesbos (climb the ladder). Its 'wooden behemoth' is a broken bridge over a river between the Ancient Pearl and Eresos.",
+    aiTip:
+      "The answer is under the broken wooden bridge on the river between the Ancient Pearl and Eresos, east of the fort. Jump into the water beneath it to find the spot.",
     walkthrough: [
       "Pick up the tablet inside a building at Alkidas Fort on Lesbos (climb the ladder).",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Head east to the river between the Ancient Pearl and Eresos.",
+      "Find the broken wooden bridge.",
+      "Jump into the water beneath it and interact with the spot to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=sDbU_RE8l10"
   },
@@ -57198,17 +57457,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Needle in a Haystack",
-    location: "Sunken Wrecks Cavern of Datis, Silver Islands",
+    location: "Sunken Wrecks Cavern of Datis → farm in the south of the island, Silver Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. Its riddle points to a spot in the same area.",
-    aiTip: "The tablet is on a shipwreck inside the Sunken Wrecks Cavern of Datis, so bring breath upgrades for the swim.",
+    summary:
+      "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. One guide says the answer is in a haystack at a farm in the south of the island.",
+    aiTip:
+      "Bring breath upgrades for the swim to the tablet. Then look for a farm in the south of the island and search the haystack (only one guide gives this answer, so check nearby if it doesn't match).",
     walkthrough: [
       "Pick up the tablet on a shipwreck in the Sunken Wrecks Cavern of Datis.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Find the place it describes. Ikaros can help you spot it.",
-      "Interact with the spot to solve the riddle."
+      "Travel to the farm in the south of the island.",
+      "Find the haystack.",
+      "Interact with it to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=JKPAO3StTc0"
   },
