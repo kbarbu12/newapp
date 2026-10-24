@@ -30873,7 +30873,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In Rambler's Reach, defeat Zeik after he harasses Turgle.",
       "Enter Pyloon's Saloon and reunite with Greez."
     ],
-    video: "https://www.youtube.com/watch?v=NmTYDt0WfwI"
+    video: "https://www.youtube.com/watch?v=RXGe4ACmfok"
   },
 {
     id: 1284,
@@ -30936,7 +30936,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive his attack: parry his fast Force-assisted dash and punish openings.",
       "After the fight, leave through the window the battle blew out (or the elevator) — you can't fast-travel out."
     ],
-    video: "https://www.youtube.com/watch?v=kgpDU160w1I"
+    video: "https://www.youtube.com/watch?v=b6biwBR_8wk"
   },
 {
     id: 1287,
@@ -31087,7 +31087,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Dash, grapple points and wall runs to reach the machine area.",
       "Learn what became of Armias and the compass, then head back to Cere."
     ],
-    video: "https://www.youtube.com/watch?v=JfIYsdob5Mc"
+    video: "https://www.youtube.com/watch?v=lhUvtV9kZx8"
   },
 {
     id: 1294,
@@ -31235,7 +31235,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after its big slams and keep to its side.",
       "Defeat it for the Shatter perk."
     ],
-    video: "https://www.youtube.com/watch?v=b4-Sim9Bi70"
+    video: "https://www.youtube.com/watch?v=OzBvHOfkj-8"
   },
 {
     id: 1301,
@@ -31256,7 +31256,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Parry their punches and use the Force to break their guard.",
       "Destroy both to complete the Legendary fight."
     ],
-    video: "https://www.youtube.com/watch?v=mwS_l-txlc0"
+    video: "https://www.youtube.com/watch?v=rVsNFFcBHxQ"
   },
 {
     id: 1302,
@@ -31277,7 +31277,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the Gorocco Matriarch — stay mobile and punish after its heavy attacks.",
       "Defeat it to complete the Legendary entry."
     ],
-    video: "https://www.youtube.com/watch?v=L_zQp5vPHc8"
+    video: "https://www.youtube.com/watch?v=mWc6tD4D9Wc"
   },
 {
     id: 1303,
@@ -31298,7 +31298,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge its electrified rolls and punish when it stops.",
       "Destroy it for a Force Essence."
     ],
-    video: "https://www.youtube.com/watch?v=-pdB-2yQkGQ"
+    video: "https://www.youtube.com/watch?v=p-Yk8aVrSMU"
   },
 {
     id: 1304,
@@ -31361,7 +31361,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep moving and dodge both; split them up when you can.",
       "Defeat them for a Stim Container."
     ],
-    video: "https://www.youtube.com/watch?v=z-jOlMB99dE"
+    video: "https://www.youtube.com/watch?v=LfLlx6sFoT0"
   },
 {
     id: 1307,
@@ -31508,7 +31508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot his Bounty Puck from the body.",
       "This unlocks the Bounties tab and Caij Vanda's bounties at Pyloon's Saloon."
     ],
-    video: "https://www.youtube.com/watch?v=nUv0xU9eDC0"
+    video: "https://www.youtube.com/watch?v=ZHwxDQ4FWqE"
   },
 {
     id: 1314,
@@ -31530,7 +31530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=eFExq0vkQlQ"
+    video: "https://www.youtube.com/watch?v=BkabG_oPYoI"
   },
 {
     id: 1315,
@@ -31552,7 +31552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=07D5v8FjTT8"
+    video: "https://www.youtube.com/watch?v=X4M9xgkpGYs"
   },
 {
     id: 1316,
@@ -31574,7 +31574,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=dnvgVObtmyE"
+    video: "https://www.youtube.com/watch?v=4a3QAkkvmwU"
   },
 {
     id: 1317,
@@ -31596,7 +31596,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=ncucLnvmYsE"
+    video: "https://www.youtube.com/watch?v=Viw2Wbv4U8I"
   },
 {
     id: 1318,
@@ -31618,7 +31618,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=94pN_vCvX9Q"
+    video: "https://www.youtube.com/watch?v=_-gETnMKFR4"
   },
 {
     id: 1319,
@@ -31640,7 +31640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=SvKjn_fgcf4"
+    video: "https://www.youtube.com/watch?v=FrkOF7q3Gvc"
   },
 {
     id: 1320,
@@ -31662,7 +31662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=QvVTvhYurVM"
+    video: "https://www.youtube.com/watch?v=uE6FO84CRQU"
   },
 {
     id: 1321,
@@ -31794,7 +31794,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=jBgjD7q_Mhc"
+    video: "https://www.youtube.com/watch?v=kGrJQDgNbus"
   },
 {
     id: 1327,
@@ -31816,7 +31816,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=XYOePv3dN6A"
+    video: "https://www.youtube.com/watch?v=0QrEJF3TYUU"
   },
 {
     id: 1328,
@@ -31858,7 +31858,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Devastated Settlement on Koboh.",
       "Defeat Caij Vanda (Caij Match trophy) and watch the closing scene."
     ],
-    video: "https://www.youtube.com/watch?v=cNYK_2ayH6o"
+    video: "https://www.youtube.com/watch?v=ouNb12xJYEA"
   },
 {
     id: 1330,
@@ -31879,7 +31879,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use pull and push traversal to move across the chamber's moving platforms.",
       "Reach the end to finish the Chamber of Detachment."
     ],
-    video: "https://www.youtube.com/watch?v=EJTZQ-3JVIc"
+    video: "https://www.youtube.com/watch?v=Vozd0uvATwI"
   },
 {
     id: 1331,
@@ -31921,7 +31921,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the orb, rail and reflector puzzles inside.",
       "Reach the end to finish the Chamber of Clarity."
     ],
-    video: "https://www.youtube.com/watch?v=eiAPTdlKWHc"
+    video: "https://www.youtube.com/watch?v=-TZ68IcjrsI"
   },
 {
     id: 1333,
@@ -31942,7 +31942,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the ball-and-socket physics puzzles.",
       "Reach the end to finish the Chamber of Reason."
     ],
-    video: "https://www.youtube.com/watch?v=0vXOTtyPhUc"
+    video: "https://www.youtube.com/watch?v=Oim77XR2LRs"
   },
 {
     id: 1334,
@@ -32218,7 +32218,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Ashe Javi and DD-EC by the yellow water wheel and talk to them.",
       "Return to the saloon, where DD-EC now plays music."
     ],
-    video: "https://www.youtube.com/watch?v=wr5bFtDqXjA"
+    video: "https://www.youtube.com/watch?v=e7VyfqeMtLE"
   },
 {
     id: 1347,
@@ -32239,7 +32239,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the bog's creatures to reach Zygg.",
       "Escort or clear the way so Zygg can return to the saloon."
     ],
-    video: "https://www.youtube.com/watch?v=6ok4HDK0lMI"
+    video: "https://www.youtube.com/watch?v=ZkTbG6auiyI"
   },
 {
     id: 1348,
@@ -32260,7 +32260,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Bedlam Raiders and battle droids besieging the Jawas.",
       "Talk to the surviving Jawa afterward to complete the rumor and gain the recruit."
     ],
-    video: "https://www.youtube.com/watch?v=whhyRyfup48"
+    video: "https://www.youtube.com/watch?v=Dti6vuJPqho"
   },
 {
     id: 1349,
@@ -32394,7 +32394,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the entrance to the Chamber of Reason.",
       "Solve the chamber's puzzle to claim its reward."
     ],
-    video: "https://www.youtube.com/watch?v=ybiBPI7QUws"
+    video: "https://www.youtube.com/watch?v=IzOSh6K_8Vo"
   },
 {
     id: 1355,
@@ -32482,7 +32482,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
       "Reach the inner chamber to claim the perk slot."
     ],
-    video: "https://www.youtube.com/watch?v=Y_N-0SiW1Fc"
+    video: "https://www.youtube.com/watch?v=kbi317TSpkU"
   },
 {
     id: 1359,

@@ -44,6 +44,7 @@ per PR, the same way as round 2.
 |---|---|---|---|
 | The Witcher 3 | 157 / 253 | 86 | 2779, 2787, 2859, 2871, 2887, 2901, 2923, 2926, 2934, 2942 (no YouTube result for the title) |
 | Assassin's Creed Valhalla | 109 / 135 | 22 | 1971, 2635, 2750 (no YouTube result for the title), 2640 (only result didn't name the quest) |
+| Star Wars Jedi: Survivor | 33 / 87 | 27 | 1282, 1284, 1288, 1290, 1295–1298, 1304, 1310, 1323, 1337–1343, 1345, 1369, 2589, 2591 (no YouTube result for the title); 1287, 1292, 1299, 1305, 2588 (only generic playthrough videos came up) |
 
 ## Title check (2026-10-17)
 
