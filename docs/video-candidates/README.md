@@ -48,6 +48,7 @@ per PR, the same way as round 2.
 | God of War Ragnarök | 63 / 68 | 3 | 162, 164 (not in-game quest titles: umbrella entries for Atreus's sections and Mimir's lore); 663 matched, but "The Applecore" is an area, not a favour |
 | Metaphor: ReFantazio | 15 / 37 | 15 | 1065 (only a generic numbered playthrough part came up); 1068–1070, 1072–1074 (More's Task chapters: only parts of multi-part series or nothing came up) |
 | Ghost of Tsushima | 27 / 40 | 13 | — |
+| Sekiro | 34 / 39 | 4 | 1798 (Corrupted Monk at Mibu Village: looks like a duplicate of the Illusion entry 1797); 1818 matched, but its title "Shume Masaka Nagahiro" should be Shume Masaji Oniwa |
 
 ## Title check (2026-10-17)
 
