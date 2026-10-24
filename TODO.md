@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.15`; `staging` and `main` match.
+Prod is `v2.9.16`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -126,8 +126,11 @@ in `docs/video-candidates/README.md`.
 **Done on 2026-10-24 (`v2.9.13`):** Metaphor: ReFantazio (#402):
 37 videos checked, 15 matched, 15 swapped, 7 left as is.
 
+**Done on 2026-10-24 (`v2.9.16`):** Ghost of Tsushima (#413): 40
+videos checked, 27 matched, 13 swapped.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 382 videos left, one game per
+1. **Finish the video title check (round 3).** 342 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -135,7 +138,6 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Ghost of Tsushima | 40 |
    | Sekiro | 39 |
    | Black Myth: Wukong | 37 |
    | Zelda: Tears of the Kingdom | 36 |

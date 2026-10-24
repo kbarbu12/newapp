@@ -7,6 +7,25 @@
 
 ---
 
+## 2026-10-24 (6) — video title check, round 3: Ghost of Tsushima (v2.9.16)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #413 | Ghost of Tsushima | 40 | 27 | 13 | 0 |
+
+- Swapped: Sensei Ishikawa, Tadayori, Heavenly Strike, Gosaku, A Reckoning
+  in Blood, Fox Dens, The Eagle's Cry, The Broken Blacksmith, The Iron Hook,
+  Hammer and the Forge, Message in Blood, Ghosts in the Fog and The Cause of
+  Suffering. Each now points to a video titled with the quest's name.
+- The collectible entries (Haiku, Hot Springs, Duels, Mongol Artifacts,
+  Records, Pillars of Honor) matched their "All … Locations" guides; four
+  of them are playlist links, logged by their video ID.
+- 342 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-24 (5) — News tab cleanup (v2.9.14)
 - The owner spotted a "Video title check, round 3" card in prod's News tab.
   `redesign/scripts/gen-data.mjs` builds News from `CHANGELOG.md` and skips

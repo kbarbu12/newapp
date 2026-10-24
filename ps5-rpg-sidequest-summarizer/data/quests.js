@@ -1600,7 +1600,7 @@ const quests = [
       "In Kamiagata, start Laid to Rest on Kazumasa's Isle.",
       "Stop Tomoe's surprise attack on Umugi Cove and settle the matter of Ishikawa's former student."
     ],
-    video: "https://www.youtube.com/watch?v=ismSt2eMGdo"
+    video: "https://www.youtube.com/watch?v=VUwxW676e0Y"
   },
 {
     id: 54,
@@ -2441,7 +2441,7 @@ const quests = [
       "Defeat Kaede and the Mongols there.",
       "Take the armor from behind the statue at Azamo Bay, then speak to Yamato."
     ],
-    video: "https://www.youtube.com/watch?v=0WV7wgGfe-g"
+    video: "https://www.youtube.com/watch?v=RfOp5oky5Vo"
   },
 {
     id: 101,
@@ -2463,7 +2463,7 @@ const quests = [
       "Ride south-west across the fallen tree to Shigenori's Rest, clear the Mongols and climb the stairs.",
       "Defeat Yasuhira in the duel and bury the man he killed."
     ],
-    video: "https://www.youtube.com/watch?v=SDRtxDz7Duc"
+    video: "https://www.youtube.com/watch?v=b6Ne51wxRXM"
   },
 {
     id: 102,
@@ -3762,7 +3762,7 @@ const quests = [
       "Unlock the stone door with the six keys.",
       "Climb the rock hill east of the Old Togo Rice Fields with the grapple and open the box for Gosaku's Armor."
     ],
-    video: "https://www.youtube.com/watch?v=bWe2G16Hsks"
+    video: "https://www.youtube.com/watch?v=pex5eyMj-bA"
   },
 {
     id: 175,
@@ -3805,7 +3805,7 @@ const quests = [
       "Recover your gear and defeat the Straw Hats.",
       "Escape the inner courtyard, then follow Yuna and defeat the remaining enemies."
     ],
-    video: "https://www.youtube.com/watch?v=yMUQqITXCU0"
+    video: "https://www.youtube.com/watch?v=5lzIkPLETN0"
   },
 {
     id: 177,
@@ -10339,7 +10339,7 @@ const quests = [
       "Pray at the shrine to earn a Charm slot / charm upgrade.",
       "Repeat across the region to expand your charm capacity."
     ],
-    video: "https://www.youtube.com/watch?v=ggMHDZcGWdo"
+    video: "https://www.youtube.com/watch?v=q1sTl6HxIKw"
   },
 {
     id: 482,
@@ -10571,7 +10571,7 @@ const quests = [
       "Reach the confrontation the chapter builds toward.",
       "Complete it to advance against the Eagle."
     ],
-    video: "https://www.youtube.com/watch?v=wASV6CqvePo"
+    video: "https://www.youtube.com/watch?v=-YtPl5gXtls"
   },
 {
     id: 489,
@@ -19568,7 +19568,7 @@ const quests = [
       "Fight off the pursuit as you escape.",
       "Return him to safety to advance the story."
     ],
-    video: "https://www.youtube.com/watch?v=IZz54WTPN4A"
+    video: "https://www.youtube.com/watch?v=EOPeqbGKFKc"
   },
 {
     id: 689,
@@ -19592,7 +19592,7 @@ const quests = [
       "Clear the objective and its defenders.",
       "Complete the mission to progress."
     ],
-    video: "https://www.youtube.com/watch?v=aDB361dtNt8"
+    video: "https://www.youtube.com/watch?v=Vsm8LwA-2ys"
   },
 {
     id: 690,
@@ -19616,7 +19616,7 @@ const quests = [
       "Complete the forge/rescue objective.",
       "Advance the story with the reforged resolve."
     ],
-    video: "https://www.youtube.com/watch?v=nhZbC9skxao"
+    video: "https://www.youtube.com/watch?v=DSJIFBQO67U"
   },
 {
     id: 691,
@@ -24727,7 +24727,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the camp, then duel Altan.",
       "Kill his guards and talk to Ichi."
     ],
-    video: "https://www.youtube.com/watch?v=qkhtVMNBbGI"
+    video: "https://www.youtube.com/watch?v=pmapXI-Nq6I"
   },
 {
     id: 912,
@@ -25063,7 +25063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fend off the Mongol attack.",
       "Talk to Norio to finish the tale."
     ],
-    video: "https://www.youtube.com/watch?v=9LK-MBVA9fY"
+    video: "https://www.youtube.com/watch?v=G5KRtKRwyrE"
   },
 {
     id: 928,
@@ -25126,7 +25126,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go down to the cove with the wooden spikes and three rowboats.",
       "Recover the Buddha statue from the cart."
     ],
-    video: "https://www.youtube.com/watch?v=VARrfelY1CM"
+    video: "https://www.youtube.com/watch?v=psqf9BmU4EI"
   },
 {
     id: 931,
