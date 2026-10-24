@@ -5,10 +5,12 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-10-24 (7)
 
-- **Cleaner News tab** — `v2.9.14` patch (#405, #406).
+- **Cleaner News tab** — `v2.9.14` patch (#405, #406, #408).
   - Internal maintenance notes (video title checks, release tooling) no
     longer show up as News, and News text no longer includes repo file
     paths or PR numbers.
+  - News shows only finished work: notes about open items, flagged entries
+    and follow-ups are left out.
   - The Oct 23 AC Valhalla fact-check note no longer gives A Dog's Rescue
     as an example; that change was reverted (Dandy is a fox).
   - TODO.md and PROGRESS.md updated.

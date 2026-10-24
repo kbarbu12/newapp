@@ -17,9 +17,13 @@
 - The Oct 23 AC Valhalla fact-check changelog entry no longer gives
   A Dog's Rescue as an example of an error; that change was reverted in
   #396 (#406).
+- Owner rule: News lists only what was done. Sentences about open or
+  follow-up work (TODO, "what's left", "not yet live", reminders, "#N
+  flagged.", "… remain.") are now cut from News text (#408).
 - Keep in mind for future changelog entries: News shows any entry the
   filter doesn't skip, so internal-only work should use a title the filter
-  catches (title check, workflow, audit, TODO, …).
+  catches (title check, workflow, audit, TODO, …), and the text should
+  describe finished work only.
 
 ---
 

@@ -317,6 +317,8 @@ const INTERNAL = /PROGRESS\.md|CHANGELOG|TODO|PR template|semver|audit|one-PR|QA
 // Repo files (docs/…, TODO.md, title-check.json) are internal too: parentheticals
 // naming them are cut, and so is any sentence that mentions one.
 const DOC_REF = /\b[\w./-]+\.(?:md|json)\b|\bdocs\//;
+// News is what shipped: sentences about open or follow-up work are cut.
+const PENDING = /\bTODO\b|what's left|not yet live|\breminder\b|^#\d+[^.]*\bflagged\.$|\bremains?\.$/i;
 // Short names the changelog uses → game. More specific names first.
 const GAME_ALIASES = [
   ["Deadfire", "Pillars of Eternity II: Deadfire"],
@@ -361,7 +363,8 @@ if (fs.existsSync(CHANGELOG)) {
       .replace(/\s*\((?:#\d+[^)]*)\)/g, "")              // (#2594), (#171, #172, …)
       .replace(/\*\*|`/g, "").replace(/(^|\s)- /g, "$1")    // markdown bold/code/bullets
       .replace(/^[—\s.]+/, "").replace(/\s+/g, " ").replace(/\s+([.,;:])/g, "$1").trim()
-      .split(/(?<=\.)\s+(?=[A-Z])/).filter((s) => !DOC_REF.test(s)).join(" ")
+      .replace(/;\s*[^;.]*\bremain\./g, ".")            // …; 4 search links remain.
+      .split(/(?<=\.)\s+(?=[A-Z#])/).filter((s) => !DOC_REF.test(s) && !PENDING.test(s)).join(" ")
       .replace(/^[a-z]/, (c) => c.toUpperCase());
     const isNewGame = /^Add .*\(\d+ (?:quests|entries)\)/.test(title);
     const isNewContent = !isNewGame && /^(Add \d+|\d+ more)\b/.test(title);
