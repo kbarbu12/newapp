@@ -18311,6 +18311,163 @@ const quests = [
     video: "https://www.youtube.com/watch?v=uJRsaAGh4iA"
   },
 {
+    id: 2947,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Yustianna Disturbed",
+    location: "Yustianna's Grotto, northern Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Highwayman's Journal and the steel sword Ard'aenye from the bandits' chests",
+    summary:
+      "Bandits have holed up in Yustianna's Grotto in northern Ard Skellig. They don't want visitors, and they'll take your coin to let you leave.",
+    aiTip:
+      "Paying them 150 crowns or using Axii only sends you back to the entrance, and they attack if you return, so you may as well fight. Taking the left path and using the Eye of Nehaleni skips the conversation.",
+    walkthrough: [
+      "Enter Yustianna's Grotto in northern Ard Skellig.",
+      "Follow the right-hand path to the bandits in the central chamber.",
+      "Pay 150 crowns, use Axii, or fight them.",
+      "Kill the bandits and search their bodies for the Highwayman's Journal.",
+      "Loot the chests for the steel sword Ard'aenye."
+    ],
+    video: "https://www.youtube.com/watch?v=sFPCQ53MY7A"
+  },
+{
+    id: 2948,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Drunken Rabble",
+    location: "Outside the Golden Sturgeon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP",
+    summary:
+      "Two drunk butchers outside the Golden Sturgeon demand coin from Geralt and won't take no for an answer.",
+    aiTip:
+      "Pay them 25 crowns, use Axii (Delusion level 1), or refuse and win a fist fight against the aggressive one. It's paused during the quest Payback.",
+    walkthrough: [
+      "Walk past the Golden Sturgeon in Novigrad.",
+      "Listen to the two drunk butchers asking for coin.",
+      "Pay 25 crowns, use Axii, or refuse.",
+      "If you refuse, beat the aggressive drunk in a fist fight to end it."
+    ],
+    video: "https://www.youtube.com/watch?v=qKRlJgbj6g8"
+  },
+{
+    id: 2949,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Strumpet in Distress",
+    location: "South of the Novigrad Docks signpost",
+    length: "short",
+    difficulty: "Low",
+    reward: "None",
+    summary:
+      "A hooded man is hurling abuse at a strumpet near the Novigrad docks. When Geralt steps in, it isn't what it looks like.",
+    aiTip:
+      "There's no reward and no journal entry. Walking away when she says she can handle it is the quiet ending; any other choice reveals they were roleplaying and Geralt has spoiled her paid evening.",
+    walkthrough: [
+      "Head south of the Novigrad Docks signpost and look for the exclamation point.",
+      "Find the hooded man shouting at the strumpet.",
+      "Intervene: leave when asked, or threaten him or use Axii.",
+      "Hear the truth and part ways."
+    ],
+    video: "https://www.youtube.com/watch?v=YFg6bmijFmM"
+  },
+{
+    id: 2950,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Suspicious Shakedown",
+    location: "Alley just north of the Rosemary and Thyme, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "A small discount at the merchant's shop in Silverton",
+    summary:
+      "Bandits are shaking down a merchant in a Novigrad alley. What Geralt does decides whether the merchant will trade with him later.",
+    aiTip:
+      "It only appears after Pyres of Novigrad, and it resolves itself if you wander off or wait too long. Leaving means the merchant won't trade with you; save him with Axii (Delusion level 1) or a fight for a discount.",
+    walkthrough: [
+      "Finish Pyres of Novigrad.",
+      "Find the bandits and the merchant in the alley north of the Rosemary and Thyme.",
+      "Talk to the bandits.",
+      "Leave, use Axii, or threaten and fight them.",
+      "Visit the merchant's shop in Silverton for your discount if you saved him."
+    ],
+    video: "https://www.youtube.com/watch?v=RhhnWwM_ERI"
+  },
+{
+    id: 2951,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Dog's Life",
+    location: "Road between Oreton and the abandoned village of Drudge, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP and a hidden chest's loot, including Druzus the Hermit's Notes",
+    summary:
+      "Geralt saves a dog from wolves and finds a key on its collar. The dog leads him to a house in the abandoned village of Drudge.",
+    aiTip:
+      "Don't stray too far from the dog, or the quest fails. Expect three bandits in Drudge, then use Witcher Senses on the glowing floorboards for the chest. The dog is gone once you leave the house.",
+    walkthrough: [
+      "Save the dog from the wolves on the road near Oreton.",
+      "'Talk' to the dog and take the key from its collar.",
+      "Follow it east to the abandoned village of Drudge.",
+      "Kill the three bandits there.",
+      "Use Witcher Senses in the house and open the chest under the floorboards."
+    ],
+    video: "https://www.youtube.com/watch?v=S0XlYSsEgrE"
+  },
+{
+    id: 2952,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Looters",
+    location: "Codger's Quarry, north-central Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the peasants become friendly",
+    summary:
+      "Peasants are picking over Codger's Quarry. Approach peacefully and a pack of alghouls interrupts them, and they suddenly need Geralt's help.",
+    aiTip:
+      "Sheathe your weapons before you approach, or the peasants turn hostile. Four alghouls is a real fight, so coat your silver sword with Necrophage Oil, and kill them before they reach the leader.",
+    walkthrough: [
+      "Head to Codger's Quarry in north-central Velen with your weapons sheathed.",
+      "Talk to the looters.",
+      "Fight off the four alghouls that appear.",
+      "Talk to the leader if he survives."
+    ],
+    video: "https://www.youtube.com/watch?v=geKURrJeWj8"
+  },
+{
+    id: 2953,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Caravan Attack",
+    location: "North-west of Marauders' Bridge, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP; the wagon chest holds about 20 crowns and crafting materials",
+    summary:
+      "Bandits are attacking a trading caravan near Marauders' Bridge. Geralt can save the two merchants, Anselm and Griswold, and learn who the attackers really were.",
+    aiTip:
+      "It's unmarked, so watch for the fight as you ride past Marauders' Bridge. Expect about six low-level thugs, and loot the wagon chest afterwards.",
+    walkthrough: [
+      "Ride north-west from Marauders' Bridge to the caravan under attack.",
+      "Kill the bandits attacking the merchants.",
+      "Talk to Anselm and Griswold.",
+      "Loot the wagon chest."
+    ],
+    video: "https://www.youtube.com/watch?v=bVsNWfggQPs"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
