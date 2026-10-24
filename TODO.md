@@ -88,65 +88,46 @@ walkthrough is duplicated in the data. Still open:
   290/290** (only names confirmed by the guide lists were added) and shipped
   in `v2.8.0` (#357).
 
-## What's left (as of 2026-10-23)
-Prod is `v2.9.3`; `staging` and `main` match. In priority order:
-1. ~~**Replace the 2 allowlisted shared videos**~~ Done (#363): each of
-   #1320–1322 and #725–726 now has its own video and the audit allowlist is
-   empty. Jedi: Survivor's three are one combined fight, so their videos all
-   show that fight from different uploads.
-2. ~~**[HIGH] Full fact-check pass on the new quest data.**~~ DONE (2026-10-23). The sample is done
-   and fixed (`v2.9.3`, #366), but it found too many errors to leave the rest
-   unchecked.
-   - **The sample (2026-10-23):** 101 entries with the most specific claims
-     from `v2.7.0` and the Witcher 3 work, checked against guide search
-     results. 13 had a clear error and 17 had a smaller problem (an
-     unsupported, overstated or imprecise detail). All 30 are fixed.
-     - AC Odyssey: 10 of 25 had problems (5 clear errors).
-     - Other `v2.7.0` games: 11 of 26 (5 clear errors).
-     - AC Valhalla: 4 of 20 (1 clear error).
-     - Witcher 3: 5 of 30 (2 clear errors).
-   - **AC Odyssey full pass: DONE (2026-10-23).** All 179 remaining entries
-     were checked: 8 had a clear error and 29 a smaller problem, all fixed.
-     Another 10 ostraka riddles that only had generic steps now have their
-     solution from the guides. 9 ostraka still have generic steps because no
-     guide gave a solution: Goat's Gruff, Pigsty, Fire in the Belly, Stadium
-     Love, Bridging the Gap, Star-Crossed Lovers, Needle in a Haystack,
-     Rightful King and Prophecy Prevention.
-   - **Smaller `v2.7.0` games full pass: DONE (2026-10-23).** All 69
-     remaining entries were checked. 7 had a clear error and 6 a smaller
-     problem; all are fixed, and 3 more got extra detail from the guides.
-     - Jedi: Survivor was the worst, with 6 of its 11 rumors wrong (for
-       example, Pili is on Jedha, Zee's shop is on the Mantis, and the
-       watchtower is at Riverbed Watch).
-     - Cyberpunk had 1 clear error out of 21.
-     - TotK, Hogwarts Legacy, Ghost of Tsushima, Deadfire and Pillars of
-       Eternity had none.
-   - **Witcher 3 full pass: DONE (2026-10-23).** All 245 remaining entries
-     were checked: 8 had a clear error and 21 a smaller problem, all fixed;
-     2 more got extra reward detail from the guides. Examples: the Bear
-     School first map is sold at Kaer Trolde (not Oxenfurt), the Ofieri
-     saddle adds stamina (not carry weight), Tinker, Hunter, Soldier, Spy is
-     a base-game quest, and the Aerondight virtue proofs were wrong.
-   - **AC Valhalla full pass: DONE (2026-10-23).** All 109 remaining World
-     Events were checked: 7 had a clear error and 14 a smaller problem, all
-     fixed; 5 more got extra detail from the guides. Examples: A Dog's Rescue
-     saves a dog called Dandy (not a fox), King of Shitsby is at Cruwland and
-     ends in a fight, and Tiny Black Market's password and hoard map were made
-     up. **The fact-check pass is now complete for all games.**
-   - **Method:** check each entry's location, rewards and amounts, choices,
-     requirements and tip against the guides. Fix anything wrong and hedge
-     anything only one guide supports. Ship one PR per game.
-   - **Videos:** whether each video actually shows its quest still hasn't
-     been checked first-hand.
-3. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
-4. **Optional Witcher 3 extras beyond the 290 target:** small unmarked
+## What's left (as of 2026-10-24)
+Prod is `v2.9.7`; `staging` and `main` match.
+
+**Done since the last update:** the 2 shared videos were replaced (#363,
+`v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
+`v2.9.7`). The sample (101 entries, #366) and the full passes on AC Odyssey
+(#370), the smaller `v2.7.0` games (#373), Witcher 3 (#376) and AC Valhalla
+(#379) checked every new entry against guide search results:
+
+| Pass | Checked | Clear errors | Smaller problems |
+|---|---|---|---|
+| Sample (all games) | 101 | 13 | 17 |
+| AC Odyssey | 179 | 8 | 29 |
+| Smaller `v2.7.0` games | 69 | 7 | 6 |
+| Witcher 3 | 245 | 8 | 21 |
+| AC Valhalla | 109 | 7 | 14 |
+| **Total** | **703** | **43** | **87** |
+
+All of them are fixed. Details are in `CHANGELOG.md` and `PROGRESS.md`.
+
+Still open, in priority order:
+1. **Fact-check leftovers:**
+   - 9 AC Odyssey ostraka still have generic steps because no guide gave a
+     solution: Goat's Gruff, Pigsty, Fire in the Belly, Stadium Love,
+     Bridging the Gap, Star-Crossed Lovers, Needle in a Haystack, Rightful
+     King and Prophecy Prevention.
+   - A few Valhalla Jorvik events (Silver Wind Elder, Deviled Water, Bridges
+     of Oppression) have conflicting guide versions; they were left as
+     written.
+   - Whether each video actually shows its quest still hasn't been checked
+     first-hand.
+2. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
+3. **Optional Witcher 3 extras beyond the 290 target:** small unmarked
    encounters the guide lists name but that weren't added, because 290 was
    reached first or the sources were thin: Call of the Wild, Yustianna
    Disturbed, A Warm Welcome, Drunken Rabble, Strumpet in Distress, Suspicious
    Shakedown, The Price of Passage, A Dog's Life, Looters, Caravan Attack.
-5. **Owner actions (agent can't do these):**
+4. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
-6. **Parked:**
+5. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
