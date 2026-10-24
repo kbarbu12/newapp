@@ -10888,11 +10888,13 @@ const quests = [
     region: "Hogwarts",
     title: "Grief and Vengeance (Natty)",
     location: "Great Hall, Hogwarts",
-    length: "long",
-    difficulty: "High",
-    reward: "Natty arc finale, Rookwood blow",
-    summary: "A short check-in after A Basis for Blackmail: Natty talks about your last adventure and how she's coping.",
-    aiTip: "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Finding Focus",
+    summary:
+      "A short check-in after A Basis for Blackmail: Natty talks about your last adventure and how she's coping.",
+    aiTip:
+      "It's a short conversation, not a fight. Natty's arc carries on through Finding Focus, Harlow's Last Stand and Acting on Instinct.",
     walkthrough: [
       "After A Basis for Blackmail, wait (map menu) until Natty's owl arrives.",
       "Go to the Great Hall and find Natty by the fireplace.",
@@ -24435,6 +24437,98 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Finish each combo before the training dummy touches the floor (Story difficulty lets you skip a failed sequence)."
     ],
     video: "https://www.youtube.com/watch?v=MCCx9RC_m0Y"
+  },
+{
+    id: 2943,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "A Dragon Debrief (Poppy)",
+    location: "The Three Broomsticks, Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Poached Egg",
+    summary:
+      "After Fire and Vice, Poppy wants to talk over the dragon you freed from the poachers, and the egg it left behind. Meet her at the Three Broomsticks.",
+    aiTip:
+      "This is just a conversation, so there's nothing to prepare. Afterwards, wait for Poppy's owl to start Poached Egg.",
+    walkthrough: [
+      "Finish the Fire and Vice main quest.",
+      "Go to the Three Broomsticks in Hogsmeade.",
+      "Talk to Poppy about the dragon and its egg.",
+      "Wait for her owl, which starts Poached Egg."
+    ],
+    video: "https://www.youtube.com/watch?v=nBpuoO83mYQ"
+  },
+{
+    id: 2944,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Finding Focus (Natty)",
+    location: "Great Hall, Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks Harlow's Last Stand",
+    summary:
+      "Natty is ready to plan how to take Harlow down once and for all. Meet her in the Great Hall to talk it through.",
+    aiTip:
+      "If her owl hasn't arrived after Grief and Vengeance, open the map and wait while you're in the Great Hall.",
+    walkthrough: [
+      "Finish Grief and Vengeance, then wait for Natty's owl.",
+      "Go to the Great Hall.",
+      "Talk to Natty by the fireplace about the plan for Harlow."
+    ],
+    video: "https://www.youtube.com/watch?v=mKtpb7HgXc0"
+  },
+{
+    id: 2945,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Harlow's Last Stand (Natty)",
+    location: "Meet Natty at night (guides differ on the spot), then Manor Cape",
+    length: "medium",
+    difficulty: "High",
+    reward: "Harlow defeated; unlocks Acting on Instinct",
+    summary:
+      "Natty's plan is ready. Join her at night and storm Manor Cape, where Theophilus Harlow and his Ashwinders make their last stand.",
+    aiTip:
+      "You can't use Floo Flames once it starts. Bring spells that break every shield colour (Accio and Glacius among them), clear the Ashwinder waves, and save Ancient Magic for Harlow's Protego. Some guides also require the Wand Mastery main quest first.",
+    walkthrough: [
+      "Finish Finding Focus (some guides also require Wand Mastery).",
+      "Find Natty at night (wait until dark if needed) and talk to her.",
+      "Go to Manor Cape and fight off the waves of Ashwinders in the courtyard.",
+      "Duel Theophilus Harlow, breaking his shield with Ancient Magic.",
+      "Win the final quick-time event to defeat him."
+    ],
+    video: "https://www.youtube.com/watch?v=5U3YdpJlGF8"
+  },
+{
+    id: 2946,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Acting on Instinct (Natty)",
+    location: "Hospital Wing, Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 180 XP and The Avenging Gazelle trophy",
+    summary:
+      "Natty's final relationship quest. After Harlow's fall she is recovering in the Hospital Wing and wants to talk about what happened.",
+    aiTip:
+      "It starts right after Harlow's Last Stand. Wait for Professor Onai to step away before you talk to Natty.",
+    walkthrough: [
+      "Finish Harlow's Last Stand.",
+      "Go to the Hospital Wing and find Natty in her wheelchair at the north end.",
+      "Wait for Professor Onai to move, then talk to Natty.",
+      "Watch the final cutscene to finish her questline."
+    ],
+    video: "https://www.youtube.com/watch?v=k9_DiDR37P4"
   },
 {
     id: 910,
