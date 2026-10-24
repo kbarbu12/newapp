@@ -313,7 +313,10 @@ const QUESTS = quests.map((q) => ({
 // mean nothing to players and are skipped; PR numbers and version tags are
 // stripped from the text.
 const CHANGELOG = path.resolve(__dirname, "../../CHANGELOG.md");
-const INTERNAL = /PROGRESS\.md|CHANGELOG|TODO|PR template|semver|audit|one-PR|QA & release|Promote .* to production|title-check results/i;
+const INTERNAL = /PROGRESS\.md|CHANGELOG|TODO|PR template|semver|audit|one-PR|QA & release|Promote .* to production|title[- ]check|workflow/i;
+// Repo files (docs/…, TODO.md, title-check.json) are internal too: parentheticals
+// naming them are cut, and so is any sentence that mentions one.
+const DOC_REF = /\b[\w./-]+\.(?:md|json)\b|\bdocs\//;
 // Short names the changelog uses → game. More specific names first.
 const GAME_ALIASES = [
   ["Deadfire", "Pillars of Eternity II: Deadfire"],
@@ -351,11 +354,14 @@ if (fs.existsSync(CHANGELOG)) {
     if (!m || INTERNAL.test(m[1])) continue;
     const title = m[1].trim();
     const body = m[2]
+      .replace(/\s*\([^)]*(?:\.md|\.json|docs\/)[^)]*\)/g, "") // (docs/qa-session-….md, PR #274)
       .replace(/\((?:PRs?|PR) #[^)]*\)/g, "")          // (PR #270), (PRs #258–#263)
+      .replace(/\s+in #\d+\b/g, "")                     // … changed in #379
       .replace(/\s*—\s*`v[\d.]+`\s*(?:patch|minor|major)\.?/g, "") // — `v2.4.15` patch.
       .replace(/\s*\((?:#\d+[^)]*)\)/g, "")              // (#2594), (#171, #172, …)
       .replace(/\*\*|`/g, "").replace(/(^|\s)- /g, "$1")    // markdown bold/code/bullets
       .replace(/^[—\s.]+/, "").replace(/\s+/g, " ").replace(/\s+([.,;:])/g, "$1").trim()
+      .split(/(?<=\.)\s+(?=[A-Z])/).filter((s) => !DOC_REF.test(s)).join(" ")
       .replace(/^[a-z]/, (c) => c.toUpperCase());
     const isNewGame = /^Add .*\(\d+ (?:quests|entries)\)/.test(title);
     const isNewContent = !isNewGame && /^(Add \d+|\d+ more)\b/.test(title);
