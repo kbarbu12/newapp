@@ -88,7 +88,8 @@ Everything below is on prod; `staging` and `main` match at `v2.9.7`.
   reward, the High Stakes tip, the Ofieri saddle's stat, the Aerondight
   virtue proofs).
 - **v2.9.7** (#379): AC Valhalla. 109 World Events; 7 clear errors and 14
-  smaller problems fixed (for example A Dog's Rescue saves a dog, not a fox;
+  smaller problems fixed (for example A Dog's Rescue saves a dog, not a fox; that one was wrong
+  and was reverted in #396: the "dog" is a fox named Dandelion Puff;
   King of Shitsby is at Cruwland and ends in a fight; Tiny Black Market's
   password and hoard map were made up).
 
