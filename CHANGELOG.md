@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (7)
+
+- **Cleaner News tab** — `v2.9.14` patch (#405, #406).
+  - Internal maintenance notes (video title checks, release tooling) no
+    longer show up as News, and News text no longer includes repo file
+    paths or PR numbers.
+  - The Oct 23 AC Valhalla fact-check note no longer gives A Dog's Rescue
+    as an example; that change was reverted (Dandy is a fox).
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (6)
 
 - **Video title check, round 3: Metaphor: ReFantazio** — `v2.9.13` patch
@@ -71,9 +81,9 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 - **AC Valhalla fact-check: 26 entries fixed** — `v2.9.7` patch (#379). All
   109 AC Valhalla World Events the sample hadn't covered were checked against
-  the guides. 7 had a clear error (for example A Dog's Rescue saves a dog,
-  not a fox; King of Shitsby is at Cruwland and ends in a fight; Tiny Black
-  Market's password and hoard map were made up) and 14 had a smaller one. 5
+  the guides. 7 had a clear error (for example King of Shitsby is at
+  Cruwland and ends in a fight; Tiny Black Market's password and hoard map
+  were made up) and 14 had a smaller one. 5
   entries got more detail. This completes the full fact-check pass.
 
 ## 2026-10-23 (7)
