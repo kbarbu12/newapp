@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (4)
+
+- **Fix A Dog's Rescue: Dandy is a fox** — `v2.9.11` patch (#396, #397).
+  - AC Valhalla's A Dog's Rescue was wrongly changed to "a dog, not a fox"
+    in #379. The guides agree the "dog" is a fox named Dandelion Puff, who
+    joins Ravensthorpe after her owner dies. Summary, reward and walkthrough
+    updated.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (3)
 
 - **Video title check, round 3: Witcher 3, AC Valhalla, Jedi: Survivor** —
