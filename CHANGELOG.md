@@ -3,6 +3,21 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (2)
+
+- **Fact-check leftovers, 4 Hogwarts quests and 7 Witcher 3 encounters** —
+  `v2.9.9` patch (#385, #386, #387, #388).
+  - The last 5 AC Odyssey ostraka with generic steps now have their
+    solutions, and 3 Valhalla Jorvik events list every method the guides
+    give.
+  - Hogwarts Legacy: Natty's Finding Focus, Harlow's Last Stand and Acting on
+    Instinct, plus Poppy's A Dragon Debrief (133 quests). Grief and Vengeance
+    was corrected.
+  - Witcher 3: Yustianna Disturbed, Drunken Rabble, Strumpet in Distress,
+    Suspicious Shakedown, A Dog's Life, Looters and Caravan Attack (297
+    quests).
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24
 
 - **TODO and progress notes updated** — `v2.9.8` patch (#382). Docs only:

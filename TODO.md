@@ -74,7 +74,7 @@ Survivor, TotK, Pillars, Deadfire). With all of them merged, no tip, summary or
 walkthrough is duplicated in the data. Still open:
 - ~~**Decision:** whether to add Valhalla's World Events.~~ Added: 129 World
   Events across all regions (IDs 2624–2752), under a new "World Events" category.
-- Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
+- ~~Hogwarts Legacy is 1 short of its estimated 130.~~ Now 133 (#386). No further missing quest
   could be confirmed, so nothing was guessed.
 - The Witcher 3's target is now 290 (about 207 base-game main/side/contract
   quests plus ~24 Hearts of Stone and ~58 Blood and Wine). Batch 1 added the 26
@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.7`; `staging` and `main` match.
+Prod is `v2.9.9`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -108,26 +108,26 @@ Prod is `v2.9.7`; `staging` and `main` match.
 
 All of them are fixed. Details are in `CHANGELOG.md` and `PROGRESS.md`.
 
+**Done on 2026-10-24 (`v2.9.9`):** the 5 ostraka that still had generic
+steps were solved and the 3 conflicting Jorvik events now list every method
+(#385; the other 4 ostraka on the old list had already been solved). 4
+missing Hogwarts relationship quests were added (#386, now 133 / 130). 7 of
+the 10 optional Witcher 3 encounters were added (#387, now 297 / 290).
+
 Still open, in priority order:
-1. **Fact-check leftovers:**
-   - 9 AC Odyssey ostraka still have generic steps because no guide gave a
-     solution: Goat's Gruff, Pigsty, Fire in the Belly, Stadium Love,
-     Bridging the Gap, Star-Crossed Lovers, Needle in a Haystack, Rightful
-     King and Prophecy Prevention.
-   - A few Valhalla Jorvik events (Silver Wind Elder, Deviled Water, Bridges
-     of Oppression) have conflicting guide versions; they were left as
-     written.
-   - Whether each video actually shows its quest still hasn't been checked
-     first-hand.
-2. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
-3. **Optional Witcher 3 extras beyond the 290 target:** small unmarked
-   encounters the guide lists name but that weren't added, because 290 was
-   reached first or the sources were thin: Call of the Wild, Yustianna
-   Disturbed, A Warm Welcome, Drunken Rabble, Strumpet in Distress, Suspicious
-   Shakedown, The Price of Passage, A Dog's Life, Looters, Caravan Attack.
-4. **Owner actions (agent can't do these):**
+1. **Video title check for the newer videos.** 1,139 videos (mostly the
+   Witcher 3, AC Valhalla and AC Odyssey entries added since 2026-10-18)
+   have never been title-checked the way the first 1,440 were (a YouTube
+   search per quest title, logged in `docs/video-candidates/title-check.json`).
+   Watching each video first-hand isn't possible from the agent environment;
+   a title check is the realistic next step. It's large, so do it one game
+   per PR.
+2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
+   single guide. A Warm Welcome, The Price of Passage and Call of the Wild
+   (Witcher 3) weren't added because no guide could confirm them.
+3. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
-5. **Parked:**
+4. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
