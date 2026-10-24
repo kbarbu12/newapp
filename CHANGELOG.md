@@ -5,10 +5,12 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-10-24 (8)
 
-- **No quest or PR numbers in News** — `v2.9.15` patch (#409).
+- **No quest or PR numbers in News** — `v2.9.15` patch (#409, #410).
   - News cards no longer show quest or PR numbers: older updates were
     reworded to name the quests instead, and any number left in a future
     update is cut automatically.
+  - The Oct 23 "Every quest has its own video" update now covers only the
+    video changes.
   - TODO.md and PROGRESS.md updated.
 
 ## 2026-10-24 (7)
@@ -138,8 +140,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 - **Every quest has its own video** — `v2.9.2` patch (#363). The last five
   quests that shared a video now each have their own: Jedi: Survivor's Kle-0,
   Fenn Finau and Masi Finau (one combined bounty fight, so three different
-  uploads of it) and Metaphor's Efflorescent Youth and Dental Distress. The
-  audit's shared-video allowlist is now empty, so any reuse is flagged.
+  uploads of it) and Metaphor's Efflorescent Youth and Dental Distress.
   Docs: `TODO.md` updated with what's left (#361, #362).
 
 ## 2026-10-23 (2)
