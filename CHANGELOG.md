@@ -3,6 +3,13 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24
+
+- **TODO and progress notes updated** — `v2.9.8` patch (#382). Docs only:
+  TODO.md's "What's left" now sums up the finished fact-check (703 entries
+  checked, 43 clear errors and 87 smaller problems fixed) and lists the open
+  items; PROGRESS.md records the `v2.8.0` → `v2.9.7` releases.
+
 ## 2026-10-23 (8)
 
 - **AC Valhalla fact-check: 26 entries fixed** — `v2.9.7` patch (#379). All
