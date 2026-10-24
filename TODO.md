@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.14`; `staging` and `main` match.
+Prod is `v2.9.15`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to

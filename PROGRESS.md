@@ -20,10 +20,15 @@
 - Owner rule: News lists only what was done. Sentences about open or
   follow-up work (TODO, "what's left", "not yet live", reminders, "#N
   flagged.", "… remain.") are now cut from News text (#408).
+- Owner rule: no quest or PR numbers in News. 19 older changelog entries
+  were reworded to name quests instead of IDs (the IDs remain in git
+  history), and `gen-data.mjs` now turns "#367 The Final Trial" into "The
+  Final Trial", drops ID-only parentheticals and cuts any sentence still
+  holding an ID (#409).
 - Keep in mind for future changelog entries: News shows any entry the
   filter doesn't skip, so internal-only work should use a title the filter
   catches (title check, workflow, audit, TODO, …), and the text should
-  describe finished work only.
+  describe finished work only, naming quests rather than IDs.
 
 ---
 

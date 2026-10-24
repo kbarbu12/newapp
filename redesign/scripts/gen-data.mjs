@@ -316,7 +316,13 @@ const CHANGELOG = path.resolve(__dirname, "../../CHANGELOG.md");
 const INTERNAL = /PROGRESS\.md|CHANGELOG|TODO|PR template|semver|audit|one-PR|QA & release|Promote .* to production|title[- ]check|workflow/i;
 // Repo files (docs/…, TODO.md, title-check.json) are internal too: parentheticals
 // naming them are cut, and so is any sentence that mentions one.
-const DOC_REF = /\b[\w./-]+\.(?:md|json)\b|\bdocs\//;
+const DOC_REF = /\b[\w./-]+\.(?:md|json|js)\b|\bdocs\//;
+// Quest/PR IDs (#1952) mean nothing to players: "#367 The Final Trial" keeps the
+// title, ID-only parentheticals go, and a sentence still holding an ID is cut.
+const stripIds = (s) => s
+  .replace(/\s*\((?:new |duplicate of |was )?#\d+[^)]*\)/g, "")   // (new #2597), (#353)
+  .replace(/\s+into #\d+\b/g, "")                                  // … quests into #601
+  .replace(/#\d+(?:\s*[–\/-]\s*#\d+)*\s+(?=["“A-Z])/g, "");         // #367 The Final Trial
 // News is what shipped: sentences about open or follow-up work are cut.
 const PENDING = /\bTODO\b|what's left|not yet live|\breminder\b|^#\d+[^.]*\bflagged\.$|\bremains?\.$/i;
 // Short names the changelog uses → game. More specific names first.
@@ -354,8 +360,8 @@ if (fs.existsSync(CHANGELOG)) {
   for (const e of entries) {
     const m = e.text.match(/^\*\*(.+?)\*\*\s*(.*)$/);
     if (!m || INTERNAL.test(m[1])) continue;
-    const title = m[1].trim();
-    const body = m[2]
+    const title = stripIds(m[1]).replace(/\s+/g, " ").trim();
+    const body = stripIds(m[2])
       .replace(/\s*\([^)]*(?:\.md|\.json|docs\/)[^)]*\)/g, "") // (docs/qa-session-….md, PR #274)
       .replace(/\((?:PRs?|PR) #[^)]*\)/g, "")          // (PR #270), (PRs #258–#263)
       .replace(/\s+in #\d+\b/g, "")                     // … changed in #379
@@ -364,7 +370,7 @@ if (fs.existsSync(CHANGELOG)) {
       .replace(/\*\*|`/g, "").replace(/(^|\s)- /g, "$1")    // markdown bold/code/bullets
       .replace(/^[—\s.]+/, "").replace(/\s+/g, " ").replace(/\s+([.,;:])/g, "$1").trim()
       .replace(/;\s*[^;.]*\bremain\./g, ".")            // …; 4 search links remain.
-      .split(/(?<=\.)\s+(?=[A-Z#])/).filter((s) => !DOC_REF.test(s) && !PENDING.test(s)).join(" ")
+      .split(/(?<=\.)\s+(?=[A-Z#])/).filter((s) => !DOC_REF.test(s) && !PENDING.test(s) && !/#\d/.test(s)).join(" ")
       .replace(/^[a-z]/, (c) => c.toUpperCase());
     const isNewGame = /^Add .*\(\d+ (?:quests|entries)\)/.test(title);
     const isNewContent = !isNewGame && /^(Add \d+|\d+ more)\b/.test(title);
