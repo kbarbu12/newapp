@@ -5,12 +5,13 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-10-24 (8)
 
-- **No quest or PR numbers in News** — `v2.9.15` patch (#409, #410).
+- **No quest or PR numbers in News** — `v2.9.15` patch (#409, #410, #411).
   - News cards no longer show quest or PR numbers: older updates were
     reworded to name the quests instead, and any number left in a future
     update is cut automatically.
   - The Oct 23 "Every quest has its own video" update now covers only the
-    video changes.
+    video changes, and the Oct 20 QA pass update no longer lists build
+    tooling results.
   - TODO.md and PROGRESS.md updated.
 
 ## 2026-10-24 (7)
@@ -212,8 +213,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   - **Build and assets:** real app icons (#295); covers ship with each build
     (#296); bundle split into chunks (#297) and walkthroughs/tips/rewards
     loaded lazily, cutting first-load JS from 672 kB to 349 kB gzipped (#304);
-    13 unused dependencies removed (#298) and Vite 6.4.4 (#303), `npm audit`
-    0 vulnerabilities.
+    13 unused dependencies removed (#298) and Vite 6.4.4 (#303).
   - **Not yet live:** Home and News fixes, and News now built from this
     changelog (#299, #302).
   - **Quest data:** 31 TotK shrine quests now type `side`, so they show under
