@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-24 (8)
+
+- **No quest or PR numbers in News** — `v2.9.15` patch (#409, #410, #411).
+  - News cards no longer show quest or PR numbers: older updates were
+    reworded to name the quests instead, and any number left in a future
+    update is cut automatically.
+  - The Oct 23 "Every quest has its own video" update now covers only the
+    video changes, and the Oct 20 QA pass update no longer lists build
+    tooling results.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (7)
 
 - **Cleaner News tab** — `v2.9.14` patch (#405, #406, #408).
@@ -130,8 +141,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 - **Every quest has its own video** — `v2.9.2` patch (#363). The last five
   quests that shared a video now each have their own: Jedi: Survivor's Kle-0,
   Fenn Finau and Masi Finau (one combined bounty fight, so three different
-  uploads of it) and Metaphor's Efflorescent Youth and Dental Distress. The
-  audit's shared-video allowlist is now empty, so any reuse is flagged.
+  uploads of it) and Metaphor's Efflorescent Youth and Dental Distress.
   Docs: `TODO.md` updated with what's left (#361, #362).
 
 ## 2026-10-23 (2)
@@ -203,8 +213,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   - **Build and assets:** real app icons (#295); covers ship with each build
     (#296); bundle split into chunks (#297) and walkthroughs/tips/rewards
     loaded lazily, cutting first-load JS from 672 kB to 349 kB gzipped (#304);
-    13 unused dependencies removed (#298) and Vite 6.4.4 (#303), `npm audit`
-    0 vulnerabilities.
+    13 unused dependencies removed (#298) and Vite 6.4.4 (#303).
   - **Not yet live:** Home and News fixes, and News now built from this
     changelog (#299, #302).
   - **Quest data:** 31 TotK shrine quests now type `side`, so they show under
@@ -214,32 +223,30 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 ## 2026-10-18 (3)
 
 - **Check AC Odyssey videos and swap 48 weak ones** (PR #270) — `v2.4.15`
-  patch. Round 2 of the video title check (videos already in the app): 294
-  of 344 matched their quest title; 48 swapped for videos that name the
-  quest; #2332 renamed to Till Death Do Us Part. #1999 and #2141 flagged.
+  patch. 294 of 344 AC Odyssey videos matched their quest title; 48 were
+  swapped for videos that name the quest, and one quest was renamed to its
+  in-game title, Till Death Do Us Part.
 - **Check Hogwarts Legacy videos and swap 24 weak ones** (PR #271). 94 of
-  120 matched; 24 swapped; #716 renamed to Foal of the Dead. #717 and #516
-  flagged.
+  120 matched; 24 swapped; one quest renamed to its in-game title, Foal of
+  the Dead.
 
 ## 2026-10-18 (2)
 
 - **Replace the last 4 YouTube search links with real videos** (PR #268) —
-  `v2.4.14` patch. Metaphor #158 (with corrected relic steps) and #726,
-  Deadfire #779, BG3 #997 now embed real videos; #726 shares #725's video,
-  which covers both quests and is allowlisted in the audit. Every quest now
-  has a real video: 2,461 quests, 2,459 videos, 2 playlists, 0 search links.
+  `v2.4.14` patch. Four quests in Metaphor (one with corrected relic steps),
+  Deadfire and BG3 now embed real videos. Every quest now has a real video:
+  2,461 quests, 2,459 videos, 2 playlists, 0 search links.
 
 ## 2026-10-18
 
 - **Add 3 missing Skyrim main quests** (PR #265) — `v2.4.13` patch. The
-  Horn of Jurgen Windcaller (#2594), A Cornered Rat (#2595) and the
-  optional Paarthurnax (#2596), in story order with steps and videos;
-  Alduin's Wall #1396 steps fixed.
+  Horn of Jurgen Windcaller, A Cornered Rat and the optional Paarthurnax, in
+  story order with steps and videos; Alduin's Wall steps fixed.
 - **Rebuild Deadfire main quests to match the game** (PR #266). The main
   line now follows the real seven quests: Stranded, To Hunt a God, The Veins
-  of Eora (new #2597), A Distant Light, He Waits in Fire, The Coming Storm and
+  of Eora (new), A Distant Light, He Waits in Fire, The Coming Storm and
   The City Lost to Time (moved from Side Quest to Main Quest). Made-up titles
-  replaced; duplicate #776 removed. Quest count 2,458 → 2,461.
+  replaced and a duplicate removed. Quest count 2,458 → 2,461.
 
 ## 2026-10-17 (7)
 
@@ -259,25 +266,26 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   each now follows the real tale (the Snake, the Old Inn, Hanbei and the
   dual katana, Lord Saito's training fortress, the ronin's lead, the Oni,
   the Kitsune, the Saito brothers, Call of the Hunt, the Final Hunt of the
-  Onryō). #1142 is now Call of the Hunt, replacing the made-up "The Saito
-  Brothers (Part 2)".
+  Onryō). Call of the Hunt replaces the made-up "The Saito Brothers
+  (Part 2)".
 
 ## 2026-10-17 (5)
 
 - **Resolve the last YouTube search links** (PRs #241–#249) — `v2.4.10`
   patch. 15 of the 19 remaining search links get real videos, and the
   entries behind them are fixed: Skyrim Reparations is now the Thieves Guild
-  expulsion quest, Horizon War Totems the God of War Easter egg, BG3 #801
-  split into Get Gortash's Netherstone and new #2593 Get Orin's Netherstone,
-  BG3 #997 renamed Acquire the Gauntlets for Helsik, Metaphor #726/#1078
-  corrected, Witcher 3 Wine Wars: Consorting rewritten. Made-up entries
-  Pillars of Eternity #108 The Dozen's Dispute and Sekiro #1833 removed.
-- **Duplicate and mislabelled quests** (PRs #250–#253). Witcher 3 #616 and
-  #351 merged into #43 and #33; Skyrim #1399 Alduin's Bane, #1400 Season
-  Unending and #1404 The Fallen renamed to match their content, #1398 steps
-  fixed, duplicate #1514 removed; Deadfire duplicates #62 and #786 removed
-  and #775 renamed The Coming Storm; Cyberpunk #263 merged into #250
-  Nocturne Op55N1. Quest count 2,465 → 2,458; 4 search links remain.
+  expulsion quest, Horizon War Totems the God of War Easter egg, BG3's
+  Netherstone quest split into Get Gortash's Netherstone and Get Orin's
+  Netherstone, a BG3 quest renamed Acquire the Gauntlets for Helsik, two
+  Metaphor entries corrected, Witcher 3 Wine Wars: Consorting rewritten.
+  Made-up entries Pillars of Eternity The Dozen's Dispute and one Sekiro
+  entry removed.
+- **Duplicate and mislabelled quests** (PRs #250–#253). Two Witcher 3
+  duplicates merged into their originals; Skyrim Alduin's Bane, Season
+  Unending and The Fallen renamed to match their content, one Skyrim
+  walkthrough fixed and a duplicate removed; two Deadfire duplicates removed
+  and one entry renamed The Coming Storm; a Cyberpunk duplicate merged into
+  Nocturne Op55N1. Quest count 2,465 → 2,458.
 
 ## 2026-10-17 (4)
 
@@ -285,20 +293,20 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   `v2.4.9` patch. #601 "Nameless" is now the Hindarsfjall main quest with
   a 5-step walkthrough and video; duplicate #371 "The Nameless" removed.
 - **Fix Black Myth: Wukong boss entries and remove a duplicate** (PR #239).
-  #832 is now Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840 the Venom
-  Daoist (replacing the made-up "Duo of Corruption"), #841 Keeper of the
-  Flaming Mountains & Yin-Yang Fish; #842 removed as a duplicate of #31
-  The Five Element Carts (now filed under Chapter 5). Quest count
-  2,466 → 2,465; 19 quests left on a YouTube search link.
+  Entries now cover Whiteclad Noble, Baw-Li-Guhh-Lang (new), the Venom
+  Daoist (replacing the made-up "Duo of Corruption") and Keeper of the
+  Flaming Mountains & Yin-Yang Fish; a duplicate of The Five Element Carts
+  was removed and that quest is now filed under Chapter 5. Quest count
+  2,466 → 2,465.
 
 ## 2026-10-17 (3)
 
 - **Data fixes from the video check** (PRs #220–#223) — `v2.4.8` patch.
-  Skyrim #1535/#1536 renamed to Volskygge / Ansilvund and Stormcloak fort
-  battles #1498–#1500 now note they need Season Unending to hand over the
-  hold; HFW #397 rewritten as The Wound in the Sand; BG3 #798 is now
-  Impress the Murder Tribunal and #1005 Help the Cursed Monk is rewritten;
-  duplicates BG3 #986 and Deadfire #773 removed. Quest count 2,468 → 2,466.
+  Two Skyrim quests renamed to Volskygge and Ansilvund, and the Stormcloak
+  fort battles now note they need Season Unending to hand over the hold;
+  a Horizon entry rewritten as The Wound in the Sand; a BG3 entry is now
+  Impress the Murder Tribunal and Help the Cursed Monk is rewritten; BG3
+  and Deadfire duplicates removed. Quest count 2,468 → 2,466.
 - **57 more hand-picked YouTube videos across 13 games** (PRs #221,
   #224–#236). Only 23 quests are left on a YouTube search link.
 
@@ -323,7 +331,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 - **Fix 4 Witcher 3 quest titles to their in-game names** (PR #196) — #367
   The Final Trial, #609 Evil's Soft First Touches, #611 A Midnight Clear,
   #634 Scavenger Hunt: Grandmaster Manticore Gear.
-- **Fix Horizon Forbidden West #394 title: Blood Choke -> The Blood Choke**
+- **Fix Horizon Forbidden West title: Blood Choke -> The Blood Choke**
   (PR #197).
 - **Fix 2 Baldur's Gate 3 quest titles to their in-game names** (PR #198) —
   #978 Avenge Glut's Circle, #1010 Visit the Emperor's Old Hideout.
@@ -335,7 +343,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 ## 2026-10-16
 
 - **Fix Valhalla quest title: The Son of Jorvik -> This Son of Jorvik**
-  (PR #192) — `v2.4.5` patch. #1952 now uses the in-game title.
+  (PR #192) — `v2.4.5` patch. The quest now uses its in-game title.
 - **Remove duplicate Witcher 3 quest: The Merry Widow (Contract) (#353)**
   (PR #193). Kept #628 "Contract: The Merry Widow". Quest count
   2,469 → 2,468.
@@ -422,25 +430,24 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 ## 2026-10-13 (2)
 
 - **Replace generic AI tips and rewards on 105 AC Odyssey side quests**
-  (PR #122) — `v2.3.16` patch. Each of #2071–#2185 gets a quest-specific
-  aiTip and a specific reward (named items where guides list them, e.g.
-  Secretive Gauntlets, Bow of the Muses, Atlantean Blade). Also adds unshipped
-  video candidates for three renamed Skyrim quests (docs only).
-- **Remove 4 duplicate/fake quests** (PR #123). AC Odyssey #2186–#2188
-  (duplicates of Xenia's treasure hunts #2118–#2120) and Skyrim #1502 "Rescue
-  from Fort Amol" (not a real quest). Quest count 2,484 → 2,480.
+  (PR #122) — `v2.3.16` patch. Each gets a quest-specific tip and a specific
+  reward (named items where guides list them, e.g. Secretive Gauntlets, Bow
+  of the Muses, Atlantean Blade).
+- **Remove 4 duplicate/fake quests** (PR #123). Three AC Odyssey
+  duplicates of Xenia's treasure hunts and Skyrim "Rescue from Fort Amol"
+  (not a real quest). Quest count 2,484 → 2,480.
 
 ## 2026-10-13
 
 - **Replace placeholder text on 62 Pillars of Eternity quests** (PR #119) —
-  `v2.3.15` patch. Real summary, aiTip, walkthrough and reward for #2359–#2444,
+  `v2.3.15` patch. Real summary, tip, walkthrough and reward for each,
   verified against guides. Regions fixed (Elms' Reach quests, At the Mercy of
   the Tribes and True to Form → Twin Elms; Siege of Crägholdt → White March;
-  The Grey Sleeper → Longwatch Falls). #2407 Unworn Eorn → Unwanted. Removed
-  #2379 (duplicate of #760) and #2361 "The Final Confrontation" (not a quest).
-  Quest count 2,486 → 2,484.
-- **Replace placeholder text on 34 Deadfire quests** (PR #120). Same treatment
-  for #2445–#2540; #2445 Helping Hands Main Quest → Side Quest. #2503 Her Last
+  The Grey Sleeper → Longwatch Falls). Unworn Eorn → Unwanted. Removed a
+  duplicate and "The Final Confrontation" (not a quest). Quest count
+  2,486 → 2,484.
+- **Replace placeholder text on 34 Deadfire quests** (PR #120). Same
+  treatment; Helping Hands moved from Main Quest to Side Quest. Her Last
   Request left unchanged (no guide details).
 
 ## 2026-10-12
@@ -459,12 +466,11 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 ## 2026-10-10 (2)
 
 - **AC Odyssey main-quest regions, all chapters** (PR #110) — `v2.3.13` patch.
-  20 more main quests moved to their real regions: #2007 Equal Employment
-  Opportunity Program → Phokis; Eppie quests #2008–#2011 → Boeotia; #2012–#2015
-  Megaris campaign → Megaris; #2024 Memories Awoken → Phokis; Olympic Games
-  quests #2054–#2056 → Elis; Lagos quests #2057–#2060 → Arkadia; #2061 The
-  Conqueror → Boeotia; #2063 The Battle of Pylos → Messenia (new Region filter
-  option); #2068 We Will Rise → Northern Greece.
+  20 more main quests moved to their real regions: Equal Employment
+  Opportunity Program → Phokis; Eppie quests → Boeotia; Megaris campaign →
+  Megaris; Memories Awoken → Phokis; Olympic Games quests → Elis; Lagos
+  quests → Arkadia; The Conqueror → Boeotia; The Battle of Pylos → Messenia
+  (new Region filter option); We Will Rise → Northern Greece.
 - **AC Odyssey side-quest placeholder text replaced** (PR #111, PR #112, PR #113,
   PR #114). 95 of the 101 side quests that shared the generic "A regional side
   quest in …" text now have real summaries and walkthroughs from guides. Title
@@ -477,12 +483,12 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 ## 2026-10-10
 
 - **Fix AC Odyssey Chapter 5 main-quest regions** (PR #107) — `v2.3.12` patch.
-  13 Chapter 5 main quests were filed under Cyclades Islands. Moved #2031–#2035
-  (To Find a Girl → Monger Down) to **Korinthia**, #2036–#2040 (First Do No
-  Harm → Ashes to Ashes) to **Argolis**, and #2041–#2043 (Abandoned by the Gods
-  → Athens' Last Hope) to **Attika**. Rewrote #2040 Ashes to Ashes' summary and
-  walkthrough (altar → forest shrine → save the baby or chase Chrysis). Also
-  ships the 2026-10-06 session log in `PROGRESS.md` (PR #106).
+  13 Chapter 5 main quests were filed under Cyclades Islands. Moved To Find
+  a Girl → Monger Down to **Korinthia**, First Do No Harm → Ashes to Ashes to
+  **Argolis**, and Abandoned by the Gods → Athens' Last Hope to **Attika**.
+  Rewrote Ashes to Ashes' summary and walkthrough (altar → forest shrine →
+  save the baby or chase Chrysis). Also ships the 2026-10-06 session log in
+  `PROGRESS.md` (PR #106).
 
 ## 2026-10-06
 
@@ -523,9 +529,9 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   unavailable, or too-long videos, plus converting the remaining
   `results?search_query=` search-URL fallbacks (rumor quests, exploration/recruit
   tasks) to specific `watch?v=` guides — Survivor now has 0 search-URL videos.
-  Includes an owner-approved shared video for #1320/#1321/#1322 (Kle-0, Fenn
-  Finau, Masi Finau — same arena); `audit.js` gained a `SHARED_VIDEOS` allowlist
-  so intentional same-location shares pass the reused-video check.
+  Kle-0, Fenn Finau and Masi Finau (same arena) share one video; `audit.js`
+  gained a `SHARED_VIDEOS` allowlist so intentional same-location shares pass
+  the reused-video check.
 
 ## 2026-08-12 (2)
 
