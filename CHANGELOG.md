@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25 (4)
+
+- **Video title check, round 3: Elden Ring** — `v2.9.20` patch (#425,
+  #426).
+  - The 32 Elden Ring videos not checked in earlier rounds were checked
+    with a YouTube search per quest title: 18 match, 14 swapped for
+    full-questline or boss guides titled after the quest.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (3)
 
 - **Video title check, round 3: Zelda: Tears of the Kingdom** — `v2.9.19`
