@@ -4106,13 +4106,15 @@ const quests = [
     category: "Expansion Quest",
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "Seeker, Slayer, Survivor",
+    title: "Seeker, Slayer, Survivor (DLC)",
     location: "Kazuwari",
     length: "long",
     difficulty: "High",
     reward: "Unique weapons and armour, Faces of the Hunt blessings",
-    summary: "DLC: a severed head arrives on your ship, and its spirit sends you to Kazuwari, home of the Crucible — an arena where contenders fight to become champion of one of the three Faces of the Hunt.",
-    aiTip: "Each Face favours a style: the Seeker (spider) careful planning, the Slayer (stelgaer) slaughter, the Survivor (boar) endurance. Bring strong area damage — the later rounds are big fights.",
+    summary:
+      "DLC: a severed head arrives on your ship, and its spirit sends you to Kazuwari, home of the Crucible — an arena where contenders fight to become champion of one of the three Faces of the Hunt.",
+    aiTip:
+      "Each Face favours a style: the Seeker (spider) careful planning, the Slayer (stelgaer) slaughter, the Survivor (boar) endurance. Bring strong area damage — the later rounds are big fights.",
     walkthrough: [
       "Get the Seeker, Slayer, Survivor DLC event when the severed head arrives aboard your ship.",
       "Sail to the island of Kazuwari.",
@@ -4120,20 +4122,22 @@ const quests = [
       "Take the challenge the Faces of the Hunt draw from it in the Crucible.",
       "Keep climbing the Crucible and return to the Pool for each Face's blessing."
     ],
-    video: "https://www.youtube.com/watch?v=V3GbGyej3JQ"
+    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 196,
     category: "Expansion Quest",
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "The Forgotten Sanctum",
+    title: "The Forgotten Sanctum (DLC)",
     location: "Black Isles (via Hall of the Unseen)",
     length: "long",
     difficulty: "High",
     reward: "Unique spells, powerful grimoires, DLC story resolution",
-    summary: "DLC: the archmage Llengrath asks the Watcher for help after a fellow archmage, Maura, vanishes into a newly opened dungeon in the Black Isles — and threatens to unleash a catastrophe.",
-    aiTip: "Best done just before the endgame at Ukaizo. Hand in Bekarna's Folly after the DLC for extra context.",
+    summary:
+      "DLC: the archmage Llengrath asks the Watcher for help after a fellow archmage, Maura, vanishes into a newly opened dungeon in the Black Isles — and threatens to unleash a catastrophe.",
+    aiTip:
+      "Best done just before the endgame at Ukaizo. Hand in Bekarna's Folly after the DLC for extra context.",
     walkthrough: [
       "Finish Magran's Teeth or Mapping the Archipelago: Tikawara to trigger the earthquake.",
       "Get ready for Ukaizo (blackwood hull and dragonwing sails, or a faction alliance).",
@@ -4141,7 +4145,7 @@ const quests = [
       "Sail to the Black Isles with her (the Hall of the Unseen south of Tikawara also leads there).",
       "Follow the archmages into the Sanctum and stop Maura."
     ],
-    video: "https://www.youtube.com/watch?v=dWWWCSiZXuo"
+    video: "https://www.youtube.com/watch?v=NYd31OzoyRg"
   },
 {
     id: 197,

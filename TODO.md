@@ -162,11 +162,11 @@ Still open, in priority order:
 1. **Video title check (round 3) is finished.** Every video now has a row in
    `docs/video-candidates/title-check.json`. What's left is for the owner:
 
-   The 64 videos left as is (IDs in the README table) need a look from the
-   owner or a better source. Most are Jedi: Survivor story missions,
+   The flagged titles, duplicates and bundles were all fixed in round 4
+   (PRs #445–#454; see the video-candidates README). The 52 videos still
+   marked "left as is" in `title-check.json` need a look from the owner or
+   a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
-   The Forgotten Sanctum), so no single video fits them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
