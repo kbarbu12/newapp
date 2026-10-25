@@ -2714,30 +2714,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=Arve0okS648"
   },
 {
-    id: 115,
-    type: "side",
-    category: "Side Quest",
-    game: "Baldur's Gate 3",
-    act: 3,
-    title: "The Stolen Gnome",
-    location: "Blighted Village",
-    length: "short",
-    difficulty: "Low",
-    reward: "Gnome companion assistance, XP, unique dialogue",
-    summary:
-      "Rescue a gnome inventor named Barcus Wroot who has been strapped to a windmill by goblins. A quick but memorable encounter that introduces recurring NPC Barcus and showcases the game's environmental storytelling.",
-    aiTip:
-      "Stop the windmill before freeing Barcus — there's a brake lever nearby. Freeing him correctly sets up later encounters where he repays the favour.",
-    walkthrough: [
-      "Near the Blighted Village, spot the deep gnome Barcus Wroot strapped to the windmill's spinning sail.",
-      "Reach the windmill mechanism and stop the sails (use the lever inside) before he dies.",
-      "Fend off the goblins tormenting him during the rescue.",
-      "Free Barcus and speak with him; he sets off and will reappear later (Grymforge, Act 3).",
-      "Complete the rescue for goodwill and Barcus's recurring aid.",
-    ],
-    video: "https://www.youtube.com/watch?v=dZTXqF9r0uE"
-  },
-{
     id: 116,
     type: "side",
     category: "Side Quest",
