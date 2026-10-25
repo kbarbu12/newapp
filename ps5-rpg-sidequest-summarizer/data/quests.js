@@ -42762,45 +42762,46 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Main Story Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Illusion (Corrupted Monk copy)",
-    location: "Mibu Village – Water Mill approach",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Progression toward the Shelter Stone",
+    title: "Corrupted Monk (Illusion)",
+    location: "Mibu Village – bridge to the Wedding Cave Door",
+    length: "medium",
+    difficulty: "High",
+    reward: "Memory: Corrupted Monk, Mibu Breathing Technique; opens the way to the Wedding Cave Door",
     summary:
-      "A single-life illusory Corrupted Monk guarding the path deeper into Mibu Village, serving as a lower-stakes rehearsal of her naginata moveset.",
+      "The illusory Corrupted Monk blocks the long bridge out of Mibu Village. She has two Deathblow marks and a naginata with huge reach; beating her gives the Mibu Breathing Technique (needed later to walk underwater) and opens the path to the Wedding Cave Door.",
     aiTip:
-      "Treat it as deflection practice — stay at mid-range, deflect the sweeping naginata chain, and dodge (never block) the poison-mist burst.",
+      "Stay close and keep pressure on — her posture fills quickly when you deflect her combos. Mikiri Counter her thrust, jump her sweeps, and in phase 2 back off when she fogs up and casts the clone spell.",
     walkthrough: [
-      "An illusory duplicate fight preceding the real Corrupted Monk encounter in some routes.",
-      "Mechanically similar to the Corrupted Monk fight — same moveset, serves as practice.",
-      "Deflect her sweeping naginata strikes and watch for the poison-mist AOE attack.",
-      "Defeat the illusion to proceed toward the real encounter."
+      "From the Mibu Village Sculptor's Idol (Water Mill), cross to the long bridge leading out of the village; the illusory monk appears in the mist.",
+      "Phase 1: deflect her naginata strings and attack between them; her posture fills fast, so steady deflects plus a few hits win the exchange.",
+      "Mikiri Counter the red-kanji thrust and jump over the low sweeps — a jump-kick onto her weapon breaks posture quickly.",
+      "Land the first Deathblow; she rises with a second bar and starts casting a fog spell that sends phantom copies — strafe out of their path and punish the cast.",
+      "Break posture again for the final Deathblow to earn the Memory and the Mibu Breathing Technique, then continue across to the Wedding Cave Door idol."
     ],
     video: "https://www.youtube.com/watch?v=0Q3fMmv6oaI"
   },
 {
     id: 1798,
-    type: "main",
-    category: "Main Story Bosses",
+    type: "side",
+    category: "Mini-Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Corrupted Monk",
-    location: "Mibu Village – Wedding Cave Door",
-    length: "medium",
-    difficulty: "High",
-    reward: "Shelter Stone, Memory",
+    title: "Snake Eyes Shirahagi",
+    location: "Ashina Depths – Poison Pool",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
     summary:
-      "The full Mibu Village guardian: a towering naginata wielder with enormous reach and a terror-inducing apparition phase.",
+      "A Snake Eyes gunner who guards the far side of the Poison Pool in the Ashina Depths, by the way into the Guardian Ape's Burrow and the Hidden Forest. Like her sister Shirafuji in the Sunken Valley, she mixes a long-range firearm with fast sword combos.",
     aiTip:
-      "Use Divine Confetti or a Fistful of Ash to open windows, and step through her sweeps rather than backing up — her range punishes retreat.",
+      "Deflect her gunshots (they can be deflected like arrows) and close the distance fast. She retreats to shoot, so chase and stay on her; Mikiri her thrust and use Sabimaru's poison or a Fistful of Ash to open her up.",
     walkthrough: [
-      "Found in the Sunken Valley (or Mibu Village depending on prior choices).",
-      "Deflect her long naginata combos; her reach is deceptively long so don't over-commit dodges.",
-      "Watch for the poison mist explosion attack and back away rather than deflecting it directly.",
-      "In later phases she summons a small tornado-style AOE — create distance when you see the windup.",
-      "Land consistent deflects to break posture and finish with a Deathblow."
+      "From the Poison Pool Sculptor's Idol in the Ashina Depths, head across the pool toward the Guardian Ape's Burrow entrance; Shirahagi waits near the far end.",
+      "Approach from cover — her gun shots hit hard at range, but each one can be deflected with good timing.",
+      "Close the gap and stay on her: deflect her sword strings and Mikiri Counter the thrust.",
+      "When she hops back to fire, chase immediately so she can't chain shots; jump her low sweeps.",
+      "Break her posture (or use a stealth Deathblow if you reach her unseen) and finish her for the Prayer Bead."
     ],
-    video: "https://www.youtube.com/watch?v=cnwiknYNwz4"
+    video: "https://www.youtube.com/watch?v=BMZidR7ymCg"
   },
 {
     id: 1799,
@@ -43242,21 +43243,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Mini-Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Seven Ashina Spears – Shume Masaka Nagahiro",
-    location: "Ashina Reservoir (endgame, castle aflame)",
+    title: "Seven Ashina Spears – Shume Masaji Oniwa",
+    location: "Ashina Reservoir (Ashina Castle under invasion)",
     length: "short",
     difficulty: "Medium",
     reward: "Prayer Bead",
     summary:
-      "A second Ashina Spears elite appearing when the castle burns, sharing the reach-heavy spear moveset.",
+      "One of the Seven Ashina Spears. He appears at the Ashina Reservoir once the Interior Ministry invades Ashina Castle late in the game, fighting with a spear that has long reach and a fast thrust.",
     aiTip:
-      "Same family — Mikiri Counter the thrust and deflect the sweep; a stealth approach lands a free first Deathblow.",
+      "Mikiri Counter his thrust and jump his sweep — both read clearly. Pop Gachiin's Sugar and sneak up for a stealth Deathblow to skip half the fight.",
     walkthrough: [
-      "When the castle burns, find the second Ashina Spear elite, Shume Masaka Nagahiro, near the Reservoir.",
-      "Use the same plan: Mikiri his thrusts and jump his sweeps.",
-      "Deflect the reach-heavy spear combo and punish the recovery.",
-      "Keep posture pressure high.",
-      "Break posture and land the Deathblow."
+      "After the Interior Ministry invasion begins, travel to the Ashina Reservoir Sculptor's Idol.",
+      "Find Shume Masaji Oniwa near the Reservoir; consider Gachiin's Sugar and a stealth Deathblow to remove his first bar.",
+      "Mikiri Counter his red-kanji thrusts and jump the low sweeps.",
+      "Deflect his spear combos to build posture, punishing the recovery after each string.",
+      "Break his posture and land the final Deathblow for the Prayer Bead."
     ],
     video: "https://www.youtube.com/watch?v=nqsUUNnwpg4"
   },
