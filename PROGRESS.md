@@ -7,6 +7,21 @@
 
 ---
 
+## 2026-10-25 (14) — video title check, round 3: Pillars of Eternity II: Deadfire (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #440 | Pillars of Eternity II: Deadfire | 4 | 1 | 0 | 3 |
+
+- Left as is: the two DLC entries (#195, #196) only have multi-part
+  Let's Plays, and no guide named after Tip of the Spear (#2461) came up.
+- No swaps.
+- 5 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (13) — video title check, round 3: Ghost of Yōtei (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.

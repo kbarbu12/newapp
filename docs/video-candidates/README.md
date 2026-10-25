@@ -62,6 +62,7 @@ per PR, the same way as round 2.
 | Hogwarts Legacy | 11 / 13 | 2 | — |
 | Horizon Forbidden West | 9 / 11 | 2 | — |
 | Ghost of Yōtei | 3 / 9 | 6 | — (1155 was swapped because its video was the main-story quest The Way of the Shamisen) |
+| Pillars of Eternity II: Deadfire | 1 / 4 | 0 | 195, 196 (DLC umbrella entries: only multi-part Let's Plays came up); 2461 (no guide named after Tip of the Spear came up) |
 
 ## Title check (2026-10-17)
 
