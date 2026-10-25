@@ -7,6 +7,23 @@
 
 ---
 
+## 2026-10-25 (3) — video title check, round 3: Elden Ring (v2.9.20)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #425 | Elden Ring | 32 | 18 | 14 | 0 |
+
+- Swapped, because their videos didn't come up for either wording: the
+  Ranni, Millicent, Nepheli Loux, Sellen and Boc questlines, plus Radahn,
+  Morgott, the Fire Giant, Maliketh, Malenia, Mohg, Placidusax, Astel and
+  Reach Miquella's Haligtree. Each now points at a full-questline or boss
+  guide titled after the quest.
+- 198 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (2) — video title check, round 3: Zelda: Tears of the Kingdom (v2.9.19)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
