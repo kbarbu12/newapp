@@ -9985,22 +9985,47 @@ const quests = [
     type: "side",
     category: "Activities",
     game: "Persona 5 Royal",
-    title: "Will Seeds & Jose (Royal)",
-    location: "Mementos / Palaces",
-    length: "short",
+    title: "Will Seeds (Royal)",
+    location: "Every Palace",
+    length: "medium",
     difficulty: "Low",
-    reward: "Powerful accessories, growth boosts",
+    reward: "SP restored per seed; a Crystal accessory per Palace, which Jose can upgrade into a stronger ring",
     summary:
-      "Collect the Royal-exclusive Will Seeds hidden in each Palace and trade Jose's flowers/stamps for buffs.",
+      "Royal adds three Will Seeds (red, green and blue) to the Palaces, hidden in secret rooms off the main route. Collecting all three in a Palace fuses them into a Crystal accessory, and Jose in Mementos can turn that Crystal into a stronger accessory.",
     aiTip:
-      "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
+      "Look for them before you send the calling card — some areas close off afterwards. Jose sells seeds you missed, but they're expensive.",
     walkthrough: [
-      "Collect the three Will Seeds hidden in each Palace (Royal-exclusive) as you infiltrate.",
-      "Combine each set into an accessory at the Velvet Room or Leblanc.",
-      "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
-      "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
+      "As you explore each Palace, watch for Will Seeds glowing in side rooms and hidden areas off the main route.",
+      "Pick up each seed (red, green and blue); each one also restores some SP to the party.",
+      "Once you have all three seeds from a Palace, they fuse automatically into that Palace's Crystal accessory.",
+      "Equip the Crystal on a party member, or take it to Jose in Mementos to have it made into a stronger accessory.",
+      "If you missed a seed, buy it from Jose later to complete the set."
     ],
-    video: "https://www.youtube.com/watch?v=hcJ5a0gfQfM"
+    video: "https://www.youtube.com/watch?v=GafS4qA8m-c"
+  },
+{
+    id: 2954,
+    type: "side",
+    category: "Activities",
+    game: "Persona 5 Royal",
+    title: "Jose's Flowers & Stamps (Royal)",
+    location: "Mementos",
+    length: "long",
+    difficulty: "Low",
+    reward: "Jose's shop (items and accessories), EXP / money / item-drop boosts, and the Path of Da'at secret fight",
+    summary:
+      "Jose is a boy driving around Mementos in Royal. Bring him flowers to open his shop, and collect stamps from the stamp machines on each floor to buy boosts to EXP, money or item drops. Enough stamps open the Path of Da'at, where Jose waits as a secret boss late in the game.",
+    aiTip:
+      "Drive over every flower you see in Mementos — they're Jose's currency and are also needed to reset your stamp boosts. Put stamps into item drops or money early, then EXP once you have plenty.",
+    walkthrough: [
+      "In Mementos, talk to Jose when you find him parked on a floor; he asks you to gather flowers.",
+      "Drive Morgana over the flowers floating around Mementos to collect them.",
+      "Trade flowers with Jose to buy his items and accessories.",
+      "Hit the stamp machine on each Mementos floor to collect stamps.",
+      "Give stamps to Jose to raise EXP, money or item-drop rates (you can reset them for flowers).",
+      "Collect enough stamps to open the Path of Da'at, where Jose can be fought as a secret boss late in the game."
+    ],
+    video: "https://www.youtube.com/watch?v=rhPfgVc1B80"
   },
 {
     id: 467,

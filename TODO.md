@@ -169,8 +169,6 @@ Still open, in priority order:
    duplicate of #639 "World Intel: Divine Intel (Protorelics)", and #125
    "Tifa's Piano Recital" looks like a duplicate of #646 "Piano
    Performances"; decide whether to merge or drop them.
-   Persona 5 Royal #466 "Will Seeds & Jose (Royal)" bundles two separate
-   systems (Palace Will Seeds and Jose's Mementos shop) into one entry.
    Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
    The Forgotten Sanctum), so no single video fits them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
