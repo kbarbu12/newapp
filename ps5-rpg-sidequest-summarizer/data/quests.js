@@ -22727,20 +22727,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 1,
-    title: "Elder Jinchi (Lingxuzi)",
-    location: "Black Wind Mountain",
+    title: "Elder Jinchi",
+    location: "Black Wind Mountain – Ancient Guanyin Temple",
     length: "long",
     difficulty: "High",
-    reward: "Spirit, Chapter 1 secret",
+    reward: "Fireproof Mantle (Vessel), Will, Bronze Monkey armour pieces unlocked for crafting",
     summary:
-      "Face the serpent-adjacent Elder Jinchi, a hidden Chapter 1 boss tied to the mountain's masters.",
+      "A hidden Chapter 1 boss: the old abbot Elder Jinchi, fought in the Ancient Guanyin Temple. The temple only opens after you ring the three bronze bells hidden around Black Wind Mountain. He floats above the arena and lashes out with fire, and his worshippers line the walls.",
     aiTip:
-      "A tougher optional fight — bring focus and the right stance for its quick strikes.",
+      "Hit the kneeling worshippers around the arena — each strike restores your health and Focus. Cloud Step through his fire waves and save heavy attacks for when he lands.",
     walkthrough: [
-      "Find the hidden Elder Jinchi (Lingxuzi) arena in Chapter 1.",
-      "Stay mobile against his wide area attacks and summoned adds.",
-      "Use Cloud Step to punish from behind during openings.",
-      "Chip him down between his ranged bursts to finish the fight."
+      "Ring the three hidden bronze bells: one behind the Guangzhi boss arena, one behind Guangmou's arena, and one near where you fight the Whiteclad Noble.",
+      "Once all three ring, return to the Ancient Guanyin Temple Keeper Shrine; the temple doors are now open.",
+      "Enter the temple and walk up the hall to wake Elder Jinchi.",
+      "Dodge his wide fire sweeps and summoned flames; strike the worshippers lining the walls to heal and build Focus.",
+      "When he drops to ground level, punish with heavy staff attacks and Immobilize, then finish him for the Fireproof Mantle and armour unlocks."
     ],
     video: "https://www.youtube.com/watch?v=aD0pScB7v7A"
   },
@@ -22857,22 +22858,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
-    title: "Macaque Chief (Non-Void)",
-    location: "Pagoda Realm",
+    title: "Non-Void",
+    location: "New Thunderclap Temple – Temple Entrance",
     length: "long",
     difficulty: "High",
-    reward: "Spirit, Chapter 3 lore",
+    reward: "Non-Void Spirit, Tonifying Decoction, Cold Iron Leaves",
     summary:
-      "Confront the illusion-weaving Macaque Chief amid the snows of Chapter 3.",
+      "A secret Chapter 3 boss: a white snow fox (Non-Void) hiding near the New Thunderclap Temple. It's part of a small chain that starts with a corpse at the Forest of Felicity gate and ends with the fox revealing itself when you approach in fox form.",
     aiTip:
-      "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
+      "Non-Void is fast and slippery — stay patient, dodge its lunges, and punish the recovery. Its frost attacks build chill, so carry a fire-protection item if you have one.",
     walkthrough: [
-      "Confront the Macaque Chief in the Chapter 3 snows.",
-      "Watch for his illusion clones and strike the real body.",
-      "Dodge his rapid staff flurries and counter after the last hit.",
-      "Use Focus heavies during his cooldowns to end the illusions."
+      "In Chapter 3, search the corpse near the Forest of Felicity gate to get the brush item that starts the chain.",
+      "Travel to the New Thunderclap Temple – Temple Entrance Keeper Shrine and head through the temple grounds.",
+      "Cross the wooden bridge beyond the temple and use the fox-form transformation to approach; the hidden fox reveals itself as Non-Void.",
+      "Fight Non-Void: dodge its fast lunges and frost bursts, then counter with staff combos during its recovery.",
+      "Defeat it to earn the Non-Void Spirit, a Tonifying Decoction and Cold Iron Leaves."
     ],
-    video: "https://www.youtube.com/watch?v=2jT9Uyvl8zw"
+    video: "https://www.youtube.com/watch?v=fHwDGl0jmA8"
   },
 {
     id: 837,
@@ -22901,42 +22903,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
-    title: "The Yakshas of the Pagoda",
-    location: "Pagoda Realm",
+    title: "Captain Lotus-Vision",
+    location: "Pagoda Realm – Upper Pagoda",
     length: "medium",
     difficulty: "High",
-    reward: "Spirits, Chapter 3 secret",
+    reward: "Spirit (Captain Lotus-Vision), crafting materials, opens the purple-seal prison cells in the Pagoda",
     summary:
-      "Battle the Yaksha kings woven into Chapter 3's tragic tale of the four sisters.",
+      "A Chapter 3 boss deep in the Pagoda Realm, a lotus-themed guard captain. Defeating him lets you open the purple-sealed prison cells around the Pagoda, which hold loot and other prisoners.",
     aiTip:
-      "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
+      "His lotus attacks leave lingering zones — move out of them rather than dodging in place. Use Immobilize right after a long combo to get free hits.",
     walkthrough: [
-      "Battle the Yaksha kings woven into Chapter 3's tale of the four sisters.",
-      "Learn each Yaksha's attack rhythm and dodge through the elemental bursts.",
-      "Punish between their combo strings with staff heavies.",
-      "Use transformations and spells to break poise and secure the kills."
+      "In Chapter 3, travel to the Upper Pagoda Keeper Shrine in the Pagoda Realm.",
+      "From the shrine, drop down onto the rooftop below and into the arena to start the fight.",
+      "Dodge his lotus combos and step out of the lingering ground effects.",
+      "Punish after each long string with heavy attacks, using Immobilize to open extra windows.",
+      "Defeat him to collect his Spirit and materials, then use his reward to open the purple-sealed prison cells around the Pagoda."
     ],
-    video: "https://www.youtube.com/watch?v=DfceILZxYJk"
+    video: "https://www.youtube.com/watch?v=-ohZN7UTSV8"
   },
 {
     id: 839,
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 4,
-    title: "Violet Spider (Second Sister)",
-    location: "Webbed Hollow",
+    title: "Violet Spider",
+    location: "Webbed Hollow – Gathering Cave",
     length: "long",
     difficulty: "High",
     reward: "Spirit, Chapter 4 arc",
     summary:
-      "Face the venomous Violet Spider and her brood in the poisonous Webbed Hollow.",
+      "An early Chapter 4 boss in the Webbed Hollow, fought soon after Zhu Bajie joins you. The Violet Spider fills the arena with webs, poisons you on contact and has a blinding bright-light attack.",
     aiTip:
-      "Poison stacks fast — cleanse often and burst her down during openings.",
+      "Poison builds fast — bring an antidote medicine or a poison-resistant item. Look away or dodge at the moment of the bright flash, and attack from her sides while she's stuck in a lunge.",
     walkthrough: [
-      "Enter the Webbed Hollow and reach the Violet Spider (Second Sister) in Chapter 4.",
-      "Dodge her venom spits and dashing bites while managing the poison meter.",
-      "Cleanse or heal poison buildup between exchanges.",
-      "Punish her lunge recoveries and finish before the arena floods with spiderlings."
+      "In Chapter 4, after the Zhu Bajie fight, rest at the Gathering Cave Keeper Shrine in the Webbed Hollow.",
+      "Enter the cave arena; the Violet Spider drops from the webs to begin the fight.",
+      "Dodge her lunges and venom spits, keeping an eye on your poison meter and cleansing when needed.",
+      "When she charges the bright-light attack, dodge through it or turn away to avoid being stunned.",
+      "Punish her recovery after each charge and finish her to move deeper into the Webbed Hollow."
     ],
     video: "https://www.youtube.com/watch?v=-Xlki41bw-g"
   },
