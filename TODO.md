@@ -165,8 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Sekiro #1798 "Corrupted Monk" (Mibu Village) looks like a duplicate of
-   #1797, and #1818 "Shume Masaka Nagahiro" should be Shume Masaji Oniwa.
    Black Myth: Wukong titles mix bosses: #831 "Elder Jinchi (Lingxuzi)",
    #836 "Macaque Chief (Non-Void)" and #839 "Violet Spider (Second Sister)"
    each name two different bosses, and #838 "The Yakshas of the Pagoda"
