@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-25 — video title check, round 3: Black Myth: Wukong (staging only)
+## 2026-10-25 — video title check, round 3: Black Myth: Wukong (v2.9.18)
 Same method: one YouTube search per quest title (Wukong titles are
 descriptive, so the search used the boss or quest name), plus a second
 wording before giving up.
