@@ -7,6 +7,27 @@
 
 ---
 
+## 2026-10-25 — video title check, round 3: Black Myth: Wukong (staging only)
+Same method: one YouTube search per quest title (Wukong titles are
+descriptive, so the search used the boss or quest name), plus a second
+wording before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #419 | Black Myth: Wukong | 37 | 19 | 17 | 1 |
+
+- 17 swaps, more than other games: many current videos didn't come up for
+  either wording. One was plainly wrong: #29 "Shigandang – The Stone Giant"
+  (the Chapter 2 secret boss) pointed at the Chapter 6 Giant Shigandang
+  walkthrough.
+- Data problems spotted (in TODO for the owner): #831 "Elder Jinchi
+  (Lingxuzi)", #836 "Macaque Chief (Non-Void)" and #839 "Violet Spider
+  (Second Sister)" each name two different bosses; #838 "The Yakshas of the
+  Pagoda" isn't a boss name, so its video was left as is.
+- 266 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-24 (7) — video title check, round 3: Sekiro (v2.9.17, shipped 2026-10-25)
 Same method: one YouTube search per quest title, plus a second wording
 ("<boss> Boss Fight Guide - Sekiro: Shadows Die Twice", which is how most of
