@@ -1038,7 +1038,7 @@ const quests = [
       "Bell 3: after the Whiteclad Noble, take the left path before the big cave.",
       "Ringing the last bell teleports you to the Ancient Guanyin Temple — defeat Elder Jinchi for the Fireproof Mantle (great against the Black Bear Guai)."
     ],
-    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+    video: "https://www.youtube.com/watch?v=W4H2ZYjvBMY"
   },
 {
     id: 26,
@@ -1079,7 +1079,7 @@ const quests = [
       "Return to Rockrest Flat and defeat the Yellow-Robed Squire.",
       "Enter the Kingdom of Sahali and beat its bosses — one rewards the Wind Tamer."
     ],
-    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+    video: "https://www.youtube.com/watch?v=yx3icW0ryvk"
   },
 {
     id: 28,
@@ -1099,7 +1099,7 @@ const quests = [
       "Interact with the waterfall to enter the arena.",
       "Fight the Black Loong — it may be harder than the Red one."
     ],
-    video: "https://www.youtube.com/watch?v=aws_pIoWkHA"
+    video: "https://www.youtube.com/watch?v=WTgOV2YSag0"
   },
 {
     id: 29,
@@ -1119,7 +1119,7 @@ const quests = [
       "Rest at a shrine and return to the arena.",
       "Interact with the giant rock on the left to summon Shigandang and defeat it for the Heart of Stone and Skandha of Feeling."
     ],
-    video: "https://www.youtube.com/watch?v=cA1w2eTChGs"
+    video: "https://www.youtube.com/watch?v=XQKmd7oN5l4"
   },
 {
     id: 30,
@@ -1160,7 +1160,7 @@ const quests = [
       "Destroy the five carts: Brown-Iron, Gray-Bronze, Crimson-Silver, Horse Guai and Rusty-Gold.",
       "Break the ice and trigger the scene in the cave to reach the Bishui Cave secret area."
     ],
-    video: "https://www.youtube.com/watch?v=4c3j5Igj9NQ"
+    video: "https://www.youtube.com/watch?v=UFVIrvhqYww"
   },
 {
     id: 32,
@@ -4753,7 +4753,7 @@ const quests = [
       "Phase 1: dodge his spear combos and punish recoveries.",
       "Phase 2: he becomes the Black Bear Guai — keep moving through the fire and use Immobilize to open windows."
     ],
-    video: "https://www.youtube.com/watch?v=3nrZp3R5dLQ"
+    video: "https://www.youtube.com/watch?v=_EktxIfTv_4"
   },
 {
     id: 220,
@@ -4813,7 +4813,7 @@ const quests = [
       "Dodge the golden light beams and poison.",
       "Break through his phases to end Chapter 4."
     ],
-    video: "https://www.youtube.com/watch?v=-EI1MrUzAqY"
+    video: "https://www.youtube.com/watch?v=80UtViHKCC4"
   },
 {
     id: 223,
@@ -4913,7 +4913,7 @@ const quests = [
       "Defeat the Mother of Stones (clear her rock minions) for the Stone Essence.",
       "Give it to the Man-in-Stone, then beat him when he turns hostile for the Azure Dust transformation."
     ],
-    video: "https://www.youtube.com/watch?v=pYScnK8bA04"
+    video: "https://www.youtube.com/watch?v=IxSAl7w5Te4"
   },
 {
     id: 228,
@@ -4974,7 +4974,7 @@ const quests = [
       "Collect the Plantain Fan vessel from the post-chapter rewards.",
       "Use its tornado from the start of Chapter 6."
     ],
-    video: "https://www.youtube.com/watch?v=AVGVPesMlks"
+    video: "https://www.youtube.com/watch?v=41znJ0VTClU"
   },
 {
     id: 231,
@@ -4994,7 +4994,7 @@ const quests = [
       "Defeat Erlang, the Sacred Divinity, then the Four Heavenly Kings, then the transformed Erlang Shen.",
       "Beat the Great Sage's Broken Shell again for the true ending."
     ],
-    video: "https://www.youtube.com/watch?v=ael32jxy3EU"
+    video: "https://www.youtube.com/watch?v=C60YsIKySA4"
   },
 {
     id: 232,
@@ -22695,7 +22695,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish with light combos and Focus-charged heavy strikes.",
       "Use Immobilize when it winds up big attacks to secure the kill."
     ],
-    video: "https://www.youtube.com/watch?v=YMWq8_44cHA"
+    video: "https://www.youtube.com/watch?v=QzHXc8qXgLU"
   },
 {
     id: 830,
@@ -22847,7 +22847,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Build Focus and land charged heavies during its long recoveries.",
       "Immobilize the wind-ups to safely stack damage."
     ],
-    video: "https://www.youtube.com/watch?v=w6X85I_hSeQ"
+    video: "https://www.youtube.com/watch?v=DBZXHsFCC8M"
   },
 {
     id: 836,
@@ -22869,7 +22869,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge his rapid staff flurries and counter after the last hit.",
       "Use Focus heavies during his cooldowns to end the illusions."
     ],
-    video: "https://www.youtube.com/watch?v=uDEi9zD39lg"
+    video: "https://www.youtube.com/watch?v=2jT9Uyvl8zw"
   },
 {
     id: 837,
@@ -22935,7 +22935,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cleanse or heal poison buildup between exchanges.",
       "Punish her lunge recoveries and finish before the arena floods with spiderlings."
     ],
-    video: "https://www.youtube.com/watch?v=YcPkzNeDsVU"
+    video: "https://www.youtube.com/watch?v=-Xlki41bw-g"
   },
 {
     id: 840,
@@ -23000,7 +23000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Head to the end of the cave to reach the Bishui Golden-Eyed Beast.",
       "Defeat it to watch the secret cutscene and collect its loot."
     ],
-    video: "https://www.youtube.com/watch?v=ldnxuMoJetQ"
+    video: "https://www.youtube.com/watch?v=HJkAYaepXz8"
   },
 {
     id: 843,
@@ -23022,7 +23022,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the recovery after each big swing.",
       "Use Immobilize on the huge wind-ups to safely deal damage."
     ],
-    video: "https://www.youtube.com/watch?v=pyJB1THHkhc"
+    video: "https://www.youtube.com/watch?v=dEf9vOCi90s"
   },
 {
     id: 844,
@@ -58031,7 +58031,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Exploit the openings after his poison casts; keep a cleanse/antidote ready for his venom.",
       "Defeat him to earn the Violet Hail Transformation spell."
     ],
-    video: "https://www.youtube.com/watch?v=z7xj0yN-icY"
+    video: "https://www.youtube.com/watch?v=o3_vCcgPc6k"
   },
   {
     id: 2543,
