@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-25 (4) — video title check, round 3: Final Fantasy VII Remake (staging only)
+## 2026-10-25 (4) — video title check, round 3: Final Fantasy VII Remake (v2.9.21)
 Same method: one YouTube search per quest title, plus a second wording.
 Most main entries use descriptive titles rather than the game's chapter
 names, so the second wording used the real chapter name.
