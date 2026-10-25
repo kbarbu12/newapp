@@ -7,6 +7,21 @@
 
 ---
 
+## 2026-10-25 (15) — video title check, round 3: Skyrim (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #441 | Skyrim | 4 | 3 | 0 | 1 |
+
+- Left as is: #1432 Reparations (only general Thieves Guild videos came
+  up).
+- No swaps.
+- 1 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (14) — video title check, round 3: Pillars of Eternity II: Deadfire (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.

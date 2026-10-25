@@ -2859,5 +2859,9 @@
 {"id":195,"file":"quests.js","game":"Pillars of Eternity II: Deadfire","title":"Seeker, Slayer, Survivor","video":"V3GbGyej3JQ","result":"notfound","note":"DLC umbrella entry (Seeker, Slayer, Survivor); only multi-part Let's Plays and trailers came up, no single guide for the whole DLC; left as is"},
 {"id":196,"file":"quests.js","game":"Pillars of Eternity II: Deadfire","title":"The Forgotten Sanctum","video":"dWWWCSiZXuo","result":"notfound","note":"DLC umbrella entry (The Forgotten Sanctum); only multi-part Let's Plays and trailers came up, no single guide for the whole DLC; left as is"},
 {"id":2461,"file":"quests.js","game":"Pillars of Eternity II: Deadfire","title":"Tip of the Spear","video":"3fSR2-o1F6U","result":"notfound","note":"no guide named after the quest came up for either wording (only Crookspur/Wahaki Let's Play episodes); left as is"},
-{"id":2597,"file":"quests.js","game":"Pillars of Eternity II: Deadfire","title":"The Veins of Eora","video":"4V2D7_OiDG8","result":"match","foundAs":"The Veins of Eora Quest (Pillars of eternity 2 Deadfire)"}
+{"id":2597,"file":"quests.js","game":"Pillars of Eternity II: Deadfire","title":"The Veins of Eora","video":"4V2D7_OiDG8","result":"match","foundAs":"The Veins of Eora Quest (Pillars of eternity 2 Deadfire)"},
+{"id":1432,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Reparations","video":"sh9HTyHBApY","result":"notfound","note":"no guide for Reparations came up for either wording (only general Thieves Guild videos); left as is"},
+{"id":2594,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"The Horn of Jurgen Windcaller","video":"GdpM4LMqDXs","result":"match","foundAs":"TES V Skyrim - The Horn of Jurgen Windcaller Walkthrough"},
+{"id":2595,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"A Cornered Rat","video":"0SKzTcoiWLI","result":"match","foundAs":"A Cornered Rat - Walkthrough - Skyrim Anniversary Edition"},
+{"id":2596,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Paarthurnax","video":"fEvyBvoq6Rk","result":"match","foundAs":"Skyrim Blades - Kill Paarthurnax"}
 ]
