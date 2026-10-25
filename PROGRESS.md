@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-25 (16) — video title check, round 3: Pillars of Eternity (staging only)
+## 2026-10-25 (16) — video title check, round 3: Pillars of Eternity (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up. This was the last game in round 3.
 
@@ -21,7 +21,7 @@ before giving up. This was the last game in round 3.
 
 ---
 
-## 2026-10-25 (15) — video title check, round 3: Skyrim (staging only)
+## 2026-10-25 (15) — video title check, round 3: Skyrim (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -36,7 +36,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (14) — video title check, round 3: Pillars of Eternity II: Deadfire (staging only)
+## 2026-10-25 (14) — video title check, round 3: Pillars of Eternity II: Deadfire (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -51,7 +51,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (13) — video title check, round 3: Ghost of Yōtei (staging only)
+## 2026-10-25 (13) — video title check, round 3: Ghost of Yōtei (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -69,7 +69,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (12) — video title check, round 3: Horizon Forbidden West (staging only)
+## 2026-10-25 (12) — video title check, round 3: Horizon Forbidden West (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -84,7 +84,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (11) — video title check, round 3: Hogwarts Legacy (staging only)
+## 2026-10-25 (11) — video title check, round 3: Hogwarts Legacy (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -99,7 +99,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (10) — video title check, round 3: Demon's Souls (staging only)
+## 2026-10-25 (10) — video title check, round 3: Demon's Souls (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -115,7 +115,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (9) — video title check, round 3: Persona 5 Royal (staging only)
+## 2026-10-25 (9) — video title check, round 3: Persona 5 Royal (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -133,7 +133,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (8) — video title check, round 3: Final Fantasy VII Rebirth (staging only)
+## 2026-10-25 (8) — video title check, round 3: Final Fantasy VII Rebirth (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -151,7 +151,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (7) — video title check, round 3: Cyberpunk 2077 (staging only)
+## 2026-10-25 (7) — video title check, round 3: Cyberpunk 2077 (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -167,7 +167,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (6) — video title check, round 3: Baldur's Gate 3 (staging only)
+## 2026-10-25 (6) — video title check, round 3: Baldur's Gate 3 (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
@@ -185,7 +185,7 @@ before giving up.
 
 ---
 
-## 2026-10-25 (5) — video title check, round 3: Star Wars Jedi: Fallen Order (staging only)
+## 2026-10-25 (5) — video title check, round 3: Star Wars Jedi: Fallen Order (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording.
 The story entries use descriptive titles, so the search used the planet
 and visit (e.g. "Zeffo second visit").
