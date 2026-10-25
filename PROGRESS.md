@@ -7,6 +7,21 @@
 
 ---
 
+## 2026-10-25 (11) — video title check, round 3: Hogwarts Legacy (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #437 | Hogwarts Legacy | 13 | 11 | 2 | 0 |
+
+- Swapped: The House Cup and Harlow's Last Stand now point at full quest
+  walkthroughs from the same series as most of the matched videos.
+- No data problems spotted.
+- 29 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (10) — video title check, round 3: Demon's Souls (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.

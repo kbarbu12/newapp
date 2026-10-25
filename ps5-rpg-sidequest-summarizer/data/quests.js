@@ -24529,7 +24529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch Professor Weasley award you 100 points as Headmaster Black prepares to name the winner.",
       "Your house wins the Cup — the true ending."
     ],
-    video: "https://www.youtube.com/watch?v=nA0-MV_TgPk"
+    video: "https://www.youtube.com/watch?v=jdMw6febnEQ"
   },
 {
     id: 2604,
@@ -24662,7 +24662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Duel Theophilus Harlow, breaking his shield with Ancient Magic.",
       "Win the final quick-time event to defeat him."
     ],
-    video: "https://www.youtube.com/watch?v=5U3YdpJlGF8"
+    video: "https://www.youtube.com/watch?v=lc-fDhY1siI"
   },
 {
     id: 2946,

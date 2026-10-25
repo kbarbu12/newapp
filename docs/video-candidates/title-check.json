@@ -2822,5 +2822,18 @@
 {"id":143,"file":"quests.js","game":"Demon's Souls","title":"The Old Monk's Trial","video":"GpKMwv2AU1w","result":"notfound","note":"alt wUVeLGMq25M (Demon's Souls Walkthrough - Old Monk of Tower of Latria 3-3); swapped to wUVeLGMq25M"},
 {"id":144,"file":"quests.js","game":"Demon's Souls","title":"Maiden Astraea's Mercy","video":"k2chOJD9DoI","result":"notfound","note":"alt pp8l3aRJgqc (Demon's Souls Walkthrough: Valley of Defilement 5-3 Maiden Astraea); swapped to pp8l3aRJgqc"},
 {"id":2352,"file":"quests.js","game":"Demon's Souls","title":"Biorr of the Twin Fangs","video":"7Fpx22Le-6k","result":"match","foundAs":"Demon's Souls (PS5) - Biorr, of the Twin Fangs (NPC Quest)"},
-{"id":2353,"file":"quests.js","game":"Demon's Souls","title":"Old King Doran","video":"P-eFmZV8BWA","result":"match","foundAs":"Demon's Souls - Old King Doran - Demonbrandt"}
+{"id":2353,"file":"quests.js","game":"Demon's Souls","title":"Old King Doran","video":"P-eFmZV8BWA","result":"match","foundAs":"Demon's Souls - Old King Doran - Demonbrandt"},
+{"id":2598,"file":"quests.js","game":"Hogwarts Legacy","title":"The Headmistress Speaks","video":"ObVRmDWGEbg","result":"match","foundAs":"HOGWARTS LEGACY - STORY QUEST #33: THE HEADMISTRESS SPEAKS [Full Walkthrough]"},
+{"id":2599,"file":"quests.js","game":"Hogwarts Legacy","title":"The Polyjuice Plot","video":"4xWB8FtXYEI","result":"match","foundAs":"HOGWARTS LEGACY - STORY QUEST #34: THE POLYJUICE PLOT [Full Walkthrough]"},
+{"id":2600,"file":"quests.js","game":"Hogwarts Legacy","title":"In the Shadow of the Mountain","video":"K0MOXeJklMU","result":"match","foundAs":"Hogwarts Legacy In the Shadow Of The Mountain Main Quest Full Walkthrough"},
+{"id":2601,"file":"quests.js","game":"Hogwarts Legacy","title":"Lodgok's Loyalty","video":"aMNZ6XiWsM4","result":"match","foundAs":"HOGWARTS LEGACY - STORY QUEST #37: LODGOK'S LOYALTY [Full Walkthrough]"},
+{"id":2602,"file":"quests.js","game":"Hogwarts Legacy","title":"Weasley's Watchful Eye","video":"t0O90eYERqs","result":"match","foundAs":"Hogwarts Legacy - Weasley's Watchful Eye Walkthrough"},
+{"id":2603,"file":"quests.js","game":"Hogwarts Legacy","title":"The House Cup","video":"nA0-MV_TgPk","result":"notfound","note":"alt jdMw6febnEQ (HOGWARTS LEGACY - STORY QUEST #42: THE HOUSE CUP [Full Walkthrough]); swapped to jdMw6febnEQ"},
+{"id":2604,"file":"quests.js","game":"Hogwarts Legacy","title":"Carted Away","video":"FxAdq1v3CFc","result":"match","foundAs":"HOGWARTS LEGACY - SIDE QUEST: CARTED AWAY [Full Walkthrough]"},
+{"id":2605,"file":"quests.js","game":"Hogwarts Legacy","title":"Spell Combination Practice 1","video":"lhp8xzZ4rSM","result":"match","foundAs":"HOGWARTS LEGACY - SIDE QUEST: SPELL COMBINATION PRACTICE I [Full Walkthrough]"},
+{"id":2606,"file":"quests.js","game":"Hogwarts Legacy","title":"Spell Combination Practice 2","video":"MCCx9RC_m0Y","result":"match","foundAs":"HOGWARTS LEGACY - SIDE QUEST: SPELL COMBINATION PRACTICE II [Full Walkthrough]"},
+{"id":2943,"file":"quests.js","game":"Hogwarts Legacy","title":"A Dragon Debrief (Poppy)","video":"nBpuoO83mYQ","result":"match","foundAs":"Hogwarts Legacy - Side Quest: A Dragon Debrief [Walkthrough]"},
+{"id":2944,"file":"quests.js","game":"Hogwarts Legacy","title":"Finding Focus (Natty)","video":"mKtpb7HgXc0","result":"match","foundAs":"Finding Focus [Quest] - Hogwarts Legacy"},
+{"id":2945,"file":"quests.js","game":"Hogwarts Legacy","title":"Harlow's Last Stand (Natty)","video":"5U3YdpJlGF8","result":"notfound","note":"alt lc-fDhY1siI (HOGWARTS LEGACY - NATSAI RELATIONSHIP QUEST: HARLOW'S LAST STAND [Full Walkthrough]); swapped to lc-fDhY1siI"},
+{"id":2946,"file":"quests.js","game":"Hogwarts Legacy","title":"Acting on Instinct (Natty)","video":"k9_DiDR37P4","result":"match","foundAs":"Hogwarts Legacy: 176. Acting on Instinct"}
 ]
