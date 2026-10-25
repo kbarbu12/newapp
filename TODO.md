@@ -141,8 +141,11 @@ Kingdom (#422): 36 videos checked, 30 matched, 5 swapped, 1 left as is.
 **Done on 2026-10-25 (`v2.9.20`):** Elden Ring (#425): 32 videos
 checked, 18 matched, 14 swapped.
 
+**Done since (on `staging`, not yet on prod):** Final Fantasy VII Remake
+(#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 198 videos left, one game per
+1. **Finish the video title check (round 3).** 168 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -150,7 +153,6 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Final Fantasy VII Remake | 30 |
    | Star Wars Jedi: Fallen Order | 28 |
    | Baldur's Gate 3 | 26 |
    | Cyberpunk 2077 | 22 |
@@ -164,7 +166,7 @@ Still open, in priority order:
    | Skyrim | 4 |
    | Pillars of Eternity | 1 |
 
-   The 53 videos left as is (IDs in the README table) need a look from the
+   The 54 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
    Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
@@ -177,6 +179,13 @@ Still open, in priority order:
    isn't a boss name. Zelda #1636 "The Necluda Sky Crystal" isn't a real
    quest: the game has North, East and West Necluda Sky Crystal quests.
    Zelda #1643's summary misspells the shrine as "Uzasum" (it's Usazum).
+   Final Fantasy VII Remake: many main entries use descriptive titles, not
+   the game's chapter names (e.g. #1027 "Bombing Mission" is Chapter 1 "The
+   Destruction of Mako Reactor 1"). #1045 "Chocobo Search (Rat Problem)"
+   merges two separate side quests, #1049 "The Angel of the Slums (Moogle
+   Merchant)" mixes a side quest with the Moogle Emporium, #1036 "The
+   Collapsed Expressway" describes the Chapter 10 sewers (Abzu), and #1032
+   and #1034 both cover Chapter 8.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
