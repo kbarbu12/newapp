@@ -1642,7 +1642,7 @@ const quests = [
       "Climb the shaft in the Atbay headquarters to the tower; enter door codes 102023 and 402625.",
       "Search the office for the Leviathan data."
     ],
-    video: "https://www.youtube.com/watch?v=mTt0HqyaFbQ"
+    video: "https://www.youtube.com/watch?v=1U68lQ7eaRo"
   },
 {
     id: 56,
@@ -2569,7 +2569,7 @@ const quests = [
       "Use the restored structure to reach the Tallneck and climb to its head.",
       "Override it to reveal the region on your map."
     ],
-    video: "https://www.youtube.com/watch?v=w3wURjVgnI0"
+    video: "https://www.youtube.com/watch?v=QhfByqmgAuY"
   },
 {
     id: 107,

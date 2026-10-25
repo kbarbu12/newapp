@@ -60,6 +60,7 @@ per PR, the same way as round 2.
 | Persona 5 Royal | 6 / 18 | 10 | 97 (Akechi's Confidant: only per-rank videos came up); 466 ("Will Seeds & Jose" bundles two separate systems) |
 | Demon's Souls | 10 / 13 | 3 | — |
 | Hogwarts Legacy | 11 / 13 | 2 | — |
+| Horizon Forbidden West | 9 / 11 | 2 | — |
 
 ## Title check (2026-10-17)
 

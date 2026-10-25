@@ -2835,5 +2835,16 @@
 {"id":2943,"file":"quests.js","game":"Hogwarts Legacy","title":"A Dragon Debrief (Poppy)","video":"nBpuoO83mYQ","result":"match","foundAs":"Hogwarts Legacy - Side Quest: A Dragon Debrief [Walkthrough]"},
 {"id":2944,"file":"quests.js","game":"Hogwarts Legacy","title":"Finding Focus (Natty)","video":"mKtpb7HgXc0","result":"match","foundAs":"Finding Focus [Quest] - Hogwarts Legacy"},
 {"id":2945,"file":"quests.js","game":"Hogwarts Legacy","title":"Harlow's Last Stand (Natty)","video":"5U3YdpJlGF8","result":"notfound","note":"alt lc-fDhY1siI (HOGWARTS LEGACY - NATSAI RELATIONSHIP QUEST: HARLOW'S LAST STAND [Full Walkthrough]); swapped to lc-fDhY1siI"},
-{"id":2946,"file":"quests.js","game":"Hogwarts Legacy","title":"Acting on Instinct (Natty)","video":"k9_DiDR37P4","result":"match","foundAs":"Hogwarts Legacy: 176. Acting on Instinct"}
+{"id":2946,"file":"quests.js","game":"Hogwarts Legacy","title":"Acting on Instinct (Natty)","video":"k9_DiDR37P4","result":"match","foundAs":"Hogwarts Legacy: 176. Acting on Instinct"},
+{"id":54,"file":"quests.js","game":"Horizon Forbidden West","title":"Blood for Blood","video":"iC_HQB2WOds","result":"match","foundAs":"Horizon Forbidden West - Side Quest - Blood for Blood"},
+{"id":55,"file":"quests.js","game":"Horizon Forbidden West","title":"Forbidden Legacy","video":"mTt0HqyaFbQ","result":"notfound","note":"alt 1U68lQ7eaRo (Forbidden Legacy Horizon Forbidden West); swapped to 1U68lQ7eaRo"},
+{"id":56,"file":"quests.js","game":"Horizon Forbidden West","title":"The Gate of the Vanquished","video":"B4zNx29HC84","result":"match","foundAs":"Horizon Forbidden West | The Gate of the Vanquished Walkthrough"},
+{"id":104,"file":"quests.js","game":"Horizon Forbidden West","title":"The Kulrut","video":"_j4_NpcVMHw","result":"match","foundAs":"Horizon: Forbidden West - The Kulrut - Main Quest Walkthrough"},
+{"id":105,"file":"quests.js","game":"Horizon Forbidden West","title":"The Wings of the Ten","video":"jMCtZ4xkIJ4","result":"match","foundAs":"Horizon Forbidden West Gameplay Walkthrough - Main Quest: The Wings Of The Ten"},
+{"id":106,"file":"quests.js","game":"Horizon Forbidden West","title":"Tallneck: Cinnabar Sands","video":"w3wURjVgnI0","result":"notfound","note":"alt QhfByqmgAuY (Horizon: Forbidden West - Cinnabar Sands Tallneck & Trophy); swapped to QhfByqmgAuY"},
+{"id":107,"file":"quests.js","game":"Horizon Forbidden West","title":"The Sea of Sands","video":"UP5p7BpHyjc","result":"match","foundAs":"Horizon: Forbidden West - The Sea of Sands - Main Quest Walkthrough"},
+{"id":180,"file":"quests.js","game":"Horizon Forbidden West","title":"The Broken Sky","video":"pFEhMNlfCA0","result":"match","foundAs":"Horizon: Forbidden West - The Broken Sky - Main Quest Walkthrough"},
+{"id":183,"file":"quests.js","game":"Horizon Forbidden West","title":"Faro's Tomb","video":"cA_I3lOQmvA","result":"match","foundAs":"Horizon: Forbidden West - Faro's Tomb - Main Quest Walkthrough"},
+{"id":184,"file":"quests.js","game":"Horizon Forbidden West","title":"The Bristlebacks","video":"7JVGDFq0bw8","result":"match","foundAs":"Horizon: Forbidden West - The Bristlebacks - Side Quest Walkthrough"},
+{"id":185,"file":"quests.js","game":"Horizon Forbidden West","title":"The Dying Lands","video":"goI8MktOdhM","result":"match","foundAs":"Horizon: Forbidden West - The Dying Lands - Main Quest Walkthrough"}
 ]
