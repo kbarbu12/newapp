@@ -30283,7 +30283,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the sinkholes and find a way across the chasm.",
       "Reach the Vault to continue."
     ],
-    video: "https://www.youtube.com/watch?v=mPbFFbGYb6Q"
+    video: "https://www.youtube.com/watch?v=-u39QCc9vLM"
   },
 {
     id: 1256,
@@ -30304,7 +30304,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn the Holocron is sealed and the Zeffo tombs hold the key.",
       "Return to the Mantis and set course for Zeffo."
     ],
-    video: "https://www.youtube.com/watch?v=GBCyJhnzOfI"
+    video: "https://www.youtube.com/watch?v=m5Z8kcwEQZw"
   },
 {
     id: 1257,
@@ -30325,7 +30325,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reactivate the wind device to swing the chandelier and jump across.",
       "Learn Force Push and use it on the giant balls to open the way out."
     ],
-    video: "https://www.youtube.com/watch?v=1Y82XevS5u0"
+    video: "https://www.youtube.com/watch?v=sC7K1y0kNMA"
   },
 {
     id: 1258,
@@ -30388,7 +30388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the tomb's rope and rotating-wall puzzles.",
       "Gain Force Pull and use it to escape."
     ],
-    video: "https://www.youtube.com/watch?v=KSwswrolt40"
+    video: "https://www.youtube.com/watch?v=whZBct1Ij3s"
   },
 {
     id: 1261,
@@ -30451,7 +30451,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Taron Malicos, who tempts Cal with the dark side.",
       "Push toward the Tomb of Kujet until Cal's lightsaber is broken — he must leave for Ilum to rebuild it."
     ],
-    video: "https://www.youtube.com/watch?v=p1jDXfoq6rs"
+    video: "https://www.youtube.com/watch?v=ChUSq8pMDhA"
   },
 {
     id: 1264,
@@ -30536,7 +30536,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Interrogation Chamber and face the Second Sister for the last time — parry, and dodge her unblockable red attacks.",
       "Defeat her and recover the Holocron."
     ],
-    video: "https://www.youtube.com/watch?v=G6jmOpk1On8"
+    video: "https://www.youtube.com/watch?v=GCndTdAAf6Q"
   },
 {
     id: 1268,
@@ -30557,7 +30557,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive until Cere arrives to hold him off.",
       "Escape Nur on the Mantis with the Holocron."
     ],
-    video: "https://www.youtube.com/watch?v=OMf8vZGGDSo"
+    video: "https://www.youtube.com/watch?v=_kZtL825V94"
   },
 {
     id: 1269,
@@ -30641,7 +30641,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge its heavy charges and punish its recoveries.",
       "Defeat it to finish the Legendary Beasts set."
     ],
-    video: "https://www.youtube.com/watch?v=zSNuTPkJ1Dw"
+    video: "https://www.youtube.com/watch?v=Z3gbDN6Fc0g"
   },
 {
     id: 1273,
@@ -30704,7 +30704,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Work through the dark puzzles toward Malicos.",
       "Defeat Malicos with Merrin and claim the Astrium."
     ],
-    video: "https://www.youtube.com/watch?v=CGWyPxeMe6s"
+    video: "https://www.youtube.com/watch?v=MYhZ6dNV04c"
   },
 {
     id: 1276,
@@ -30788,7 +30788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check secret rooms and puzzle ends.",
       "Return with new abilities for hard-to-reach ones."
     ],
-    video: "https://www.youtube.com/watch?v=6BkyXNX2zJU"
+    video: "https://www.youtube.com/watch?v=J_K0pw02beE"
   },
 {
     id: 1280,
@@ -30830,7 +30830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant them in Greez's terrarium aboard the Mantis.",
       "Collect all ten to complete the terrarium."
     ],
-    video: "https://www.youtube.com/watch?v=HsEOvh9acjQ"
+    video: "https://www.youtube.com/watch?v=DoYUGHtpNu0"
   },
 {
     id: 1282,
