@@ -7,6 +7,24 @@
 
 ---
 
+## 2026-10-25 (2) — video title check, round 3: Zelda: Tears of the Kingdom (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #422 | Zelda: Tears of the Kingdom | 36 | 30 | 5 | 1 |
+
+- Swapped: Impa and the Geoglyphs, Recovering the Hero's Sword, A Mystery
+  in the Depths, Potential Princess Sightings! and The Satori Mountain Crystal: their videos didn't come up for either
+  wording, so each now points at a guide titled after the quest.
+- Data problem spotted (in TODO for the owner): #1636 "The Necluda Sky
+  Crystal" isn't a real quest name (the game has North, East and West
+  Necluda Sky Crystal quests), so its video was left as is.
+- 230 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 — video title check, round 3: Black Myth: Wukong (v2.9.18)
 Same method: one YouTube search per quest title (Wukong titles are
 descriptive, so the search used the boss or quest name), plus a second
