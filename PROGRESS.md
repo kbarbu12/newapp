@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-25 (2) — video title check, round 3: Zelda: Tears of the Kingdom (staging only)
+## 2026-10-25 (2) — video title check, round 3: Zelda: Tears of the Kingdom (v2.9.19)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 
