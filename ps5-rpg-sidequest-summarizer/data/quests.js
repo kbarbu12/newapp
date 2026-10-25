@@ -3595,23 +3595,24 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "Atreus's Search",
-    location: "Various Realms",
+    title: "The Curator – All Artefacts",
+    location: "All Nine Realms (mostly Svartalfheim, Midgard, Alfheim and Vanaheim)",
     length: "long",
-    difficulty: "Medium",
-    reward: "Lore, Atreus story resolution, unique companion dialogue",
+    difficulty: "Low",
+    reward: "The Curator trophy, Hacksilver from selling each Artefact set, lore entries",
     summary:
-      "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
+      "Collect every Artefact in the Nine Realms to unlock The Curator trophy. There are 38 Artefacts spread across the realms, grouped into themed sets, plus the 5 Casualties of War favours in Vanaheim's Crater whose 10 favour items also count toward the tally. None are missable.",
     aiTip:
-      "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
+      "Pick up Artefacts as you clear each area — the realm map's completion list shows how many remain per region. Leave the Crater's Casualties of War items for when you free-roam Vanaheim after the story opens it up.",
     walkthrough: [
-      "Progress the main story until control switches to Atreus for his solo sections — these trigger automatically at set story beats.",
-      "During Atreus's chapters, favour stealth and his bow puzzles over head-on fights; use Sonic Arrows to reveal and activate mechanisms.",
-      "Explore fully while playing as Atreus — his sections gate unique lore and dialogue you can't revisit later as Kratos.",
-      "Follow the objective markers through each realm segment, completing the environmental puzzles that block your path.",
-      "Reach the end of his questline to unlock the story context that sets up the game's final act."
+      "Open the realm map and press Touchpad → Region list: each region shows an Artefacts counter, so you can see which areas still hold one.",
+      "Artefacts are small glowing pickups (a white sparkle on the ground or in a niche) — grab them with Square; many sit behind breakable walls, inside Nornir-chest rooms or at the end of side paths.",
+      "Clear Svartalfheim (Aurvangar Wetlands, The Applecore, Nidavellir, Lake of Nine) and Midgard (Lake of Nine, The Oarsmen, Raider Fort) during and after their story visits.",
+      "In Alfheim, sweep The Barrens and The Forbidden Sands once you have the Draupnir Spear and the sand-gem tools; several Artefacts sit in sand-ship areas.",
+      "In Vanaheim, collect the Artefacts in The Jungle, The Plains and The Crater, and finish the five Casualties of War favours — each gives two favour items that count as Artefacts.",
+      "Finish any stragglers in Muspelheim, Niflheim, Helheim and Jotunheim, then check the Artefacts tab in the Journal: The Curator pops once every set is complete."
     ],
-    video: "https://www.youtube.com/watch?v=U3InCcqtpNs"
+    video: "https://www.youtube.com/watch?v=hSgXSXqVK3I"
   },
 {
     id: 163,
@@ -3639,23 +3640,24 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "Mimir's Knowledge",
-    location: "Various Realms",
-    length: "medium",
+    title: "All Lore Locations",
+    location: "All Nine Realms",
+    length: "long",
     difficulty: "Low",
-    reward: "Lore collectibles, world-building, XP",
+    reward: "Mimir's and Atreus's lore narration, Journal entries, 100% realm completion",
     summary:
-      "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
+      "Find all 80 Lore entries across the Nine Realms. Lore comes in four kinds: Lore Markers (big stone tablets), Rune Reads (blue runes on walls that Atreus or Freya reads), Lore Scrolls (pickups on the ground) and a handful of special Pages. They aren't tied to a trophy but are needed for 100% completion, and none are missable.",
     aiTip:
-      "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
+      "Rune Reads are the easiest to miss — they only glow faintly blue on walls. Let each narration finish before moving on; the stories carry some of the game's best writing.",
     walkthrough: [
-      "Watch for glowing Lore Marker collectibles as you explore each realm — they sit on stones, tablets, and ruins.",
-      "Interact with a Lore Marker to trigger Mimir's narrated story, then let the dialogue finish before moving on.",
-      "Search side paths, dead ends, and optional rooms — many markers are deliberately off the critical path.",
-      "Use the realm-completion menu to see how many lore items remain in each region and revisit areas you've missed.",
-      "Collect every Lore Marker across the Nine Realms to complete the set and its associated Labour progress."
+      "Open the realm map's region list (Touchpad on the map): each region shows a Lore counter, so you can see where entries remain.",
+      "Look for Lore Markers — tall carved stone tablets — and interact with them to hear Mimir's story.",
+      "Watch walls for faint blue runes: walk up to a Rune Read and press Square to have your companion read it aloud.",
+      "Pick up Lore Scrolls and Pages from the ground like any other item; they often sit in side rooms and dead ends off the main path.",
+      "Sweep each realm region by region, using the collectible guide for that region to catch the ones behind breakable walls or puzzles.",
+      "Check the Journal's Lore tab after each region; once every region shows full Lore, the set is complete."
     ],
-    video: "https://www.youtube.com/watch?v=pIbXqpQmuIg"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kEj54T9QpJOeOMqHTmeJA4G"
   },
 {
     id: 166,
@@ -19089,21 +19091,22 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "The Applecore",
-    location: "Svartalfheim",
+    title: "The Applecore – 100% Completion",
+    location: "Svartalfheim – The Applecore",
     length: "medium",
     difficulty: "Medium",
-    reward: "Mining elevator restored, region access",
+    reward: "2 Nornir Chests, 2 Legendary Chests, 3 Lore, 3 Artefacts, a Buried Treasure, an Odin's Raven, a Yggdrasil Rift and a Draugr Hole",
     summary:
-      "Restore the derelict Applecore elevator to open up new areas of the Aurvangar Wetlands.",
+      "The Applecore is a mine in Svartalfheim, south of the Aurvangar Wetlands, where the dwarves dig for Idunn's apples. You pass through it on the main story; coming back afterwards lets you clear every collectible in the area for 100% realm completion.",
     aiTip:
-      "Reopening it unlocks traversal and hidden chests across the wetlands.",
+      "One Legendary Chest needs the Chisel, so come back once you have it. The first Nornir Chest's three glyph seals are opened with the Draupnir Spear — throw it at each one and detonate.",
     walkthrough: [
-      "Reach the derelict Applecore elevator in the Aurvangar Wetlands of Svartalfheim during or after the main-story visit.",
-      "Interact with the elevator controls to learn the mechanism is jammed and needs power restored.",
-      "Clear the surrounding enemies and use the Draupnir Spear or Blades of Chaos to activate the sealed vents and gears.",
-      "Ride the restored elevator between its upper and lower stops to open the newly reachable sections of the wetlands.",
-      "Explore the freshly opened areas to grab the hidden chests and collectibles the elevator now makes accessible."
+      "Sail to The Applecore, the dwarven mine south of the Aurvangar Wetlands, and enter through the mine elevator.",
+      "For the first Nornir Chest, find the three glyph seals around it and hit each with the Draupnir Spear to open it.",
+      "Work down through the mine shafts, picking up the three Lore entries (stone markers, blue Rune Reads and scrolls) and the three Artefacts along the way.",
+      "Deep in the mine, find and destroy the Odin's Raven; use the realm map's region list to confirm it registered.",
+      "Open the two Legendary Chests — one is behind a barrier that needs the Chisel — and dig up the Buried Treasure with its treasure map.",
+      "Close the Yggdrasil Rift, clear the Draugr Hole, and solve the second Nornir Chest to bring The Applecore to 100%."
     ],
     video: "https://www.youtube.com/watch?v=HPe5WhV0LFY"
   },
