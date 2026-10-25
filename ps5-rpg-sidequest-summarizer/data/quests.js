@@ -26906,7 +26906,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "During the stagger, unload Braver and any Thunder spells to break its health before it re-arms.",
       "After it falls, sprint back up through the reactor and reach the exit before the escape timer runs out.",
     ],
-    video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
+    video: "https://www.youtube.com/watch?v=_m6RInL4lq0"
   },
 {
     id: 1028,
@@ -26930,7 +26930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the elevated rail line and outrun the pursuit across the plaza.",
       "Leap aboard the departing Sector 7-bound train to rejoin Avalanche.",
     ],
-    video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
+    video: "https://www.youtube.com/watch?v=c0gWTyqqnKU"
   },
 {
     id: 1029,
@@ -26978,7 +26978,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Ride the highway back down and win the motorcycle sequence, weaving between traffic and Shinra riders.",
       "Boss — Roche: parry his bike strikes, counter after his charges, and whittle him down to end the chase.",
     ],
-    video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
+    video: "https://www.youtube.com/watch?v=0ZpW-ppvM_g"
   },
 {
     id: 1031,
@@ -27003,7 +27003,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive its cannon and drone volleys by keeping cover between bursts.",
       "After the machine falls, brace for the Shinra ambush that springs the trap.",
     ],
-    video: "https://www.youtube.com/watch?v=VGR8joU9ems"
+    video: "https://www.youtube.com/watch?v=COA5tp0ubfw"
   },
 {
     id: 1032,
@@ -27027,7 +27027,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the rooftops of the slums while shaking off the pursuing soldiers.",
       "Reach the far side and agree to see Aerith safely home.",
     ],
-    video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
+    video: "https://www.youtube.com/watch?v=rmFRvReuC6w"
   },
 {
     id: 1033,
@@ -27051,7 +27051,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Destroy its arm parts to cut its melee options, then focus the core during stagger.",
       "Finish it before the platform breaks, then survive the cliffhanger drop with Barret.",
     ],
-    video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
+    video: "https://www.youtube.com/watch?v=RprcQ2YBRHM"
   },
 {
     id: 1034,
@@ -27148,7 +27148,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Boss — Eligor: destroy its wheel/ring parts, use Fire to pressure it, and dodge the Aeolian Onslaught projectile fan.",
       "Break it during stagger, then exit at the base of the Sector 7 pillar.",
     ],
-    video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
+    video: "https://www.youtube.com/watch?v=aRkkKAFv6jg"
   },
 {
     id: 1038,
@@ -27172,7 +27172,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the top terminal and confront the Turks over the pillar controls.",
       "Survive the plate's collapse and the heartbreaking aftermath with Jessie's crew.",
     ],
-    video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
+    video: "https://www.youtube.com/watch?v=u1Sqif9Cg7I"
   },
 {
     id: 1039,
@@ -27292,7 +27292,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Boss — Rufus & Dark Nation (Cloud solo): dodge his pistol shots, punish between his gunslinger combos, and take out Dark Nation to stop its buffs.",
       "After the duel, regroup with the party for the escape from the tower.",
     ],
-    video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
+    video: "https://www.youtube.com/watch?v=XOPV4pYFWvU"
   },
 {
     id: 1044,
@@ -27316,7 +27316,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Charge and save your Limit Breaks for the multi-phase finale.",
       "Final battle — the Whispers / Arbiter of Fate: defeat the Whisper Harbinger and its avatars, then Sephiroth, to close the story and leave Midgar behind.",
     ],
-    video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
+    video: "https://www.youtube.com/watch?v=kj3jIDkkUOw"
   },
 {
     id: 1045,
@@ -27408,7 +27408,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the fights to test new materia loadouts on the weak enemies.",
       "Return to the kids to hand in the job and claim the weapon reward.",
     ],
-    video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
+    video: "https://www.youtube.com/watch?v=ytBkAB5BPJA"
   },
 {
     id: 1049,
@@ -27454,7 +27454,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Beat the reigning champion, Jules, on the final round.",
       "Collect the reward — a strong result here improves your later Wall Market dress outcome.",
     ],
-    video: "https://www.youtube.com/watch?v=XDwOql565bQ"
+    video: "https://www.youtube.com/watch?v=4QGRRI3V64g"
   },
 {
     id: 1051,
@@ -27547,7 +27547,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Team up with Sonon and use Synchronized ATB to chain your abilities.",
       "Begin the infiltration plan against Shinra to steal the ultimate materia.",
     ],
-    video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
+    video: "https://www.youtube.com/watch?v=AuktsEVr-Xs"
   },
 {
     id: 1055,
@@ -27571,7 +27571,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Synchronized ATB with Sonon to chain abilities and build his stagger.",
       "Break Nero and escape with the stolen materia to close the DLC.",
     ],
-    video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
+    video: "https://www.youtube.com/watch?v=FWi49ME1pd4"
   },
 {
     id: 1056,
@@ -27594,7 +27594,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Adjust your unit loadout and board between matches to counter each rival.",
       "Beat the ranked champions to claim the exclusive materia and prizes.",
     ],
-    video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
+    video: "https://www.youtube.com/watch?v=cBa1coGEc-Q"
   },
 {
     id: 1134,
