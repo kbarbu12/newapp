@@ -2248,7 +2248,7 @@ const quests = [
       "Return to her after each kill for rewards (Stones of Ephemeral Eyes, Colorless Demon's Souls, Talisman of Beasts).",
       "Finish the list for the Foe's Ring."
     ],
-    video: "https://www.youtube.com/watch?v=L-uQipj4SKc"
+    video: "https://www.youtube.com/watch?v=ngPXn30fIUA"
   },
 {
     id: 87,
@@ -3347,7 +3347,7 @@ const quests = [
       "Fight the Old Monk — a real player (or an NPC Black Phantom if none is available).",
       "Touch the archstone afterwards."
     ],
-    video: "https://www.youtube.com/watch?v=GpKMwv2AU1w"
+    video: "https://www.youtube.com/watch?v=wUVeLGMq25M"
   },
 {
     id: 144,
@@ -3368,7 +3368,7 @@ const quests = [
       "Collect the Pureblood Demon's Soul and Ring of Sincere Prayer.",
       "In Pure White World, return later to fight Black Phantom Garl for the Bramd and Crest of Vinland (for Selen)."
     ],
-    video: "https://www.youtube.com/watch?v=k2chOJD9DoI"
+    video: "https://www.youtube.com/watch?v=pp8l3aRJgqc"
   },
 {
     id: 145,

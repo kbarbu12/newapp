@@ -2809,5 +2809,18 @@
 {"id":466,"file":"quests.js","game":"Persona 5 Royal","title":"Will Seeds & Jose (Royal)","video":"hcJ5a0gfQfM","result":"notfound","note":"umbrella entry for two separate systems (the Will Seeds in each Palace and Jose's flower/stamp shop in Mementos); only per-palace Will Seed guides and separate Jose videos came up; left as is"},
 {"id":679,"file":"quests.js","game":"Persona 5 Royal","title":"Confidant: Morgana (Magician)","video":"AuRMtbh5g3E","result":"notfound","note":"alt 64Kwui64_x0 (Persona 5 Royal, Morgana's Confidant Maxed); swapped to 64Kwui64_x0"},
 {"id":680,"file":"quests.js","game":"Persona 5 Royal","title":"Confidant: Sae Niijima (Judgement)","video":"tc11KlVbu_4","result":"match","foundAs":"Sae Niijima JUDGEMENT Confidant ALL RANKS 1-10 (Persona 5 60FPS)"},
-{"id":2568,"file":"quests.js","game":"Persona 5 Royal","title":"O My Young Sister, I Cry for You","video":"AgU9htVT-EM","result":"match","foundAs":"Persona 5 Royal (Mementos Request: O My Young Sister, I Cry For You)"}
+{"id":2568,"file":"quests.js","game":"Persona 5 Royal","title":"O My Young Sister, I Cry for You","video":"AgU9htVT-EM","result":"match","foundAs":"Persona 5 Royal (Mementos Request: O My Young Sister, I Cry For You)"},
+{"id":19,"file":"quests.js","game":"Demon's Souls","title":"Yuria the Witch's Rescue","video":"IAMn_0_6IvY","result":"match","foundAs":"Demon's Souls [PS5] - How to Save Yuria, the Witch (Side Quest Guide)"},
+{"id":20,"file":"quests.js","game":"Demon's Souls","title":"Sparkly the Crow's Trades","video":"Riigb2TiFFo","result":"match","foundAs":"Where to Find Sparkly the Crow"},
+{"id":21,"file":"quests.js","game":"Demon's Souls","title":"Scirvir the Wanderer's Challenge","video":"4QzsNkwfzIg","result":"match","foundAs":"Demon's Souls remake - Black Phantom Scirvir the wanderer location - Step by step guide"},
+{"id":85,"file":"quests.js","game":"Demon's Souls","title":"Saint Urbain's Rescue","video":"th0qgF9VTsA","result":"match","foundAs":"How to rescue Saint Urbain and learn Miracles"},
+{"id":86,"file":"quests.js","game":"Demon's Souls","title":"Mephistopheles' Assassinations","video":"L-uQipj4SKc","result":"notfound","note":"alt ngPXn30fIUA (How to get the Foe's Ring Mephistopheles Quest Line); swapped to ngPXn30fIUA"},
+{"id":87,"file":"quests.js","game":"Demon's Souls","title":"Patches the Hyena","video":"rvLPhn9oh4k","result":"match","foundAs":"Demon's Souls [PS5] - Where To Find Patches (Walkthrough)"},
+{"id":139,"file":"quests.js","game":"Demon's Souls","title":"Ostrava of Boletaria","video":"8-_55ap2Q5s","result":"match","foundAs":"Ostrava of Boletaria Questline - Demon's Souls Remake"},
+{"id":140,"file":"quests.js","game":"Demon's Souls","title":"Sage Freke's Rescue","video":"XyzirgD-YOY","result":"match","foundAs":"How to rescue Sage Freke and learn Magic"},
+{"id":142,"file":"quests.js","game":"Demon's Souls","title":"Dragon God's Weakness","video":"wFBFbLHL8CQ","result":"match","foundAs":"Dragon God Guide - Demon's Souls Boss PS5"},
+{"id":143,"file":"quests.js","game":"Demon's Souls","title":"The Old Monk's Trial","video":"GpKMwv2AU1w","result":"notfound","note":"alt wUVeLGMq25M (Demon's Souls Walkthrough - Old Monk of Tower of Latria 3-3); swapped to wUVeLGMq25M"},
+{"id":144,"file":"quests.js","game":"Demon's Souls","title":"Maiden Astraea's Mercy","video":"k2chOJD9DoI","result":"notfound","note":"alt pp8l3aRJgqc (Demon's Souls Walkthrough: Valley of Defilement 5-3 Maiden Astraea); swapped to pp8l3aRJgqc"},
+{"id":2352,"file":"quests.js","game":"Demon's Souls","title":"Biorr of the Twin Fangs","video":"7Fpx22Le-6k","result":"match","foundAs":"Demon's Souls (PS5) - Biorr, of the Twin Fangs (NPC Quest)"},
+{"id":2353,"file":"quests.js","game":"Demon's Souls","title":"Old King Doran","video":"P-eFmZV8BWA","result":"match","foundAs":"Demon's Souls - Old King Doran - Demonbrandt"}
 ]
