@@ -7,6 +7,22 @@
 
 ---
 
+## 2026-10-25 (10) — video title check, round 3: Demon's Souls (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #436 | Demon's Souls | 13 | 10 | 3 | 0 |
+
+- Swapped: Mephistopheles' Assassinations, The Old Monk's Trial and Maiden
+  Astraea's Mercy now point at a questline guide and full boss
+  walkthroughs; the current videos didn't come up for either wording.
+- No data problems spotted.
+- 42 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (9) — video title check, round 3: Persona 5 Royal (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
