@@ -165,9 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Jedi: Fallen Order: most story entries use descriptive titles rather than
-   the game's own objective names, and #1258 "The Weathered Monument &
-   Venator Wreckage" bundles two Zeffo areas into one entry.
    Baldur's Gate 3 #115 "The Stolen Gnome" isn't an in-game quest name (it's
    the Barcus Wroot windmill rescue).
    Final Fantasy VII Rebirth #74 "The Protorelic Quests" looks like a
