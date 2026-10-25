@@ -2100,7 +2100,7 @@ const quests = [
       "More challenges unlock with story progress; the toughest feature level-40 enemies.",
       "Come back post-game for the advanced bouts and their trophies."
     ],
-    video: "https://www.youtube.com/watch?v=wkTEyy0nRyo"
+    video: "https://www.youtube.com/watch?v=bxmgzF6CDqw"
   },
 {
     id: 77,
@@ -3034,7 +3034,7 @@ const quests = [
       "Pick a strong formation (Riot Troopers and Grenadiers with Flametroopers in the middle).",
       "Perform in the parade for Rufus to win Stealing the Show."
     ],
-    video: "https://www.youtube.com/watch?v=csddQ1EAQrg"
+    video: "https://www.youtube.com/watch?v=tSz-MLBO1t4"
   },
 {
     id: 129,
@@ -3095,7 +3095,7 @@ const quests = [
       "Go back down and defeat the fiends, including the Ignilisks.",
       "Collect the Merc chocobo gear from Toby."
     ],
-    video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
+    video: "https://www.youtube.com/watch?v=xtxWdm_6290"
   },
 {
     id: 132,

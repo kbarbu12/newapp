@@ -7,6 +7,24 @@
 
 ---
 
+## 2026-10-25 (8) — video title check, round 3: Final Fantasy VII Rebirth (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #434 | Final Fantasy VII Rebirth | 19 | 14 | 3 | 2 |
+
+- Swapped: The Musclehead Colosseum and Junon Parade Training now point at
+  full guides; #131 The Hardest Sell pointed at a hard-mode enemy clip and
+  now points at the quest walkthrough.
+- Data problems spotted (in TODO for the owner): #74 and #125 look like
+  duplicates of #639 and #646 (the guides that fit them are already those
+  entries' videos), so their videos were left as is.
+- 73 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (7) — video title check, round 3: Cyberpunk 2077 (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
