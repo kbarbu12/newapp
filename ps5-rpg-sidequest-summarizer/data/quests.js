@@ -2042,26 +2042,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=-FeB5PTagZY"
   },
 {
-    id: 74,
-    type: "side",
-    game: "Final Fantasy VII Rebirth",
-    region: "Grasslands",
-    title: "The Protorelic Quests",
-    location: "Multiple Regions",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Protorelic summon materia, powerful summons",
-    summary: "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
-    aiTip: "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
-    walkthrough: [
-      "Unlock a region's towers — the first Phenomenon Intel usually appears on the map from there.",
-      "Complete each region's four Protorelic quests; each region has its own mechanic or minigame (Junon uses a Fort Condor-style board game).",
-      "Chadley tells you when story-gated quests become available.",
-      "Finish all six regions' Protorelics to unlock the final chain — and Gilgamesh Island in the Meridian Ocean."
-    ],
-    video: "https://www.youtube.com/watch?v=_WIDD8VTlu4"
-  },
-{
     id: 75,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2929,26 +2909,6 @@ const quests = [
       "Conclude his arc at Leyndell; if he survives, collect the Iron Ball weapon and his Bell Bearing.",
     ],
     video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
-  },
-{
-    id: 125,
-    type: "side",
-    game: "Final Fantasy VII Rebirth",
-    region: "Nibel",
-    title: "Tifa's Piano Recital",
-    location: "Various Regions",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Relationship points with Tifa, unique music",
-    summary: "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
-    aiTip: "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
-    walkthrough: [
-      "Collect the sheet music: Crow's Nest, Costa del Sol (Chapter 6), North Corel, Gongaga, Cosmo Canyon and Tifa's room in Nibelheim.",
-      "Play each piece at the piano next to it — a rhythm minigame on the analog sticks.",
-      "Get A-rank or better on the first six pieces.",
-      "Talk to Dorian, the piano rep, for rewards and the Piano Virtuoso trophy."
-    ],
-    video: "https://www.youtube.com/watch?v=E_Any2rW-RE"
   },
 {
     id: 126,
@@ -18547,14 +18507,15 @@ const quests = [
     difficulty: "Medium",
     reward: "Summon materia, powerful abilities",
     summary:
-      "Solve each region's multi-step Protorelic puzzle to earn unique summon materia.",
+      "Each open-world region's Divine Intel is a chain of Protorelic quests: multi-step exploration puzzles, minigames and fights that end in a unique summon materia. Finishing all of them unlocks the final chain and Gilgamesh Island.",
     aiTip:
-      "These are the best World Intel rewards — do the region's other intel first to unlock them.",
+      "Clear a region's other World Intel first — that's what unlocks its Protorelic chain. The summon materia rewards are among the strongest in the game.",
     walkthrough: [
-      "Complete the region's other World Intel first to unlock its Divine Intel (Protorelic) chain.",
-      "Begin the chain and work through each multi-step objective — combat gauntlet, minigame, or environmental puzzle.",
-      "Progress through the chain's stages to the finale challenge.",
-      "Claim the unique summon materia — the best World Intel reward in each region."
+      "Unlock a region's towers and clear its other World Intel; the region's Divine Intel (Protorelic) chain then appears on the map.",
+      "Work through the region's Protorelic quests; each region has its own mechanic or minigame (Junon uses a Fort Condor-style board game).",
+      "Chadley tells you when story-gated Protorelic quests become available.",
+      "Finish each chain to claim that region's summon materia.",
+      "Complete all six regions' Protorelics to unlock the final chain and Gilgamesh Island in the Meridian Ocean."
     ],
     video: "https://www.youtube.com/watch?v=xYNJixRy2ws"
   },
@@ -18696,19 +18657,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Piano Performances",
-    location: "Multiple regions",
-    length: "short",
+    location: "Crow's Nest, Costa del Sol, North Corel, Gongaga, Cosmo Canyon, Nibelheim",
+    length: "medium",
     difficulty: "Low",
-    reward: "Sheet music, cosmetic rewards",
+    reward: "Piano rewards from Dorian, Piano Virtuoso trophy, relationship points",
     summary:
-      "Perform sheet music on pianos across the world in the rhythm minigame.",
+      "Find sheet music around the world and play it on the piano next to each sheet in a rhythm minigame. Playing well earns rewards from Dorian, the piano rep, and raises relationship scores, including Tifa's.",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
     walkthrough: [
-      "Sit at a piano found in a town or hub and choose a sheet-music track.",
-      "Follow the on-screen notes in the rhythm minigame — start on Easy to learn the note mapping.",
-      "Play each track to a passing (or higher) performance rank.",
-      "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
+      "Collect the sheet music: Crow's Nest, Costa del Sol (Chapter 6), North Corel, Gongaga, Cosmo Canyon and Tifa's room in Nibelheim.",
+      "Play each piece at the piano next to it — a rhythm minigame on the analog sticks (start on Easy to learn the note mapping).",
+      "Get A-rank or better on the first six pieces.",
+      "Talk to Dorian, the piano rep, for rewards and the Piano Virtuoso trophy."
     ],
     video: "https://www.youtube.com/watch?v=A0QiqT7SJ2k"
   },
