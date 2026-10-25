@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.20`; `staging` and `main` match.
+Prod is `v2.9.21`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -141,7 +141,7 @@ Kingdom (#422): 36 videos checked, 30 matched, 5 swapped, 1 left as is.
 **Done on 2026-10-25 (`v2.9.20`):** Elden Ring (#425): 32 videos
 checked, 18 matched, 14 swapped.
 
-**Done since (on `staging`, not yet on prod):** Final Fantasy VII Remake
+**Done on 2026-10-25 (`v2.9.21`):** Final Fantasy VII Remake
 (#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
 
 Still open, in priority order:
