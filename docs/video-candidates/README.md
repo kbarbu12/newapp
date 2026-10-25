@@ -64,6 +64,7 @@ per PR, the same way as round 2.
 | Ghost of Yōtei | 3 / 9 | 6 | — (1155 was swapped because its video was the main-story quest The Way of the Shamisen) |
 | Pillars of Eternity II: Deadfire | 1 / 4 | 0 | 195, 196 (DLC umbrella entries: only multi-part Let's Plays came up); 2461 (no guide named after Tip of the Spear came up) |
 | Skyrim | 3 / 4 | 0 | 1432 (no guide for Reparations came up) |
+| Pillars of Eternity | 0 / 1 | 1 | — |
 
 ## Title check (2026-10-17)
 

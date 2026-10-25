@@ -7,6 +7,20 @@
 
 ---
 
+## 2026-10-25 (16) — video title check, round 3: Pillars of Eternity (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up. This was the last game in round 3.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #442 | Pillars of Eternity | 1 | 0 | 1 | 0 |
+
+- Swapped: The Man Who Waits now points at a walkthrough of the quest;
+  the current video didn't come up for either wording.
+- 0 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (15) — video title check, round 3: Skyrim (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
