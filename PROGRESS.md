@@ -7,6 +7,24 @@
 
 ---
 
+## 2026-10-25 (13) — video title check, round 3: Ghost of Yōtei (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #439 | Ghost of Yōtei | 9 | 3 | 6 | 0 |
+
+- Swapped: Takezo the Unrivalled, The Undying Samurai, The Spider Lily
+  General, The Legend of Opusnupuri and The Crimson Kimono now point at
+  full Mythic Tale guides; #1155 Master of the Shamisen pointed at the
+  main-story quest The Way of the Shamisen and now points at its own
+  walkthrough.
+- No other data problems spotted.
+- 9 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (12) — video title check, round 3: Horizon Forbidden West (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
