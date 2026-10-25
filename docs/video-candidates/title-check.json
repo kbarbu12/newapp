@@ -2863,5 +2863,6 @@
 {"id":1432,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Reparations","video":"sh9HTyHBApY","result":"notfound","note":"no guide for Reparations came up for either wording (only general Thieves Guild videos); left as is"},
 {"id":2594,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"The Horn of Jurgen Windcaller","video":"GdpM4LMqDXs","result":"match","foundAs":"TES V Skyrim - The Horn of Jurgen Windcaller Walkthrough"},
 {"id":2595,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"A Cornered Rat","video":"0SKzTcoiWLI","result":"match","foundAs":"A Cornered Rat - Walkthrough - Skyrim Anniversary Edition"},
-{"id":2596,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Paarthurnax","video":"fEvyBvoq6Rk","result":"match","foundAs":"Skyrim Blades - Kill Paarthurnax"}
+{"id":2596,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Paarthurnax","video":"fEvyBvoq6Rk","result":"match","foundAs":"Skyrim Blades - Kill Paarthurnax"},
+{"id":57,"file":"quests.js","game":"Pillars of Eternity","title":"The Man Who Waits","video":"TR0TQ9U-abg","result":"notfound","note":"alt NcCV-RhVZDY (Pillars Of Eternity - Walkthrough #29 - The Man Who Waits); swapped to NcCV-RhVZDY"}
 ]

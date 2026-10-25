@@ -1685,7 +1685,7 @@ const quests = [
       "Ask Azo for the North Ward Key.",
       "Open the North Ward and confront Uscgrim in the last cell."
     ],
-    video: "https://www.youtube.com/watch?v=TR0TQ9U-abg"
+    video: "https://www.youtube.com/watch?v=NcCV-RhVZDY"
   },
 {
     id: 58,
