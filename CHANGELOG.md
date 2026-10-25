@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25 (6)
+
+- **Video title check, round 3: the last 12 games** — `v2.9.22` patch
+  (#431–#442, #443).
+  - Every remaining quest video was checked with a YouTube search per quest
+    title: Jedi: Fallen Order, Baldur's Gate 3, Cyberpunk 2077, FF7 Rebirth,
+    Persona 5 Royal, Demon's Souls, Hogwarts Legacy, Horizon Forbidden West,
+    Ghost of Yōtei, Pillars of Eternity II: Deadfire, Skyrim and Pillars of
+    Eternity. 50 videos were swapped for guides titled after the quest.
+  - Round 3 is complete: all 2,815 quest videos have been checked.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (5)
 
 - **Video title check, round 3: Final Fantasy VII Remake** — `v2.9.21`

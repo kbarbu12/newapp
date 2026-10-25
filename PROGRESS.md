@@ -7,6 +7,204 @@
 
 ---
 
+## 2026-10-25 (16) — video title check, round 3: Pillars of Eternity (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up. This was the last game in round 3.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #442 | Pillars of Eternity | 1 | 0 | 1 | 0 |
+
+- Swapped: The Man Who Waits now points at a walkthrough of the quest;
+  the current video didn't come up for either wording.
+- 0 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (15) — video title check, round 3: Skyrim (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #441 | Skyrim | 4 | 3 | 0 | 1 |
+
+- Left as is: #1432 Reparations (only general Thieves Guild videos came
+  up).
+- No swaps.
+- 1 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (14) — video title check, round 3: Pillars of Eternity II: Deadfire (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #440 | Pillars of Eternity II: Deadfire | 4 | 1 | 0 | 3 |
+
+- Left as is: the two DLC entries (#195, #196) only have multi-part
+  Let's Plays, and no guide named after Tip of the Spear (#2461) came up.
+- No swaps.
+- 5 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (13) — video title check, round 3: Ghost of Yōtei (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #439 | Ghost of Yōtei | 9 | 3 | 6 | 0 |
+
+- Swapped: Takezo the Unrivalled, The Undying Samurai, The Spider Lily
+  General, The Legend of Opusnupuri and The Crimson Kimono now point at
+  full Mythic Tale guides; #1155 Master of the Shamisen pointed at the
+  main-story quest The Way of the Shamisen and now points at its own
+  walkthrough.
+- No other data problems spotted.
+- 9 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (12) — video title check, round 3: Horizon Forbidden West (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #438 | Horizon Forbidden West | 11 | 9 | 2 | 0 |
+
+- Swapped: Forbidden Legacy and Tallneck: Cinnabar Sands now point at
+  full guides; the current videos didn't come up.
+- No data problems spotted.
+- 18 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (11) — video title check, round 3: Hogwarts Legacy (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #437 | Hogwarts Legacy | 13 | 11 | 2 | 0 |
+
+- Swapped: The House Cup and Harlow's Last Stand now point at full quest
+  walkthroughs from the same series as most of the matched videos.
+- No data problems spotted.
+- 29 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (10) — video title check, round 3: Demon's Souls (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #436 | Demon's Souls | 13 | 10 | 3 | 0 |
+
+- Swapped: Mephistopheles' Assassinations, The Old Monk's Trial and Maiden
+  Astraea's Mercy now point at a questline guide and full boss
+  walkthroughs; the current videos didn't come up for either wording.
+- No data problems spotted.
+- 42 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (9) — video title check, round 3: Persona 5 Royal (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #435 | Persona 5 Royal | 18 | 6 | 10 | 2 |
+
+- Swapped: six Palaces (Kamoshida, Madarame, Okumura, Niijima, Shido,
+  Maruki) now point at full Palace walkthroughs; Ryuji's, Futaba's and
+  Morgana's Confidants at full 1-10 guides; and The Killer Who Cleans Up
+  Trash at a request guide.
+- Left as is: #97 Akechi's Confidant (only per-rank videos came up) and
+  #466, which bundles two systems (in TODO for the owner).
+- 55 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (8) — video title check, round 3: Final Fantasy VII Rebirth (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #434 | Final Fantasy VII Rebirth | 19 | 14 | 3 | 2 |
+
+- Swapped: The Musclehead Colosseum and Junon Parade Training now point at
+  full guides; #131 The Hardest Sell pointed at a hard-mode enemy clip and
+  now points at the quest walkthrough.
+- Data problems spotted (in TODO for the owner): #74 and #125 look like
+  duplicates of #639 and #646 (the guides that fit them are already those
+  entries' videos), so their videos were left as is.
+- 73 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (7) — video title check, round 3: Cyberpunk 2077 (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #433 | Cyberpunk 2077 | 22 | 16 | 6 | 0 |
+
+- Swapped: Sinnerman, Judy's and Kerry's questlines, The Heist, Nocturne
+  Op55N1 and the Corpo-Rat prologue now point at full walkthroughs; the
+  current videos didn't come up for either wording.
+- No data problems spotted.
+- 92 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (6) — video title check, round 3: Baldur's Gate 3 (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #432 | Baldur's Gate 3 | 26 | 20 | 6 | 0 |
+
+- Swapped: Rescue Wulbren and the Tieflings, Travel through the Underdark,
+  Infiltrate Moonrise Towers, Confront the Elder Brain, The Adamantine
+  Forge and Raid the House of Hope now point at full quest guides; the
+  current videos didn't come up for either wording.
+- Data problem spotted (in TODO for the owner): #115 "The Stolen Gnome"
+  isn't an in-game quest name.
+- 114 videos left in the round-3 title check.
+
+---
+
+## 2026-10-25 (5) — video title check, round 3: Star Wars Jedi: Fallen Order (v2.9.22)
+Same method: one YouTube search per quest title, plus a second wording.
+The story entries use descriptive titles, so the search used the planet
+and visit (e.g. "Zeffo second visit").
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #431 | Star Wars Jedi: Fallen Order | 28 | 15 | 11 | 2 |
+
+- Swapped: Bogano first visit, the Bogano vault, Zeffo first and second
+  visits, Dathomir, the Fortress Inquisitorius and the Vader escape, the
+  Nydak Alpha, the Tomb of Kujet, and the Stim Canister and Terrarium Seed
+  hunts.
+- Left as is (in TODO for the owner): #1258 bundles two Zeffo areas into
+  one entry; #1276 covers chests on every planet and no single guide
+  covers them all.
+- 140 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (4) — video title check, round 3: Final Fantasy VII Remake (v2.9.21)
 Same method: one YouTube search per quest title, plus a second wording.
 Most main entries use descriptive titles rather than the game's chapter

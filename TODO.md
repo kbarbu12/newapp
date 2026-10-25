@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.21`; `staging` and `main` match.
+Prod is `v2.9.22`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -144,29 +144,25 @@ checked, 18 matched, 14 swapped.
 **Done on 2026-10-25 (`v2.9.21`):** Final Fantasy VII Remake
 (#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
 
+**Done on 2026-10-25 (`v2.9.22`):** the rest of round 3, one PR per game: Star
+Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2
+left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped.
+Cyberpunk 2077 (#433): 22 videos checked, 16 matched, 6 swapped. Final Fantasy
+VII Rebirth (#434): 19 videos checked, 14 matched, 3 swapped, 2 left as is.
+Persona 5 Royal (#435): 18 videos checked, 6 matched, 10 swapped, 2 left as is.
+Demon's Souls (#436): 13 videos checked, 10 matched, 3 swapped. Hogwarts Legacy
+(#437): 13 videos checked, 11 matched, 2 swapped. Horizon Forbidden West
+(#438): 11 video checked, 9 matched, 2 swapped. Ghost of Yōtei (#439): 9 videos
+checked, 3 matched, 6 swapped. Pillars of Eternity II: Deadfire (#440): 4
+videos checked, 1 matched, 0 swapped, 3 left as is. Skyrim (#441): 4 videos
+checked, 3 matched, 0 swapped, 1 left as is. Pillars of Eternity (#442): 1
+video checked, 0 matched, 1 swapped.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 168 videos left, one game per
-   PR, same method (a YouTube search per quest title, logged in
-   `docs/video-candidates/title-check.json`). Counts are videos with no row
-   in `title-check.json` yet (recounted 2026-10-24; the earlier table also
-   counted videos checked in rounds 1–2):
+1. **Video title check (round 3) is finished.** Every video now has a row in
+   `docs/video-candidates/title-check.json`. What's left is for the owner:
 
-   | Game | Videos |
-   |---|---|
-   | Star Wars Jedi: Fallen Order | 28 |
-   | Baldur's Gate 3 | 26 |
-   | Cyberpunk 2077 | 22 |
-   | Final Fantasy VII Rebirth | 19 |
-   | Persona 5 Royal | 18 |
-   | Demon's Souls | 13 |
-   | Hogwarts Legacy | 13 |
-   | Horizon Forbidden West | 11 |
-   | Ghost of Yōtei | 9 |
-   | Pillars of Eternity II: Deadfire | 4 |
-   | Skyrim | 4 |
-   | Pillars of Eternity | 1 |
-
-   The 54 videos left as is (IDs in the README table) need a look from the
+   The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
    Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
@@ -186,6 +182,19 @@ Still open, in priority order:
    Merchant)" mixes a side quest with the Moogle Emporium, #1036 "The
    Collapsed Expressway" describes the Chapter 10 sewers (Abzu), and #1032
    and #1034 both cover Chapter 8.
+   Jedi: Fallen Order: most story entries use descriptive titles rather than
+   the game's own objective names, and #1258 "The Weathered Monument &
+   Venator Wreckage" bundles two Zeffo areas into one entry.
+   Baldur's Gate 3 #115 "The Stolen Gnome" isn't an in-game quest name (it's
+   the Barcus Wroot windmill rescue).
+   Final Fantasy VII Rebirth #74 "The Protorelic Quests" looks like a
+   duplicate of #639 "World Intel: Divine Intel (Protorelics)", and #125
+   "Tifa's Piano Recital" looks like a duplicate of #646 "Piano
+   Performances"; decide whether to merge or drop them.
+   Persona 5 Royal #466 "Will Seeds & Jose (Royal)" bundles two separate
+   systems (Palace Will Seeds and Jose's Mementos shop) into one entry.
+   Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
+   The Forgotten Sanctum), so no single video fits them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.

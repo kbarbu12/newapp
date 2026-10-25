@@ -777,7 +777,7 @@ const quests = [
       "Jablonsky is shot — talk to the prisoner, Joshua Stephenson.",
       "Decide: carry out the hit (about €$5,000, story ends) or spare him to start There Is a Light That Never Goes Out."
     ],
-    video: "https://www.youtube.com/watch?v=M8kG3zOzoSQ"
+    video: "https://www.youtube.com/watch?v=HYiVBMqtj9Q"
   },
 {
     id: 11,
@@ -1642,7 +1642,7 @@ const quests = [
       "Climb the shaft in the Atbay headquarters to the tower; enter door codes 102023 and 402625.",
       "Search the office for the Leviathan data."
     ],
-    video: "https://www.youtube.com/watch?v=mTt0HqyaFbQ"
+    video: "https://www.youtube.com/watch?v=1U68lQ7eaRo"
   },
 {
     id: 56,
@@ -1685,7 +1685,7 @@ const quests = [
       "Ask Azo for the North Ward Key.",
       "Open the North Ward and confront Uscgrim in the last cell."
     ],
-    video: "https://www.youtube.com/watch?v=TR0TQ9U-abg"
+    video: "https://www.youtube.com/watch?v=NcCV-RhVZDY"
   },
 {
     id: 58,
@@ -1943,7 +1943,7 @@ const quests = [
       "Free Wulbren and the Tieflings and guide them out toward Last Light Inn.",
       "Resolve the fallout — this feeds the Ironhand Gnomes and Last Light storylines in Act 3.",
     ],
-    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
+    video: "https://www.youtube.com/watch?v=S-tQqf3E38A"
   },
 {
     id: 70,
@@ -2100,7 +2100,7 @@ const quests = [
       "More challenges unlock with story progress; the toughest feature level-40 enemies.",
       "Come back post-game for the advanced bouts and their trophies."
     ],
-    video: "https://www.youtube.com/watch?v=wkTEyy0nRyo"
+    video: "https://www.youtube.com/watch?v=bxmgzF6CDqw"
   },
 {
     id: 77,
@@ -2142,7 +2142,7 @@ const quests = [
       "Pisces: meet at megabuilding H8 and settle Clouds' fate (don't accept Maiko's reward if you want the last job).",
       "Pyramid Song: dive with Judy at Laguna Bend near the Lake Farm fast-travel point."
     ],
-    video: "https://www.youtube.com/watch?v=M-9aTafUwgI"
+    video: "https://www.youtube.com/watch?v=oZrKkwYtBBk"
   },
 {
     id: 79,
@@ -2248,7 +2248,7 @@ const quests = [
       "Return to her after each kill for rewards (Stones of Ephemeral Eyes, Colorless Demon's Souls, Talisman of Beasts).",
       "Finish the list for the Foe's Ring."
     ],
-    video: "https://www.youtube.com/watch?v=L-uQipj4SKc"
+    video: "https://www.youtube.com/watch?v=ngPXn30fIUA"
   },
 {
     id: 87,
@@ -2419,7 +2419,7 @@ const quests = [
       "Prepare Tarunda and confusion cures.",
       "Defeat Shadow Kiritani (Rakshasa) with raw damage."
     ],
-    video: "https://www.youtube.com/watch?v=bhECGheHrKc"
+    video: "https://www.youtube.com/watch?v=LFCn4qTPvN8"
   },
 {
     id: 100,
@@ -2569,7 +2569,7 @@ const quests = [
       "Use the restored structure to reach the Tallneck and climb to its head.",
       "Override it to reveal the region on your map."
     ],
-    video: "https://www.youtube.com/watch?v=w3wURjVgnI0"
+    video: "https://www.youtube.com/watch?v=QhfByqmgAuY"
   },
 {
     id: 107,
@@ -3034,7 +3034,7 @@ const quests = [
       "Pick a strong formation (Riot Troopers and Grenadiers with Flametroopers in the middle).",
       "Perform in the parade for Rufus to win Stealing the Show."
     ],
-    video: "https://www.youtube.com/watch?v=csddQ1EAQrg"
+    video: "https://www.youtube.com/watch?v=tSz-MLBO1t4"
   },
 {
     id: 129,
@@ -3095,7 +3095,7 @@ const quests = [
       "Go back down and defeat the fiends, including the Ignilisks.",
       "Collect the Merc chocobo gear from Toby."
     ],
-    video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
+    video: "https://www.youtube.com/watch?v=xtxWdm_6290"
   },
 {
     id: 132,
@@ -3116,7 +3116,7 @@ const quests = [
       "Answer his call for Off the Leash 12 hours later.",
       "Finish with Boat Drinks 24 hours after that (romance only for male V)."
     ],
-    video: "https://www.youtube.com/watch?v=TarX-C4vhik"
+    video: "https://www.youtube.com/watch?v=Xe2OWdX2exo"
   },
 {
     id: 133,
@@ -3347,7 +3347,7 @@ const quests = [
       "Fight the Old Monk — a real player (or an NPC Black Phantom if none is available).",
       "Touch the archstone afterwards."
     ],
-    video: "https://www.youtube.com/watch?v=GpKMwv2AU1w"
+    video: "https://www.youtube.com/watch?v=wUVeLGMq25M"
   },
 {
     id: 144,
@@ -3368,7 +3368,7 @@ const quests = [
       "Collect the Pureblood Demon's Soul and Ring of Sincere Prayer.",
       "In Pure White World, return later to fight Black Phantom Garl for the Bramd and Crest of Vinland (for Selen)."
     ],
-    video: "https://www.youtube.com/watch?v=k2chOJD9DoI"
+    video: "https://www.youtube.com/watch?v=pp8l3aRJgqc"
   },
 {
     id: 145,
@@ -3676,7 +3676,7 @@ const quests = [
       "Answer his evening call for the date-locked Rank 7.",
       "Reach Rank 10 for his Second Awakening."
     ],
-    video: "https://www.youtube.com/watch?v=YdyzsLtsYjQ"
+    video: "https://www.youtube.com/watch?v=FeFY1ASkIm8"
   },
 {
     id: 167,
@@ -3718,7 +3718,7 @@ const quests = [
       "Rank 9 unlocks Emergency Shift (romance option here).",
       "Reach Rank 10 for Final Guard."
     ],
-    video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
+    video: "https://www.youtube.com/watch?v=Y9fMShtW3gg"
   },
 {
     id: 173,
@@ -4466,7 +4466,7 @@ const quests = [
       "Find the exit lift or the Adamantine Forge route up to the Mountain Pass / Shadow-Cursed Lands.",
       "Cross into Act 2's Shadow-Cursed Lands.",
     ],
-    video: "https://www.youtube.com/watch?v=hc__xLF6m1A"
+    video: "https://www.youtube.com/watch?v=TuUQyZh8hho"
   },
 {
     id: 208,
@@ -4491,7 +4491,7 @@ const quests = [
       "Use the access to reach the prison and the colony entrances.",
       "Set up the assault on Ketheric once your cover is spent.",
     ],
-    video: "https://www.youtube.com/watch?v=86grzufcTj8"
+    video: "https://www.youtube.com/watch?v=rUaOJaojahQ"
   },
 {
     id: 209,
@@ -4565,7 +4565,7 @@ const quests = [
       "Use the assembled Netherstones to seize control of the brain.",
       "Choose the ending — destroy the brain, control it, or become the Absolute — and finish the fight.",
     ],
-    video: "https://www.youtube.com/watch?v=Cr5Muw-zIYg"
+    video: "https://www.youtube.com/watch?v=bF5Xd-qdHDs"
   },
 {
     id: 212,
@@ -5019,7 +5019,7 @@ const quests = [
       "Defeat Grym: lure it onto the heated central platform and smash it with the forge hammer while it's superheated.",
       "Claim your adamantine gear from the cooled mould.",
     ],
-    video: "https://www.youtube.com/watch?v=pCBlyrTQaRc"
+    video: "https://www.youtube.com/watch?v=R7CInIkNkSI"
   },
 {
     id: 233,
@@ -5068,7 +5068,7 @@ const quests = [
       "Grab the Orphic Hammer, which triggers Raphael's return.",
       "With Hope's help, defeat Raphael in his true fiendish form and escape.",
     ],
-    video: "https://www.youtube.com/watch?v=ELhgIdeoeew"
+    video: "https://www.youtube.com/watch?v=Xvj4pFvg8_s"
   },
 {
     id: 235,
@@ -5365,7 +5365,7 @@ const quests = [
       "Escape the hotel as Arasaka locks down the tower.",
       "Get out with Delamain — and slot the chip to save it."
     ],
-    video: "https://www.youtube.com/watch?v=qbIs8-j1UmY"
+    video: "https://www.youtube.com/watch?v=Ybzh0ifN-hI"
   },
 {
     id: 249,
@@ -5405,7 +5405,7 @@ const quests = [
       "Choose your path: Arasaka (Hanako), Aldecaldos (Panam), Johnny's solo raid, or Rogue/Johnny.",
       "This is the point of no return — save first."
     ],
-    video: "https://www.youtube.com/watch?v=onmRkZZRMy0"
+    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 251,
@@ -9544,7 +9544,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/watch?v=twhSzBpqGM0"
+    video: "https://www.youtube.com/watch?v=GqRWTJZBKHo"
   },
 {
     id: 445,
@@ -9568,7 +9568,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/watch?v=3dZND3b9oD0"
+    video: "https://www.youtube.com/watch?v=_6WfM7oUXz0"
   },
 {
     id: 446,
@@ -9640,7 +9640,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/watch?v=55WG5IBPZ8I"
+    video: "https://www.youtube.com/watch?v=A9EpUluo5a4"
   },
 {
     id: 449,
@@ -9664,7 +9664,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/watch?v=6ggLKIc3CAI"
+    video: "https://www.youtube.com/watch?v=x5LDcdELNwo"
   },
 {
     id: 450,
@@ -9688,7 +9688,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/watch?v=oM_sjX5zh5w"
+    video: "https://www.youtube.com/watch?v=bvoNUeXQrZE"
   },
 {
     id: 451,
@@ -9736,7 +9736,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/watch?v=m_XT78-B4ms"
+    video: "https://www.youtube.com/watch?v=vnXkUq6bC2c"
   },
 {
     id: 453,
@@ -11237,7 +11237,7 @@ const quests = [
       "Head to Lizzie's Bar in Watson to meet Jackie.",
       "Watch the fallout as V loses their place at Arasaka."
     ],
-    video: "https://www.youtube.com/watch?v=grrh7DSg43Q"
+    video: "https://www.youtube.com/watch?v=6yDsu1oHVGY"
   },
 {
     id: 517,
@@ -19456,7 +19456,7 @@ const quests = [
       "Progress the main story to trigger each locked rank.",
       "Max the rank for better ambushes and item crafting."
     ],
-    video: "https://www.youtube.com/watch?v=AuRMtbh5g3E"
+    video: "https://www.youtube.com/watch?v=64Kwui64_x0"
   },
 {
     id: 680,
@@ -24529,7 +24529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch Professor Weasley award you 100 points as Headmaster Black prepares to name the winner.",
       "Your house wins the Cup — the true ending."
     ],
-    video: "https://www.youtube.com/watch?v=nA0-MV_TgPk"
+    video: "https://www.youtube.com/watch?v=jdMw6febnEQ"
   },
 {
     id: 2604,
@@ -24662,7 +24662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Duel Theophilus Harlow, breaking his shield with Ancient Magic.",
       "Win the final quick-time event to defeat him."
     ],
-    video: "https://www.youtube.com/watch?v=5U3YdpJlGF8"
+    video: "https://www.youtube.com/watch?v=lc-fDhY1siI"
   },
 {
     id: 2946,
@@ -27900,7 +27900,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow him down the cliff and duel him; a second round starts at about a third of his health.",
       "Finish with the new dual katana spirit attack."
     ],
-    video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
+    video: "https://www.youtube.com/watch?v=uYitSNCHtCk"
   },
 {
     id: 1149,
@@ -27944,7 +27944,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the last two chimes south of the Rumoi River and on top of a rock north of Nakagoya Spring.",
       "Go down to the marked cave, place the chimes and defeat the Undying Samurai."
     ],
-    video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
+    video: "https://www.youtube.com/watch?v=ThTYfxZkUJ8"
   },
 {
     id: 1151,
@@ -27966,7 +27966,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the abandoned estate.",
       "Defeat the Spider Lily General and collect her armor."
     ],
-    video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
+    video: "https://www.youtube.com/watch?v=WUNm9VSXvBg"
   },
 {
     id: 1152,
@@ -27988,7 +27988,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the campsite — a bear attack throws you into the water; follow the gunfire.",
       "Find Okikurmi's arrow and kill the bad kamuy."
     ],
-    video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
+    video: "https://www.youtube.com/watch?v=DM54Y8EujAo"
   },
 {
     id: 1153,
@@ -28010,7 +28010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Repeat at the mountain north of the Teshio River.",
       "Explore the home, examine the final snow sculpture and follow the yuki mushi to the end."
     ],
-    video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
+    video: "https://www.youtube.com/watch?v=gk1F77z-Plk"
   },
 {
     id: 1154,
@@ -28054,7 +28054,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Master Heijiro up the steps to the two seats on the cliff.",
       "Play the shamisen minigame to learn the Song of Spirit."
     ],
-    video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
+    video: "https://www.youtube.com/watch?v=P3sUGHEJe08"
   },
 {
     id: 1156,
@@ -30283,7 +30283,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the sinkholes and find a way across the chasm.",
       "Reach the Vault to continue."
     ],
-    video: "https://www.youtube.com/watch?v=mPbFFbGYb6Q"
+    video: "https://www.youtube.com/watch?v=-u39QCc9vLM"
   },
 {
     id: 1256,
@@ -30304,7 +30304,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn the Holocron is sealed and the Zeffo tombs hold the key.",
       "Return to the Mantis and set course for Zeffo."
     ],
-    video: "https://www.youtube.com/watch?v=GBCyJhnzOfI"
+    video: "https://www.youtube.com/watch?v=m5Z8kcwEQZw"
   },
 {
     id: 1257,
@@ -30325,7 +30325,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reactivate the wind device to swing the chandelier and jump across.",
       "Learn Force Push and use it on the giant balls to open the way out."
     ],
-    video: "https://www.youtube.com/watch?v=1Y82XevS5u0"
+    video: "https://www.youtube.com/watch?v=sC7K1y0kNMA"
   },
 {
     id: 1258,
@@ -30388,7 +30388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the tomb's rope and rotating-wall puzzles.",
       "Gain Force Pull and use it to escape."
     ],
-    video: "https://www.youtube.com/watch?v=KSwswrolt40"
+    video: "https://www.youtube.com/watch?v=whZBct1Ij3s"
   },
 {
     id: 1261,
@@ -30451,7 +30451,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Taron Malicos, who tempts Cal with the dark side.",
       "Push toward the Tomb of Kujet until Cal's lightsaber is broken — he must leave for Ilum to rebuild it."
     ],
-    video: "https://www.youtube.com/watch?v=p1jDXfoq6rs"
+    video: "https://www.youtube.com/watch?v=ChUSq8pMDhA"
   },
 {
     id: 1264,
@@ -30536,7 +30536,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Interrogation Chamber and face the Second Sister for the last time — parry, and dodge her unblockable red attacks.",
       "Defeat her and recover the Holocron."
     ],
-    video: "https://www.youtube.com/watch?v=G6jmOpk1On8"
+    video: "https://www.youtube.com/watch?v=GCndTdAAf6Q"
   },
 {
     id: 1268,
@@ -30557,7 +30557,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive until Cere arrives to hold him off.",
       "Escape Nur on the Mantis with the Holocron."
     ],
-    video: "https://www.youtube.com/watch?v=OMf8vZGGDSo"
+    video: "https://www.youtube.com/watch?v=_kZtL825V94"
   },
 {
     id: 1269,
@@ -30641,7 +30641,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge its heavy charges and punish its recoveries.",
       "Defeat it to finish the Legendary Beasts set."
     ],
-    video: "https://www.youtube.com/watch?v=zSNuTPkJ1Dw"
+    video: "https://www.youtube.com/watch?v=Z3gbDN6Fc0g"
   },
 {
     id: 1273,
@@ -30704,7 +30704,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Work through the dark puzzles toward Malicos.",
       "Defeat Malicos with Merrin and claim the Astrium."
     ],
-    video: "https://www.youtube.com/watch?v=CGWyPxeMe6s"
+    video: "https://www.youtube.com/watch?v=MYhZ6dNV04c"
   },
 {
     id: 1276,
@@ -30788,7 +30788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check secret rooms and puzzle ends.",
       "Return with new abilities for hard-to-reach ones."
     ],
-    video: "https://www.youtube.com/watch?v=6BkyXNX2zJU"
+    video: "https://www.youtube.com/watch?v=J_K0pw02beE"
   },
 {
     id: 1280,
@@ -30830,7 +30830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant them in Greez's terrarium aboard the Mantis.",
       "Collect all ten to complete the terrarium."
     ],
-    video: "https://www.youtube.com/watch?v=HsEOvh9acjQ"
+    video: "https://www.youtube.com/watch?v=DoYUGHtpNu0"
   },
 {
     id: 1282,
