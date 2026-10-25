@@ -165,9 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Zelda #1636 "The Necluda Sky Crystal" isn't a real
-   quest: the game has North, East and West Necluda Sky Crystal quests.
-   Zelda #1643's summary misspells the shrine as "Uzasum" (it's Usazum).
    Final Fantasy VII Remake: many main entries use descriptive titles, not
    the game's chapter names (e.g. #1027 "Bombing Mission" is Chapter 1 "The
    Destruction of Mako Reactor 1"). #1045 "Chocobo Search (Rat Problem)"

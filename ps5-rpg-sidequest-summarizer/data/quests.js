@@ -39516,17 +39516,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     questType: "Shrine Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "The Necluda Sky Crystal",
-    location: "Necluda Sky Archipelago",
+    location: "Necluda Sky Archipelago (south-east of the Rabella Wetlands Skyview Tower)",
     length: "medium",
     difficulty: "High",
-    reward: "Light of Blessing, shrine unlocked",
-    summary: "A blessing crystal drifts among the Necluda sky islands and must be flown to its distant shrine across the archipelago.",
-    aiTip: "Assemble a fan-powered glider to carry the crystal between islands; keep spare Zonai batteries handy.",
+    reward: "Kumamayn Shrine opened (Light of Blessing), Zonaite Bow from the chest inside",
+    summary:
+      "A shrine crystal sits on a Flux Construct III in the Necluda Sky Archipelago. Pull it free, then launch it across to the island holding Kumamayn Shrine to open the shrine.",
+    aiTip:
+      "Don't fight the Flux Construct for the crystal — just grab the crystal with Ultrahand and pull it off. The spring slabs next to the crystal's island are the intended launcher.",
     walkthrough: [
-      "Reach the crystal in the Necluda Sky Archipelago.",
-      "Attach it to a flying device.",
-      "Cross the sky islands to the shrine.",
-      "Deposit the crystal to activate the shrine."
+      "Launch from the Rabella Wetlands Skyview Tower and glide south-east to the Necluda Sky Archipelago.",
+      "Find the Flux Construct III with the shrine crystal embedded in it; use Ultrahand on the crystal and pull it free.",
+      "Carry the crystal to the springs on the island's edge and use them as a catapult to fling it to the shrine island (ride along or follow by gliding).",
+      "Place the crystal in the pedestal at Kumamayn Shrine to open it.",
+      "Inside, collect the chest (Zonaite Bow) and the Light of Blessing."
     ],
     video: "https://www.youtube.com/watch?v=P6-qx4b9QJc"
   },
@@ -39660,13 +39663,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Satori Mountain",
     length: "medium",
     difficulty: "Medium",
-    reward: "Light of Blessing, access to Uzasum Shrine",
-    summary: "A blessing crystal on Satori Mountain must be carried up or across the peak to the Uzasum Shrine to activate it.",
-    aiTip: "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
+    reward: "Light of Blessing, access to Usazum Shrine",
+    summary:
+      "A blessing crystal on Satori Mountain must be carried up or across the peak to the Usazum Shrine to activate it.",
+    aiTip:
+      "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
     walkthrough: [
       "Find the crystal on Satori Mountain.",
       "Grab it with Ultrahand.",
-      "Carry it to the Uzasum Shrine.",
+      "Carry it to the Usazum Shrine.",
       "Insert the crystal to open the shrine."
     ],
     video: "https://www.youtube.com/watch?v=SwJOZdjMHic"
