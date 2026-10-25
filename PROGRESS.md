@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-25 (3) — video title check, round 3: Elden Ring (staging only)
+## 2026-10-25 (3) — video title check, round 3: Elden Ring (v2.9.20)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
 

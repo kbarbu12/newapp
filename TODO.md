@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.19`; `staging` and `main` match.
+Prod is `v2.9.20`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -138,7 +138,7 @@ videos checked, 19 matched, 17 swapped, 1 left as is.
 **Done on 2026-10-25 (`v2.9.19`):** Zelda: Tears of the
 Kingdom (#422): 36 videos checked, 30 matched, 5 swapped, 1 left as is.
 
-**Done since (on `staging`, not yet on prod):** Elden Ring (#425): 32 videos
+**Done on 2026-10-25 (`v2.9.20`):** Elden Ring (#425): 32 videos
 checked, 18 matched, 14 swapped.
 
 Still open, in priority order:
