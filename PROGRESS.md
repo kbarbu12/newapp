@@ -7,6 +7,21 @@
 
 ---
 
+## 2026-10-25 (12) — video title check, round 3: Horizon Forbidden West (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #438 | Horizon Forbidden West | 11 | 9 | 2 | 0 |
+
+- Swapped: Forbidden Legacy and Tallneck: Cinnabar Sands now point at
+  full guides; the current videos didn't come up.
+- No data problems spotted.
+- 18 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (11) — video title check, round 3: Hogwarts Legacy (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
