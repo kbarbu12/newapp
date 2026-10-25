@@ -53,6 +53,7 @@ per PR, the same way as round 2.
 | Zelda: Tears of the Kingdom | 30 / 36 | 5 | 1636 ("The Necluda Sky Crystal" isn't a quest name: the game has North, East and West Necluda Sky Crystal quests) |
 | Elden Ring | 18 / 32 | 14 | — |
 | Final Fantasy VII Remake | 14 / 30 | 15 | 1045 ("Chocobo Search (Rat Problem)" merges two separate side quests); 1036 and 1049 matched, but their titles need a look (1036 is the Chapter 10 sewers, 1049 mixes The Angel of the Slums with the Moogle Emporium) |
+| Star Wars Jedi: Fallen Order | 15 / 28 | 11 | 1258 ("The Weathered Monument & Venator Wreckage" is an umbrella entry for two Zeffo areas); 1276 (chests across every planet: only per-planet guides came up) |
 
 ## Title check (2026-10-17)
 

@@ -7,6 +7,26 @@
 
 ---
 
+## 2026-10-25 (5) — video title check, round 3: Star Wars Jedi: Fallen Order (staging only)
+Same method: one YouTube search per quest title, plus a second wording.
+The story entries use descriptive titles, so the search used the planet
+and visit (e.g. "Zeffo second visit").
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #431 | Star Wars Jedi: Fallen Order | 28 | 15 | 11 | 2 |
+
+- Swapped: Bogano first visit, the Bogano vault, Zeffo first and second
+  visits, Dathomir, the Fortress Inquisitorius and the Vader escape, the
+  Nydak Alpha, the Tomb of Kujet, and the Stim Canister and Terrarium Seed
+  hunts.
+- Left as is (in TODO for the owner): #1258 bundles two Zeffo areas into
+  one entry; #1276 covers chests on every planet and no single guide
+  covers them all.
+- 140 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (4) — video title check, round 3: Final Fantasy VII Remake (v2.9.21)
 Same method: one YouTube search per quest title, plus a second wording.
 Most main entries use descriptive titles rather than the game's chapter
