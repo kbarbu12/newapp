@@ -7,6 +7,24 @@
 
 ---
 
+## 2026-10-25 (6) — video title check, round 3: Baldur's Gate 3 (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #432 | Baldur's Gate 3 | 26 | 20 | 6 | 0 |
+
+- Swapped: Rescue Wulbren and the Tieflings, Travel through the Underdark,
+  Infiltrate Moonrise Towers, Confront the Elder Brain, The Adamantine
+  Forge and Raid the House of Hope now point at full quest guides; the
+  current videos didn't come up for either wording.
+- Data problem spotted (in TODO for the owner): #115 "The Stolen Gnome"
+  isn't an in-game quest name.
+- 114 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (5) — video title check, round 3: Star Wars Jedi: Fallen Order (staging only)
 Same method: one YouTube search per quest title, plus a second wording.
 The story entries use descriptive titles, so the search used the planet

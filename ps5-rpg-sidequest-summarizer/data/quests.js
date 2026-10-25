@@ -1943,7 +1943,7 @@ const quests = [
       "Free Wulbren and the Tieflings and guide them out toward Last Light Inn.",
       "Resolve the fallout — this feeds the Ironhand Gnomes and Last Light storylines in Act 3.",
     ],
-    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
+    video: "https://www.youtube.com/watch?v=S-tQqf3E38A"
   },
 {
     id: 70,
@@ -4466,7 +4466,7 @@ const quests = [
       "Find the exit lift or the Adamantine Forge route up to the Mountain Pass / Shadow-Cursed Lands.",
       "Cross into Act 2's Shadow-Cursed Lands.",
     ],
-    video: "https://www.youtube.com/watch?v=hc__xLF6m1A"
+    video: "https://www.youtube.com/watch?v=TuUQyZh8hho"
   },
 {
     id: 208,
@@ -4491,7 +4491,7 @@ const quests = [
       "Use the access to reach the prison and the colony entrances.",
       "Set up the assault on Ketheric once your cover is spent.",
     ],
-    video: "https://www.youtube.com/watch?v=86grzufcTj8"
+    video: "https://www.youtube.com/watch?v=rUaOJaojahQ"
   },
 {
     id: 209,
@@ -4565,7 +4565,7 @@ const quests = [
       "Use the assembled Netherstones to seize control of the brain.",
       "Choose the ending — destroy the brain, control it, or become the Absolute — and finish the fight.",
     ],
-    video: "https://www.youtube.com/watch?v=Cr5Muw-zIYg"
+    video: "https://www.youtube.com/watch?v=bF5Xd-qdHDs"
   },
 {
     id: 212,
@@ -5019,7 +5019,7 @@ const quests = [
       "Defeat Grym: lure it onto the heated central platform and smash it with the forge hammer while it's superheated.",
       "Claim your adamantine gear from the cooled mould.",
     ],
-    video: "https://www.youtube.com/watch?v=pCBlyrTQaRc"
+    video: "https://www.youtube.com/watch?v=R7CInIkNkSI"
   },
 {
     id: 233,
@@ -5068,7 +5068,7 @@ const quests = [
       "Grab the Orphic Hammer, which triggers Raphael's return.",
       "With Hope's help, defeat Raphael in his true fiendish form and escape.",
     ],
-    video: "https://www.youtube.com/watch?v=ELhgIdeoeew"
+    video: "https://www.youtube.com/watch?v=Xvj4pFvg8_s"
   },
 {
     id: 235,
