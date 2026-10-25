@@ -7,6 +7,29 @@
 
 ---
 
+## 2026-10-25 (17) — fix the round-3 flagged entries (v2.9.23)
+Each entry the round-3 title check flagged (wrong title, duplicate or bundle)
+was researched and fixed with a real title, steps and a matching video.
+
+| PR | Game | Entries |
+|---|---|---|
+| #445 | God of War Ragnarök | 162, 164, 663 |
+| #446 | Sekiro | 1797, 1798, 1818 |
+| #447 | Black Myth: Wukong | 831, 836, 838, 839 |
+| #448 | Zelda: Tears of the Kingdom | 1636, 1643 |
+| #449 | FF7 Remake | 1027–1045, 1049 |
+| #450 | Jedi: Fallen Order | 1255–1268 |
+| #451 | Baldur's Gate 3 | 115 removed (duplicate of 936) |
+| #452 | Persona 5 Royal | 466 split, new 2954 |
+| #453 | FF7 Rebirth | 74 → 639, 125 → 646 (merged, removed) |
+| #454 | Pillars of Eternity II: Deadfire | 195, 196 |
+
+- The round-3 flag on Zelda #1636 was wrong: The Necluda Sky Crystal is a
+  real quest (Kumamayn Shrine); only its steps were rewritten.
+- 52 videos remain "left as is" in `title-check.json` for the owner.
+
+---
+
 ## 2026-10-25 (16) — video title check, round 3: Pillars of Eternity (v2.9.22)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up. This was the last game in round 3.
