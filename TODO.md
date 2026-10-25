@@ -165,8 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Baldur's Gate 3 #115 "The Stolen Gnome" isn't an in-game quest name (it's
-   the Barcus Wroot windmill rescue).
    Final Fantasy VII Rebirth #74 "The Protorelic Quests" looks like a
    duplicate of #639 "World Intel: Divine Intel (Protorelics)", and #125
    "Tifa's Piano Recital" looks like a duplicate of #646 "Piano
