@@ -27900,7 +27900,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow him down the cliff and duel him; a second round starts at about a third of his health.",
       "Finish with the new dual katana spirit attack."
     ],
-    video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
+    video: "https://www.youtube.com/watch?v=uYitSNCHtCk"
   },
 {
     id: 1149,
@@ -27944,7 +27944,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the last two chimes south of the Rumoi River and on top of a rock north of Nakagoya Spring.",
       "Go down to the marked cave, place the chimes and defeat the Undying Samurai."
     ],
-    video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
+    video: "https://www.youtube.com/watch?v=ThTYfxZkUJ8"
   },
 {
     id: 1151,
@@ -27966,7 +27966,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the abandoned estate.",
       "Defeat the Spider Lily General and collect her armor."
     ],
-    video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
+    video: "https://www.youtube.com/watch?v=WUNm9VSXvBg"
   },
 {
     id: 1152,
@@ -27988,7 +27988,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the campsite — a bear attack throws you into the water; follow the gunfire.",
       "Find Okikurmi's arrow and kill the bad kamuy."
     ],
-    video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
+    video: "https://www.youtube.com/watch?v=DM54Y8EujAo"
   },
 {
     id: 1153,
@@ -28010,7 +28010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Repeat at the mountain north of the Teshio River.",
       "Explore the home, examine the final snow sculpture and follow the yuki mushi to the end."
     ],
-    video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
+    video: "https://www.youtube.com/watch?v=gk1F77z-Plk"
   },
 {
     id: 1154,
@@ -28054,7 +28054,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Master Heijiro up the steps to the two seats on the cliff.",
       "Play the shamisen minigame to learn the Song of Spirit."
     ],
-    video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
+    video: "https://www.youtube.com/watch?v=P3sUGHEJe08"
   },
 {
     id: 1156,

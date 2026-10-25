@@ -61,6 +61,7 @@ per PR, the same way as round 2.
 | Demon's Souls | 10 / 13 | 3 | — |
 | Hogwarts Legacy | 11 / 13 | 2 | — |
 | Horizon Forbidden West | 9 / 11 | 2 | — |
+| Ghost of Yōtei | 3 / 9 | 6 | — (1155 was swapped because its video was the main-story quest The Way of the Shamisen) |
 
 ## Title check (2026-10-17)
 
