@@ -115,3 +115,15 @@ video covers both bosses), #773 (same video as #110, likely duplicate quest),
 #779 (German-language video), #1824 and #1833 (videos cover only part of the
 questline), #158 and #1078 ("Part 1" videos). The other 64 `notfound` rows
 had no alternative and keep their original candidate.
+
+### Round 4: flagged entries fixed (PRs #445–#454)
+
+Every entry the round-3 check flagged for a wrong title, duplicate or bundle
+was fixed: God of War Ragnarök (#162, #164, #663), Sekiro (#1797, #1798,
+#1818), Black Myth: Wukong (#831, #836, #838, #839), Zelda (#1636, #1643),
+FF7 Remake (the 18 main chapters, #1045, #1049), Jedi: Fallen Order
+(#1255–#1268), P5R (#466 split, new #2954), Deadfire (#195, #196). Three
+duplicates were removed and merged: BG3 #115 (into #936), FF7 Rebirth #74
+(into #639) and #125 (into #646). Fixed rows in `title-check.json` carry a
+note starting "fixed in round 4" or "removed in round 4".
+

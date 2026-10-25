@@ -2042,26 +2042,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=-FeB5PTagZY"
   },
 {
-    id: 74,
-    type: "side",
-    game: "Final Fantasy VII Rebirth",
-    region: "Grasslands",
-    title: "The Protorelic Quests",
-    location: "Multiple Regions",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Protorelic summon materia, powerful summons",
-    summary: "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
-    aiTip: "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
-    walkthrough: [
-      "Unlock a region's towers — the first Phenomenon Intel usually appears on the map from there.",
-      "Complete each region's four Protorelic quests; each region has its own mechanic or minigame (Junon uses a Fort Condor-style board game).",
-      "Chadley tells you when story-gated quests become available.",
-      "Finish all six regions' Protorelics to unlock the final chain — and Gilgamesh Island in the Meridian Ocean."
-    ],
-    video: "https://www.youtube.com/watch?v=_WIDD8VTlu4"
-  },
-{
     id: 75,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2714,30 +2694,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=Arve0okS648"
   },
 {
-    id: 115,
-    type: "side",
-    category: "Side Quest",
-    game: "Baldur's Gate 3",
-    act: 3,
-    title: "The Stolen Gnome",
-    location: "Blighted Village",
-    length: "short",
-    difficulty: "Low",
-    reward: "Gnome companion assistance, XP, unique dialogue",
-    summary:
-      "Rescue a gnome inventor named Barcus Wroot who has been strapped to a windmill by goblins. A quick but memorable encounter that introduces recurring NPC Barcus and showcases the game's environmental storytelling.",
-    aiTip:
-      "Stop the windmill before freeing Barcus — there's a brake lever nearby. Freeing him correctly sets up later encounters where he repays the favour.",
-    walkthrough: [
-      "Near the Blighted Village, spot the deep gnome Barcus Wroot strapped to the windmill's spinning sail.",
-      "Reach the windmill mechanism and stop the sails (use the lever inside) before he dies.",
-      "Fend off the goblins tormenting him during the rescue.",
-      "Free Barcus and speak with him; he sets off and will reappear later (Grymforge, Act 3).",
-      "Complete the rescue for goodwill and Barcus's recurring aid.",
-    ],
-    video: "https://www.youtube.com/watch?v=dZTXqF9r0uE"
-  },
-{
     id: 116,
     type: "side",
     category: "Side Quest",
@@ -2953,26 +2909,6 @@ const quests = [
       "Conclude his arc at Leyndell; if he survives, collect the Iron Ball weapon and his Bell Bearing.",
     ],
     video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
-  },
-{
-    id: 125,
-    type: "side",
-    game: "Final Fantasy VII Rebirth",
-    region: "Nibel",
-    title: "Tifa's Piano Recital",
-    location: "Various Regions",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Relationship points with Tifa, unique music",
-    summary: "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
-    aiTip: "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
-    walkthrough: [
-      "Collect the sheet music: Crow's Nest, Costa del Sol (Chapter 6), North Corel, Gongaga, Cosmo Canyon and Tifa's room in Nibelheim.",
-      "Play each piece at the piano next to it — a rhythm minigame on the analog sticks.",
-      "Get A-rank or better on the first six pieces.",
-      "Talk to Dorian, the piano rep, for rewards and the Piano Virtuoso trophy."
-    ],
-    video: "https://www.youtube.com/watch?v=E_Any2rW-RE"
   },
 {
     id: 126,
@@ -3595,23 +3531,24 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "Atreus's Search",
-    location: "Various Realms",
+    title: "The Curator – All Artefacts",
+    location: "All Nine Realms (mostly Svartalfheim, Midgard, Alfheim and Vanaheim)",
     length: "long",
-    difficulty: "Medium",
-    reward: "Lore, Atreus story resolution, unique companion dialogue",
+    difficulty: "Low",
+    reward: "The Curator trophy, Hacksilver from selling each Artefact set, lore entries",
     summary:
-      "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
+      "Collect every Artefact in the Nine Realms to unlock The Curator trophy. There are 38 Artefacts spread across the realms, grouped into themed sets, plus the 5 Casualties of War favours in Vanaheim's Crater whose 10 favour items also count toward the tally. None are missable.",
     aiTip:
-      "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
+      "Pick up Artefacts as you clear each area — the realm map's completion list shows how many remain per region. Leave the Crater's Casualties of War items for when you free-roam Vanaheim after the story opens it up.",
     walkthrough: [
-      "Progress the main story until control switches to Atreus for his solo sections — these trigger automatically at set story beats.",
-      "During Atreus's chapters, favour stealth and his bow puzzles over head-on fights; use Sonic Arrows to reveal and activate mechanisms.",
-      "Explore fully while playing as Atreus — his sections gate unique lore and dialogue you can't revisit later as Kratos.",
-      "Follow the objective markers through each realm segment, completing the environmental puzzles that block your path.",
-      "Reach the end of his questline to unlock the story context that sets up the game's final act."
+      "Open the realm map and press Touchpad → Region list: each region shows an Artefacts counter, so you can see which areas still hold one.",
+      "Artefacts are small glowing pickups (a white sparkle on the ground or in a niche) — grab them with Square; many sit behind breakable walls, inside Nornir-chest rooms or at the end of side paths.",
+      "Clear Svartalfheim (Aurvangar Wetlands, The Applecore, Nidavellir, Lake of Nine) and Midgard (Lake of Nine, The Oarsmen, Raider Fort) during and after their story visits.",
+      "In Alfheim, sweep The Barrens and The Forbidden Sands once you have the Draupnir Spear and the sand-gem tools; several Artefacts sit in sand-ship areas.",
+      "In Vanaheim, collect the Artefacts in The Jungle, The Plains and The Crater, and finish the five Casualties of War favours — each gives two favour items that count as Artefacts.",
+      "Finish any stragglers in Muspelheim, Niflheim, Helheim and Jotunheim, then check the Artefacts tab in the Journal: The Curator pops once every set is complete."
     ],
-    video: "https://www.youtube.com/watch?v=U3InCcqtpNs"
+    video: "https://www.youtube.com/watch?v=hSgXSXqVK3I"
   },
 {
     id: 163,
@@ -3639,23 +3576,24 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "Mimir's Knowledge",
-    location: "Various Realms",
-    length: "medium",
+    title: "All Lore Locations",
+    location: "All Nine Realms",
+    length: "long",
     difficulty: "Low",
-    reward: "Lore collectibles, world-building, XP",
+    reward: "Mimir's and Atreus's lore narration, Journal entries, 100% realm completion",
     summary:
-      "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
+      "Find all 80 Lore entries across the Nine Realms. Lore comes in four kinds: Lore Markers (big stone tablets), Rune Reads (blue runes on walls that Atreus or Freya reads), Lore Scrolls (pickups on the ground) and a handful of special Pages. They aren't tied to a trophy but are needed for 100% completion, and none are missable.",
     aiTip:
-      "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
+      "Rune Reads are the easiest to miss — they only glow faintly blue on walls. Let each narration finish before moving on; the stories carry some of the game's best writing.",
     walkthrough: [
-      "Watch for glowing Lore Marker collectibles as you explore each realm — they sit on stones, tablets, and ruins.",
-      "Interact with a Lore Marker to trigger Mimir's narrated story, then let the dialogue finish before moving on.",
-      "Search side paths, dead ends, and optional rooms — many markers are deliberately off the critical path.",
-      "Use the realm-completion menu to see how many lore items remain in each region and revisit areas you've missed.",
-      "Collect every Lore Marker across the Nine Realms to complete the set and its associated Labour progress."
+      "Open the realm map's region list (Touchpad on the map): each region shows a Lore counter, so you can see where entries remain.",
+      "Look for Lore Markers — tall carved stone tablets — and interact with them to hear Mimir's story.",
+      "Watch walls for faint blue runes: walk up to a Rune Read and press Square to have your companion read it aloud.",
+      "Pick up Lore Scrolls and Pages from the ground like any other item; they often sit in side rooms and dead ends off the main path.",
+      "Sweep each realm region by region, using the collectible guide for that region to catch the ones behind breakable walls or puzzles.",
+      "Check the Journal's Lore tab after each region; once every region shows full Lore, the set is complete."
     ],
-    video: "https://www.youtube.com/watch?v=pIbXqpQmuIg"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kEj54T9QpJOeOMqHTmeJA4G"
   },
 {
     id: 166,
@@ -4168,13 +4106,15 @@ const quests = [
     category: "Expansion Quest",
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "Seeker, Slayer, Survivor",
+    title: "Seeker, Slayer, Survivor (DLC)",
     location: "Kazuwari",
     length: "long",
     difficulty: "High",
     reward: "Unique weapons and armour, Faces of the Hunt blessings",
-    summary: "DLC: a severed head arrives on your ship, and its spirit sends you to Kazuwari, home of the Crucible — an arena where contenders fight to become champion of one of the three Faces of the Hunt.",
-    aiTip: "Each Face favours a style: the Seeker (spider) careful planning, the Slayer (stelgaer) slaughter, the Survivor (boar) endurance. Bring strong area damage — the later rounds are big fights.",
+    summary:
+      "DLC: a severed head arrives on your ship, and its spirit sends you to Kazuwari, home of the Crucible — an arena where contenders fight to become champion of one of the three Faces of the Hunt.",
+    aiTip:
+      "Each Face favours a style: the Seeker (spider) careful planning, the Slayer (stelgaer) slaughter, the Survivor (boar) endurance. Bring strong area damage — the later rounds are big fights.",
     walkthrough: [
       "Get the Seeker, Slayer, Survivor DLC event when the severed head arrives aboard your ship.",
       "Sail to the island of Kazuwari.",
@@ -4182,20 +4122,22 @@ const quests = [
       "Take the challenge the Faces of the Hunt draw from it in the Crucible.",
       "Keep climbing the Crucible and return to the Pool for each Face's blessing."
     ],
-    video: "https://www.youtube.com/watch?v=V3GbGyej3JQ"
+    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 196,
     category: "Expansion Quest",
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "The Forgotten Sanctum",
+    title: "The Forgotten Sanctum (DLC)",
     location: "Black Isles (via Hall of the Unseen)",
     length: "long",
     difficulty: "High",
     reward: "Unique spells, powerful grimoires, DLC story resolution",
-    summary: "DLC: the archmage Llengrath asks the Watcher for help after a fellow archmage, Maura, vanishes into a newly opened dungeon in the Black Isles — and threatens to unleash a catastrophe.",
-    aiTip: "Best done just before the endgame at Ukaizo. Hand in Bekarna's Folly after the DLC for extra context.",
+    summary:
+      "DLC: the archmage Llengrath asks the Watcher for help after a fellow archmage, Maura, vanishes into a newly opened dungeon in the Black Isles — and threatens to unleash a catastrophe.",
+    aiTip:
+      "Best done just before the endgame at Ukaizo. Hand in Bekarna's Folly after the DLC for extra context.",
     walkthrough: [
       "Finish Magran's Teeth or Mapping the Archipelago: Tikawara to trigger the earthquake.",
       "Get ready for Ukaizo (blackwood hull and dragonwing sails, or a faction alliance).",
@@ -4203,7 +4145,7 @@ const quests = [
       "Sail to the Black Isles with her (the Hall of the Unseen south of Tikawara also leads there).",
       "Follow the archmages into the Sanctum and stop Maura."
     ],
-    video: "https://www.youtube.com/watch?v=dWWWCSiZXuo"
+    video: "https://www.youtube.com/watch?v=NYd31OzoyRg"
   },
 {
     id: 197,
@@ -10007,22 +9949,47 @@ const quests = [
     type: "side",
     category: "Activities",
     game: "Persona 5 Royal",
-    title: "Will Seeds & Jose (Royal)",
-    location: "Mementos / Palaces",
-    length: "short",
+    title: "Will Seeds (Royal)",
+    location: "Every Palace",
+    length: "medium",
     difficulty: "Low",
-    reward: "Powerful accessories, growth boosts",
+    reward: "SP restored per seed; a Crystal accessory per Palace, which Jose can upgrade into a stronger ring",
     summary:
-      "Collect the Royal-exclusive Will Seeds hidden in each Palace and trade Jose's flowers/stamps for buffs.",
+      "Royal adds three Will Seeds (red, green and blue) to the Palaces, hidden in secret rooms off the main route. Collecting all three in a Palace fuses them into a Crystal accessory, and Jose in Mementos can turn that Crystal into a stronger accessory.",
     aiTip:
-      "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
+      "Look for them before you send the calling card — some areas close off afterwards. Jose sells seeds you missed, but they're expensive.",
     walkthrough: [
-      "Collect the three Will Seeds hidden in each Palace (Royal-exclusive) as you infiltrate.",
-      "Combine each set into an accessory at the Velvet Room or Leblanc.",
-      "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
-      "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
+      "As you explore each Palace, watch for Will Seeds glowing in side rooms and hidden areas off the main route.",
+      "Pick up each seed (red, green and blue); each one also restores some SP to the party.",
+      "Once you have all three seeds from a Palace, they fuse automatically into that Palace's Crystal accessory.",
+      "Equip the Crystal on a party member, or take it to Jose in Mementos to have it made into a stronger accessory.",
+      "If you missed a seed, buy it from Jose later to complete the set."
     ],
-    video: "https://www.youtube.com/watch?v=hcJ5a0gfQfM"
+    video: "https://www.youtube.com/watch?v=GafS4qA8m-c"
+  },
+{
+    id: 2954,
+    type: "side",
+    category: "Activities",
+    game: "Persona 5 Royal",
+    title: "Jose's Flowers & Stamps (Royal)",
+    location: "Mementos",
+    length: "long",
+    difficulty: "Low",
+    reward: "Jose's shop (items and accessories), EXP / money / item-drop boosts, and the Path of Da'at secret fight",
+    summary:
+      "Jose is a boy driving around Mementos in Royal. Bring him flowers to open his shop, and collect stamps from the stamp machines on each floor to buy boosts to EXP, money or item drops. Enough stamps open the Path of Da'at, where Jose waits as a secret boss late in the game.",
+    aiTip:
+      "Drive over every flower you see in Mementos — they're Jose's currency and are also needed to reset your stamp boosts. Put stamps into item drops or money early, then EXP once you have plenty.",
+    walkthrough: [
+      "In Mementos, talk to Jose when you find him parked on a floor; he asks you to gather flowers.",
+      "Drive Morgana over the flowers floating around Mementos to collect them.",
+      "Trade flowers with Jose to buy his items and accessories.",
+      "Hit the stamp machine on each Mementos floor to collect stamps.",
+      "Give stamps to Jose to raise EXP, money or item-drop rates (you can reset them for flowers).",
+      "Collect enough stamps to open the Path of Da'at, where Jose can be fought as a secret boss late in the game."
+    ],
+    video: "https://www.youtube.com/watch?v=rhPfgVc1B80"
   },
 {
     id: 467,
@@ -18544,14 +18511,15 @@ const quests = [
     difficulty: "Medium",
     reward: "Summon materia, powerful abilities",
     summary:
-      "Solve each region's multi-step Protorelic puzzle to earn unique summon materia.",
+      "Each open-world region's Divine Intel is a chain of Protorelic quests: multi-step exploration puzzles, minigames and fights that end in a unique summon materia. Finishing all of them unlocks the final chain and Gilgamesh Island.",
     aiTip:
-      "These are the best World Intel rewards — do the region's other intel first to unlock them.",
+      "Clear a region's other World Intel first — that's what unlocks its Protorelic chain. The summon materia rewards are among the strongest in the game.",
     walkthrough: [
-      "Complete the region's other World Intel first to unlock its Divine Intel (Protorelic) chain.",
-      "Begin the chain and work through each multi-step objective — combat gauntlet, minigame, or environmental puzzle.",
-      "Progress through the chain's stages to the finale challenge.",
-      "Claim the unique summon materia — the best World Intel reward in each region."
+      "Unlock a region's towers and clear its other World Intel; the region's Divine Intel (Protorelic) chain then appears on the map.",
+      "Work through the region's Protorelic quests; each region has its own mechanic or minigame (Junon uses a Fort Condor-style board game).",
+      "Chadley tells you when story-gated Protorelic quests become available.",
+      "Finish each chain to claim that region's summon materia.",
+      "Complete all six regions' Protorelics to unlock the final chain and Gilgamesh Island in the Meridian Ocean."
     ],
     video: "https://www.youtube.com/watch?v=xYNJixRy2ws"
   },
@@ -18693,19 +18661,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Piano Performances",
-    location: "Multiple regions",
-    length: "short",
+    location: "Crow's Nest, Costa del Sol, North Corel, Gongaga, Cosmo Canyon, Nibelheim",
+    length: "medium",
     difficulty: "Low",
-    reward: "Sheet music, cosmetic rewards",
+    reward: "Piano rewards from Dorian, Piano Virtuoso trophy, relationship points",
     summary:
-      "Perform sheet music on pianos across the world in the rhythm minigame.",
+      "Find sheet music around the world and play it on the piano next to each sheet in a rhythm minigame. Playing well earns rewards from Dorian, the piano rep, and raises relationship scores, including Tifa's.",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
     walkthrough: [
-      "Sit at a piano found in a town or hub and choose a sheet-music track.",
-      "Follow the on-screen notes in the rhythm minigame — start on Easy to learn the note mapping.",
-      "Play each track to a passing (or higher) performance rank.",
-      "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
+      "Collect the sheet music: Crow's Nest, Costa del Sol (Chapter 6), North Corel, Gongaga, Cosmo Canyon and Tifa's room in Nibelheim.",
+      "Play each piece at the piano next to it — a rhythm minigame on the analog sticks (start on Easy to learn the note mapping).",
+      "Get A-rank or better on the first six pieces.",
+      "Talk to Dorian, the piano rep, for rewards and the Piano Virtuoso trophy."
     ],
     video: "https://www.youtube.com/watch?v=A0QiqT7SJ2k"
   },
@@ -19089,21 +19057,22 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "The Applecore",
-    location: "Svartalfheim",
+    title: "The Applecore – 100% Completion",
+    location: "Svartalfheim – The Applecore",
     length: "medium",
     difficulty: "Medium",
-    reward: "Mining elevator restored, region access",
+    reward: "2 Nornir Chests, 2 Legendary Chests, 3 Lore, 3 Artefacts, a Buried Treasure, an Odin's Raven, a Yggdrasil Rift and a Draugr Hole",
     summary:
-      "Restore the derelict Applecore elevator to open up new areas of the Aurvangar Wetlands.",
+      "The Applecore is a mine in Svartalfheim, south of the Aurvangar Wetlands, where the dwarves dig for Idunn's apples. You pass through it on the main story; coming back afterwards lets you clear every collectible in the area for 100% realm completion.",
     aiTip:
-      "Reopening it unlocks traversal and hidden chests across the wetlands.",
+      "One Legendary Chest needs the Chisel, so come back once you have it. The first Nornir Chest's three glyph seals are opened with the Draupnir Spear — throw it at each one and detonate.",
     walkthrough: [
-      "Reach the derelict Applecore elevator in the Aurvangar Wetlands of Svartalfheim during or after the main-story visit.",
-      "Interact with the elevator controls to learn the mechanism is jammed and needs power restored.",
-      "Clear the surrounding enemies and use the Draupnir Spear or Blades of Chaos to activate the sealed vents and gears.",
-      "Ride the restored elevator between its upper and lower stops to open the newly reachable sections of the wetlands.",
-      "Explore the freshly opened areas to grab the hidden chests and collectibles the elevator now makes accessible."
+      "Sail to The Applecore, the dwarven mine south of the Aurvangar Wetlands, and enter through the mine elevator.",
+      "For the first Nornir Chest, find the three glyph seals around it and hit each with the Draupnir Spear to open it.",
+      "Work down through the mine shafts, picking up the three Lore entries (stone markers, blue Rune Reads and scrolls) and the three Artefacts along the way.",
+      "Deep in the mine, find and destroy the Odin's Raven; use the realm map's region list to confirm it registered.",
+      "Open the two Legendary Chests — one is behind a barrier that needs the Chisel — and dig up the Buried Treasure with its treasure map.",
+      "Close the Yggdrasil Rift, clear the Draugr Hole, and solve the second Nornir Chest to bring The Applecore to 100%."
     ],
     video: "https://www.youtube.com/watch?v=HPe5WhV0LFY"
   },
@@ -22724,20 +22693,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 1,
-    title: "Elder Jinchi (Lingxuzi)",
-    location: "Black Wind Mountain",
+    title: "Elder Jinchi",
+    location: "Black Wind Mountain – Ancient Guanyin Temple",
     length: "long",
     difficulty: "High",
-    reward: "Spirit, Chapter 1 secret",
+    reward: "Fireproof Mantle (Vessel), Will, Bronze Monkey armour pieces unlocked for crafting",
     summary:
-      "Face the serpent-adjacent Elder Jinchi, a hidden Chapter 1 boss tied to the mountain's masters.",
+      "A hidden Chapter 1 boss: the old abbot Elder Jinchi, fought in the Ancient Guanyin Temple. The temple only opens after you ring the three bronze bells hidden around Black Wind Mountain. He floats above the arena and lashes out with fire, and his worshippers line the walls.",
     aiTip:
-      "A tougher optional fight — bring focus and the right stance for its quick strikes.",
+      "Hit the kneeling worshippers around the arena — each strike restores your health and Focus. Cloud Step through his fire waves and save heavy attacks for when he lands.",
     walkthrough: [
-      "Find the hidden Elder Jinchi (Lingxuzi) arena in Chapter 1.",
-      "Stay mobile against his wide area attacks and summoned adds.",
-      "Use Cloud Step to punish from behind during openings.",
-      "Chip him down between his ranged bursts to finish the fight."
+      "Ring the three hidden bronze bells: one behind the Guangzhi boss arena, one behind Guangmou's arena, and one near where you fight the Whiteclad Noble.",
+      "Once all three ring, return to the Ancient Guanyin Temple Keeper Shrine; the temple doors are now open.",
+      "Enter the temple and walk up the hall to wake Elder Jinchi.",
+      "Dodge his wide fire sweeps and summoned flames; strike the worshippers lining the walls to heal and build Focus.",
+      "When he drops to ground level, punish with heavy staff attacks and Immobilize, then finish him for the Fireproof Mantle and armour unlocks."
     ],
     video: "https://www.youtube.com/watch?v=aD0pScB7v7A"
   },
@@ -22854,22 +22824,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
-    title: "Macaque Chief (Non-Void)",
-    location: "Pagoda Realm",
+    title: "Non-Void",
+    location: "New Thunderclap Temple – Temple Entrance",
     length: "long",
     difficulty: "High",
-    reward: "Spirit, Chapter 3 lore",
+    reward: "Non-Void Spirit, Tonifying Decoction, Cold Iron Leaves",
     summary:
-      "Confront the illusion-weaving Macaque Chief amid the snows of Chapter 3.",
+      "A secret Chapter 3 boss: a white snow fox (Non-Void) hiding near the New Thunderclap Temple. It's part of a small chain that starts with a corpse at the Forest of Felicity gate and ends with the fox revealing itself when you approach in fox form.",
     aiTip:
-      "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
+      "Non-Void is fast and slippery — stay patient, dodge its lunges, and punish the recovery. Its frost attacks build chill, so carry a fire-protection item if you have one.",
     walkthrough: [
-      "Confront the Macaque Chief in the Chapter 3 snows.",
-      "Watch for his illusion clones and strike the real body.",
-      "Dodge his rapid staff flurries and counter after the last hit.",
-      "Use Focus heavies during his cooldowns to end the illusions."
+      "In Chapter 3, search the corpse near the Forest of Felicity gate to get the brush item that starts the chain.",
+      "Travel to the New Thunderclap Temple – Temple Entrance Keeper Shrine and head through the temple grounds.",
+      "Cross the wooden bridge beyond the temple and use the fox-form transformation to approach; the hidden fox reveals itself as Non-Void.",
+      "Fight Non-Void: dodge its fast lunges and frost bursts, then counter with staff combos during its recovery.",
+      "Defeat it to earn the Non-Void Spirit, a Tonifying Decoction and Cold Iron Leaves."
     ],
-    video: "https://www.youtube.com/watch?v=2jT9Uyvl8zw"
+    video: "https://www.youtube.com/watch?v=fHwDGl0jmA8"
   },
 {
     id: 837,
@@ -22898,42 +22869,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
-    title: "The Yakshas of the Pagoda",
-    location: "Pagoda Realm",
+    title: "Captain Lotus-Vision",
+    location: "Pagoda Realm – Upper Pagoda",
     length: "medium",
     difficulty: "High",
-    reward: "Spirits, Chapter 3 secret",
+    reward: "Spirit (Captain Lotus-Vision), crafting materials, opens the purple-seal prison cells in the Pagoda",
     summary:
-      "Battle the Yaksha kings woven into Chapter 3's tragic tale of the four sisters.",
+      "A Chapter 3 boss deep in the Pagoda Realm, a lotus-themed guard captain. Defeating him lets you open the purple-sealed prison cells around the Pagoda, which hold loot and other prisoners.",
     aiTip:
-      "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
+      "His lotus attacks leave lingering zones — move out of them rather than dodging in place. Use Immobilize right after a long combo to get free hits.",
     walkthrough: [
-      "Battle the Yaksha kings woven into Chapter 3's tale of the four sisters.",
-      "Learn each Yaksha's attack rhythm and dodge through the elemental bursts.",
-      "Punish between their combo strings with staff heavies.",
-      "Use transformations and spells to break poise and secure the kills."
+      "In Chapter 3, travel to the Upper Pagoda Keeper Shrine in the Pagoda Realm.",
+      "From the shrine, drop down onto the rooftop below and into the arena to start the fight.",
+      "Dodge his lotus combos and step out of the lingering ground effects.",
+      "Punish after each long string with heavy attacks, using Immobilize to open extra windows.",
+      "Defeat him to collect his Spirit and materials, then use his reward to open the purple-sealed prison cells around the Pagoda."
     ],
-    video: "https://www.youtube.com/watch?v=DfceILZxYJk"
+    video: "https://www.youtube.com/watch?v=-ohZN7UTSV8"
   },
 {
     id: 839,
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 4,
-    title: "Violet Spider (Second Sister)",
-    location: "Webbed Hollow",
+    title: "Violet Spider",
+    location: "Webbed Hollow – Gathering Cave",
     length: "long",
     difficulty: "High",
     reward: "Spirit, Chapter 4 arc",
     summary:
-      "Face the venomous Violet Spider and her brood in the poisonous Webbed Hollow.",
+      "An early Chapter 4 boss in the Webbed Hollow, fought soon after Zhu Bajie joins you. The Violet Spider fills the arena with webs, poisons you on contact and has a blinding bright-light attack.",
     aiTip:
-      "Poison stacks fast — cleanse often and burst her down during openings.",
+      "Poison builds fast — bring an antidote medicine or a poison-resistant item. Look away or dodge at the moment of the bright flash, and attack from her sides while she's stuck in a lunge.",
     walkthrough: [
-      "Enter the Webbed Hollow and reach the Violet Spider (Second Sister) in Chapter 4.",
-      "Dodge her venom spits and dashing bites while managing the poison meter.",
-      "Cleanse or heal poison buildup between exchanges.",
-      "Punish her lunge recoveries and finish before the arena floods with spiderlings."
+      "In Chapter 4, after the Zhu Bajie fight, rest at the Gathering Cave Keeper Shrine in the Webbed Hollow.",
+      "Enter the cave arena; the Violet Spider drops from the webs to begin the fight.",
+      "Dodge her lunges and venom spits, keeping an eye on your poison meter and cleansing when needed.",
+      "When she charges the bright-light attack, dodge through it or turn away to avoid being stunned.",
+      "Punish her recovery after each charge and finish her to move deeper into the Webbed Hollow."
     ],
     video: "https://www.youtube.com/watch?v=-Xlki41bw-g"
   },
@@ -26887,24 +26860,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Reactors & Upper Plate",
-    title: "Bombing Mission",
+    title: "Chapter 1: The Destruction of Mako Reactor 1",
     location: "Sector 1 Reactor",
     length: "medium",
     difficulty: "Medium",
-    reward: "Story progression, first Materia and the Guard Scorpion boss",
+    reward: "Story progression; Scorpion Sentinel boss; first Materia",
     summary:
-      "Join Avalanche's raid on the Mako Reactor 1 in the game's explosive opening, ending in a duel with Shinra's Guard Scorpion.",
+      "The opening chapter: Cloud joins Avalanche's raid on Mako Reactor 1, plants the bomb at the core with Barret, Jessie, Biggs and Wedge, and fights the Scorpion Sentinel before escaping against a timer.",
     aiTip:
-      "Attack the Guard Scorpion's tail when it braces to fire its tail laser, and take cover behind rubble during its barrage phase.",
+      "The Scorpion Sentinel is weak to Lightning. When it throws up its barrier, switch to Barret and shoot the Field Generator under its tail; when it raises its tail to charge the laser, hide behind debris.",
     walkthrough: [
-      "Ride in with Avalanche and disembark at Sector 1 Station; follow Barret up the walkway into the reactor complex.",
-      "Fight through the Shinra guards and the first MP squads as you descend toward the core.",
-      "Regroup with Jessie at the bomb site and set the charge on the reactor core when prompted.",
-      "Boss — Guard Scorpion, phase 1: attack the body freely and use Cloud's Braver; keep Barret firing when it's out of melee reach.",
-      "Phase 2: when it climbs the wall and its tail rises to charge the tail laser, stop attacking and duck behind a debris pillar until the beam passes.",
-      "Phase 3: it raises a field barrier — cross to flank it and destroy both damaged legs to force a stagger.",
-      "During the stagger, unload Braver and any Thunder spells to break its health before it re-arms.",
-      "After it falls, sprint back up through the reactor and reach the exit before the escape timer runs out.",
+      "Ride in on the train with Avalanche and fight through the Sector 1 Station guards with Cloud and Barret.",
+      "Follow Jessie through the reactor, fighting Shinra security and MPs on the way down to the core.",
+      "Set the bomb at the core when prompted.",
+      "Boss — Scorpion Sentinel: build stagger with Focused Thrust and Barret's Focused Shot, and use Thunder for extra damage.",
+      "When it raises a barrier it's immune to physical attacks — take Barret behind it and shoot the Field Generator under the tail.",
+      "When it raises its tail to charge the laser, take cover behind debris and use the time to heal; block its missiles late in the fight.",
+      "After it falls, run back out through the reactor before the timer expires."
     ],
     video: "https://www.youtube.com/watch?v=_m6RInL4lq0"
   },
@@ -26913,22 +26885,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Reactors & Upper Plate",
-    title: "Escape from the Reactor",
+    title: "Chapter 2: Fateful Encounters",
     location: "Sector 8",
     length: "short",
     difficulty: "Low",
-    reward: "Story progression, Aerith encounter",
+    reward: "Story progression; Deadly Dodge Materia",
     summary:
-      "Flee the collapsing Sector 8 after the bombing and meet the flower girl Aerith amid the chaos.",
+      "Cloud splits from Avalanche after the bombing and has to cross a burning Sector 8 alone. He meets Aerith, the flower peddler, for the first time, then fights his way across the rooftops to catch the last train back to Sector 7.",
     aiTip:
-      "There's no combat pressure here — explore Sector 8 for items and enjoy the set-piece before regrouping with Avalanche.",
+      "Buy a flower from Aerith when she offers — it doesn't change much, but the conversation is worth it. Save your MP for the Riot Troopers and the Huntsman at the end.",
     walkthrough: [
-      "Climb out of the wreckage into the ruined Sector 8 streets after the blast.",
-      "Push through the panicking crowd and cut down the Shinra soldiers blocking the boulevard.",
-      "Meet Aerith among the swirling Whispers and speak with her when prompted.",
-      "Continue toward the station as more troops and a Sweeper move to cut you off — defeat them and keep moving.",
-      "Reach the elevated rail line and outrun the pursuit across the plaza.",
-      "Leap aboard the departing Sector 7-bound train to rejoin Avalanche.",
+      "Use the escape route out of the reactor and head through the wreckage towards Sector 8 Station.",
+      "Follow the crowd and take the detour up the stairs to meet Aerith, the flower peddler, for the first time.",
+      "Evade the Shinra pursuers chasing you through the city, fighting the Security Officers that block your path.",
+      "Climb to the rooftops and break the blockade of Riot Troopers and the Huntsman.",
+      "Jump onto the last train out of Sector 8 to rejoin Avalanche."
     ],
     video: "https://www.youtube.com/watch?v=c0gWTyqqnKU"
   },
@@ -26937,46 +26908,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sector 7 Slums",
-    title: "Sector 7 Slums",
-    location: "Sector 7",
+    title: "Chapter 3: Home Sweet Slum",
+    location: "Sector 7 Slums",
     length: "short",
     difficulty: "Low",
-    reward: "Unlocks the slums hub and its side quests",
+    reward: "Iron Blade, Assess Materia from Chadley; first odd jobs",
     summary:
-      "Return to the Seventh Heaven hideout, meet Tifa, and get your first taste of the Sector 7 slums where side jobs open up.",
+      "Cloud settles into the Sector 7 slums: Tifa's bar Seventh Heaven, the Avalanche hideout below it, and the neighbourhood watch. Wymer and Chadley open up the first odd jobs, and you must finish at least one before the story moves on.",
     aiTip:
-      "Talk to everyone in the slums to unlock the odd-job board — this is your first window for missable side quests.",
+      "Chapter 3's odd jobs can't be done later — do Rat Problem, Nuisance in the Factory, Lost Friends and On the Prowl now. Talk to Chadley for the Assess Materia and his combat reports.",
     walkthrough: [
-      "Arrive at Seventh Heaven; reunite with Tifa and go through the bar reunion.",
-      "Head down to the hidden Avalanche hideout and report on the reactor mission.",
-      "Collect your reward from Barret, then step out into the Sector 7 slums.",
-      "Explore the slums and talk to residents; speak with Wymer to open the odd-job board.",
-      "Optionally clear the available Chapter 3 jobs (Rat Problem, Chocobo Search, etc.) for early rewards — several are one-time.",
-      "Return to Seventh Heaven and speak with Tifa to advance to the next mission.",
+      "Get off the train in the Sector 7 slums and go to Seventh Heaven with Tifa and Barret.",
+      "Follow Tifa to the neighbourhood watch and collect Cloud's Iron Blade.",
+      "Talk to Wymer at the watch to unlock the odd jobs, and to Chadley for the Assess Materia.",
+      "Finish at least one odd job (Rat Problem, Nuisance in the Factory, Lost Friends or On the Prowl) — the story waits until you do.",
+      "Return to Seventh Heaven and rest to end the chapter."
     ],
-    video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
+    video: "https://www.youtube.com/watch?v=7LNHtWrjugk"
   },
 {
     id: 1030,
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Reactors & Upper Plate",
-    title: "Jessie's Home Invasion",
-    location: "Upper Plate",
+    title: "Chapter 4: Mad Dash",
+    location: "Corkscrew Tunnel, Sector 7 Plate",
     length: "medium",
     difficulty: "Medium",
-    reward: "Story progression, upgraded weapons materia",
+    reward: "Story progression; Barrier Materia from Jessie",
     summary:
-      "Sneak onto the upper plate with Jessie, Biggs, and Wedge to steal explosives from her family's home for the next reactor job.",
+      "Cloud rides with Jessie through the Corkscrew Tunnel, fights Roche on his bike, then helps her sneak home to the plate to take her father's Shinra ID and steal explosives from the Sector 7-6 Annex for the next bombing.",
     aiTip:
-      "Use the motorcycle sequence to build up your limit gauge — you'll want it charged for the ambush at the end.",
+      "Keep your health up during the bike section to earn the Biker Boy trophy. On foot, Roche hits hard and fast — block his rushes and punish with Punisher mode.",
     walkthrough: [
-      "Meet Jessie, Biggs, and Wedge and take the train toward the upper plate.",
-      "Slip past the Shinra checkpoints and make your way to Jessie's family home.",
-      "Handle the tense visit with Jessie's parents and recover the stashed Shinra-grade explosives.",
-      "Escape the residential district when the alarm is raised.",
-      "Ride the highway back down and win the motorcycle sequence, weaving between traffic and Shinra riders.",
-      "Boss — Roche: parry his bike strikes, counter after his charges, and whittle him down to end the chase.",
+      "Ride with Jessie through the Corkscrew Tunnel and fight Roche on his motorcycle; slash him as he draws level.",
+      "Head up to the plate with Jessie, Biggs and Wedge to Jessie's family home in the employee housing.",
+      "Sneak into the house and take the Shinra ID from the uniform in her father's room.",
+      "Infiltrate the Sector 7-6 Annex and steal the explosives for the next mission.",
+      "Fight Roche again, on foot this time, then return to the slums and Wedge's place."
     ],
     video: "https://www.youtube.com/watch?v=0ZpW-ppvM_g"
   },
@@ -26985,33 +26954,77 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Reactors & Upper Plate",
-    title: "The Reactor 5 Raid",
-    location: "Railway",
+    title: "Chapter 5: Dogged Pursuit",
+    location: "Train to Sector 4, Corkscrew Tunnel",
     length: "long",
     difficulty: "Medium",
-    reward: "Story progression, Crab Warden boss materia",
+    reward: "Story progression; Crab Warden boss (Metal Knuckles)",
     summary:
-      "Ride the rails to Mako Reactor 5 for a second bombing run that goes wrong when Shinra springs a trap.",
+      "Avalanche boards the train for Sector 4, but the ID scan sets off an alarm. Cloud, Tifa and Barret run through the train cars and continue on foot through the Corkscrew Tunnel, where the Crab Warden blocks the way.",
     aiTip:
-      "Save your ATB for the Crab Warden's legs — breaking them staggers it and opens a huge damage window.",
+      "The Crab Warden is weak to Lightning. Break its legs to stagger it and watch for its missiles and the electrified floor.",
     walkthrough: [
-      "Take the underground rail toward Mako Reactor 5 with Tifa and Barret.",
-      "Fight through the Shinra security and Sweepers along the maintenance line.",
-      "Reach the reactor and help plant the bomb at the core.",
-      "Boss — Crab Warden: destroy its four legs to topple it; it is vulnerable to Lightning, so lead with Thunder/Thundara.",
-      "When a leg is down, focus fire to build the stagger, then punish hard before it repairs.",
-      "Survive its cannon and drone volleys by keeping cover between bursts.",
-      "After the machine falls, brace for the Shinra ambush that springs the trap.",
+      "Board the train for Sector 4 with Tifa, Barret and Jessie's crew.",
+      "When the security scan sets off the alarm, run through the train cars as the timer counts down.",
+      "Jump off and continue on foot through the Corkscrew Tunnel, fighting the drones and Grenadiers.",
+      "Boss — Crab Warden: hit its legs and use Thunder to stagger it; dodge the missiles and the electrified floor.",
+      "After the fight, follow the tunnel to the lift at the end to finish the chapter."
     ],
-    video: "https://www.youtube.com/watch?v=COA5tp0ubfw"
+    video: "https://www.youtube.com/watch?v=Z2bMQgqLjAU"
   },
 {
     id: 1032,
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sector 5 Slums",
-    title: "Budding Bodyguard",
-    location: "Sector 5 Church",
+    title: "Chapter 6: Light the Way",
+    location: "Sector 4 Plate Interior",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Story progression; Lights Out trophy",
+    summary:
+      "Cloud, Tifa and Barret climb through the inside of the Sector 4 plate to reach Mako Reactor 5. They restore power in Section G, switch the sun lamps on and off and work through Section H.",
+    aiTip:
+      "Look in side rooms for the Mesmeric Armlet and a Moogle Medal. The Grashtrikes are weak to Fire.",
+    walkthrough: [
+      "Head through the Sector 4 plate interior towards Section G and the control room.",
+      "The control room button is dead — go back to the locked door, climb on the generator and pull the lever to restore power.",
+      "Switch the sun lamps to light up the walkways, and fight the Grashtrikes on the platforms.",
+      "Move on to Section H, lowering the walkways to reach the third sun lamp.",
+      "Reach the utility access and continue towards Mako Reactor 5 to end the chapter."
+    ],
+    video: "https://www.youtube.com/watch?v=p1Tr7clvQcI"
+  },
+{
+    id: 1033,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Chapter 7: A Trap Is Sprung",
+    location: "Mako Reactor 5",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, Airbuster boss loot and materia choices",
+    summary:
+      "Avalanche reaches Mako Reactor 5, but it's a trap set by President Shinra. Before the Airbuster boss, keycards found around the reactor let you weaken it by sending its parts to the disposal room.",
+    aiTip:
+      "Use the keycards: removing the AI Cores stops its stunning Fingerbeams, and removing the Big Bomber shells removes its heaviest attack. The Airbuster is weak to Lightning.",
+    walkthrough: [
+      "Go through Mako Reactor 5 with Cloud, Tifa and Barret.",
+      "Collect the reactor keycards from the soldiers and rooms on the way, and use each at a terminal to send Airbuster parts to disposal (AI Cores, Big Bomber shells or M Units).",
+      "Set the bomb, then face President Shinra's broadcast as the trap is sprung.",
+      "Boss — Airbuster: use Thunder to build stagger and destroy its arms to cut down its attacks.",
+      "Finish it during a stagger; after the fight, the bridge collapses and Cloud falls."
+    ],
+    video: "https://www.youtube.com/watch?v=COA5tp0ubfw"
+  },
+{
+    id: 1034,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Chapter 8: Budding Bodyguard",
+    location: "Sector 5 Church and Slums",
     length: "medium",
     difficulty: "Low",
     reward: "Story progression",
@@ -27025,55 +27038,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fend off the first wave of grunts, then boss — Reno: bait his EM-rod combos and punish the recovery; interrupt him when he wall-jumps.",
       "Escape upward through the church rafters, knocking down boards and dropping platforms to make a path for Aerith.",
       "Cross the rooftops of the slums while shaking off the pursuing soldiers.",
-      "Reach the far side and agree to see Aerith safely home.",
-    ],
-    video: "https://www.youtube.com/watch?v=rmFRvReuC6w"
-  },
-{
-    id: 1033,
-    type: "main",
-    game: "Final Fantasy VII Remake",
-    region: "Reactors & Upper Plate",
-    title: "Defeat Airbuster",
-    location: "Reactor 5",
-    length: "medium",
-    difficulty: "High",
-    reward: "Story progression, Airbuster boss loot and materia choices",
-    summary:
-      "Confront Shinra's Airbuster war machine on the reactor bridge — a fight whose difficulty you can ease beforehand.",
-    aiTip:
-      "Divert the keycards to strip the Airbuster's parts before the fight; lightning materia melts its health bar.",
-    walkthrough: [
-      "Regroup on the approach to the Airbuster on the reactor bridge.",
-      "Before the fight, work the keycard terminals — divert cards to strip the Airbuster's ammo and parts and weaken it.",
-      "Enter the bridge arena and stay mobile to avoid its missile spreads and big-bang laser.",
-      "Boss — Airbuster: it is weak to Lightning; hit it with Thunder/Thundara to build stagger quickly.",
-      "Destroy its arm parts to cut its melee options, then focus the core during stagger.",
-      "Finish it before the platform breaks, then survive the cliffhanger drop with Barret.",
-    ],
-    video: "https://www.youtube.com/watch?v=RprcQ2YBRHM"
-  },
-{
-    id: 1034,
-    type: "main",
-    game: "Final Fantasy VII Remake",
-    region: "Sector 5 Slums",
-    title: "Escort the Flower Girl",
-    location: "Sector 5",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Story progression, unlocks Sector 5 side quests",
-    summary:
-      "Guide Aerith safely home through the Sector 5 slums, opening up the district's odd jobs and the moogle shop.",
-    aiTip:
-      "Take the detours with Aerith to trigger her side content — several missable jobs unlock only during this stretch.",
-    walkthrough: [
-      "Set out to walk Aerith home through the Sector 5 slums.",
-      "Follow her through the market, clearing the stray monsters that block the road.",
-      "Take the optional detours she suggests to trigger extra slum scenes and errands.",
-      "Reach Aerith's house at the edge of the slums and rest for the night.",
-      "In the morning, agree to escort her back toward Sector 7.",
-      "Optionally accept the Sector 5 odd jobs (Kids on Patrol, the Moogle Emporium tasks) before moving on.",
+      "Reach the far side and agree to see Aerith safely home."
     ],
     video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
   },
@@ -27082,22 +27047,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Wall Market",
-    title: "Wall Market",
-    location: "Wall Market",
+    title: "Chapter 9: The Town That Never Sleeps",
+    location: "Collapsed Expressway, Wall Market",
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, the crossdressing set-piece and dress outcome",
     summary:
-      "Infiltrate Don Corneo's mansion by winning over Wall Market — the outcome depends on the sidequests you complete.",
+      "Cloud and Aerith follow Tifa to Wall Market by crossing the Collapsed Expressway. To get into Don Corneo's mansion, Cloud has to win favour with Andrea, Madam M and Chocobo Sam.",
     aiTip:
-      "Do the Corneo Colosseum and dressmaker sidequests to earn the best dress and honeybee outcomes; they're fully missable.",
+      "In the Corneo Colosseum, the Hell House is weak to Fire. Which Chapter 9 odd jobs you do decides Cloud's dress, so pick the ones you want.",
     walkthrough: [
-      "Arrive in Wall Market and learn Tifa has already gone to Don Corneo's mansion.",
-      "Speak with the townsfolk and start the audition path; you need Corneo to pick you.",
-      "Work the three branches for the best outcome: the Corneo Colosseum, the dressmaker's request, and the massage-parlor / gym jobs.",
-      "Return to the dressmaker to receive Cloud's dress based on how those jobs went.",
-      "Enter the mansion audition and pass Corneo's inspection.",
-      "Regroup with Tifa and Aerith, confront Don Corneo, and drop through the trapdoor to escape.",
+      "Take the shortcut with Aerith over the Collapsed Expressway, fighting Butch, Burke and Beck and the Sweeper Prototype on the way.",
+      "Reach Wall Market and learn Tifa has gone to Don Corneo's mansion.",
+      "Work the three paths for a recommendation: Andrea's gym (squats), Madam M's massage parlour, and the Corneo Colosseum, where Hell House is the boss.",
+      "Get Cloud's dress from the dressmaker; the look depends on the odd jobs you did.",
+      "Pass the audition at Corneo's mansion and confront Don Corneo with Tifa and Aerith."
     ],
     video: "https://www.youtube.com/watch?v=2gShRpduP38"
   },
@@ -27106,47 +27070,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sewers & Graveyard",
-    title: "The Collapsed Expressway",
-    location: "Sewers",
+    title: "Chapter 10: Rough Waters",
+    location: "Sector 6 Sewers",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, Abzu boss materia",
     summary:
-      "Drop into the sewers beneath Wall Market and fight through Corneo's beasts, including the hulking Abzu.",
+      "After falling through Corneo's trapdoor, Cloud, Tifa and Aerith fight their way through the Sector 6 sewers. They beat Abzu, use the pumps and sluice gates, and head for the Sector 7 slums.",
     aiTip:
-      "Abzu is weak to fire; keep Aerith at range casting while Cloud pressures it up close.",
+      "Abzu is weak to Fire and its attacks can poison, so bring Antidotes or Cleansing. Keep moving to avoid its jump attacks.",
     walkthrough: [
-      "Land in the Sector 6 sewers after the fall from Corneo's mansion.",
-      "Regroup with Tifa and Aerith and open the first sluice gate to drain the passage.",
-      "Work through the flooded tunnels, using the gate valves to raise and lower the water and reach new paths.",
-      "Clear the Ghouls and Sahagin patrols guarding the junctions.",
-      "Boss — Abzu: avoid its charging rush by dodging to the side, then punish its long recovery; keep pressuring to build stagger.",
-      "Watch for its enraged phase and heal through its slam combo, then finish it during a stagger.",
-      "Take the tunnel exit toward the Train Graveyard.",
+      "Land in the sewers below Corneo's mansion with Tifa and Aerith.",
+      "Boss — Abzu: use Fire, dodge its charges and cure the poison from its attacks.",
+      "Follow the waterway and cross the trunk line, fighting Sahagin and Blugu.",
+      "Use the sluice gates and pumps to change the water level and open the way.",
+      "Find the Skeleton Key, operate the pump, and climb towards the Sector 7 slums."
     ],
-    video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
+    video: "https://www.youtube.com/watch?v=tAN_TS8eWkU"
   },
 {
     id: 1037,
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sewers & Graveyard",
-    title: "The Train Graveyard",
+    title: "Chapter 11: Haunted",
     location: "Graveyard",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, Ghost enemy materia",
     summary:
-      "Pick through the eerie, ghost-haunted Train Graveyard on the way back to Sector 7.",
+      "On the way back to Sector 7, Cloud, Tifa and Aerith cross the haunted Train Graveyard. Ghost children guide them through, and the chapter ends with a boss fight against Eligor.",
     aiTip:
-      "The child-ghost puzzles gate your progress — interact with the kids in order and use fire on the spectral enemies.",
+      "Eligor is weak to Ice. Its wheels block physical attacks and it's immune to magic while flying, so break the wheels to stagger it, and watch for Reflect.",
     walkthrough: [
-      "Enter the Train Graveyard with Tifa and Aerith.",
-      "Follow the ghost-children's game — find and interact with each hidden child in the order the path requires to open the way forward.",
-      "Use Fire spells against the ghost enemies and the possessed carriages, which resist physical attacks.",
-      "Navigate the stacked train cars, climbing and dropping between platforms to progress.",
-      "Boss — Eligor: destroy its wheel/ring parts, use Fire to pressure it, and dodge the Aeolian Onslaught projectile fan.",
-      "Break it during stagger, then exit at the base of the Sector 7 pillar.",
+      "Enter the Train Graveyard with Tifa and Aerith and follow the ghost children's trail.",
+      "Fight the Ghosts and Ghouls with magic, since they shrug off physical attacks.",
+      "Pass through the maintenance facility, moving the train cars to open a path.",
+      "Boss — Eligor: break its wheels, hit it with Ice, and watch for Reflect.",
+      "Head out of the graveyard towards the Sector 7 pillar."
     ],
     video: "https://www.youtube.com/watch?v=aRkkKAFv6jg"
   },
@@ -27155,22 +27116,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sector 7 Slums",
-    title: "The Sector 7 Plate Collapse",
+    title: "Chapter 12: Fight for Survival",
     location: "Sector 7",
     length: "long",
     difficulty: "High",
     reward: "Story progression, Reno & Rude boss fight",
     summary:
-      "Race to stop Shinra from dropping the Sector 7 plate, battling the Turks Reno and Rude atop the pillar.",
+      "Shinra moves to drop the Sector 7 plate. The party fights an Enigmatic Spectre at the foot of the pillar, splits up to help Avalanche and evacuate the slums, and Cloud climbs the pillar to face Reno and Rude.",
     aiTip:
-      "Reno punishes greed — bait his EM-rod combos, then punish; swap targets when Rude casts to interrupt.",
+      "Reno resists Lightning, so use Fire; Rude is weak to Wind. Prepare Barret in the menu when the game prompts you just before the fight.",
     walkthrough: [
-      "Reach the foot of the Sector 7 pillar as Shinra moves to drop the plate.",
-      "Begin the ascent, fighting Shinra troops and turrets up the spiralling stairs and lifts.",
-      "Clear the Sweepers and Cutters guarding each landing as you climb.",
-      "Boss — Reno & Rude: split focus, bait Reno's melee and punish, and interrupt Rude when he casts Aerocombo or barrier.",
-      "Reach the top terminal and confront the Turks over the pillar controls.",
-      "Survive the plate's collapse and the heartbreaking aftermath with Jessie's crew.",
+      "Fight the Enigmatic Spectre at the base of the pillar — defeat its lesser Spectres to pressure and stagger it.",
+      "Join up with Avalanche; Tifa and Aerith stay behind to help Wedge with the evacuation.",
+      "Climb the pillar with Cloud, fighting Shinra troops on each floor.",
+      "Equip Barret when prompted, then boss — Reno & Rude: punish Reno's rushes and use Wind against Rude.",
+      "Watch the plate fall as the chapter ends."
     ],
     video: "https://www.youtube.com/watch?v=u1Sqif9Cg7I"
   },
@@ -27179,22 +27139,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sector 7 Slums",
-    title: "Rescue Aerith",
-    location: "Sector 7",
+    title: "Chapter 13: A Broken World",
+    location: "Sector 6 rubble, Sector 5 Slums",
     length: "medium",
     difficulty: "Medium",
-    reward: "Story progression, underground lab route",
+    reward: "Story progression; Mythril Claws",
     summary:
-      "Descend through the ruined slums and the underground lab in pursuit of the Turks who captured Aerith.",
+      "After the plate falls, Cloud, Tifa and Barret reach Aerith's house to find Marlene safe with Elmyra and learn Aerith went with the Turks. Barret and Tifa go on alone through the tunnels and fight the Failed Experiment.",
     aiTip:
-      "Stock up and upgrade weapons at the collapse aftermath — the Shinra Building assault ahead is long with no shops.",
+      "Only Barret and Tifa fight the Failed Experiment. It's weak to Ice and only shows itself after you damage its minions.",
     walkthrough: [
-      "Search the ruins of the fallen Sector 7 plate for a way toward Aerith's captors.",
-      "Regroup with Barret and Tifa and agree on the plan to reach the Shinra Building.",
-      "Descend into the underground test facility beneath the slums.",
-      "Fight through the lab's mutated specimens and security along the maintenance route.",
-      "Restock and upgrade weapons before you leave — the Shinra assault ahead is long with no shops.",
-      "Emerge at the base of the Shinra Building and prepare to climb.",
+      "Make your way through the rubble of Sector 6 after the plate falls.",
+      "Reach Aerith's house and find Marlene safe with Elmyra.",
+      "Check on friends and make for Sector 7.",
+      "With Barret and Tifa, fight through the tunnels; boss — Failed Experiment (weak to Ice), which appears once you damage its minions.",
+      "Crawl back to the surface and return to the group."
     ],
     video: "https://www.youtube.com/watch?v=cItnWImfcwk"
   },
@@ -27203,22 +27162,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Sector 5 Slums",
-    title: "Open the Hub",
-    location: "Sector 5/6",
+    title: "Chapter 14: In Search of Hope",
+    location: "Sector 5 and Sector 6 Slums",
     length: "medium",
     difficulty: "Medium",
     reward: "Multiple side quests unlock, Chocobo & moogle content",
     summary:
-      "A breather chapter that reopens the slums as a hub, letting you mop up side quests before the Shinra assault.",
+      "The party looks for a way up to the Shinra Building. The slums open as a hub with the most odd jobs in the game, then you go through the underground waterway to Corneo's hideout to get the key that opens the wall.",
     aiTip:
-      "This is the last chance for many Sector 5/6 side quests — clear the job board before advancing to Shinra HQ.",
+      "This is the last chance for many odd jobs and for the Moogle Emporium — finish what you want before going over the wall. Abzu is weak to Fire again.",
     walkthrough: [
-      "Return to the reopened Sector 5 slums, now serving as a hub.",
-      "Check the notice board and NPCs for the final round of odd jobs.",
-      "Complete the remaining Chapter 14 side quests (Missing Children, Secret Medicine, etc.) — this is the last chance for several.",
-      "Spend Moogle Medals and upgrade weapons and materia, and restock consumables.",
-      "Decide how to approach the Shinra Building with Barret, Tifa, and Aerith's friends.",
-      "Meet the group at Wall Market / the plate supports to begin the infiltration.",
+      "Clear the open slums hub: odd jobs, Moogle Emporium shopping and Chadley's reports.",
+      "Gather intel in the slums (including Johnny's stolen wallet).",
+      "Go through the underground waterway to Corneo's hideout.",
+      "Recover the key from Corneo and survive the Abzu rematch.",
+      "Head for the wall to climb up towards the Shinra Building."
     ],
     video: "https://www.youtube.com/watch?v=cS07VIv18uA"
   },
@@ -27227,22 +27185,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Shinra HQ & Midgar",
-    title: "Climb the Plate",
-    location: "Midgar",
+    title: "Chapter 15: The Day Midgar Stood Still",
+    location: "Collapsed Sector 7 Plate",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression",
     summary:
-      "Scale the towering support structure of Midgar's plate to infiltrate the Shinra Building from below.",
+      "Cloud, Tifa and Barret climb the wrecked Sector 7 plate using grappling hooks to reach the Shinra Building, and fight the Valkyrie gunship near the top.",
     aiTip:
-      "Manage stamina during the climb sequences and pick up the hidden manuscripts tucked along the girders.",
+      "The Valkyrie is weak to Lightning and Wind; have Barret shoot it while it's airborne and destroy the drones it summons in phase 2. Byobapolis are weak to Wind.",
     walkthrough: [
-      "Begin the long climb up the Sector 7 plate support structure toward the Shinra Building.",
-      "Work across the collapsing walkways, girders, and rotating machinery, timing your movement.",
-      "Grab the hidden manuscripts and items tucked along the girders as you ascend.",
-      "Clear the Shinra security drones and guard robots that block the ascent.",
-      "Cross the final maintenance bridge to the rear of the Shinra Building.",
-      "Reunite with the party and choose how to breach the tower.",
+      "Start up the Collapsed Sector 7 Plate, using the grappling hooks to climb.",
+      "Fight the Byobapolis (weak to Ice, more to Wind) and dodge Shinra searchlights.",
+      "Climb through the crumbling buildings towards the top of the plate.",
+      "Boss — Valkyrie: hit it with Lightning or Wind, use Barret while it flies, and destroy its drones in phase 2.",
+      "Reach the top of the plate to end the chapter."
     ],
     video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
   },
@@ -27251,22 +27208,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Shinra HQ & Midgar",
-    title: "Infiltrate Shinra HQ",
-    location: "Shinra",
+    title: "Chapter 16: The Belly of the Beast",
+    location: "Shinra Building",
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, Shinra Building exploration and lore",
     summary:
-      "Break into Shinra headquarters — by stairs or front door — and climb its floors toward the executive suites.",
+      "The party breaks into the Shinra Building, gets out of the garage, takes a keycard and goes up to Skyview Hall by elevator or stairwell. They find Aerith in Hojo's lab and fight Specimen H0512.",
     aiTip:
-      "Take the stairs for the achievement and extra fights, or the front assault for a quicker, harder path.",
+      "Specimen H0512 is only slightly weak to Lightning. Destroy its tentacles to stun it, and run far away when it charges Mako Expulsion.",
     walkthrough: [
-      "At the Shinra Building base, choose your approach: the stealthy stairwell or the front-door assault.",
-      "If you take the front, fight through the lobby security; if the stairs, climb the long stairwell (lighter combat, extra dialogue).",
-      "Work up through the corporate and museum floors, using the keycards to unlock lifts.",
-      "Explore the exhibits for lore and items, then reach the science department.",
-      "Recover Aerith from the specimen labs and regroup with the party.",
-      "Ride the elevators toward the executive levels for the confrontation ahead.",
+      "Break into the Shinra Building's garage and fight your way out.",
+      "Get the keycard from the reception area.",
+      "Go up to Skyview Hall — the elevator has two easy fights; the stairs give extra dialogue.",
+      "Work through the upper floors to Hojo's lab and find Aerith.",
+      "Boss — Specimen H0512: destroy its tentacles to stun it and get clear of Mako Expulsion."
     ],
     video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
   },
@@ -27275,46 +27231,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Shinra HQ & Midgar",
-    title: "Hojo's Laboratory",
-    location: "Shinra",
+    title: "Chapter 17: Deliverance from Chaos",
+    location: "Shinra Building – Hojo's Labs and the top floor",
     length: "long",
     difficulty: "High",
     reward: "Story progression, Jenova Dreamweaver & Rufus boss fights",
     summary:
-      "Break out of Hojo's specimen labs and battle your way down through Jenova and Rufus Shinra's escape.",
+      "Locked up after the lab, the party escapes, frees Red XIII and follows Jenova's trail to the top of the tower. It ends with Jenova Dreamweaver, Cloud's duel with Rufus Shinra and the escape against The Arsenal.",
     aiTip:
-      "Rufus's fight is a duel — dodge his pistol shots and Dark Nation's buffs, and punish between his gunslinger combos.",
+      "Cloud fights Rufus alone — block his gunshots and attack when he reloads. Bring Fire against the Swordipede; spread damage across Jenova Dreamweaver's tentacles.",
     walkthrough: [
-      "Break out of the specimen containment in Hojo's laboratory.",
-      "Fight through the released Jenova specimens as the party splits and regroups.",
-      "Boss — Jenova Dreamweaver: exploit the elemental shifts it telegraphs and focus it down between the party members.",
-      "Reach the helipad and confront Rufus Shinra.",
-      "Boss — Rufus & Dark Nation (Cloud solo): dodge his pistol shots, punish between his gunslinger combos, and take out Dark Nation to stop its buffs.",
-      "After the duel, regroup with the party for the escape from the tower.",
+      "Find a way out of the cells and search for Barret and the others.",
+      "As Cloud, rescue Red XIII; as Tifa, search the lab wards; defeat the Swordipede.",
+      "Follow the trail of blood to the top floor and fight Jenova Dreamweaver.",
+      "Boss — Rufus Shinra and Darkstar: Cloud fights solo; block his shots and punish reloads.",
+      "Rejoin the party and destroy The Arsenal to escape the Shinra Building."
     ],
-    video: "https://www.youtube.com/watch?v=XOPV4pYFWvU"
+    video: "https://www.youtube.com/watch?v=4sammrWBVZs"
   },
 {
     id: 1044,
     type: "main",
     game: "Final Fantasy VII Remake",
     region: "Shinra HQ & Midgar",
-    title: "Escape from Midgar",
+    title: "Chapter 18: Destiny's Crossroads",
     location: "Midgar",
     length: "long",
     difficulty: "High",
     reward: "Ending, Motor Ball and the Arbiter of Fate finale",
     summary:
-      "Blast down the Midgar Expressway on stolen bikes, defeat Motor Ball, and face the Whispers to leave the city behind.",
+      "The party escapes Midgar on the expressway, fights Motor Ball, and reaches the edge of fate, where they fight the Whisper Harbinger and then Sephiroth.",
     aiTip:
-      "Charge your limit breaks before the highway boss; the multi-phase finale rewards saving them for the Arbiter of Fate.",
+      "On the bike, slash Motor Ball's six wheels to stagger it. Against the Whisper Harbinger, damage the Whispers themselves. Save Limits for Sephiroth.",
     walkthrough: [
-      "Flee the Shinra Building as the party splits across stolen vehicles.",
-      "Ride the Midgar Expressway, weaving through traffic and cutting down pursuing Shinra riders.",
-      "Boss — Motor Ball: dodge its ramps and beam sweeps on the highway, and hit it with magic during its slow recovery.",
-      "Reach the edge of Midgar and confront Sephiroth in the rift.",
-      "Charge and save your Limit Breaks for the multi-phase finale.",
-      "Final battle — the Whispers / Arbiter of Fate: defeat the Whisper Harbinger and its avatars, then Sephiroth, to close the story and leave Midgar behind.",
+      "Escape the Shinra Building on Cloud's bike down the Midgar Expressway, cutting down Shinra riders.",
+      "Boss — Motor Ball: break all six wheels to stagger it; dodge the flames it spins out afterwards.",
+      "Reach the singularity and fight the Whisper Harbinger by damaging its Whispers.",
+      "Defeat Sephiroth in the final battle.",
+      "Watch the ending as the party leaves Midgar."
     ],
     video: "https://www.youtube.com/watch?v=kj3jIDkkUOw"
   },
@@ -27323,21 +27277,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Final Fantasy VII Remake",
     region: "Sector 7 Slums",
-    title: "Chocobo Search (Rat Problem)",
-    location: "Sector 7",
+    title: "Rat Problem",
+    location: "Sector 7 Slums – Item Shop (Chapter 3)",
     length: "short",
     difficulty: "Low",
-    reward: "Gil and a Chocobo & Moogle summon materia progress",
+    reward: "Hi-Potions; new stock in the item shop",
     summary:
-      "Help Wymer clear a rat and monster infestation plaguing the Sector 7 slums.",
+      "Chapter 3 odd job from the Sector 7 item shop owner: clear the wererats at the edge of the slums, then come back to deal with the Doomrats that show up in their place.",
     aiTip:
-      "Quick early-game job — bring some AoE to sweep the rat packs efficiently.",
+      "Doomrats only spawn after you report the first wererats to the shop owner. Do it in Chapter 3; it's gone after.",
     walkthrough: [
-      "Take the Rat Problem request from Wymer at the Sector 7 slum entrance.",
-      "Head to the marked drainage areas where the wererats have nested.",
-      "Clear each infestation point, using area attacks to sweep the rat packs.",
-      "Deal with the larger Wrath Hound that appears with them.",
-      "Return to Wymer to report the job done and collect your gil and reward.",
+      "Talk to the item shop owner in the Sector 7 slums in Chapter 3 to start the job.",
+      "Go to the marked area at the edge of the slums and kill the wererats.",
+      "Return to the shop owner and report.",
+      "Go back to the same spot and defeat the Doomrats that now appear.",
+      "Report to the shop owner again to collect the reward."
     ],
     video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
   },
@@ -27415,23 +27369,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Final Fantasy VII Remake",
     region: "Sector 5 Slums",
-    title: "The Angel of the Slums (Moogle Merchant)",
-    location: "Sector 5",
+    title: "The Angel of the Slums",
+    location: "Sector 5 Slums – Community Center (Chapter 8)",
     length: "short",
     difficulty: "Low",
-    reward: "Unlocks the Moogle Emporium shop",
+    reward: "2,000 gil; unlocks Corneo's Secret Stash (Chapter 14)",
     summary:
-      "Earn Moogle Medals for the mysterious child running the Moogle Emporium to unlock its exclusive stock.",
+      "Chapter 8 odd job from Damon: find out who the Angel of the Slums is. Unlocks after Kids on Patrol, and finishing it unlocks Corneo's Secret Stash in Chapter 14.",
     aiTip:
-      "Save your Moogle Medals for the summon and accessory items — they're some of the best early purchases.",
+      "The Chromogger is weak to Lightning; attack its wrecking-ball hand, not its body, to stagger it.",
     walkthrough: [
-      "Find the Moogle Emporium tucked in the Sector 5 slums and speak with the child running it.",
-      "Complete the small tasks and slum jobs that award Moogle Medals.",
-      "Bring your Moogle Medals back to the Emporium.",
-      "Spend medals to unlock the shop's stock, prioritising the summon and accessory items.",
-      "Buy the exclusive materia and items before leaving the slums.",
+      "Finish Kids on Patrol, then talk to Oates to get the job and see Damon at the community center.",
+      "Talk to Damon about the Angel of the Slums.",
+      "Talk to Mireille by the community center entrance, then go back to Damon.",
+      "Go to Lookout Point to the northeast past Steel Mountain and defeat the Chromogger, attacking its wrecking-ball hand.",
+      "Pick up the calling card and return to Damon and Mireille for the reward."
     ],
-    video: "https://www.youtube.com/watch?v=CRGlett0WO8"
+    video: "https://www.youtube.com/watch?v=ZB9pLkW_MW0"
   },
 {
     id: 1050,
@@ -30270,13 +30224,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Bogano",
-    title: "Crash-Landing on Bogano",
+    title: "Chapter 1: Bogano – Finding BD-1",
     location: "Bogano Sinkhole",
     length: "medium",
     difficulty: "Low",
     reward: "BD-1 companion; Scomp Link access",
-    summary: "Cal explores the quiet world of Bogano, meets the droid BD-1, and searches for a way across the chasm to the mysterious Zeffo Vault.",
-    aiTip: "Meet BD-1 at the Meditation Point, then use the sliding vines and wall-runs to cross the sinkhole. Scan everything — Bogano is a collectibles hub you'll revisit.",
+    summary:
+      "The Mantis sets down on the quiet world of Bogano. Cal explores the sinkholes, meets the droid BD-1, and looks for a way across the chasm to the Zeffo Vault.",
+    aiTip:
+      "Scan everything with BD-1 — Bogano is a collectible hub you'll come back to. Oggdo Bogdo in the sinkhole cave is optional and very tough this early; leave it for later.",
     walkthrough: [
       "Land on Bogano with Cere and Greez.",
       "Meet the droid BD-1 and learn Wall Run in the Subterranean Refuge.",
@@ -30291,13 +30247,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Bogano",
-    title: "The Ancient Vault",
+    title: "Chapter 1: Bogano – Cordova's Vault",
     location: "Bogano Ancient Vault",
     length: "short",
     difficulty: "Low",
     reward: "Cordova's mission; the three-tomb objective",
-    summary: "Inside the Zeffo-built Vault, a hologram of Jedi Master Eno Cordova reveals a hidden Holocron listing Force-sensitive children — locked behind the tombs of three Zeffo Sages.",
-    aiTip: "Scan the central altar to trigger Cordova's message. This sets your whole journey: Zeffo, Kashyyyk and Dathomir. Grab the nearby chest before leaving.",
+    summary:
+      "Inside the Zeffo-built Vault, a hologram of Jedi Master Eno Cordova reveals a hidden Holocron listing Force-sensitive children — locked behind the tombs of three Zeffo Sages.",
+    aiTip:
+      "Scan the central altar to trigger Cordova's message. This sets your whole journey: Zeffo, Kashyyyk and Dathomir. Grab the nearby chest before leaving.",
     walkthrough: [
       "Enter the Zeffo Vault on Bogano.",
       "Watch BD-1's recording of Eno Cordova.",
@@ -30312,13 +30270,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Zeffo",
-    title: "Journey to Zeffo",
+    title: "Chapter 2: Zeffo – The Eye of the Storm",
     location: "Zeffo — Imperial Dig Site",
     length: "long",
     difficulty: "Medium",
     reward: "Traversal upgrades; first Tomb lead",
-    summary: "Following Cordova's trail, Cal lands on the windswept ruins of Zeffo, fighting through Imperial excavations toward the Tomb of Eilram.",
-    aiTip: "Use Slow on the spinning fan blades and Scomp-lock the security doors. Stormtroopers here punish greed — parry and counter rather than mashing.",
+    summary:
+      "Following Cordova's trail, Cal lands on the windswept ruins of Zeffo, fighting through Imperial excavations toward the Tomb of Eilram.",
+    aiTip:
+      "Use Slow on the spinning fan blades and Scomp-lock the security doors. Stormtroopers here punish greed — parry and counter rather than mashing.",
     walkthrough: [
       "Land on Zeffo and fight through the Imperial dig site.",
       "Use Force Slow to calm the flying debris at the Tomb of Eilram entrance.",
@@ -30333,20 +30293,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Zeffo",
-    title: "The Weathered Monument & Venator Wreckage",
-    location: "Zeffo — Venator Wreckage",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "New traversal routes; Venator shortcut",
-    summary: "Cal pushes deeper into Zeffo's storm-lashed highlands and the crashed Venator Star Destroyer, opening new paths on his way back toward the Mantis.",
-    aiTip: "Force Push the wind-powered puzzles and use rusted hull panels as ramps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
+    title: "Chapter 3: Zeffo – The Second Sister's Origin",
+    location: "Zeffo — Imperial Dig Site (second visit)",
+    length: "short",
+    difficulty: "High",
+    reward: "Story progression; the Second Sister's identity revealed",
+    summary:
+      "On Cal's return to Zeffo, the Second Sister catches up with him at the Imperial Dig Site. The duel can't be won outright — after the fight she takes off her mask and reveals she is Trilla, Cere's former Padawan, who was captured and turned by the Empire.",
+    aiTip:
+      "It's a scripted fight: you only need to survive and land enough hits. She's slower and more deliberate than other duellists — parry her combos and dodge the red unblockable attacks rather than rushing in.",
     walkthrough: [
-      "Push on through Zeffo's highlands toward the crashed Venator.",
-      "Use Force Push and Wall Run to open new paths.",
-      "Clear the Imperial forces around the wreckage.",
-      "Find the way forward to the next part of Cordova's trail."
+      "Return to Zeffo and push through the Imperial Dig Site.",
+      "The Second Sister confronts Cal; parry her lightsaber strings and counter after each one.",
+      "Dodge (don't block) her red unblockable lunges and watch for her Force throws.",
+      "Keep up the pressure until the scripted cutscene ends the duel.",
+      "Watch her unmask as Trilla Suduri, then continue to the Mantis and talk to Cere about her past."
     ],
-    video: "https://www.youtube.com/watch?v=swz22XR5QF0"
+    video: "https://www.youtube.com/watch?v=kz9TBccPKbw"
   },
 {
     id: 1259,
@@ -30354,13 +30317,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Kashyyyk",
-    title: "Kashyyyk: Rescuing the Wookiees",
+    title: "Chapter 3: Kashyyyk – A Fateful Meeting",
     location: "Imperial Refinery",
     length: "long",
     difficulty: "Medium",
-    reward: "Force Pull; Wookiee alliance",
-    summary: "Cal aids Saw Gerrera's fighters against the Imperial Refinery on Kashyyyk, freeing captured Wookiees and pushing toward the Origin Tree.",
-    aiTip: "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
+    reward: "Wookiee alliance; story progression with Saw Gerrera",
+    summary:
+      "Cal aids Saw Gerrera's fighters against the Imperial Refinery on Kashyyyk, freeing captured Wookiees and pushing toward the Origin Tree.",
+    aiTip:
+      "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
     walkthrough: [
       "Land on Kashyyyk and join Saw Gerrera's fighters.",
       "Fight through the Imperial base toward the Imperial Refinery.",
@@ -30375,13 +30340,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Zeffo",
-    title: "Return to Zeffo",
+    title: "Chapter 3: Return to Zeffo – The Tomb of Miktrull",
     location: "Zeffo — Tomb of Miktrull approach",
     length: "medium",
     difficulty: "Medium",
     reward: "Access to the Tomb of Miktrull",
-    summary: "With new abilities in hand, Cal returns to Zeffo to seek the second Sage's tomb, braving Imperial forces and ancient guardians.",
-    aiTip: "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
+    summary:
+      "With new abilities in hand, Cal returns to Zeffo to seek the second Sage's tomb, braving Imperial forces and ancient guardians.",
+    aiTip:
+      "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
     walkthrough: [
       "Return to Zeffo with your new abilities.",
       "Fight through the Imperial forces to the Tomb of Miktrull.",
@@ -30396,13 +30363,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Kashyyyk",
-    title: "The Ninth Sister",
+    title: "Chapter 4: Kashyyyk – Fall of the Ninth Sister",
     location: "Kashyyyk — Origin Tree",
     length: "medium",
     difficulty: "High",
     reward: "Story progression; tougher combat",
-    summary: "The Inquisitor known as the Ninth Sister ambushes Cal on Kashyyyk in one of the game's toughest duels.",
-    aiTip: "She has huge unblockable (red) swings — dodge, don't parry those. Punish the recovery after her overhead slam and save stims for the second phase.",
+    summary:
+      "The Inquisitor known as the Ninth Sister ambushes Cal on Kashyyyk in one of the game's toughest duels.",
+    aiTip:
+      "She has huge unblockable (red) swings — dodge, don't parry those. Punish the recovery after her overhead slam and save stims for the second phase.",
     walkthrough: [
       "Climb toward the Origin Tree on Kashyyyk's second visit — the Ninth Sister hunts you on the way.",
       "Fight her atop the tree: parry and counter, and dodge her unblockable charge at the last moment.",
@@ -30417,18 +30386,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Kashyyyk",
-    title: "Kashyyyk: The Origin Tree",
+    title: "Chapter 4: Kashyyyk – Climbing the Origin Tree",
     location: "Origin Tree — Overgrown Pass",
     length: "long",
     difficulty: "High",
-    reward: "The Astrium (Dathomir key)",
-    summary: "Cal climbs the colossal Origin Tree with Tarfful to reach the Shadowlands and claim the Astrium that points the way to Dathomir.",
-    aiTip: "This is a long vertical gauntlet — top up stims before you start. The climbing and zipline traversal is as dangerous as the enemies; watch your footing.",
+    reward: "Story progression; the trail to Dathomir",
+    summary:
+      "Back on Kashyyyk, Cal fights through Haxion Brood bounty hunters to reach Tarfful, then climbs the vast Origin Tree to find Cordova's next clue, which points him to the Tomb of Kujet on Dathomir.",
+    aiTip:
+      "This is a long vertical gauntlet — top up stims before you start. The climbing and zipline traversal is as dangerous as the enemies; watch your footing.",
     walkthrough: [
       "Return to Kashyyyk and beat the Haxion Brood bounty hunters at the bottom of the lift (dodge behind crates from their flash grenades).",
-      "Cross the pipe bridge toward the tree tunnel.",
-      "Climb the Origin Tree with Tarfful's guidance — a Shyyyo bird helps you against the Ninth Sister.",
-      "Reach the top and claim the Astrium."
+      "Cross the pipe bridge toward the tree tunnel and meet up with Tarfful.",
+      "Climb the Origin Tree with Tarfful's guidance — a Shyyyo bird helps you escape the Ninth Sister on the way up.",
+      "Reach the top, where the Ninth Sister waits (see Fall of the Ninth Sister), and find Cordova's clue pointing to Dathomir."
     ],
     video: "https://www.youtube.com/watch?v=mqhLzW3Ygec"
   },
@@ -30438,13 +30409,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Dathomir",
-    title: "Dathomir: The Nightbrother's Path",
+    title: "Chapter 5: Dathomir – The Swamps of Dathomir",
     location: "Nightbrother Village",
     length: "long",
     difficulty: "High",
     reward: "Merrin encounter; Nightsister lore",
-    summary: "On the haunted world of Dathomir, Cal is stalked by Merrin's undead Nightbrothers as he searches for the Tomb of Kujet.",
-    aiTip: "Undead Nightbrothers resurrect unless you deathblow them — clear rooms decisively. You'll be turned back on the first visit; return after Ilum with new powers.",
+    summary:
+      "On the haunted world of Dathomir, Cal is stalked by Merrin's undead Nightbrothers as he searches for the Tomb of Kujet.",
+    aiTip:
+      "Undead Nightbrothers resurrect unless you deathblow them — clear rooms decisively. You'll be turned back on the first visit; return after Ilum with new powers.",
     walkthrough: [
       "Land on Dathomir and explore the Nightbrother village and ruins.",
       "Fight through Merrin's undead Nightbrothers.",
@@ -30459,18 +30432,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Ilum",
-    title: "Ilum: A New Lightsaber",
+    title: "Chapter 5: Ilum – Reforged",
     location: "Great Crystal Cave",
     length: "long",
     difficulty: "Medium",
     reward: "New lightsaber; Split Saber double-blade",
-    summary: "After his weapon is destroyed, Cal travels to the frozen Jedi world of Ilum, braves the Great Crystal Cave, and forges a brand-new lightsaber.",
-    aiTip: "The crystal cave is one large puzzle — split the giant crystal with your Force powers to progress. Building the saber unlocks the double-bladed stance.",
+    summary:
+      "After his weapon is destroyed, Cal travels to the frozen Jedi world of Ilum, braves the Great Crystal Cave, and forges a brand-new lightsaber.",
+    aiTip:
+      "The crystal cave is one large puzzle — split the giant crystal with your Force powers to progress. Building the saber unlocks the double-bladed stance.",
     walkthrough: [
-      "Plant the Dathomir seeds in the Mantis terrarium, then fly to Ilum.",
-      "Take the left route from the landing area to the Jedi Temple.",
-      "Solve the ice and crystal puzzles in the temple.",
-      "Find a kyber crystal and rebuild Cal's lightsaber."
+      "After Cal's lightsaber breaks on Dathomir, fly to Ilum with the crew.",
+      "Head from the landing area to the Jedi Temple.",
+      "Solve the ice and crystal puzzles in the temple, using your Force powers to split the giant crystal.",
+      "Find a kyber crystal and rebuild Cal's lightsaber.",
+      "Fight your way out past the Imperial forces on Ilum and return to the Mantis."
     ],
     video: "https://www.youtube.com/watch?v=rRGG-NAIcXE"
   },
@@ -30480,13 +30456,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Dathomir",
-    title: "Return to Dathomir: Facing Malicos",
+    title: "Chapter 5: Dathomir – A New Ally",
     location: "Tomb of Kujet — Dathomir",
     length: "long",
     difficulty: "High",
     reward: "Merrin joins the crew",
-    summary: "Cal returns to Dathomir, clears the Tomb of Kujet, and confronts the fallen Jedi Taron Malicos in a brutal duel for the fate of the Nightsisters.",
-    aiTip: "Malicos mixes lightsaber and Force-throw attacks — stay mobile and punish his combo enders. Merrin's help turns the tide; survive the opening rush.",
+    summary:
+      "Cal returns to Dathomir, clears the Tomb of Kujet, and confronts the fallen Jedi Taron Malicos in a brutal duel for the fate of the Nightsisters.",
+    aiTip:
+      "Malicos mixes lightsaber and Force-throw attacks — stay mobile and punish his combo enders. Merrin's help turns the tide; survive the opening rush.",
     walkthrough: [
       "Return to Dathomir and face the vision of Jaro Tapal again.",
       "Enter the Tomb of Kujet and beat the Nightbrothers in the first room.",
@@ -30502,13 +30480,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Bogano",
-    title: "Return to Bogano: The Second Sister",
+    title: "Chapter 6: Bogano – The Lost Holocron",
     location: "Bogano Ancient Vault",
     length: "medium",
     difficulty: "High",
     reward: "The Holocron; Trilla's identity revealed",
-    summary: "Cal finally opens the Bogano Vault and claims the Holocron — only for the Second Sister, Trilla Suduri, to take it in a devastating confrontation.",
-    aiTip: "Trilla is fast and aggressive with unblockable stabs. Bait her lunges, dodge sideways, and counter. Don't get greedy between her combos.",
+    summary:
+      "Cal finally opens the Bogano Vault and claims the Holocron — only for the Second Sister, Trilla Suduri, to take it in a devastating confrontation.",
+    aiTip:
+      "Trilla is fast and aggressive with unblockable stabs. Bait her lunges, dodge sideways, and counter. Don't get greedy between her combos.",
     walkthrough: [
       "Return to Bogano with the Astrium.",
       "Open the Vault and reach the Holocron.",
@@ -30523,13 +30503,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Nur",
-    title: "Nur: The Fortress Inquisitorius",
+    title: "Chapter 6: Nur – The Final Battle",
     location: "Fortress Inquisitorius",
     length: "long",
     difficulty: "High",
     reward: "Holocron recovered; Trilla duel",
-    summary: "Cal infiltrates the Inquisitors' undersea Fortress on the moon Nur to reclaim the Holocron, fighting through elite guards to a final reckoning with Trilla.",
-    aiTip: "Flood-and-swim traversal and heavy Purge Trooper fights await — upgrade your stims beforehand and save resources for the Trilla rematch at the top.",
+    summary:
+      "Cal infiltrates the Inquisitors' undersea Fortress on the moon Nur to reclaim the Holocron, fighting through elite guards to a final reckoning with Trilla.",
+    aiTip:
+      "Flood-and-swim traversal and heavy Purge Trooper fights await — upgrade your stims beforehand and save resources for the Trilla rematch at the top.",
     walkthrough: [
       "Infiltrate the Fortress Inquisitorius under Nur's ocean.",
       "Fight through the Purge Troopers and Inquisitors.",
@@ -30544,13 +30526,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Nur",
-    title: "Nur: Escape from Darth Vader",
+    title: "Chapter 6: Nur – Escape from Darth Vader",
     location: "Fortress Inquisitorius — Hangar",
     length: "medium",
     difficulty: "High",
     reward: "Game completion; the crew's decision",
-    summary: "As the fortress falls, Darth Vader arrives. Cal and Cere must survive the unkillable Sith Lord and escape Nur with the Holocron and their lives.",
-    aiTip: "You cannot beat Vader — this is a survival/escape sequence. Use the environment (Force Push the debris and water valves) and run for the exit; don't stand and fight.",
+    summary:
+      "As the fortress falls, Darth Vader arrives. Cal and Cere must survive the unkillable Sith Lord and escape Nur with the Holocron and their lives.",
+    aiTip:
+      "You cannot beat Vader — this is a survival/escape sequence. Use the environment (Force Push the debris and water valves) and run for the exit; don't stand and fight.",
     walkthrough: [
       "Darth Vader arrives and executes the Second Sister.",
       "Don't fight him — run from Vader through the fortress.",
@@ -39509,17 +39493,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     questType: "Shrine Quest",
     game: "The Legend of Zelda: Tears of the Kingdom",
     title: "The Necluda Sky Crystal",
-    location: "Necluda Sky Archipelago",
+    location: "Necluda Sky Archipelago (south-east of the Rabella Wetlands Skyview Tower)",
     length: "medium",
     difficulty: "High",
-    reward: "Light of Blessing, shrine unlocked",
-    summary: "A blessing crystal drifts among the Necluda sky islands and must be flown to its distant shrine across the archipelago.",
-    aiTip: "Assemble a fan-powered glider to carry the crystal between islands; keep spare Zonai batteries handy.",
+    reward: "Kumamayn Shrine opened (Light of Blessing), Zonaite Bow from the chest inside",
+    summary:
+      "A shrine crystal sits on a Flux Construct III in the Necluda Sky Archipelago. Pull it free, then launch it across to the island holding Kumamayn Shrine to open the shrine.",
+    aiTip:
+      "Don't fight the Flux Construct for the crystal — just grab the crystal with Ultrahand and pull it off. The spring slabs next to the crystal's island are the intended launcher.",
     walkthrough: [
-      "Reach the crystal in the Necluda Sky Archipelago.",
-      "Attach it to a flying device.",
-      "Cross the sky islands to the shrine.",
-      "Deposit the crystal to activate the shrine."
+      "Launch from the Rabella Wetlands Skyview Tower and glide south-east to the Necluda Sky Archipelago.",
+      "Find the Flux Construct III with the shrine crystal embedded in it; use Ultrahand on the crystal and pull it free.",
+      "Carry the crystal to the springs on the island's edge and use them as a catapult to fling it to the shrine island (ride along or follow by gliding).",
+      "Place the crystal in the pedestal at Kumamayn Shrine to open it.",
+      "Inside, collect the chest (Zonaite Bow) and the Light of Blessing."
     ],
     video: "https://www.youtube.com/watch?v=P6-qx4b9QJc"
   },
@@ -39653,13 +39640,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Satori Mountain",
     length: "medium",
     difficulty: "Medium",
-    reward: "Light of Blessing, access to Uzasum Shrine",
-    summary: "A blessing crystal on Satori Mountain must be carried up or across the peak to the Uzasum Shrine to activate it.",
-    aiTip: "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
+    reward: "Light of Blessing, access to Usazum Shrine",
+    summary:
+      "A blessing crystal on Satori Mountain must be carried up or across the peak to the Usazum Shrine to activate it.",
+    aiTip:
+      "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
     walkthrough: [
       "Find the crystal on Satori Mountain.",
       "Grab it with Ultrahand.",
-      "Carry it to the Uzasum Shrine.",
+      "Carry it to the Usazum Shrine.",
       "Insert the crystal to open the shrine."
     ],
     video: "https://www.youtube.com/watch?v=SwJOZdjMHic"
@@ -42759,45 +42748,46 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Main Story Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Illusion (Corrupted Monk copy)",
-    location: "Mibu Village – Water Mill approach",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Progression toward the Shelter Stone",
+    title: "Corrupted Monk (Illusion)",
+    location: "Mibu Village – bridge to the Wedding Cave Door",
+    length: "medium",
+    difficulty: "High",
+    reward: "Memory: Corrupted Monk, Mibu Breathing Technique; opens the way to the Wedding Cave Door",
     summary:
-      "A single-life illusory Corrupted Monk guarding the path deeper into Mibu Village, serving as a lower-stakes rehearsal of her naginata moveset.",
+      "The illusory Corrupted Monk blocks the long bridge out of Mibu Village. She has two Deathblow marks and a naginata with huge reach; beating her gives the Mibu Breathing Technique (needed later to walk underwater) and opens the path to the Wedding Cave Door.",
     aiTip:
-      "Treat it as deflection practice — stay at mid-range, deflect the sweeping naginata chain, and dodge (never block) the poison-mist burst.",
+      "Stay close and keep pressure on — her posture fills quickly when you deflect her combos. Mikiri Counter her thrust, jump her sweeps, and in phase 2 back off when she fogs up and casts the clone spell.",
     walkthrough: [
-      "An illusory duplicate fight preceding the real Corrupted Monk encounter in some routes.",
-      "Mechanically similar to the Corrupted Monk fight — same moveset, serves as practice.",
-      "Deflect her sweeping naginata strikes and watch for the poison-mist AOE attack.",
-      "Defeat the illusion to proceed toward the real encounter."
+      "From the Mibu Village Sculptor's Idol (Water Mill), cross to the long bridge leading out of the village; the illusory monk appears in the mist.",
+      "Phase 1: deflect her naginata strings and attack between them; her posture fills fast, so steady deflects plus a few hits win the exchange.",
+      "Mikiri Counter the red-kanji thrust and jump over the low sweeps — a jump-kick onto her weapon breaks posture quickly.",
+      "Land the first Deathblow; she rises with a second bar and starts casting a fog spell that sends phantom copies — strafe out of their path and punish the cast.",
+      "Break posture again for the final Deathblow to earn the Memory and the Mibu Breathing Technique, then continue across to the Wedding Cave Door idol."
     ],
     video: "https://www.youtube.com/watch?v=0Q3fMmv6oaI"
   },
 {
     id: 1798,
-    type: "main",
-    category: "Main Story Bosses",
+    type: "side",
+    category: "Mini-Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Corrupted Monk",
-    location: "Mibu Village – Wedding Cave Door",
-    length: "medium",
-    difficulty: "High",
-    reward: "Shelter Stone, Memory",
+    title: "Snake Eyes Shirahagi",
+    location: "Ashina Depths – Poison Pool",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
     summary:
-      "The full Mibu Village guardian: a towering naginata wielder with enormous reach and a terror-inducing apparition phase.",
+      "A Snake Eyes gunner who guards the far side of the Poison Pool in the Ashina Depths, by the way into the Guardian Ape's Burrow and the Hidden Forest. Like her sister Shirafuji in the Sunken Valley, she mixes a long-range firearm with fast sword combos.",
     aiTip:
-      "Use Divine Confetti or a Fistful of Ash to open windows, and step through her sweeps rather than backing up — her range punishes retreat.",
+      "Deflect her gunshots (they can be deflected like arrows) and close the distance fast. She retreats to shoot, so chase and stay on her; Mikiri her thrust and use Sabimaru's poison or a Fistful of Ash to open her up.",
     walkthrough: [
-      "Found in the Sunken Valley (or Mibu Village depending on prior choices).",
-      "Deflect her long naginata combos; her reach is deceptively long so don't over-commit dodges.",
-      "Watch for the poison mist explosion attack and back away rather than deflecting it directly.",
-      "In later phases she summons a small tornado-style AOE — create distance when you see the windup.",
-      "Land consistent deflects to break posture and finish with a Deathblow."
+      "From the Poison Pool Sculptor's Idol in the Ashina Depths, head across the pool toward the Guardian Ape's Burrow entrance; Shirahagi waits near the far end.",
+      "Approach from cover — her gun shots hit hard at range, but each one can be deflected with good timing.",
+      "Close the gap and stay on her: deflect her sword strings and Mikiri Counter the thrust.",
+      "When she hops back to fire, chase immediately so she can't chain shots; jump her low sweeps.",
+      "Break her posture (or use a stealth Deathblow if you reach her unseen) and finish her for the Prayer Bead."
     ],
-    video: "https://www.youtube.com/watch?v=cnwiknYNwz4"
+    video: "https://www.youtube.com/watch?v=BMZidR7ymCg"
   },
 {
     id: 1799,
@@ -43239,21 +43229,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Mini-Bosses",
     game: "Sekiro: Shadows Die Twice",
-    title: "Seven Ashina Spears – Shume Masaka Nagahiro",
-    location: "Ashina Reservoir (endgame, castle aflame)",
+    title: "Seven Ashina Spears – Shume Masaji Oniwa",
+    location: "Ashina Reservoir (Ashina Castle under invasion)",
     length: "short",
     difficulty: "Medium",
     reward: "Prayer Bead",
     summary:
-      "A second Ashina Spears elite appearing when the castle burns, sharing the reach-heavy spear moveset.",
+      "One of the Seven Ashina Spears. He appears at the Ashina Reservoir once the Interior Ministry invades Ashina Castle late in the game, fighting with a spear that has long reach and a fast thrust.",
     aiTip:
-      "Same family — Mikiri Counter the thrust and deflect the sweep; a stealth approach lands a free first Deathblow.",
+      "Mikiri Counter his thrust and jump his sweep — both read clearly. Pop Gachiin's Sugar and sneak up for a stealth Deathblow to skip half the fight.",
     walkthrough: [
-      "When the castle burns, find the second Ashina Spear elite, Shume Masaka Nagahiro, near the Reservoir.",
-      "Use the same plan: Mikiri his thrusts and jump his sweeps.",
-      "Deflect the reach-heavy spear combo and punish the recovery.",
-      "Keep posture pressure high.",
-      "Break posture and land the Deathblow."
+      "After the Interior Ministry invasion begins, travel to the Ashina Reservoir Sculptor's Idol.",
+      "Find Shume Masaji Oniwa near the Reservoir; consider Gachiin's Sugar and a stealth Deathblow to remove his first bar.",
+      "Mikiri Counter his red-kanji thrusts and jump the low sweeps.",
+      "Deflect his spear combos to build posture, punishing the recovery after each string.",
+      "Break his posture and land the final Deathblow for the Prayer Bead."
     ],
     video: "https://www.youtube.com/watch?v=nqsUUNnwpg4"
   },

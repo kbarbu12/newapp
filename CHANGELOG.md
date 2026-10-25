@@ -3,6 +3,29 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25 (7)
+
+- **Fix the entries flagged by the round-3 title check** — `v2.9.23` patch
+  (#445–#454, #455).
+  - God of War Ragnarök: made-up "Atreus's Search" and "Mimir's Knowledge"
+    became The Curator – All Artefacts and All Lore Locations; The
+    Applecore is now its area 100% guide.
+  - Sekiro: the duplicate Corrupted Monk became the missing Snake Eyes
+    Shirahagi; Shume Masaji Oniwa's name fixed.
+  - Black Myth: Wukong: four entries that mixed two bosses now name one
+    real boss each (Elder Jinchi, Non-Void, Captain Lotus-Vision, Violet
+    Spider).
+  - Zelda: Necluda Sky Crystal steps rewritten; Usazum typo fixed.
+  - FF7 Remake: main story now uses the game's 18 chapter names, with the
+    missing Chapter 6 added; Rat Problem and The Angel of the Slums fixed.
+  - Jedi: Fallen Order: story entries use the game's chapters and Databank
+    names; the made-up Weathered Monument entry became the Zeffo Second
+    Sister rematch.
+  - P5R: Will Seeds and Jose split into two entries (new #2954).
+  - Deadfire: DLC entries tagged and given walkthrough videos.
+  - Duplicates removed and merged: BG3 #115, FF7 Rebirth #74 and #125.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (6)
 
 - **Video title check, round 3: the last 12 games** — `v2.9.22` patch

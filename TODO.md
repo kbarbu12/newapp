@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.22`; `staging` and `main` match.
+Prod is `v2.9.23`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -158,43 +158,21 @@ videos checked, 1 matched, 0 swapped, 3 left as is. Skyrim (#441): 4 videos
 checked, 3 matched, 0 swapped, 1 left as is. Pillars of Eternity (#442): 1
 video checked, 0 matched, 1 swapped.
 
+**Done on 2026-10-25 (`v2.9.23`):** every entry flagged by the round-3 title
+check was fixed, one PR per game: God of War Ragnarök (#445), Sekiro (#446),
+Black Myth: Wukong (#447), Zelda (#448), FF7 Remake (#449), Jedi: Fallen Order
+(#450), Baldur's Gate 3 (#451), Persona 5 Royal (#452), FF7 Rebirth (#453) and
+Deadfire (#454).
+
 Still open, in priority order:
 1. **Video title check (round 3) is finished.** Every video now has a row in
    `docs/video-candidates/title-check.json`. What's left is for the owner:
 
-   The 64 videos left as is (IDs in the README table) need a look from the
-   owner or a better source. Most are Jedi: Survivor story missions,
-   collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
-   Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
-   (two umbrella entries and an area); decide whether to rename or drop them.
-   Sekiro #1798 "Corrupted Monk" (Mibu Village) looks like a duplicate of
-   #1797, and #1818 "Shume Masaka Nagahiro" should be Shume Masaji Oniwa.
-   Black Myth: Wukong titles mix bosses: #831 "Elder Jinchi (Lingxuzi)",
-   #836 "Macaque Chief (Non-Void)" and #839 "Violet Spider (Second Sister)"
-   each name two different bosses, and #838 "The Yakshas of the Pagoda"
-   isn't a boss name. Zelda #1636 "The Necluda Sky Crystal" isn't a real
-   quest: the game has North, East and West Necluda Sky Crystal quests.
-   Zelda #1643's summary misspells the shrine as "Uzasum" (it's Usazum).
-   Final Fantasy VII Remake: many main entries use descriptive titles, not
-   the game's chapter names (e.g. #1027 "Bombing Mission" is Chapter 1 "The
-   Destruction of Mako Reactor 1"). #1045 "Chocobo Search (Rat Problem)"
-   merges two separate side quests, #1049 "The Angel of the Slums (Moogle
-   Merchant)" mixes a side quest with the Moogle Emporium, #1036 "The
-   Collapsed Expressway" describes the Chapter 10 sewers (Abzu), and #1032
-   and #1034 both cover Chapter 8.
-   Jedi: Fallen Order: most story entries use descriptive titles rather than
-   the game's own objective names, and #1258 "The Weathered Monument &
-   Venator Wreckage" bundles two Zeffo areas into one entry.
-   Baldur's Gate 3 #115 "The Stolen Gnome" isn't an in-game quest name (it's
-   the Barcus Wroot windmill rescue).
-   Final Fantasy VII Rebirth #74 "The Protorelic Quests" looks like a
-   duplicate of #639 "World Intel: Divine Intel (Protorelics)", and #125
-   "Tifa's Piano Recital" looks like a duplicate of #646 "Piano
-   Performances"; decide whether to merge or drop them.
-   Persona 5 Royal #466 "Will Seeds & Jose (Royal)" bundles two separate
-   systems (Palace Will Seeds and Jose's Mementos shop) into one entry.
-   Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
-   The Forgotten Sanctum), so no single video fits them.
+   The flagged titles, duplicates and bundles were all fixed in round 4
+   (PRs #445–#454; see the video-candidates README). The 52 videos still
+   marked "left as is" in `title-check.json` need a look from the owner or
+   a better source. Most are Jedi: Survivor story missions,
+   collectible hunts and Metaphor's More's Task chapters.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
