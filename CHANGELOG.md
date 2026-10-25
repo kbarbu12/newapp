@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25 (3)
+
+- **Video title check, round 3: Zelda: Tears of the Kingdom** — `v2.9.19`
+  patch (#422, #423).
+  - The 36 Zelda videos not checked in earlier rounds were checked with a
+    YouTube search per quest title: 30 match, 5 swapped for guides titled
+    after the quest, 1 left as is.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (2)
 
 - **Video title check, round 3: Black Myth: Wukong** — `v2.9.18` patch
