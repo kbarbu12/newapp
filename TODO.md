@@ -144,10 +144,10 @@ checked, 18 matched, 14 swapped.
 **Done on 2026-10-25 (`v2.9.21`):** Final Fantasy VII Remake
 (#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
 
-**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped. Cyberpunk 2077 (#433): 22 videos checked, 16 matched, 6 swapped. Final Fantasy VII Rebirth (#434): 19 videos checked, 14 matched, 3 swapped, 2 left as is. Persona 5 Royal (#435): 18 videos checked, 6 matched, 10 swapped, 2 left as is. Demon's Souls (#436): 13 videos checked, 10 matched, 3 swapped. Hogwarts Legacy (#437): 13 videos checked, 11 matched, 2 swapped. Horizon Forbidden West (#438): 11 videos checked, 9 matched, 2 swapped. Ghost of Yōtei (#439): 9 videos checked, 3 matched, 6 swapped.
+**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped. Cyberpunk 2077 (#433): 22 videos checked, 16 matched, 6 swapped. Final Fantasy VII Rebirth (#434): 19 videos checked, 14 matched, 3 swapped, 2 left as is. Persona 5 Royal (#435): 18 videos checked, 6 matched, 10 swapped, 2 left as is. Demon's Souls (#436): 13 videos checked, 10 matched, 3 swapped. Hogwarts Legacy (#437): 13 videos checked, 11 matched, 2 swapped. Horizon Forbidden West (#438): 11 videos checked, 9 matched, 2 swapped. Ghost of Yōtei (#439): 9 videos checked, 3 matched, 6 swapped. Pillars of Eternity II: Deadfire (#440): 4 videos checked, 1 matched, 0 swapped, 3 left as is.
 
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 9 videos left, one game per
+1. **Finish the video title check (round 3).** 5 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -155,11 +155,10 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Pillars of Eternity II: Deadfire | 4 |
    | Skyrim | 4 |
    | Pillars of Eternity | 1 |
 
-   The 60 videos left as is (IDs in the README table) need a look from the
+   The 63 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
    Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
@@ -190,6 +189,8 @@ Still open, in priority order:
    Performances"; decide whether to merge or drop them.
    Persona 5 Royal #466 "Will Seeds & Jose (Royal)" bundles two separate
    systems (Palace Will Seeds and Jose's Mementos shop) into one entry.
+   Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
+   The Forgotten Sanctum), so no single video fits them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
