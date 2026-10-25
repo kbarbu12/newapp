@@ -57,6 +57,7 @@ per PR, the same way as round 2.
 | Baldur's Gate 3 | 20 / 26 | 6 | — (115 matched, but no quest called "The Stolen Gnome" came up: it's the Barcus Wroot windmill rescue) |
 | Cyberpunk 2077 | 16 / 22 | 6 | — |
 | Final Fantasy VII Rebirth | 14 / 19 | 3 | 74 ("The Protorelic Quests" looks like a duplicate of 639); 125 ("Tifa's Piano Recital" looks like a duplicate of 646 "Piano Performances"); 131 was swapped because its video was a hard-mode enemy clip |
+| Persona 5 Royal | 6 / 18 | 10 | 97 (Akechi's Confidant: only per-rank videos came up); 466 ("Will Seeds & Jose" bundles two separate systems) |
 
 ## Title check (2026-10-17)
 
