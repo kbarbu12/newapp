@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.18`; `staging` and `main` match.
+Prod is `v2.9.19`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -135,8 +135,11 @@ checked, 34 matched, 4 swapped, 1 left as is.
 **Done on 2026-10-25 (`v2.9.18`):** Black Myth: Wukong (#419): 37
 videos checked, 19 matched, 17 swapped, 1 left as is.
 
+**Done on 2026-10-25 (`v2.9.19`):** Zelda: Tears of the
+Kingdom (#422): 36 videos checked, 30 matched, 5 swapped, 1 left as is.
+
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 266 videos left, one game per
+1. **Finish the video title check (round 3).** 230 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -144,7 +147,6 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Zelda: Tears of the Kingdom | 36 |
    | Elden Ring | 32 |
    | Final Fantasy VII Remake | 30 |
    | Star Wars Jedi: Fallen Order | 28 |
@@ -160,7 +162,7 @@ Still open, in priority order:
    | Skyrim | 4 |
    | Pillars of Eternity | 1 |
 
-   The 52 videos left as is (IDs in the README table) need a look from the
+   The 53 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
    Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
@@ -170,7 +172,9 @@ Still open, in priority order:
    Black Myth: Wukong titles mix bosses: #831 "Elder Jinchi (Lingxuzi)",
    #836 "Macaque Chief (Non-Void)" and #839 "Violet Spider (Second Sister)"
    each name two different bosses, and #838 "The Yakshas of the Pagoda"
-   isn't a boss name.
+   isn't a boss name. Zelda #1636 "The Necluda Sky Crystal" isn't a real
+   quest: the game has North, East and West Necluda Sky Crystal quests.
+   Zelda #1643's summary misspells the shrine as "Uzasum" (it's Usazum).
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.

@@ -37710,7 +37710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Visit geoglyphs to reveal the Dragon's Tears markers on your map.",
       "This unlocks The Dragon's Tears memory hunt."
     ],
-    video: "https://www.youtube.com/watch?v=iPyZ5DCB3mE"
+    video: "https://www.youtube.com/watch?v=aGR81izdtIg"
   },
   {
     id: 1547,
@@ -37870,7 +37870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend into the Depths beneath the tree to clear the gloom source.",
       "Return to the Deku Tree for guidance on reclaiming the sword."
     ],
-    video: "https://www.youtube.com/watch?v=1FiGVnjMGME"
+    video: "https://www.youtube.com/watch?v=9KR4Ol3iSm8"
   },
   {
     id: 1555,
@@ -37930,7 +37930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the Autobuild ability from the ancient construct.",
       "Confront Master Kohga's first battle machine."
     ],
-    video: "https://www.youtube.com/watch?v=w4SXnv1v_oo"
+    video: "https://www.youtube.com/watch?v=sGa9aC6cI0c"
   },
   {
     id: 1558,
@@ -38590,7 +38590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the mystery behind every sighting.",
       "Finish all sightings to claim the Froggy armor set."
     ],
-    video: "https://www.youtube.com/watch?v=8jzHEWA5py0"
+    video: "https://www.youtube.com/watch?v=HWMwlrqkJsQ"
   },
   {
     id: 1591,
@@ -39662,7 +39662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the Uzasum Shrine.",
       "Insert the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/watch?v=RLfw02w2tiA"
+    video: "https://www.youtube.com/watch?v=SwJOZdjMHic"
   },
   {
     id: 1644,
