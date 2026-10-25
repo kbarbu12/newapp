@@ -144,10 +144,10 @@ checked, 18 matched, 14 swapped.
 **Done on 2026-10-25 (`v2.9.21`):** Final Fantasy VII Remake
 (#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
 
-**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is.
+**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped.
 
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 140 videos left, one game per
+1. **Finish the video title check (round 3).** 114 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -155,7 +155,6 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Baldur's Gate 3 | 26 |
    | Cyberpunk 2077 | 22 |
    | Final Fantasy VII Rebirth | 19 |
    | Persona 5 Royal | 18 |
@@ -190,6 +189,8 @@ Still open, in priority order:
    Jedi: Fallen Order: most story entries use descriptive titles rather than
    the game's own objective names, and #1258 "The Weathered Monument &
    Venator Wreckage" bundles two Zeffo areas into one entry.
+   Baldur's Gate 3 #115 "The Stolen Gnome" isn't an in-game quest name (it's
+   the Barcus Wroot windmill rescue).
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
