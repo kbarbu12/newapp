@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-24 (7) — video title check, round 3: Sekiro (staging only)
+## 2026-10-24 (7) — video title check, round 3: Sekiro (v2.9.17, shipped 2026-10-25)
 Same method: one YouTube search per quest title, plus a second wording
 ("<boss> Boss Fight Guide - Sekiro: Shadows Die Twice", which is how most of
 the current videos are titled) before giving up.
