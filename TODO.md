@@ -164,9 +164,7 @@ Still open, in priority order:
 
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
-   collectible hunts and Metaphor's More's Task chapters. God of War Ragnarök #162 Atreus's Search, #164
-   Mimir's Knowledge and #663 The Applecore aren't real in-game quest names
-   (two umbrella entries and an area); decide whether to rename or drop them.
+   collectible hunts and Metaphor's More's Task chapters.
    Sekiro #1798 "Corrupted Monk" (Mibu Village) looks like a duplicate of
    #1797, and #1818 "Shume Masaka Nagahiro" should be Shume Masaji Oniwa.
    Black Myth: Wukong titles mix bosses: #831 "Elder Jinchi (Lingxuzi)",
