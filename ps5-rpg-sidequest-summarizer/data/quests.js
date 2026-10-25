@@ -643,7 +643,7 @@ const quests = [
       "Ride to the Moonlight Altar (revealed in southwest Liurnia after Radahn's death) and reach the Cathedral of Manus Celes; rest to meet Ranni's doll and claim the Dark Moon Greatsword.",
       "At the end of the game, touch Ranni's summon sign before the final boss to seal the Age of the Stars ending.",
     ],
-    video: "https://www.youtube.com/watch?v=0RBa82TpYrM"
+    video: "https://www.youtube.com/watch?v=0BgF0pcDF2g"
   },
 {
     id: 5,
@@ -693,7 +693,7 @@ const quests = [
       "Enter the summon area and, if helping Millicent, fight off her invading sisters during the Scarlet Rot fight.",
       "Return to her body afterward for the Rotten Winged Sword Insignia (or Millicent's Prosthesis), which stacks attack on consecutive hits.",
     ],
-    video: "https://www.youtube.com/watch?v=aCy_ZEP4AHs"
+    video: "https://www.youtube.com/watch?v=CuxvZXKMmy8"
   },
 {
     id: 7,
@@ -2015,7 +2015,7 @@ const quests = [
       "Bring Nepheli to Godrick's throne room / the Stormveil grace as prompted to install her as Lord of Limgrave.",
       "Claim the reward — the Ancient Dragon Smithing Stone and the Stormhawk King ashes — after her questline resolves.",
     ],
-    video: "https://www.youtube.com/watch?v=EY6CiENiNw4"
+    video: "https://www.youtube.com/watch?v=t3QSF_HNQd0"
   },
 {
     id: 73,
@@ -4368,7 +4368,7 @@ const quests = [
       "Survive his phase-two meteor dive, then punish between his combos with Torrent's mobility.",
       "Defeat Radahn for the Remembrance of the Starscourge and his Great Rune; his death opens Nokron for Ranni's quest.",
     ],
-    video: "https://www.youtube.com/watch?v=eM5U791Oof0"
+    video: "https://www.youtube.com/watch?v=h1qZGGducEI"
   },
 {
     id: 204,
@@ -4392,7 +4392,7 @@ const quests = [
       "Choose to side with Sellen or Jerren: complete the Church of the Cuckoo / Witchbane Ruins body-swap by defeating her opponents.",
       "Finish her ascension for the Witch's Glintstone Crown and her legendary sorceries.",
     ],
-    video: "https://www.youtube.com/watch?v=gjtKLzNi8cs"
+    video: "https://www.youtube.com/watch?v=XuH9nXFNH4c"
   },
 {
     id: 205,
@@ -4416,7 +4416,7 @@ const quests = [
       "Optionally give him the Larval Tear so he can become beautiful, or reassure him with the 'You're beautiful' gesture.",
       "Complete his arc for free garment alterations and his heartfelt farewell rewards.",
     ],
-    video: "https://www.youtube.com/watch?v=YJGX2u-96ho"
+    video: "https://www.youtube.com/watch?v=01hT5wAG3As"
   },
 {
     id: 206,
@@ -4661,7 +4661,7 @@ const quests = [
       "Use Margit's Shackle early (it works once) to open a free damage window.",
       "Defeat Morgott for his Great Rune and the Remembrance, opening the Forbidden Lands to the Mountaintops.",
     ],
-    video: "https://www.youtube.com/watch?v=RbMrdVOk2ok"
+    video: "https://www.youtube.com/watch?v=D2iVhL6U460"
   },
 {
     id: 216,
@@ -4685,7 +4685,7 @@ const quests = [
       "Stay under his body between fire attacks and keep hitting the hand or catalyst wound.",
       "Defeat the Fire Giant for the Remembrance and access to the Forge of the Giants.",
     ],
-    video: "https://www.youtube.com/watch?v=tzwsy8AqW34"
+    video: "https://www.youtube.com/watch?v=0kh72NhThdI"
   },
 {
     id: 217,
@@ -4709,7 +4709,7 @@ const quests = [
       "Punish after his longest aerial strings and keep close so his ranged blade-waves are easier to read.",
       "Defeat Maliketh for the Remembrance of the Black Blade — his death sets the Erdtree aflame.",
     ],
-    video: "https://www.youtube.com/watch?v=LPyue4RK_jw"
+    video: "https://www.youtube.com/watch?v=hzDVd7u7I0U"
   },
 {
     id: 218,
@@ -5164,7 +5164,7 @@ const quests = [
       "Warp to Miquella's Haligtree and descend through the branches, then fight up through Elphael, Brace of the Haligtree.",
       "Reach the Prayer Room grace at the base of Elphael to fully unlock the region before Malenia.",
     ],
-    video: "https://www.youtube.com/watch?v=HEdXuQ186DU"
+    video: "https://www.youtube.com/watch?v=R36-eoQdgi4"
   },
 {
     id: 239,
@@ -5188,7 +5188,7 @@ const quests = [
       "Phase two — Malenia, Goddess of Rot: avoid the scarlet-rot clouds and her dive-bomb bloom that inflicts heavy rot.",
       "Keep rot cleared and finish her for the Remembrance of the Rot Goddess and Malenia's Great Rune.",
     ],
-    video: "https://www.youtube.com/watch?v=D_iqjI2p7F4"
+    video: "https://www.youtube.com/watch?v=f9XCNXCM-N0"
   },
 {
     id: 240,
@@ -5212,7 +5212,7 @@ const quests = [
       "At the phase transition he casts Nihil three times (three ticks of heavy damage) — survive it, cleansed by the Purifying Tear if equipped.",
       "Defeat Mohg for the Remembrance of the Blood Lord and Mohg's Great Rune.",
     ],
-    video: "https://www.youtube.com/watch?v=r0IgQ9s6AEs"
+    video: "https://www.youtube.com/watch?v=umDahvdZ4Xs"
   },
 {
     id: 241,
@@ -5236,7 +5236,7 @@ const quests = [
       "When he teleports and reappears, roll the instant he lands to avoid the slam, then punish his legs and head.",
       "Defeat Placidusax for the Remembrance of the Dragonlord.",
     ],
-    video: "https://www.youtube.com/watch?v=wKjP6luWgLw"
+    video: "https://www.youtube.com/watch?v=m0fYUr_KE58"
   },
 {
     id: 242,
@@ -5260,7 +5260,7 @@ const quests = [
       "Dodge the falling meteors and the head-beam by circling under its body; punish the legs and face.",
       "Defeat Astel for the Remembrance of the Naturalborn and to continue Ranni's questline.",
     ],
-    video: "https://www.youtube.com/watch?v=dzrSCDUcFys"
+    video: "https://www.youtube.com/watch?v=EC2hZf-0lOw"
   },
 {
     id: 243,
