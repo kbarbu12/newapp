@@ -2419,7 +2419,7 @@ const quests = [
       "Prepare Tarunda and confusion cures.",
       "Defeat Shadow Kiritani (Rakshasa) with raw damage."
     ],
-    video: "https://www.youtube.com/watch?v=bhECGheHrKc"
+    video: "https://www.youtube.com/watch?v=LFCn4qTPvN8"
   },
 {
     id: 100,
@@ -3676,7 +3676,7 @@ const quests = [
       "Answer his evening call for the date-locked Rank 7.",
       "Reach Rank 10 for his Second Awakening."
     ],
-    video: "https://www.youtube.com/watch?v=YdyzsLtsYjQ"
+    video: "https://www.youtube.com/watch?v=FeFY1ASkIm8"
   },
 {
     id: 167,
@@ -3718,7 +3718,7 @@ const quests = [
       "Rank 9 unlocks Emergency Shift (romance option here).",
       "Reach Rank 10 for Final Guard."
     ],
-    video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
+    video: "https://www.youtube.com/watch?v=Y9fMShtW3gg"
   },
 {
     id: 173,
@@ -9544,7 +9544,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/watch?v=twhSzBpqGM0"
+    video: "https://www.youtube.com/watch?v=GqRWTJZBKHo"
   },
 {
     id: 445,
@@ -9568,7 +9568,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/watch?v=3dZND3b9oD0"
+    video: "https://www.youtube.com/watch?v=_6WfM7oUXz0"
   },
 {
     id: 446,
@@ -9640,7 +9640,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/watch?v=55WG5IBPZ8I"
+    video: "https://www.youtube.com/watch?v=A9EpUluo5a4"
   },
 {
     id: 449,
@@ -9664,7 +9664,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/watch?v=6ggLKIc3CAI"
+    video: "https://www.youtube.com/watch?v=x5LDcdELNwo"
   },
 {
     id: 450,
@@ -9688,7 +9688,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/watch?v=oM_sjX5zh5w"
+    video: "https://www.youtube.com/watch?v=bvoNUeXQrZE"
   },
 {
     id: 451,
@@ -9736,7 +9736,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/watch?v=m_XT78-B4ms"
+    video: "https://www.youtube.com/watch?v=vnXkUq6bC2c"
   },
 {
     id: 453,
@@ -19456,7 +19456,7 @@ const quests = [
       "Progress the main story to trigger each locked rank.",
       "Max the rank for better ambushes and item crafting."
     ],
-    video: "https://www.youtube.com/watch?v=AuRMtbh5g3E"
+    video: "https://www.youtube.com/watch?v=64Kwui64_x0"
   },
 {
     id: 680,

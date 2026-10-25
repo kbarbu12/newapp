@@ -7,6 +7,24 @@
 
 ---
 
+## 2026-10-25 (9) — video title check, round 3: Persona 5 Royal (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #435 | Persona 5 Royal | 18 | 6 | 10 | 2 |
+
+- Swapped: six Palaces (Kamoshida, Madarame, Okumura, Niijima, Shido,
+  Maruki) now point at full Palace walkthroughs; Ryuji's, Futaba's and
+  Morgana's Confidants at full 1-10 guides; and The Killer Who Cleans Up
+  Trash at a request guide.
+- Left as is: #97 Akechi's Confidant (only per-rank videos came up) and
+  #466, which bundles two systems (in TODO for the owner).
+- 55 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (8) — video title check, round 3: Final Fantasy VII Rebirth (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
