@@ -56,6 +56,7 @@ per PR, the same way as round 2.
 | Star Wars Jedi: Fallen Order | 15 / 28 | 11 | 1258 ("The Weathered Monument & Venator Wreckage" is an umbrella entry for two Zeffo areas); 1276 (chests across every planet: only per-planet guides came up) |
 | Baldur's Gate 3 | 20 / 26 | 6 | — (115 matched, but no quest called "The Stolen Gnome" came up: it's the Barcus Wroot windmill rescue) |
 | Cyberpunk 2077 | 16 / 22 | 6 | — |
+| Final Fantasy VII Rebirth | 14 / 19 | 3 | 74 ("The Protorelic Quests" looks like a duplicate of 639); 125 ("Tifa's Piano Recital" looks like a duplicate of 646 "Piano Performances"); 131 was swapped because its video was a hard-mode enemy clip |
 
 ## Title check (2026-10-17)
 
