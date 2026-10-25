@@ -165,10 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Final Fantasy VII Rebirth #74 "The Protorelic Quests" looks like a
-   duplicate of #639 "World Intel: Divine Intel (Protorelics)", and #125
-   "Tifa's Piano Recital" looks like a duplicate of #646 "Piano
-   Performances"; decide whether to merge or drop them.
    Deadfire #195 and #196 are whole-DLC entries (Seeker, Slayer, Survivor;
    The Forgotten Sanctum), so no single video fits them.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
