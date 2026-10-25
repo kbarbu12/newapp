@@ -50,6 +50,7 @@ per PR, the same way as round 2.
 | Ghost of Tsushima | 27 / 40 | 13 | — |
 | Sekiro | 34 / 39 | 4 | 1798 (Corrupted Monk at Mibu Village: looks like a duplicate of the Illusion entry 1797); 1818 matched, but its title "Shume Masaka Nagahiro" should be Shume Masaji Oniwa |
 | Black Myth: Wukong | 19 / 37 | 17 | 838 ("The Yakshas of the Pagoda": no boss by that name came up); 29 was swapped because its video was the Chapter 6 Giant Shigandang fight; 831, 836 and 839 have titles that mix two bosses |
+| Zelda: Tears of the Kingdom | 30 / 36 | 5 | 1636 ("The Necluda Sky Crystal" isn't a quest name: the game has North, East and West Necluda Sky Crystal quests) |
 
 ## Title check (2026-10-17)
 
