@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25
+
+- **Video title check, round 3: Sekiro** — `v2.9.17` patch (#416, #417).
+  - The 39 Sekiro videos not checked in earlier rounds were checked with a
+    YouTube search per quest title: 34 match, 4 swapped for videos titled
+    with the boss's name, 1 left as is.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-24 (9)
 
 - **Video title check, round 3: Ghost of Tsushima** — `v2.9.16` patch
