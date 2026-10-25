@@ -144,10 +144,10 @@ checked, 18 matched, 14 swapped.
 **Done on 2026-10-25 (`v2.9.21`):** Final Fantasy VII Remake
 (#428): 30 videos checked, 14 matched, 15 swapped, 1 left as is.
 
-**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped.
+**Done since (on `staging`, not yet on prod):** Star Wars Jedi: Fallen Order (#431): 28 videos checked, 15 matched, 11 swapped, 2 left as is. Baldur's Gate 3 (#432): 26 videos checked, 20 matched, 6 swapped. Cyberpunk 2077 (#433): 22 videos checked, 16 matched, 6 swapped.
 
 Still open, in priority order:
-1. **Finish the video title check (round 3).** 114 videos left, one game per
+1. **Finish the video title check (round 3).** 92 videos left, one game per
    PR, same method (a YouTube search per quest title, logged in
    `docs/video-candidates/title-check.json`). Counts are videos with no row
    in `title-check.json` yet (recounted 2026-10-24; the earlier table also
@@ -155,7 +155,6 @@ Still open, in priority order:
 
    | Game | Videos |
    |---|---|
-   | Cyberpunk 2077 | 22 |
    | Final Fantasy VII Rebirth | 19 |
    | Persona 5 Royal | 18 |
    | Demon's Souls | 13 |

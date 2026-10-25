@@ -777,7 +777,7 @@ const quests = [
       "Jablonsky is shot — talk to the prisoner, Joshua Stephenson.",
       "Decide: carry out the hit (about €$5,000, story ends) or spare him to start There Is a Light That Never Goes Out."
     ],
-    video: "https://www.youtube.com/watch?v=M8kG3zOzoSQ"
+    video: "https://www.youtube.com/watch?v=HYiVBMqtj9Q"
   },
 {
     id: 11,
@@ -2142,7 +2142,7 @@ const quests = [
       "Pisces: meet at megabuilding H8 and settle Clouds' fate (don't accept Maiko's reward if you want the last job).",
       "Pyramid Song: dive with Judy at Laguna Bend near the Lake Farm fast-travel point."
     ],
-    video: "https://www.youtube.com/watch?v=M-9aTafUwgI"
+    video: "https://www.youtube.com/watch?v=oZrKkwYtBBk"
   },
 {
     id: 79,
@@ -3116,7 +3116,7 @@ const quests = [
       "Answer his call for Off the Leash 12 hours later.",
       "Finish with Boat Drinks 24 hours after that (romance only for male V)."
     ],
-    video: "https://www.youtube.com/watch?v=TarX-C4vhik"
+    video: "https://www.youtube.com/watch?v=Xe2OWdX2exo"
   },
 {
     id: 133,
@@ -5365,7 +5365,7 @@ const quests = [
       "Escape the hotel as Arasaka locks down the tower.",
       "Get out with Delamain — and slot the chip to save it."
     ],
-    video: "https://www.youtube.com/watch?v=qbIs8-j1UmY"
+    video: "https://www.youtube.com/watch?v=Ybzh0ifN-hI"
   },
 {
     id: 249,
@@ -5405,7 +5405,7 @@ const quests = [
       "Choose your path: Arasaka (Hanako), Aldecaldos (Panam), Johnny's solo raid, or Rogue/Johnny.",
       "This is the point of no return — save first."
     ],
-    video: "https://www.youtube.com/watch?v=onmRkZZRMy0"
+    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 251,
@@ -11237,7 +11237,7 @@ const quests = [
       "Head to Lizzie's Bar in Watson to meet Jackie.",
       "Watch the fallout as V loses their place at Arasaka."
     ],
-    video: "https://www.youtube.com/watch?v=grrh7DSg43Q"
+    video: "https://www.youtube.com/watch?v=6yDsu1oHVGY"
   },
 {
     id: 517,
