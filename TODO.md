@@ -165,13 +165,6 @@ Still open, in priority order:
    The 64 videos left as is (IDs in the README table) need a look from the
    owner or a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
-   Final Fantasy VII Remake: many main entries use descriptive titles, not
-   the game's chapter names (e.g. #1027 "Bombing Mission" is Chapter 1 "The
-   Destruction of Mako Reactor 1"). #1045 "Chocobo Search (Rat Problem)"
-   merges two separate side quests, #1049 "The Angel of the Slums (Moogle
-   Merchant)" mixes a side quest with the Moogle Emporium, #1036 "The
-   Collapsed Expressway" describes the Chapter 10 sewers (Abzu), and #1032
-   and #1034 both cover Chapter 8.
    Jedi: Fallen Order: most story entries use descriptive titles rather than
    the game's own objective names, and #1258 "The Weathered Monument &
    Venator Wreckage" bundles two Zeffo areas into one entry.
