@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.22`; `staging` and `main` match.
+Prod is `v2.9.23`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -157,6 +157,12 @@ checked, 3 matched, 6 swapped. Pillars of Eternity II: Deadfire (#440): 4
 videos checked, 1 matched, 0 swapped, 3 left as is. Skyrim (#441): 4 videos
 checked, 3 matched, 0 swapped, 1 left as is. Pillars of Eternity (#442): 1
 video checked, 0 matched, 1 swapped.
+
+**Done on 2026-10-25 (`v2.9.23`):** every entry flagged by the round-3 title
+check was fixed, one PR per game: God of War Ragnarök (#445), Sekiro (#446),
+Black Myth: Wukong (#447), Zelda (#448), FF7 Remake (#449), Jedi: Fallen Order
+(#450), Baldur's Gate 3 (#451), Persona 5 Royal (#452), FF7 Rebirth (#453) and
+Deadfire (#454).
 
 Still open, in priority order:
 1. **Video title check (round 3) is finished.** Every video now has a row in
