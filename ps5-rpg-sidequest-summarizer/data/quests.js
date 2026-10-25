@@ -30337,7 +30337,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "It's a scripted fight: you only need to survive and land enough hits. She's slower and more deliberate than other duellists — parry her combos and dodge the red unblockable attacks rather than rushing in.",
     walkthrough: [
-      "Return to Zeffo with Force Pull and push through the Imperial Dig Site.",
+      "Return to Zeffo and push through the Imperial Dig Site.",
       "The Second Sister confronts Cal; parry her lightsaber strings and counter after each one.",
       "Dodge (don't block) her red unblockable lunges and watch for her Force throws.",
       "Keep up the pressure until the scripted cutscene ends the duel.",
