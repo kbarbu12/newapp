@@ -7,6 +7,26 @@
 
 ---
 
+## 2026-10-25 (4) — video title check, round 3: Final Fantasy VII Remake (v2.9.21)
+Same method: one YouTube search per quest title, plus a second wording.
+Most main entries use descriptive titles rather than the game's chapter
+names, so the second wording used the real chapter name.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #428 | Final Fantasy VII Remake | 30 | 14 | 15 | 1 |
+
+- Swapped: 8 main entries now point at a walkthrough of their chapter
+  (Chapters 1, 2, 4, 7, 8, 11, 12, 18), plus Airbuster, Hojo's Laboratory,
+  Kids on Patrol, Burning Thighs, the two INTERmission chapters and Fort
+  Condor.
+- Data problems spotted (in TODO for the owner): #1045 "Chocobo Search (Rat
+  Problem)" merges two side quests (left as is); #1049 and #1036 matched
+  but their titles don't fit; #1032 and #1034 both cover Chapter 8.
+- 168 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (3) — video title check, round 3: Elden Ring (v2.9.20)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.

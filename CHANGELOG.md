@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-25 (5)
+
+- **Video title check, round 3: Final Fantasy VII Remake** — `v2.9.21`
+  patch (#428, #429).
+  - The 30 FF7 Remake videos not checked in earlier rounds were checked
+    with a YouTube search per quest title (or its chapter name): 14 match,
+    15 swapped for chapter, boss or side-quest guides, 1 left as is.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (4)
 
 - **Video title check, round 3: Elden Ring** — `v2.9.20` patch (#425,
