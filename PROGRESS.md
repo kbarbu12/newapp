@@ -7,6 +7,22 @@
 
 ---
 
+## 2026-10-25 (7) — video title check, round 3: Cyberpunk 2077 (staging only)
+Same method: one YouTube search per quest title, plus a second wording
+before giving up.
+
+| PR | Game | Checked | Match | Swapped | Left as is |
+|---|---|---|---|---|---|
+| #433 | Cyberpunk 2077 | 22 | 16 | 6 | 0 |
+
+- Swapped: Sinnerman, Judy's and Kerry's questlines, The Heist, Nocturne
+  Op55N1 and the Corpo-Rat prologue now point at full walkthroughs; the
+  current videos didn't come up for either wording.
+- No data problems spotted.
+- 92 videos left in the round-3 title check.
+
+---
+
 ## 2026-10-25 (6) — video title check, round 3: Baldur's Gate 3 (staging only)
 Same method: one YouTube search per quest title, plus a second wording
 before giving up.
