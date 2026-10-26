@@ -3,6 +3,19 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-26
+
+- **Recheck the 52 left-as-is videos (round 5)** — `v2.9.24` patch
+  (#457–#463, #464).
+  - Every video round 3 left as is was searched again: 18 already matched
+    under the quest title, 30 were swapped or fixed, 4 have no video
+    anywhere and keep their step-by-step instructions.
+  - Witcher 3 (8 match, 2 swapped), AC Valhalla (2, 2), Metaphor (4
+    swapped), Jedi: Survivor (7 match, 20 fixed; 7 story missions renamed
+    to the game's objective names), P5R Akechi (all-ranks playlist),
+    Deadfire Tip of the Spear (swapped), Jedi: Fallen Order chests (match).
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-25 (7)
 
 - **Fix the entries flagged by the round-3 title check** — `v2.9.23` patch
