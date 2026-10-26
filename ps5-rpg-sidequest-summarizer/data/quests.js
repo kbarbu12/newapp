@@ -47771,7 +47771,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When he collapses, carry him back to the woman at the tent.",
       "Talk to her to finish."
     ],
-    video: "https://www.youtube.com/watch?v=Jv0fQJuE5wI"
+    video: "https://www.youtube.com/watch?v=zuREBpvyFpQ"
   },
 {
     id: 2636,
@@ -47893,7 +47893,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Catch an eel nearby (fish for it, or shoot one from the bank).",
       "Add the eel to his pot."
     ],
-    video: "https://www.youtube.com/watch?v=e4rLWJ7_Bd0"
+    video: "https://www.youtube.com/watch?v=5LgvXdMk424"
   },
 {
     id: 2641,
