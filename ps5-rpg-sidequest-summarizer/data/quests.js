@@ -51633,12 +51633,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Track the cultist Chrysis to the Altar of Apollo Maleatas on Mount Kynortion in Argolis, follow a crying infant to a forest shrine, and choose between saving the baby from the fire or chasing Chrysis.",
-    aiTip: "Decide before you enter the shrine: save the baby and Chrysis escapes (you can finish her later in Death Comes for Us All), or chase her and kill her now.",
+    summary:
+      "Track the cultist Chrysis to the Altar of Apollo Maleatas on Mount Kynortion in Argolis, follow a crying infant to a forest shrine, and choose between saving the baby from the fire or chasing Chrysis.",
+    aiTip:
+      "Decide before you enter the shrine: save the baby and Chrysis escapes (you can finish her later in Death Comes for Us All), or chase her and kill her now.",
     walkthrough: [
-      "Travel to the Altar of Apollo Maleatas on Mount Kynortion, south of the Troezen Military Camp in Argolis, and interact with the altar to trigger the cutscene.",
-      "Follow the sound of the crying infant east into the forest to a shrine guarded by cultists, and clear the guards.",
-      "Inside, Chrysis sets the shrine on fire with the baby. Choose to save the baby (Chrysis escapes and can be killed later in \"Death Comes for Us All\") or chase Chrysis to her cave and kill her now."
+      "Complete A Herald of Murder to unlock the quest.",
+      "Travel to the Altar of Apollo Maleatas on Mount Kynortion, south of the Troezen Military Camp in Argolis (south-east of the guest house); use Ikaros to pinpoint it, then interact with the altar.",
+      "Follow the sound of the crying infant into the forest to a shrine; two cultists ambush you from the bushes — kill them.",
+      "Go inside and talk to Chrysis about your mother and sister.",
+      "Chrysis sets the shrine on fire with the baby inside. Choose: save the baby (Chrysis escapes; you can kill her later in Death Comes for Us All) or chase Chrysis and kill her now."
     ],
     video: "https://www.youtube.com/watch?v=pKx6MU9GNoQ"
   },
@@ -52661,12 +52665,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae",
-    summary: "A Sharp Tongue support quest set at the theater in Chalkis, where a confrontation turns deadly unless you act fast.",
-    aiTip: "Don't start the conversation at the theater — attack from range and act fast, and both people there can survive.",
+    summary:
+      "A Sharp Tongue support quest set at the theater in Chalkis, where a confrontation turns deadly unless you act fast.",
+    aiTip:
+      "Don't start the conversation at the theater — attack from range and act fast, and both people there can survive.",
     walkthrough: [
-      "Go to the theater in Chalkis, where the quest begins.",
-      "Deal with the confrontation there. If you attack from range instead of starting the conversation, and act quickly, both people at the theater can survive.",
-      "Completing it counts toward Sharp Tongue."
+      "Go to the theater in Chalkis and talk to the theater owner about the Dagger.",
+      "Follow the waypoint to the Dagger's associate; once within about 150 m, call Ikaros to pinpoint him. His house is south-west of the Temple of Poseidon.",
+      "Deal with the associate, then return to the couple at the theater.",
+      "The gang forces you to choose which of the couple dies. Don't start the conversation — attack from range and act fast, and both can survive.",
+      "Kill the remaining gang members. Completing it counts toward Sharp Tongue."
     ],
     video: "https://www.youtube.com/watch?v=_26zaAxd55k"
   },
@@ -52720,13 +52728,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Attika",
     length: "short",
     difficulty: "Low",
-    reward: "XP and drachmae",
-    summary: "In Athens, Demosthenes asks for your help against the Spartans: bring him three seals taken from Spartan polemarchs.",
-    aiTip: "Polemarchs hold out in forts. Clearing nearby Spartan forts in Attika for conquest also gets you the seals along the way.",
+    reward: "XP (about 8,000) and drachmae; unlocks The Wise Warrior",
+    summary:
+      "In Athens, Demosthenes asks for your help against the Spartans: bring him three seals taken from Spartan polemarchs.",
+    aiTip:
+      "Polemarchs hold out in forts. Clearing nearby Spartan forts in Attika for conquest also gets you the seals along the way.",
     walkthrough: [
       "Talk to Demosthenes in Athens.",
-      "Find Spartan polemarchs, who usually hold out in forts, and kill them for their seals.",
-      "Bring the three seals back to Demosthenes."
+      "Find Spartan polemarchs — each Spartan-controlled fort has one in command.",
+      "Kill three polemarchs and loot a seal from each.",
+      "Bring the three seals back to Demosthenes. Telling him you'll go after more polemarchs starts The Wise Warrior."
     ],
     video: "https://www.youtube.com/watch?v=b0fZjajxo_I"
   },
@@ -52995,12 +53006,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae",
-    summary: "One of the three Priests of Asklepios support quests: persuade the priest Timoxenos to show you a stone that holds the information you need.",
-    aiTip: "Choose the persuasive dialogue options with Timoxenos, then follow him and listen through his stories to finish.",
+    summary:
+      "One of the three Priests of Asklepios support quests: persuade the priest Timoxenos to show you a stone that holds the information you need.",
+    aiTip:
+      "Your answers to the interrupting priest decide what happens to Timoxenos later — lie to protect him (the 'dog licking' cure answer).",
     walkthrough: [
-      "Talk to Timoxenos at the Sanctuary of Asklepios in Argolis.",
-      "Persuade him to show you the stone.",
-      "Follow him to the stone and listen to his tales to complete the quest."
+      "Talk to Timoxenos at the Sanctuary of Asklepios — from the guest house, hop over the foliage and a low wall to find him carving tombstones.",
+      "Persuade him to show you the stone, then follow him from stop to stop as he tells his stories.",
+      "At the third set of stones another priest interrupts. Don't tell the priest the truth: say Timoxenos was explaining how to cure sword wounds and pick the 'dog licking' answer, which keeps Timoxenos safe.",
+      "Meet Timoxenos by the olive tree of Herakles to hear the rest.",
+      "Fight off the ambush that follows to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=F_vRsnVnP_I"
   },
@@ -53015,11 +53030,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and a chance to kill the cultist Chrysis",
-    summary: "If you saved the baby instead of chasing Chrysis in Ashes to Ashes, this optional quest gives you another chance to kill the cultist.",
-    aiTip: "This only appears if you saved the baby in Ashes to Ashes. Finish Find a Woman to pick up Chrysis's trail.",
+    summary:
+      "If you saved the baby instead of chasing Chrysis in Ashes to Ashes, this optional quest gives you another chance to kill the cultist.",
+    aiTip:
+      "This only appears if you saved the baby in Ashes to Ashes. Finish Find a Woman to pick up Chrysis's trail.",
     walkthrough: [
       "In Ashes to Ashes, choose to save the baby. Chrysis escapes.",
-      "Complete Find a Woman to pick up her trail.",
+      "Head east of Argos in Argolis to the quest marker and talk to the young woman, who tells you about an attack in the forest.",
+      "Complete Find a Woman to pick up Chrysis's trail.",
       "Track down Chrysis and kill her to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=wh533mTcRwk"
@@ -53120,12 +53138,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae; counts toward Island of Misfortune",
-    summary: "A support quest for Island of Misfortune: fly Xenia's war colors and sink Spartan ships around Keos as a warning to her enemies.",
-    aiTip: "Equip Xenia's war colors on the Adrestia before you engage — sinking Spartan ships without them doesn't count.",
+    summary:
+      "A support quest for Island of Misfortune: fly Xenia's war colors and sink Spartan ships around Keos as a warning to her enemies.",
+    aiTip:
+      "Equip Xenia's war colors on the Adrestia before you engage — sinking Spartan ships without them doesn't count.",
     walkthrough: [
-      "Talk to Xenia's steward on Keos.",
-      "Equip the Adrestia with Xenia's war colors.",
-      "Destroy two Spartan ships in the waters around Keos."
+      "Talk to Xenia's steward on Keos (part of Island of Misfortune).",
+      "At the Adrestia's ship menu, equip Xenia's war colors.",
+      "Sail into the waters around Keos and find Spartan ships.",
+      "Destroy two Spartan ships while flying Xenia's colors to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=Y1AM88mGZJ0"
   },
@@ -53182,12 +53203,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae, or Obelia's loot if you fight her",
-    summary: "A follow-up to We're Not Thieves: dive for the sunken artifact the ancient map points to.",
-    aiTip: "Handing over the artifact peacefully ends it quickly. Demanding payment means fighting and killing Obelia.",
+    summary:
+      "A follow-up to We're Not Thieves: dive for the sunken artifact the ancient map points to.",
+    aiTip:
+      "Handing over the artifact peacefully ends it quickly. Demanding payment means fighting and killing Obelia.",
     walkthrough: [
-      "Complete We're Not Thieves to unlock the quest.",
-      "Dive for the sunken artifact at the ship dock near Obelia's stall.",
-      "Hand it over to finish the quest, or refuse and demand payment, which means fighting and killing Obelia."
+      "Finish We're Not Thieves; Obelia gives you a key that this quest needs.",
+      "Sail the Adrestia to the sunken Minoan ruins at the southern tip of Keos.",
+      "Use Ikaros to mark the chests and the sharks, and kill the sharks with your bow before diving.",
+      "Dive and loot the chests; one of them (opened with Obelia's key) holds the artifact.",
+      "Surface: Obelia arrives by ship. Bring the Adrestia alongside, then hand over the artifact, or refuse and fight and kill her (optional)."
     ],
     video: "https://www.youtube.com/watch?v=ywK1hsrbd3U"
   },
@@ -53328,13 +53353,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Obsidian Islands (Hydrea and Melos)",
     length: "short",
     difficulty: "Low",
-    reward: "XP",
-    summary: "Roxana's second training lesson on Hydrea: prove your aim by killing the wolves near a shipwreck.",
-    aiTip: "Shoot the 8 wolves from a high spot near the shipwreck they can't easily reach.",
+    reward: "XP, drachmae and the Wolf-Hunting Bow",
+    summary:
+      "Roxana's second training lesson on Hydrea: prove your aim by killing the wolves near a shipwreck.",
+    aiTip:
+      "Shoot the 8 wolves from a high spot near the shipwreck they can't easily reach.",
     walkthrough: [
       "Complete Sparring with Roxana to unlock the quest.",
-      "Kill the 8 wolves near the shipwreck. Shoot from a spot they can't easily reach.",
-      "Return to Roxana. Flirt with her during the training if you want a peaceful ending to her story."
+      "Head to the shipwreck Roxana marks on Hydrea.",
+      "Kill the 8 wolves with your bow from a spot they can't easily reach.",
+      "Return to Roxana. Flirt with her during the training if you want a peaceful ending to her story. The reward includes the Wolf-Hunting Bow; Foot Race unlocks next."
     ],
     video: "https://www.youtube.com/watch?v=3v1dhTsxv24"
   },
@@ -53349,12 +53377,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP; recruit Roxana if you romanced her",
-    summary: "Roxana's final training lesson on Hydrea: beat her in a foot race.",
-    aiTip: "Finishing all three training quests and romancing Roxana lets you recruit her as a lieutenant instead of killing her.",
+    summary:
+      "Roxana's final training lesson on Hydrea: beat her in a foot race.",
+    aiTip:
+      "Finishing all three training quests and romancing Roxana lets you recruit her as a lieutenant instead of killing her.",
     walkthrough: [
       "Complete Archery Practice to unlock the quest.",
-      "Race Roxana and win.",
-      "Finishing all three training quests, and romancing her along the way, lets you recruit Roxana instead of fighting her to the death."
+      "Race Roxana on foot to the top of the mountain — no horse allowed, so climb directly.",
+      "Win or lose, you get a chance to romance her at the top.",
+      "Doing all three training quests and romancing her lets you recruit Roxana as a lieutenant in Legend No More instead of fighting her to the death."
     ],
     video: "https://www.youtube.com/watch?v=HMg_hv2KZN0"
   },
@@ -53519,12 +53550,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae and the Wine-Making Boots",
-    summary: "Markos owes the Cerberus gang on Kos, so he sends you to deliver his wine as a peace offering.",
-    aiTip: "Drinking with the Cerberus brothers is optional and doesn't change the reward.",
+    summary:
+      "Markos owes the Cerberus gang on Kos, so he sends you to deliver his wine as a peace offering.",
+    aiTip:
+      "Drinking with the Cerberus brothers is optional and doesn't change the reward.",
     walkthrough: [
       "Complete A Business Opportunity, then talk to Markos.",
-      "Deliver his wine to the Cerberus in Astypalaia. Drinking with them is optional.",
-      "Return to Markos. The reward includes the Wine-Making Boots."
+      "Take his wine to the Cerberus in Astypalaia on Kos.",
+      "Drink with them if you like — it doesn't change the reward.",
+      "Return to Markos. The reward includes the Wine-Making Boots; Farm in Flames comes next."
     ],
     video: "https://www.youtube.com/watch?v=QLLbPNsfd9k"
   },
@@ -53581,12 +53615,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and the Avaris sword",
-    summary: "A hard-of-hearing, short-tempered blacksmith at the exhausted Dactyl mines in Messara wants five pieces of obsidian.",
-    aiTip: "If you don't have five obsidian yet, search northwest toward the sunken ruins and the Temple of Britomartis.",
+    summary:
+      "A hard-of-hearing, short-tempered blacksmith at the exhausted Dactyl mines in Messara wants five pieces of obsidian.",
+    aiTip:
+      "If you don't have five obsidian yet, search northwest toward the sunken ruins and the Temple of Britomartis.",
     walkthrough: [
-      "Talk to the blacksmith at the Dactyl mines.",
-      "Collect five pieces of obsidian. If you don't have them yet, his apprentice suggests searching northwest, toward the sunken ruins and the Temple of Britomartis.",
-      "Hand the obsidian to the blacksmith. The reward includes the Avaris sword."
+      "Visit the exhausted Daktyls mine in western Messara and talk to the deaf, short-tempered blacksmith.",
+      "He asks for five pieces of obsidian glass.",
+      "If you don't have them, search the Temple of Britomartis to the north-west (past the sunken ruins), where obsidian is stored.",
+      "Hand the five pieces to the blacksmith. The reward includes the Avaris sword."
     ],
     video: "https://www.youtube.com/watch?v=6n_HKkMPB4U"
   },
@@ -53643,11 +53680,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP",
-    summary: "An old man in eastern Messara asks you to bring him a red flower.",
-    aiTip: "The red flower is on Mount Ida near the synchronization point — use Ikaros to spot it.",
+    summary:
+      "An old man in eastern Messara asks you to bring him a red flower.",
+    aiTip:
+      "The red flower is on Mount Ida near the synchronization point — use Ikaros to spot it.",
     walkthrough: [
-      "Talk to the old man.",
-      "Find the red flower on Mount Ida, near the area's synchronization point. Ikaros can help you spot it.",
+      "Talk to the old man in eastern Messara.",
+      "Climb Mount Ida to the area's synchronization point.",
+      "Use Ikaros to spot the red flowers growing nearby and pick one.",
       "Deliver the flower to the old man."
     ],
     video: "https://www.youtube.com/watch?v=GNjytkgnEkw"
@@ -53771,12 +53811,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae",
-    summary: "Ptolemaios hires you to kill a visiting herald and the leader of Messara.",
-    aiTip: "These are assassination contracts — catch the herald and Messara's leader alone or from stealth to avoid a citywide fight.",
+    summary:
+      "Ptolemaios hires you to kill a visiting herald and the leader of Messara.",
+    aiTip:
+      "These are assassination contracts — catch the herald and Messara's leader alone or from stealth to avoid a citywide fight.",
     walkthrough: [
-      "Talk to Ptolemaios to take the job.",
-      "Find and kill the visiting herald.",
-      "Find and kill the leader of Messara."
+      "Talk to Ptolemaios in Gortyn: he wants Gortyn to lose a war so the council must replace its leader.",
+      "Find the visiting herald — he wanders the city with a small entourage by day and stays at the Leader House at night — and kill him.",
+      "Find the leader of Messara — at Daidalos Fort by day, at the Leader House by night — and kill him.",
+      "Return to Ptolemaios. Killing the leader also reveals a clue about a Cult member."
     ],
     video: "https://www.youtube.com/watch?v=EWGBcEVsF3Q"
   },
@@ -53791,12 +53834,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae",
-    summary: "A woman outside the Temple of Poliouchos wants revenge on the Followers of Ares.",
-    aiTip: "Most Followers of Ares are at the Lost Minoan Shrine; Gerontospilios cave is just northwest of it for the rest.",
+    summary:
+      "A woman outside the Temple of Poliouchos wants revenge on the Followers of Ares.",
+    aiTip:
+      "Most Followers of Ares are at the Lost Minoan Shrine; Gerontospilios cave is just northwest of it for the rest.",
     walkthrough: [
       "Talk to the woman in front of the Temple of Poliouchos.",
-      "Kill ten Followers of Ares. Most are at the Lost Minoan Shrine, and the Gerontospilios cave is northwest of the shrine.",
-      "Return to her to finish the quest."
+      "Go to the Lost Minoan Shrine nearby — about six Followers of Ares are spread around it (no quest marker).",
+      "Head about 300 m north-west to the Gerontospilios cave; its one big room holds five or six more.",
+      "Once you've killed ten, return to her to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=1t-JDOVmoM8"
   },
@@ -53811,12 +53857,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Trial tokens; unlocks Cashing In on the Cow",
-    summary: "Leiandros sells 'Minotours' in Pephka: to face his Minotaur for the Prize of Pephka, you first have to clear his pre-trials.",
-    aiTip: "You can pay 1,500 drachmae to skip the Trial of Strength instead of fighting the giant warrior.",
+    summary:
+      "Leiandros sells 'Minotours' in Pephka: to face his Minotaur for the Prize of Pephka, you first have to clear his pre-trials.",
+    aiTip:
+      "You can pay 1,500 drachmae to skip the Trial of Strength instead of fighting the giant warrior.",
     walkthrough: [
       "Meet Leiandros in Pephka.",
-      "Complete the pre-trials in any order. The Trial of Strength lets you fight a giant warrior or pay 1500 drachmae to skip it.",
-      "Collect the trial tokens, which unlocks Cashing In on the Cow."
+      "Trial of Strength: fight a giant warrior, or pay 1,500 drachmae to skip it (fighting gives more XP).",
+      "Trial of Accuracy: find a villager's three hidden children; watch for a boar and a snake on the way.",
+      "Finish the remaining pre-trials in any order and collect the trial tokens.",
+      "This unlocks Cashing In on the Cow, where you hand the tokens to Leiandros."
     ],
     video: "https://www.youtube.com/watch?v=W9OyccFpLAc"
   },
@@ -53980,12 +54030,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and the Death-Mark Bow",
-    summary: "A worried woman on Kythera asks you to find her husband, who went off to hunt lynxes for drachmae.",
-    aiTip: "Start the search at the Hunter's Cave in Skandeia Bay. Bring a bow for the lynxes.",
+    summary:
+      "A worried woman on Kythera asks you to find her husband, who went off to hunt lynxes for drachmae.",
+    aiTip:
+      "Start the search at the Hunter's Cave in Skandeia Bay. Bring a bow for the lynxes.",
     walkthrough: [
-      "Talk to the woman at Skandeia Harbor.",
-      "Search for her husband, starting from the Hunter's Cave in Skandeia Bay.",
-      "Bring the hunter back to Skandeia Harbor and his wife, then talk to her. The reward includes the Death-Mark Bow."
+      "Talk to the worried woman at Skandeia Harbor on Kythera: her fisherman husband went to hunt lynxes for drachmae.",
+      "Go to the Hunter's Cave in Skandeia Bay and search it, killing the lynxes inside.",
+      "Find the hunter and bring him back to Skandeia Harbor.",
+      "Talk to his wife to finish. The reward includes the Death-Mark Bow."
     ],
     video: "https://www.youtube.com/watch?v=0vSbOmtyoXE"
   },
@@ -54063,12 +54116,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and the crafted Bear Fur Armor",
-    summary: "A merchant in Mytilene needs bear skins to craft a commissioned breastplate.",
-    aiTip: "Bears roam the hills of Lesbos and the Mushroom Cave. Six skins takes a while, so bring health-restoring abilities.",
+    summary:
+      "A merchant in Mytilene needs bear skins to craft a commissioned breastplate.",
+    aiTip:
+      "The merchant wants Chiot bear skins, so hunt the bears on Chios. Six takes a while — bring health-restoring abilities.",
     walkthrough: [
-      "Talk to the merchant in Mytilene.",
-      "Hunt bears on Lesbos and collect six bear skins.",
-      "Bring the skins back to the merchant. The reward is the crafted Bear Fur Armor."
+      "Talk to the merchant in Mytilene: he's been commissioned to make a breastplate from bear skins.",
+      "Hunt bears and collect six skins — the merchant wants Chiot bear skins, so Chios is the place to hunt.",
+      "Bring the skins back to the merchant.",
+      "The reward is the crafted Bear Fur Armor."
     ],
     video: "https://www.youtube.com/watch?v=2W5GZdZXsS8"
   },
@@ -54145,12 +54201,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Lesbos (Eresos)",
     length: "short",
     difficulty: "Low",
-    reward: "XP",
-    summary: "A fisherman in Eresos on Lesbos thinks his son took the family boat to see a girl. Find him.",
-    aiTip: "A short quest: the son took the family boat to see a girl. Follow the marker and talk to him.",
+    reward: "XP, drachmae and the Lesbos Sandals",
+    summary:
+      "A fisherman in Eresos on Lesbos thinks his son took the family boat to see a girl. Find him.",
+    aiTip:
+      "A short quest: the son took the family boat to see a girl. Follow the marker and talk to him.",
     walkthrough: [
-      "Talk to the fisherman in Eresos.",
-      "Track down his son and talk to him."
+      "Talk to the fisherman in Eresos on Lesbos: he thinks his son took the family boat to see a girl.",
+      "Follow the marker to the area where the son went and investigate it for signs of him; kill the shark before you dive.",
+      "Find the son and talk to him.",
+      "Return to the fisherman. Tell him the truth — his son ran off with his girlfriend — to get the reward, which includes the Lesbos Sandals."
     ],
     video: "https://www.youtube.com/watch?v=wIl57cM-jPE"
   },
@@ -54165,11 +54225,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and an epic belt; unlocks Only Fools Want War",
-    summary: "Lysander in Sparta wants proof of the war against Athens: three Athenian seals taken from polemarchs.",
-    aiTip: "Polemarchs hold the Athenian-controlled forts — kill one in each of three forts and loot the seal from his body.",
+    summary:
+      "Lysander in Sparta wants proof of the war against Athens: three Athenian seals taken from polemarchs.",
+    aiTip:
+      "Polemarchs hold the Athenian-controlled forts — kill one in each of three forts and loot the seal from his body.",
     walkthrough: [
       "Talk to Lysander in Sparta.",
-      "Kill the polemarchs of three Athenian-controlled forts and take their seals.",
+      "Find three Athenian-controlled forts; each has a polemarch in command.",
+      "Kill each polemarch and loot his seal.",
       "Deliver the seals to Lysander. The reward includes an epic belt, and completing it unlocks Only Fools Want War."
     ],
     video: "https://www.youtube.com/watch?v=Du7uqmInunk"
@@ -54184,13 +54247,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Lakonia",
     length: "short",
     difficulty: "Low",
-    reward: "XP and drachmae",
-    summary: "In the Krypteia Training Grounds, escort the boy Makarios to the agoge and prove yourself to his would-be trainer, Iatrokles.",
-    aiTip: "The fight with Iatrokles is a non-lethal sparring match — don't kill him or the quest fails.",
+    reward: "XP, drachmae and the Spartan Training Sword",
+    summary:
+      "In the Krypteia Training Grounds, escort the boy Makarios to the agoge and prove yourself to his would-be trainer, Iatrokles.",
+    aiTip:
+      "The fight with Iatrokles is a non-lethal sparring match — don't kill him or the quest fails.",
     walkthrough: [
-      "Meet Makarios and escort him to the Agoge Camp North.",
-      "Speak with Iatrokles.",
-      "Beat him in a non-lethal sparring match. He then takes Makarios as a student."
+      "Talk to Xanthe in Pitana: she asks you to escort her younger son Makarios to his agoge training.",
+      "Escort Makarios south to the Agoge Camp North, killing any wolves on the way.",
+      "Speak with Iatrokles, the agoge master.",
+      "Beat him in a non-lethal sparring match in front of his students — don't kill him. He then takes Makarios on; Brothers in Arms unlocks next."
     ],
     video: "https://www.youtube.com/watch?v=lytvA6opLu8"
   },
@@ -54330,13 +54396,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Achaia",
     length: "short",
     difficulty: "Low",
-    reward: "XP and drachmae",
-    summary: "A follow-up to The Dunce Conundrum: Demokritos leads you into trouble.",
-    aiTip: "Demokritos walks you into a bandit fight — protect yourself and kill them, then talk to him.",
+    reward: "XP, drachmae and the Inventor's Helmet",
+    summary:
+      "A follow-up to The Dunce Conundrum: Demokritos leads you into trouble.",
+    aiTip:
+      "Demokritos walks you into a bandit fight — protect yourself and kill them, then talk to him.",
     walkthrough: [
-      "Complete The Dunce Conundrum to unlock the quest.",
+      "Complete The Dunce Conundrum to unlock the quest; Demokritos is near the docks in northern Achaia.",
       "Follow Demokritos.",
-      "Kill the bandits, then talk to Demokritos again."
+      "He leads you into a group of bandits — kill them.",
+      "Talk to Demokritos again to finish. The reward includes the Inventor's Helmet."
     ],
     video: "https://www.youtube.com/watch?v=TNPZdMPFCp0"
   },
@@ -54350,13 +54419,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Hephaistos Islands (Lemnos and Thasos)",
     length: "short",
     difficulty: "Low",
-    reward: "XP; keeps Mikkos alive later",
-    summary: "On Lemnos, Barnabas's search for his old friend Mikkos begins.",
-    aiTip: "Suggest the gentler approach to Barnabas — it's what keeps Mikkos alive later in the storyline.",
+    reward: "XP; keeps Neleus alive later",
+    summary:
+      "On Lemnos, Barnabas finds his sick nephew Neleus at his old friend Mikkos's house — the start of the Mikkos storyline.",
+    aiTip:
+      "Urge Barnabas to be gentler with Neleus — if you don't, Neleus dies in the burning house during Retribution later on.",
     walkthrough: [
-      "Find the quest marker on Lemnos and talk to the marked man.",
-      "Go to Mikkos's house.",
-      "Suggest the gentler approach to Barnabas so that Mikkos survives later in the storyline."
+      "Sail to Lemnos and find the quest marker at Mikkos's house on the west side of the island; talk to Barnabas.",
+      "Barnabas's nephew Neleus lies sick in Mikkos's house.",
+      "Urge Barnabas to take the illness seriously and go easier on Neleus.",
+      "This choice matters: it's what saves Neleus when the house burns during Retribution later in the storyline."
     ],
     video: "https://www.youtube.com/watch?v=FOWaislskYU"
   },
@@ -54371,12 +54443,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP and drachmae",
-    summary: "Barnabas's search for Mikkos continues at Silenos's cave, where captured athletes are being held.",
-    aiTip: "Kill the guards at Silenos's cave before freeing the athletes, and be ready for the athlete who attacks you outside.",
+    summary:
+      "Barnabas's search for Mikkos continues at Silenos's cave, where captured athletes are being held.",
+    aiTip:
+      "Kill the guards at Silenos's cave before freeing the athletes, and be ready for the athlete who attacks you outside.",
     walkthrough: [
-      "Go to Silenos's cave.",
-      "Kill the guards first, then free the athletes.",
-      "Kill the athlete who attacks you outside the cave."
+      "Go to Silenos's cave on Lemnos, where captured athletes are held.",
+      "Kill the guards first so they can't interfere.",
+      "Free the athletes from their cages.",
+      "Kill the athlete who turns on you outside the cave. Retribution, at Mikkos's burning house, comes next."
     ],
     video: "https://www.youtube.com/watch?v=IdvFNvRV0J8"
   },
@@ -54411,12 +54486,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Chios",
     length: "short",
     difficulty: "Low",
-    reward: "XP",
-    summary: "A young woman rejected by the Daughters of Artemis wants your help disguising herself as one of them.",
-    aiTip: "Gather the disguise pieces from the Huntress Village and Artemis Cave — sneak in where you can rather than fighting through.",
+    reward: "XP, drachmae and the sword Artemis's Bane",
+    summary:
+      "A young woman rejected by the Daughters of Artemis wants your help disguising herself as one of them.",
+    aiTip:
+      "Gather the disguise pieces from the Huntress Village and Artemis Cave — sneak in where you can rather than fighting through.",
     walkthrough: [
-      "Talk to the young woman.",
-      "Help her put together a disguise, using the Huntress Village and Artemis Cave."
+      "Talk to the young woman on Chios who was turned away by the Daughters of Artemis.",
+      "Take the headgear from the Huntress Village.",
+      "Take the boots from inside Artemis Cave.",
+      "Take the chest piece from the Huntress Outpost Camp. The Daughters guard each piece — fight them or sneak in and steal it.",
+      "Bring all three pieces back to her. The reward includes the sword Artemis's Bane."
     ],
     video: "https://www.youtube.com/watch?v=ac-KO1W6Ovc"
   },
@@ -54430,12 +54510,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Chios (Mastic Farm)",
     length: "short",
     difficulty: "Low",
-    reward: "XP and drachmae",
-    summary: "Bandits raided a farm in southern Chios and took the farmer's two sons.",
-    aiTip: "Both boys are in cages at the Mastic Farm in the Forest of Tears — clear the bandits first so they can get away safely.",
+    reward: "XP, drachmae and the Bandit Chief Belt",
+    summary:
+      "Bandits raided a farm in southern Chios and took the farmer's two sons.",
+    aiTip:
+      "Both boys are in cages at the Mastic Farm in the Forest of Tears — clear the bandits first so they can get away safely.",
     walkthrough: [
-      "Go to the Mastic Farm in the Forest of Tears on southern Chios.",
-      "Find the two boys locked in cages and free them both."
+      "Talk to the farmer at the Mastic Farm in the Forest of Tears on southern Chios: bandits took his two sons.",
+      "Find the first son in a cage in the eastern part of the farm and smash it open.",
+      "Find the second son in the western part of the farm and free him too — you don't have to clear every bandit.",
+      "Return to the farmer. The reward includes the Bandit Chief Belt."
     ],
     video: "https://www.youtube.com/watch?v=f-7-c4hYK30"
   },
@@ -57481,18 +57565,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Pirate Islands",
     title: "Pride of Place",
-    location: "Wailing Cavern, Pirate Islands",
+    location: "Wailing Cavern (Lestris) → Apollo's Refuge, Keos, Pirate Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
     summary:
-      "One of the 60 Ainigmata Ostraka riddle collectibles, in the Pirate Islands. The tablet's riddle points to a hidden spot nearby; solving it awards a permanent Engraving upgrade.",
+      "Ainigmata Ostraka riddle: the tablet is beside a sunken marble lion in the Wailing Cavern off Lestris. The answer is the matching marble lion on the coast at Apollo's Refuge on Keos.",
     aiTip:
-      "The tablet is in the Wailing Cavern in the Pirate Islands. Check the Ainigmata Ostraka menu once you have it, since the riddle names the nearby spot.",
+      "The solution isn't in the cave — it's the marble lion at Apollo's Refuge on Keos. Interact with its back.",
     walkthrough: [
-      "Pick up the tablet in the Wailing Cavern in the Pirate Islands.",
-      "Read the riddle in the Ainigmata Ostraka menu.",
-      "Travel to the spot it describes and search it to solve the riddle."
+      "Dive into the Wailing Cavern off Lestris in the Pirate Islands — swim between two halves of a broken ship and deep into the cave.",
+      "Pick up the tablet at the feet of a submerged marble lion statue.",
+      "Sail to Apollo's Refuge on Keos, where a second marble lion stands on the peninsula by the coast.",
+      "Interact with the spot on the lion's back to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=ByH9ILEVNdI"
   },
@@ -58084,18 +58169,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Elis",
     title: "Centaur Field",
-    location: "Elis",
+    location: "Temple of Hades (Kingdom of Pelops) → Plains of Flax and a mountain cave, Elis",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
     summary:
-      "One of the 60 Ainigmata Ostraka riddle collectibles in the base game. Each tablet holds a riddle that points to a hidden spot in the same region; solving it awards a permanent Engraving upgrade.",
+      "Ainigmata Ostraka riddle: the tablet is upstairs in the Temple of Hades in Elis. The answer is found by following a chain of centaur statues from the lake in the Plains of Flax to a mountain cave.",
     aiTip:
-      "One guide lists this tablet among the Elis riddles. Read the riddle from the Ainigmata Ostraka menu once you have it, since it names a landmark in the same region.",
+      "Start at the centaur in the middle of the Plains of Flax lake and follow the direction each centaur faces — the last one points at the cave.",
     walkthrough: [
-      "Find and pick up the Centaur Field tablet.",
-      "Read the riddle from the Ainigmata Ostraka menu. It describes a landmark in the same region as the tablet.",
-      "Travel to the described spot and search it to solve the riddle and unlock the Engraving."
+      "Go to the Temple of Hades in the Kingdom of Pelops, Elis; clear the enemies inside.",
+      "Go upstairs, take the left staircase, and pick up the tablet at the end.",
+      "Travel to the lake in the Plains of Flax and find the stone centaur in the middle of it.",
+      "Follow the direction it faces to the next centaur statue, then keep following each centaur's facing.",
+      "The last centaur faces a cave in the mountain — go there to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
   },

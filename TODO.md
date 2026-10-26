@@ -20,13 +20,14 @@ https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
 owner marks done, swapping out flagged links. See PROGRESS.md "Session
 2026-10-11 → 13".
 
-## AC Odyssey entries no guide could confirm (Phase 3 leftovers)
-~96 AC Odyssey entries still have only 1–3 steps because no guide confirmed
-more detail. Made-up details were stripped on 2026-10-14 and the vague ones
-now have plain, safe steps; the rest (riddles, tombs, romances, short side
-quests) are generic but accurate. Full lists are in PROGRESS.md (Phase 3
-batch notes). Owner: verify in-game or with each entry's video if you want
-richer steps.
+## ~~AC Odyssey entries no guide could confirm (Phase 3 leftovers)~~ — DONE 2026-10-26
+The "~96" short entries had already shrunk to 31. On 2026-10-26, 27 of them
+were researched against two or more guides each and given full 4–6 step
+walkthroughs. Pride of Place and Centaur Field now have their real riddle
+solutions, and Tough Love was corrected: the gentle choice saves Neleus, not
+Mikkos. Four stay at 3 steps: Sharp Tongue, Wasn't Born the Kingfisher and
+The Kingfisher and the Robin are already complete, and no guide covers Not My
+Mother's Daughter in more detail.
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
@@ -182,7 +183,7 @@ Still open, in priority order:
    accurate step-by-step instructions, so nothing more is needed unless a
    video turns up.
 2. **Owner actions (agent can't do these):**
-   - Review the video-candidates page and the AC Odyssey leftovers (see above).
+   - Review the video-candidates page (see "Upgrade quest videos" above).
 3. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
