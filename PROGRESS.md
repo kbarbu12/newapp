@@ -7,6 +7,19 @@
 
 ---
 
+## 2026-10-26 (3) — AC Odyssey leftovers expanded (v2.9.27)
+- **AC Odyssey (#474):** the 31 entries still at 2–3 steps were reviewed;
+  27 got full 4–6 step walkthroughs, each checked against two or more guides.
+  Pride of Place and Centaur Field now have their riddle solutions, Tough
+  Love was corrected (Neleus, not Mikkos), and Shroud of the Bear points to
+  Chios bears. Sharp Tongue, Wasn't Born the Kingfisher and The Kingfisher
+  and the Robin stay at 3 complete steps; no guide covers Not My Mother's
+  Daughter in more detail.
+- `npm test` clean, staging build plus headless QA of all 27 IDs (0 page
+  errors), CI green before merge.
+
+---
+
 ## 2026-10-26 (2) — unconfirmed extras confirmed (v2.9.25)
 - **AC Odyssey (#466):** Needle in a Haystack was hedged (one guide, "a farm
   in the south"). Three sources agree on the haystack at the Farm of Elais,
