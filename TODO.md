@@ -164,15 +164,20 @@ Black Myth: Wukong (#447), Zelda (#448), FF7 Remake (#449), Jedi: Fallen Order
 (#450), Baldur's Gate 3 (#451), Persona 5 Royal (#452), FF7 Rebirth (#453) and
 Deadfire (#454).
 
-Still open, in priority order:
-1. **Video title check (round 3) is finished.** Every video now has a row in
-   `docs/video-candidates/title-check.json`. What's left is for the owner:
+**Done on 2026-10-26 (staging):** round 5 rechecked the 52 videos left as is:
+Witcher 3 (#457), AC Valhalla (#458), Metaphor (#459), Jedi: Survivor (#460),
+Persona 5 Royal (#461), Deadfire (#462) and notes (#463). 48 now match or
+were swapped; 4 have no video anywhere and keep their steps.
 
-   The flagged titles, duplicates and bundles were all fixed in round 4
-   (PRs #445–#454; see the video-candidates README). The 5 videos still
-   marked "left as is" in `title-check.json` need a look from the owner or
-   a better source. Most are Jedi: Survivor story missions,
-   collectible hunts and Metaphor's More's Task chapters.
+Still open, in priority order:
+1. **Video title check is finished.** Every video has a row in
+   `docs/video-candidates/title-check.json`. Round 4 fixed the flagged
+   titles, duplicates and bundles (#445–#454); round 5 rechecked the 52
+   videos left as is (#457–#463). Only 4 remain, and no video of them
+   exists on YouTube: Metaphor's More's Task Chapters Two, Four and Five
+   (#1070, #1072, #1073) and Skyrim's Reparations (#1432). Each has
+   accurate step-by-step instructions, so nothing more is needed unless a
+   video turns up.
 2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
    single guide. A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
