@@ -178,8 +178,7 @@ Still open, in priority order:
    (#1070, #1072, #1073) and Skyrim's Reparations (#1432). Each has
    accurate step-by-step instructions, so nothing more is needed unless a
    video turns up.
-2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
-   single guide. A Warm Welcome, The Price of Passage and Call of the Wild
+2. **Unconfirmed extras:** A Warm Welcome, The Price of Passage and Call of the Wild
    (Witcher 3) weren't added because no guide could confirm them.
 3. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
