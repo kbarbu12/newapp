@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-26 (2)
+
+- **Confirm the last unconfirmed extras** — `v2.9.25` patch (#466, #467,
+  #468).
+  - AC Odyssey's Needle in a Haystack ostrakon is now confirmed by three
+    sources: the haystack at the Farm of Elais on the east coast of Kynthos
+    Hills.
+  - 3 Witcher 3 unmarked encounters added (IDs 2955–2957): A Warm Welcome,
+    The Price of Passage and Call of the Wild, each with steps and a
+    video. Witcher 3 is now 300 / 290.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-26
 
 - **Recheck the 52 left-as-is videos (round 5)** — `v2.9.24` patch
