@@ -60742,8 +60742,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Master Kua's payment, XP",
-    summary: "Master Kua, who runs the slave fortress of Crookspur, wants the Wahaki tribe's leaders on Ori o Koīki assassinated — subtly, under the guise of friendship, or by force.",
-    aiTip: "This is the slavers' side: completing it fails the RDC's Clearing Out Crookspur and Cruel Cargo. Do it only if you mean to back Kua.",
+    summary:
+      "Master Kua, who runs the slave fortress of Crookspur, wants the Wahaki tribe's leaders on Ori o Koīki assassinated — subtly, under the guise of friendship, or by force.",
+    aiTip:
+      "This is the slavers' side: completing it fails the RDC's Clearing Out Crookspur and Cruel Cargo. Do it only if you mean to back Kua.",
     walkthrough: [
       "Get an audience with Master Kua in Crookspur Fort.",
       "Accept his contract against the Wahaki.",
@@ -60751,7 +60753,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the Wahaki leaders, by deception or open attack.",
       "Return to Kua for payment."
     ],
-    video: "https://www.youtube.com/watch?v=3fSR2-o1F6U"
+    video: "https://www.youtube.com/watch?v=iChvkOJ8F58"
   },
 {
     id: 2462,
