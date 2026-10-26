@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-26 (4)
+
+- **Expand 27 short AC Odyssey entries with verified steps** — `v2.9.27`
+  patch (#474, #475).
+  - The Phase 3 leftovers: 27 entries with only 2–3 steps now have full
+    walkthroughs checked against two or more guides each.
+  - Pride of Place and Centaur Field have their real riddle solutions;
+    Tough Love is corrected (the gentle choice saves Neleus, not Mikkos);
+    Shroud of the Bear points to Chios bears.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-26 (3)
 
 - **Branch cleanup recorded in TODO** — `v2.9.26` patch (#470, #471, #472).
