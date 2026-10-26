@@ -127,3 +127,23 @@ duplicates were removed and merged: BG3 #115 (into #936), FF7 Rebirth #74
 (into #639) and #125 (into #646). Fixed rows in `title-check.json` carry a
 note starting "fixed in round 4" or "removed in round 4".
 
+### Round 5: the 52 left-as-is videos rechecked (PRs #457–#463)
+
+Each was searched again on YouTube, by quest title and, for Jedi: Survivor,
+by the game's own objective names. Many old "no result" rows were search
+misses: the current video came up named after the quest.
+
+| Game | Rechecked | Match | Swapped / fixed | Still as is |
+|---|---|---|---|---|
+| The Witcher 3 | 10 | 8 | 2 | 0 |
+| Assassin's Creed Valhalla | 4 | 2 | 2 | 0 |
+| Metaphor: ReFantazio | 7 | 0 | 4 | 3 |
+| Star Wars Jedi: Survivor | 27 | 7 | 20 (7 retitled to objective names) | 0 |
+| Persona 5 Royal | 1 | 0 | 1 (all-ranks playlist) | 0 |
+| Pillars of Eternity II: Deadfire | 1 | 0 | 1 | 0 |
+| Star Wars Jedi: Fallen Order | 1 | 1 | 0 | 0 |
+| The Elder Scrolls V: Skyrim | 1 | 0 | 0 | 1 |
+
+Still as is (no video exists; the steps cover them): #1070, #1072, #1073
+(More's Task Chapters Two, Four, Five) and #1432 (Reparations).
+

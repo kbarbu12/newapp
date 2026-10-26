@@ -7,6 +7,29 @@
 
 ---
 
+## 2026-10-26 (1) — round 5: the 52 left-as-is videos rechecked (v2.9.24)
+Each video round 3 left as is was searched again. Many were search misses
+in round 3: the current video came up named after the quest.
+
+| PR | Game | Rechecked | Match | Swapped / fixed | Still as is |
+|---|---|---|---|---|---|
+| #457 | The Witcher 3 | 10 | 8 | 2 | 0 |
+| #458 | AC Valhalla | 4 | 2 | 2 | 0 |
+| #459 | Metaphor: ReFantazio | 7 | 0 | 4 | 3 |
+| #460 | Jedi: Survivor | 27 | 7 | 20 | 0 |
+| #461 | Persona 5 Royal | 1 | 0 | 1 | 0 |
+| #462 | Deadfire | 1 | 0 | 1 | 0 |
+| #463 | Jedi: Fallen Order, Skyrim (notes) | 2 | 1 | 0 | 1 |
+
+- Jedi: Survivor story missions now use the game's objective names where
+  they differed (e.g. Confront Dagan at Koboh Observatory).
+- 4 left with no video anywhere: More's Task Chapters Two, Four, Five and
+  Reparations; each keeps accurate steps.
+- Also fixed two title-check bookkeeping slips: #1971's note sat on an
+  older duplicate row, and #164's row had lost its playlist id.
+
+---
+
 ## 2026-10-25 (17) — fix the round-3 flagged entries (v2.9.23)
 Each entry the round-3 title check flagged (wrong title, duplicate or bundle)
 was researched and fixed with a real title, steps and a matching video.
