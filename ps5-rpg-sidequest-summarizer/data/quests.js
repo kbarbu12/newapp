@@ -18437,6 +18437,73 @@ const quests = [
     video: "https://www.youtube.com/watch?v=bVsNWfggQPs"
   },
 {
+    id: 2955,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Warm Welcome",
+    location: "Road south-west of Wheat Fields, by the river (Gustfields), Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP; the grateful refugee points you to a hero's tomb near Downwarren (Dragonslayer's Grotto)",
+    summary:
+      "An unmarked encounter on the road into Novigrad: Redanian soldiers are turning back refugees from Velen who don't have passes. Geralt can step in to get the refugees through.",
+    aiTip:
+      "It has no journal entry, so watch for the crowd on the road south-west of Wheat Fields. Axii (with Delusion) is the cleanest option and gives a little extra XP; threatening the soldiers starts a fight with three of them.",
+    walkthrough: [
+      "Ride along the road south-west of Wheat Fields, near the river, until you see Redanian soldiers stopping refugees.",
+      "Talk to the soldiers about letting the refugees through.",
+      "Pay them off, use Axii, or threaten them (which starts a fight with three soldiers) — or walk away.",
+      "If the refugees get through, talk to them: one tells you about a hero's tomb near Downwarren (Dragonslayer's Grotto)."
+    ],
+    video: "https://www.youtube.com/watch?v=0wlqRIVcw8I"
+  },
+{
+    id: 2956,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Price of Passage",
+    location: "Archway between Oxenfurt Harbor and the marketplace, later near Novigrad's gate",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; up to three encounters with the same two guards",
+    summary:
+      "An unmarked encounter in Oxenfurt: two guards stop Geralt under an archway and demand a \"war tax\". Whether he pays decides where and how they turn up again.",
+    aiTip:
+      "For the most encounters, pay them the first time and refuse the second. Refusing the first time makes them call their superior, who scolds them for extortion.",
+    walkthrough: [
+      "First finish the drunk part of Contract: The Oxenfurt Drunk.",
+      "Walk through the archway north of the Oxenfurt Harbor signpost (towards the marketplace) to meet two guards demanding a war tax.",
+      "Pay (about 50 crowns) to end it, or refuse — they call their superior, who calls them out for extortion.",
+      "Days later they turn up again near Novigrad's gate: if you paid, they ask for more; if you refused, Axii is an option.",
+      "Deal with them to finish the encounter."
+    ],
+    video: "https://www.youtube.com/watch?v=MoP2_ERccCU"
+  },
+{
+    id: 2957,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Call of the Wild",
+    location: "Forest east-south-east of Arinbjorn, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and wolf loot (the rewards are small)",
+    summary:
+      "An unmarked encounter in the woods east-south-east of Arinbjorn: a big pack of white wolves roams the forest, and at night an ulfhedinn (mislabelled as a werewolf) hunts with them.",
+    aiTip:
+      "Kill the wolves first with your steel sword, then turn to the ulfhedinn. Go at night if you want the ulfhedinn — it only appears then and doesn't respawn once killed. You can also just ride past.",
+    walkthrough: [
+      "Ride east-south-east from Arinbjorn into the forest on Ard Skellig.",
+      "Come at night if you want the ulfhedinn to appear with the white wolves.",
+      "Fight the white wolf pack first with your steel sword (Quen helps against the swarm).",
+      "Kill the ulfhedinn — it doesn't respawn, though the wolves do."
+    ],
+    video: "https://www.youtube.com/watch?v=Rvsf83QGE6E"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -57499,19 +57566,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Needle in a Haystack",
-    location: "Sunken Wrecks Cavern of Datis → farm in the south of the island, Silver Islands",
+    location: "Sunken Wreck of Datis (off the south-west shore of Kynthos Hills) → Farm of Elais on the east coast of Kynthos Hills, Silver Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
     summary:
-      "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. One guide says the answer is in a haystack at a farm in the south of the island.",
+      "Ainigmata Ostraka riddle: the tablet lies on the deck of the Sunken Wreck of Datis, underwater off Kynthos Hills. The answer is in a haystack at the Farm of Elais on the east coast of Kynthos Hills.",
     aiTip:
-      "Bring breath upgrades for the swim to the tablet. Then look for a farm in the south of the island and search the haystack (only one guide gives this answer, so check nearby if it doesn't match).",
+      "Bring breath upgrades for the dive to the tablet, and clear the enemies around the Farm of Elais before you search the haystack.",
     walkthrough: [
-      "Pick up the tablet on a shipwreck in the Sunken Wrecks Cavern of Datis.",
-      "Travel to the farm in the south of the island.",
-      "Find the haystack.",
-      "Interact with it to solve the riddle."
+      "Dive to the Sunken Wreck of Datis off the south-west shore of Kynthos Hills and pick up the tablet from the deck.",
+      "Travel to the Farm of Elais on the east coast of Kynthos Hills.",
+      "Clear any enemies around the farm.",
+      "Find the haystack and interact with it to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=JKPAO3StTc0"
   },

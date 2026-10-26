@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.24`; `staging` and `main` match.
+Prod is `v2.9.25`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -169,6 +169,10 @@ Witcher 3 (#457), AC Valhalla (#458), Metaphor (#459), Jedi: Survivor (#460),
 Persona 5 Royal (#461), Deadfire (#462) and notes (#463). 48 now match or
 were swapped; 4 have no video anywhere and keep their steps.
 
+**Done on 2026-10-26 (`v2.9.25`):** the unconfirmed extras. Needle in a
+Haystack (AC Odyssey) confirmed by three sources (#466); A Warm Welcome, The
+Price of Passage and Call of the Wild added to Witcher 3 (#467).
+
 Still open, in priority order:
 1. **Video title check is finished.** Every video has a row in
    `docs/video-candidates/title-check.json`. Round 4 fixed the flagged
@@ -178,12 +182,9 @@ Still open, in priority order:
    (#1070, #1072, #1073) and Skyrim's Reparations (#1432). Each has
    accurate step-by-step instructions, so nothing more is needed unless a
    video turns up.
-2. **Unconfirmed extras:** Needle in a Haystack's solution comes from a
-   single guide. A Warm Welcome, The Price of Passage and Call of the Wild
-   (Witcher 3) weren't added because no guide could confirm them.
-3. **Owner actions (agent can't do these):**
+2. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
    - Delete the merged branches (see above).
-4. **Parked:**
+3. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).

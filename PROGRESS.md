@@ -7,6 +7,18 @@
 
 ---
 
+## 2026-10-26 (2) — unconfirmed extras confirmed (v2.9.25)
+- **AC Odyssey (#466):** Needle in a Haystack was hedged (one guide, "a farm
+  in the south"). Three sources agree on the haystack at the Farm of Elais,
+  east coast of Kynthos Hills; steps updated, hedge removed.
+- **Witcher 3 (#467):** A Warm Welcome, The Price of Passage and Call of the
+  Wild added (IDs 2955–2957). The Witcher wiki, gamerwalkthroughs, TheGamer
+  and ConsolePulse agree on each. Witcher 3 is now 300 / 290.
+- Each PR: `npm test` clean, staging build plus headless QA (0 page errors),
+  CI green before merge.
+
+---
+
 ## 2026-10-26 (1) — round 5: the 52 left-as-is videos rechecked (v2.9.24)
 Each video round 3 left as is was searched again. Many were search misses
 in round 3: the current video came up named after the quest.
