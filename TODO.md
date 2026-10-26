@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.23`; `staging` and `main` match.
+Prod is `v2.9.24`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -164,7 +164,7 @@ Black Myth: Wukong (#447), Zelda (#448), FF7 Remake (#449), Jedi: Fallen Order
 (#450), Baldur's Gate 3 (#451), Persona 5 Royal (#452), FF7 Rebirth (#453) and
 Deadfire (#454).
 
-**Done on 2026-10-26 (staging):** round 5 rechecked the 52 videos left as is:
+**Done on 2026-10-26 (`v2.9.24`):** round 5 rechecked the 52 videos left as is:
 Witcher 3 (#457), AC Valhalla (#458), Metaphor (#459), Jedi: Survivor (#460),
 Persona 5 Royal (#461), Deadfire (#462) and notes (#463). 48 now match or
 were swapped; 4 have no video anywhere and keep their steps.

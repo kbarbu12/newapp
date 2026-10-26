@@ -7,7 +7,7 @@
 
 ---
 
-## 2026-10-26 (1) — round 5: the 52 left-as-is videos rechecked (staging)
+## 2026-10-26 (1) — round 5: the 52 left-as-is videos rechecked (v2.9.24)
 Each video round 3 left as is was searched again. Many were search misses
 in round 3: the current video came up named after the quest.
 
