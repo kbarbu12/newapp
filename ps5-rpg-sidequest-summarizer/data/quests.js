@@ -57499,19 +57499,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Silver Islands",
     title: "Needle in a Haystack",
-    location: "Sunken Wrecks Cavern of Datis → farm in the south of the island, Silver Islands",
+    location: "Sunken Wreck of Datis (off the south-west shore of Kynthos Hills) → Farm of Elais on the east coast of Kynthos Hills, Silver Islands",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
     summary:
-      "Ainigmata Ostraka riddle: the tablet is on a shipwreck in the Sunken Wrecks Cavern of Datis. One guide says the answer is in a haystack at a farm in the south of the island.",
+      "Ainigmata Ostraka riddle: the tablet lies on the deck of the Sunken Wreck of Datis, underwater off Kynthos Hills. The answer is in a haystack at the Farm of Elais on the east coast of Kynthos Hills.",
     aiTip:
-      "Bring breath upgrades for the swim to the tablet. Then look for a farm in the south of the island and search the haystack (only one guide gives this answer, so check nearby if it doesn't match).",
+      "Bring breath upgrades for the dive to the tablet, and clear the enemies around the Farm of Elais before you search the haystack.",
     walkthrough: [
-      "Pick up the tablet on a shipwreck in the Sunken Wrecks Cavern of Datis.",
-      "Travel to the farm in the south of the island.",
-      "Find the haystack.",
-      "Interact with it to solve the riddle."
+      "Dive to the Sunken Wreck of Datis off the south-west shore of Kynthos Hills and pick up the tablet from the deck.",
+      "Travel to the Farm of Elais on the east coast of Kynthos Hills.",
+      "Clear any enemies around the farm.",
+      "Find the haystack and interact with it to solve the riddle."
     ],
     video: "https://www.youtube.com/watch?v=JKPAO3StTc0"
   },
