@@ -14810,7 +14810,7 @@ const quests = [
       "Defeat the doppler in its Geralt form.",
       "Kill it or let it go, then collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=yfoGRWFq0mA"
+    video: "https://www.youtube.com/watch?v=9WFHbxNp624"
   },
 {
     id: 2788,
@@ -16426,7 +16426,7 @@ const quests = [
       "Go with Regis to The Rocking Horse toy shop.",
       "Examine the letter in the box and the papers in the corner."
     ],
-    video: "https://www.youtube.com/watch?v=ylnEjeJHUtE"
+    video: "https://www.youtube.com/watch?v=ZezAv_0UHsE"
   },
 {
     id: 2860,
