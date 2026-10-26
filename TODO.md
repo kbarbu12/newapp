@@ -45,12 +45,11 @@ to `main` twice. The owner deleted the duplicate `v2.9.0` release and tag;
 tags now run `v2.7.0`, `v2.8.0`, `v2.9.1`. `release.yml` skips already-tagged
 commits (#358, live in `v2.9.1`), so this can't recur.
 
-## Delete merged branches (agent can't; git proxy rejects ref deletion)
-These are merged into `main` and safe to delete via the GitHub UI:
-- `claude/ps5-rpg-sidequest-summarizer-xaidg6` (PR #37 — Valhalla)
-- `claude/add-pr-template` (PR #38 — PR template)
-- `claude/qa-and-changelog-rules` (PR #39 — QA & release rules)
-- `claude/add-todo` (PR #40 — this file, once merged)
+## ~~Delete old branches~~ — DONE 2026-10-26
+The owner deleted all 265 old branches; only `main` and `staging` remain.
+`staging` is protected by the "stagging" ruleset (no deletion, no force
+push), and "Automatically delete head branches" is on, so PR branches are
+removed after each merge from now on.
 
 ## Decisions from QA 2026-10-20 (`docs/qa-session-2026-10-20.md`)
 - ~~**M7 "Mark finished" bonus — DECIDED, to build:** a game can only be marked
@@ -89,7 +88,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.25`; `staging` and `main` match.
+Prod is `v2.9.26`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -184,7 +183,6 @@ Still open, in priority order:
    video turns up.
 2. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
-   - Delete the merged branches (see above).
 3. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).

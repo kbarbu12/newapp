@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-26 (3)
+
+- **Branch cleanup recorded in TODO** — `v2.9.26` patch (#470, #471, #472).
+  - TODO lists the branch check (all 265 old branches safe to delete), then
+    marks the cleanup done: only `main` and `staging` remain, `staging` is
+    protected, and PR branches now auto-delete after merge.
+  - Docs only; no app or quest data changes.
+
 ## 2026-10-26 (2)
 
 - **Confirm the last unconfirmed extras** — `v2.9.25` patch (#466, #467,
