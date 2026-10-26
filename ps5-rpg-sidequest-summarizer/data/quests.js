@@ -30827,8 +30827,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Reunion with Bode; escape aboard a Mantis",
-    summary: "Five years after Fallen Order, Cal runs a heist on Coruscant with a rebel cell that includes Bode Akuna. When the Ninth Sister ambushes them, Cal flees the planet in the Mantis.",
-    aiTip: "This is an extended tutorial — relearn your traversal and try each stance. When you crash-land, don't rush; the opening cantina and Undercity teach the game's grappling and dash before Koboh opens up.",
+    summary:
+      "Five years after Fallen Order, Cal runs a heist on Coruscant with a rebel cell that includes Bode Akuna. When the Ninth Sister ambushes them, Cal flees the planet in the Mantis.",
+    aiTip:
+      "This is an extended tutorial — relearn your traversal and try each stance. When you crash-land, don't rush; the opening cantina and Undercity teach the game's grappling and dash before Koboh opens up.",
     walkthrough: [
       "Get free of the Coruscant Underworld Police and meet Bode Akuna.",
       "Reach the senator's yacht and interrogate him.",
@@ -30836,7 +30838,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight your way out through the Undercity Meats as the Ninth Sister's forces attack.",
       "Escape Coruscant in the Mantis — the crew is scattered and Cal crash-lands on Koboh."
     ],
-    video: "https://www.youtube.com/watch?v=z0NLPUqQKBU"
+    video: "https://www.youtube.com/watch?v=NNH-T-9JFiQ"
   },
 {
     id: 1283,
@@ -30865,20 +30867,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
-    title: "Koboh: The Key to Tanalorr",
-    location: "Koboh — Pyloon's Saloon / Stone Spires",
+    title: "Koboh: Research Tanalorr via the Stone Spires",
+    location: "Koboh — Riverbed Watch / Devastated Settlement",
     length: "short",
     difficulty: "Low",
-    reward: "Saloon hub; first recruits and rumors",
-    summary: "Free the droid Zee from the Chamber of Duality beneath the saloon, then research Tanalorr through the Stone Spires and their light puzzles.",
-    aiTip: "Talk to everyone before leaving — Zee sells maps and Doma sells upgrades. This is where you'll return to recruit saloon patrons via Rumors, so note the empty tables you can fill later.",
+    reward: "Story progression; Caij Vanda's bounty board unlocked after Korej Lim",
+    summary:
+      "The objective \"Research Tanalorr on Koboh via the Stone Spires\": head out from Rambler's Reach past Riverbed Watch and the Igneous Fissure to the Devastated Settlement, solve the Stone Spires orb puzzles, and beat the bounty hunter Korej Lim on the way.",
+    aiTip:
+      "Talk to everyone before leaving — Zee sells maps and Doma sells upgrades. This is where you'll return to recruit saloon patrons via Rumors, so note the empty tables you can fill later.",
     walkthrough: [
-      "Take the smuggler's tunnels under Pyloon's Saloon to the Chamber of Duality.",
-      "Solve the chamber and set the rope device in place with Force Pull to free Zee.",
-      "Head out to the Stone Spires and solve the laser/light puzzles to research Tanalorr.",
-      "Pick up the Tuner Device on the way — it opens more of Koboh."
+      "Leave Rambler's Reach Outpost and head toward Riverbed Watch.",
+      "Push on through the Igneous Fissure to the Devastated Settlement.",
+      "Solve the Devastated Settlement's orb puzzle (three orbs) to open the way to the Stone Spires.",
+      "Beat the bounty hunter Korej Lim when he ambushes you — this introduces Caij Vanda and her bounty board.",
+      "Reach the Stone Spires and complete the research on Tanalorr."
     ],
-    video: "https://www.youtube.com/watch?v=UWbe-7RJuOo"
+    video: "https://www.youtube.com/watch?v=CyLRKtUYPLI"
   },
 {
     id: 1285,
@@ -30928,13 +30933,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Jedha",
-    title: "Jedha: The Nightsister & Reunion",
+    title: "Jedha: Rendezvous with Cere's Contact",
     location: "Jedha — Desert / The Archive",
     length: "long",
     difficulty: "Medium",
     reward: "Meet Cere and Merrin; the Archive hub",
-    summary: "Cal travels to the desert moon of Jedha, teams up with the Nightsister Merrin and finally reunites with Cere at the hidden Archive.",
-    aiTip: "Jedha opens the second big explorable region and the Cordova rumor board. Ride the mounts across the dunes and grab the Archive's meditation upgrades before advancing.",
+    summary:
+      "Cal travels to the desert moon of Jedha, teams up with the Nightsister Merrin and finally reunites with Cere at the hidden Archive.",
+    aiTip:
+      "Jedha opens the second big explorable region and the Cordova rumor board. Ride the mounts across the dunes and grab the Archive's meditation upgrades before advancing.",
     walkthrough: [
       "Check on the Mantis and fly to Jedha.",
       "Climb the rope, cross the desert pit while dodging the creature in the sand, and clear the ambush with Merrin.",
@@ -30942,7 +30949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "After your speeder is destroyed, tame a Spamel and ride through the storm.",
       "Reach the Archive and reunite with Cere."
     ],
-    video: "https://www.youtube.com/watch?v=B0D8I3dGmDY"
+    video: "https://www.youtube.com/watch?v=bJbceoL2LTc"
   },
 {
     id: 1288,
@@ -30955,8 +30962,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Compass fragment; Zee rescued",
-    summary: "Turgle reports that Bedlam Raiders have taken Zee. Cal crosses the Viscid Bog and storms the crashed Lucrehulk battleship to free the droid — gaining Force Lift on the way.",
-    aiTip: "The Lucrehulk is a compact combat gauntlet. Bring your strongest stance and use Merrin's confusion charm on the Raider mobs to thin them before they swarm.",
+    summary:
+      "Turgle reports that Bedlam Raiders have taken Zee. Cal crosses the Viscid Bog and storms the crashed Lucrehulk battleship to free the droid — gaining Force Lift on the way.",
+    aiTip:
+      "The Lucrehulk is a compact combat gauntlet. Bring your strongest stance and use Merrin's confusion charm on the Raider mobs to thin them before they swarm.",
     walkthrough: [
       "Learn from Turgle that Zee was captured.",
       "Fast-travel to the Devastated Settlement, pass the green barrier into the Viscid Bog and zipline to the Loading Gantry.",
@@ -30964,7 +30973,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the B1/B2 droids, Raider Veteran and Commando Droids; Force Push the metal beam to open the green barrier.",
       "Reach the Lucrehulk core and free Zee."
     ],
-    video: "https://www.youtube.com/watch?v=EbsaVb1pVZA"
+    video: "https://www.youtube.com/watch?v=SaBj3buaYnk"
   },
 {
     id: 1289,
@@ -30994,13 +31003,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
-    title: "Koboh: Compass Acquired",
+    title: "Koboh: Confront Dagan at Koboh Observatory",
     location: "Koboh — Mountain Observatory",
     length: "long",
     difficulty: "High",
     reward: "Second Dagan duel; Rayvis's forces",
-    summary: "Rayvis revealed the last compass is in Koboh's mountain observatory. Cal and Bode climb past the Imperials to the Grand Oculus and face Dagan Gera one final time.",
-    aiTip: "This second Dagan fight is winnable — punish his heavy overheads and keep Merrin nearby. Clear the Raider adds first so you can duel Dagan one-on-one.",
+    summary:
+      "Rayvis revealed the last compass is in Koboh's mountain observatory. Cal and Bode climb past the Imperials to the Grand Oculus and face Dagan Gera one final time.",
+    aiTip:
+      "This second Dagan fight is winnable — punish his heavy overheads and keep Merrin nearby. Clear the Raider adds first so you can duel Dagan one-on-one.",
     walkthrough: [
       "From Pyloon's Saloon, head for the Mountain Ascent.",
       "Dash through the green barriers with Merrin's Magicked Charm and cross the Fogged Expanse.",
@@ -31037,20 +31048,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Jedha",
-    title: "Jedha: The Hidden Path",
+    title: "Jedha: Reach Pilgrim's Sanctuary",
     location: "Jedha — Pilgrim's Refuge",
     length: "medium",
     difficulty: "Medium",
     reward: "Compass lead; Pilgrim's Path opened",
-    summary: "Back at the Archive, the research points toward the Pilgrim's Sanctuary — Cal and Merrin set out across Jedha to find it.",
-    aiTip: "The Path is a puzzle-traversal stretch with wind currents and force-echoes. Scan the murals — they foreshadow the compass mechanism you'll use at the sanctuary.",
+    summary:
+      "Back at the Archive, the research points toward the Pilgrim's Sanctuary — Cal and Merrin set out across Jedha to find it.",
+    aiTip:
+      "The Path is a puzzle-traversal stretch with wind currents and force-echoes. Scan the murals — they foreshadow the compass mechanism you'll use at the sanctuary.",
     walkthrough: [
       "Go through the Veiled Hangar to the Archive.",
       "Open the door by guiding the orb along the left groove.",
       "Share your research at the Archive.",
       "Set out with Merrin toward the Pilgrim's Sanctuary."
     ],
-    video: "https://www.youtube.com/watch?v=W9whMuUP9jY"
+    video: "https://www.youtube.com/watch?v=JfIYsdob5Mc"
   },
 {
     id: 1293,
@@ -31105,8 +31118,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Defend the Archive; regroup with Merrin",
-    summary: "Playing as Cere, defend the Archive from the Empire's assault — and face Darth Vader himself.",
-    aiTip: "A wave-defense gauntlet — use choke points and Merrin's magick to control the crowds. Keep moving between the Archive's tiers rather than getting cornered.",
+    summary:
+      "Playing as Cere, defend the Archive from the Empire's assault — and face Darth Vader himself.",
+    aiTip:
+      "A wave-defense gauntlet — use choke points and Merrin's magick to control the crowds. Keep moving between the Archive's tiers rather than getting cornered.",
     walkthrough: [
       "Take control of Cere as the Empire attacks the Archive.",
       "Use her ultimate to raise a protective shield against the stormtroopers' fire; release it to push enemies back.",
@@ -31114,7 +31129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face Darth Vader in the Archive.",
       "As Cal, rush back to the Archive and find what Vader left behind."
     ],
-    video: "https://www.youtube.com/watch?v=lVDNlI-L-Hk"
+    video: "https://www.youtube.com/watch?v=mQdAiY1NI_E"
   },
 {
     id: 1296,
@@ -31122,20 +31137,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
-    title: "Koboh: The Arrays & The Abyss",
+    title: "Koboh: Align Arrays at Koboh Control Center",
     location: "Koboh — Koboh Abyss",
     length: "long",
     difficulty: "High",
     reward: "Cross the Abyss; reach Tanalorr",
-    summary: "With Zee's help, Cal realigns Koboh's arrays to open a way through the Abyss, and Greez flies the Mantis through to Tanalorr.",
-    aiTip: "The Abyss run is a set-piece flight sequence — follow the compass markers and don't fight the controls. Once through, Tanalorr's serene vistas signal the endgame.",
+    summary:
+      "With Zee's help, Cal realigns Koboh's arrays to open a way through the Abyss, and Greez flies the Mantis through to Tanalorr.",
+    aiTip:
+      "The Abyss run is a set-piece flight sequence — follow the compass markers and don't fight the controls. Once through, Tanalorr's serene vistas signal the endgame.",
     walkthrough: [
       "Return to Koboh and work with Zee on the arrays.",
       "Activate the arrays to open a path through the Koboh Abyss.",
       "Board the Mantis as Greez flies through the opening.",
       "Land on Tanalorr."
     ],
-    video: "https://www.youtube.com/watch?v=ZY1Y2GhvKxg"
+    video: "https://www.youtube.com/watch?v=8CgB0eH2EZ8"
   },
 {
     id: 1297,
@@ -31143,20 +31160,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Nova Garon",
-    title: "Nova Garon: Kata Akuna",
+    title: "Nova Garon: Locate Bode",
     location: "Nova Garon — Imperial ISB base",
     length: "long",
     difficulty: "High",
     reward: "Infiltrate Bode's Imperial base",
-    summary: "Chasing Bode to a hidden Imperial ISB base on Nova Garon, Cal finds Bode's quarters — and his daughter Kata.",
-    aiTip: "Nova Garon is a dense stealth-and-combat fortress. Purge Troopers and Security Droids hit hard — use the environment and pick off patrols before triggering alarms.",
+    summary:
+      "Chasing Bode to a hidden Imperial ISB base on Nova Garon, Cal finds Bode's quarters — and his daughter Kata.",
+    aiTip:
+      "Nova Garon is a dense stealth-and-combat fortress. Purge Troopers and Security Droids hit hard — use the environment and pick off patrols before triggering alarms.",
     walkthrough: [
       "Select Nova Garon on the Mantis holotable.",
       "Go to the hangar roof meditation point and have BD-1 fire an electro-dart at the power source above the door.",
       "Infiltrate the base, fighting the Imperial security.",
       "Find Bode's quarters and meet Kata."
     ],
-    video: "https://www.youtube.com/watch?v=ms2u1pC_HSs"
+    video: "https://www.youtube.com/watch?v=4-ZXzrxdVj4"
   },
 {
     id: 1298,
@@ -31169,15 +31188,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Escape Nova Garon; final pursuit",
-    summary: "Bode returns and escapes with Kata, leaving Cal to tear through the base in his rage — until Merrin pulls him back from the dark side.",
-    aiTip: "A running-battle escape — prioritize mobility over clearing every enemy. Board the shuttle as soon as the path opens; lingering only spawns more Purge Troopers.",
+    summary:
+      "Bode returns and escapes with Kata, leaving Cal to tear through the base in his rage — until Merrin pulls him back from the dark side.",
+    aiTip:
+      "A running-battle escape — prioritize mobility over clearing every enemy. Board the shuttle as soon as the path opens; lingering only spawns more Purge Troopers.",
     walkthrough: [
       "Bode returns and flees with Kata.",
       "Chase him through the base as Cal's anger takes over.",
       "Cut through the Imperial forces in the escape.",
       "Merrin stops Cal from falling to the dark side."
     ],
-    video: "https://www.youtube.com/watch?v=QukSJlclYRs"
+    video: "https://www.youtube.com/watch?v=V8Z1IVNThCc"
   },
 {
     id: 1299,
@@ -31185,20 +31206,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Star Wars Jedi: Survivor",
     region: "Tanalorr",
-    title: "Tanalorr: A New Path",
+    title: "Tanalorr: Confront Bode on Tanalorr",
     location: "Tanalorr — Highland Ruins",
     length: "long",
     difficulty: "High",
     reward: "Final duel with Bode Akuna",
-    summary: "On Tanalorr, Cal faces Bode Akuna in a final duel for the fate of the sanctuary world and the refugees who could shelter there.",
-    aiTip: "Bode uses blaster-and-saber hybrid tactics across two phases. Deflect his blaster bolts back at him, then close distance for the saber phase — patience wins the run.",
+    summary:
+      "On Tanalorr, Cal faces Bode Akuna in a final duel for the fate of the sanctuary world and the refugees who could shelter there.",
+    aiTip:
+      "Bode uses blaster-and-saber hybrid tactics across two phases. Deflect his blaster bolts back at him, then close distance for the saber phase — patience wins the run.",
     walkthrough: [
       "Land on Tanalorr with the crew.",
       "Head to the Highland Ruins to confront Bode Akuna.",
       "Survive the long duel — Bode uses the Force and his blaster, so watch his ranged attacks.",
       "Finish the fight to end the story."
     ],
-    video: "https://www.youtube.com/watch?v=ZCjTbDbO4Ng"
+    video: "https://www.youtube.com/watch?v=I2suYX9OYc8"
   },
 {
     id: 1300,
@@ -31316,15 +31339,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Legendary Enemy loot; cosmetic",
-    summary: "A hulking beast-master's Massiff prowls the Yurt Barracks, striking with rapid lunges.",
-    aiTip: "Keep your guard up for the lunge chains and counter after the third strike. Dual-wield stance shreds it once you learn the rhythm.",
+    summary:
+      "A hulking beast-master's Massiff prowls the Yurt Barracks, striking with rapid lunges.",
+    aiTip:
+      "Keep your guard up for the lunge chains and counter after the third strike. Dual-wield stance shreds it once you learn the rhythm.",
     walkthrough: [
       "Reach the Yurt Barracks through the Lucrehulk.",
       "Use Force Lift and Slam to open the door.",
       "Fight the Massiff — its lunges are fast, so dodge sideways and counter.",
       "Defeat it to complete the entry."
     ],
-    video: "https://www.youtube.com/watch?v=fi4427j3yAY"
+    video: "https://www.youtube.com/watch?v=rBTxfKel0fE"
   },
 {
     id: 1306,
@@ -31421,15 +31446,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Legendary Enemy loot; cosmetic",
-    summary: "The elite security droid D-L1T defends Hangar 2046-C on Coruscant with precision blaster fire and shield bashes.",
-    aiTip: "Reflect its rapid blaster bursts to build stagger, then close in. Its shield bash is parryable — hold the line and counter for big damage.",
+    summary:
+      "The elite security droid D-L1T defends Hangar 2046-C on Coruscant with precision blaster fire and shield bashes.",
+    aiTip:
+      "Reflect its rapid blaster bursts to build stagger, then close in. Its shield bash is parryable — hold the line and counter for big damage.",
     walkthrough: [
       "Go to Hangar 2046-C in Coruscant's Undercity Skylanes.",
       "Open the door with BD-1's electro-dart.",
       "Fight D-L1T — close the gap fast and deflect its blaster fire.",
       "Destroy it to complete the entry."
     ],
-    video: "https://www.youtube.com/watch?v=8QVWMOIWoCo"
+    video: "https://www.youtube.com/watch?v=PFE8E6aQim4"
   },
 {
     id: 1311,
@@ -31703,8 +31730,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Bounty pucks / credits; Caij's respect",
-    summary: "The rogue droid Mash powers up amid the Shattered Moon's Automated Forge.",
-    aiTip: "It overcharges its shell for burst damage — back off during the glow, then punish when it cools. Reflect its ranged volleys.",
+    summary:
+      "The rogue droid Mash powers up amid the Shattered Moon's Automated Forge.",
+    aiTip:
+      "It overcharges its shell for burst damage — back off during the glow, then punish when it cools. Reflect its ranged volleys.",
     walkthrough: [
       "Unlock Caij Vanda's bounties (defeat Korej Lim), then get the rumor from Caij at Pyloon's Saloon if needed.",
       "Go to the Shattered Moon's Automated Forge (Abandoned Foundry area).",
@@ -31712,7 +31741,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=kWaNPI_yNLM"
+    video: "https://www.youtube.com/watch?v=9PCgnEqckic"
   },
 {
     id: 1324,
@@ -32023,15 +32052,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "BD-1 stim capacity upgrades (up to 10)",
-    summary: "Hidden Stim Canisters raise the number of healing stims BD-1 can carry — each one is a permanent survivability boost.",
-    aiTip: "These are the highest-value collectible in the game. Prioritize them early; more stims makes every boss and Legendary fight dramatically easier.",
+    summary:
+      "Hidden Stim Canisters raise the number of healing stims BD-1 can carry — each one is a permanent survivability boost.",
+    aiTip:
+      "These are the highest-value collectible in the game. Prioritize them early; more stims makes every boss and Legendary fight dramatically easier.",
     walkthrough: [
       "Look for Stim Canisters in hidden corners, behind puzzles and on Legendary enemies.",
       "Open them to raise the number of stims BD-1 carries.",
       "Check the Holomap for remaining canisters per area.",
       "Return later with new traversal abilities to grab the rest."
     ],
-    video: "https://www.youtube.com/watch?v=emihiFBTxF8"
+    video: "https://www.youtube.com/watch?v=5Ox3pqg5Brw"
   },
 {
     id: 1339,
@@ -32066,15 +32097,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Currency for Doma's shop upgrades",
-    summary: "Priorite Shards are the game's collectible currency, spent at Doma's shop in Pyloon's Saloon on gear and cosmetic unlocks.",
-    aiTip: "Grab shards opportunistically while exploring — you never need to farm them. They pile up naturally as you clear chests and side content.",
+    summary:
+      "Priorite Shards are the game's collectible currency, spent at Doma's shop in Pyloon's Saloon on gear and cosmetic unlocks.",
+    aiTip:
+      "Grab shards opportunistically while exploring — you never need to farm them. They pile up naturally as you clear chests and side content.",
     walkthrough: [
       "Collect Priorite Shards scattered across every planet.",
       "Check the Holomap for remaining shards per area.",
       "Spend them at Doma's shop in Pyloon's Saloon.",
       "Keep some for the shopkeepers' later stock."
     ],
-    video: "https://www.youtube.com/watch?v=BhZEapPrM7E"
+    video: "https://www.youtube.com/watch?v=2T3V0GFl5UA"
   },
 {
     id: 1341,
@@ -32108,15 +32141,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Pili's garden at Pyloon's Saloon",
-    summary: "Rare seeds scattered across the planets can be brought back to Pili's rooftop garden at Pyloon's Saloon, where each blooms into a distinct plant.",
-    aiTip: "Recruit Pili first (Check in With Pili rumor) to unlock the garden. Seeds are purely for completion and the associated trophy — no combat value.",
+    summary:
+      "Rare seeds scattered across the planets can be brought back to Pili's rooftop garden at Pyloon's Saloon, where each blooms into a distinct plant.",
+    aiTip:
+      "Recruit Pili first (Check in With Pili rumor) to unlock the garden. Seeds are purely for completion and the associated trophy — no combat value.",
     walkthrough: [
       "Find seed pods across the planets (often in hidden spots).",
       "Bring them back to Pyloon's Saloon.",
       "Plant them in Pili's rooftop garden.",
       "Grow the full collection to complete the garden."
     ],
-    video: "https://www.youtube.com/watch?v=62jgOzK9pXw"
+    video: "https://www.youtube.com/watch?v=wiK9WOpxoi0"
   },
 {
     id: 1343,
@@ -32129,15 +32164,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Sellable treasures; collection completion",
-    summary: "Datadiscs, ancient scrolls and other Treasure collectibles are found in hard-to-reach corners and count toward full-completion tallies.",
-    aiTip: "These reward thorough traversal — check ledges above and below the main path. Use the region maps to spot the ones you've missed on a cleanup run.",
+    summary:
+      "Datadiscs, ancient scrolls and other Treasure collectibles are found in hard-to-reach corners and count toward full-completion tallies.",
+    aiTip:
+      "These reward thorough traversal — check ledges above and below the main path. Use the region maps to spot the ones you've missed on a cleanup run.",
     walkthrough: [
       "Find Datadiscs, scrolls and other Treasures in hard-to-reach spots.",
       "Use Force Lift, Slam and other abilities to reach them.",
       "Trade some (like Datadiscs) to the right NPCs for rewards.",
       "Check the Holomap for each area's remaining treasures."
     ],
-    video: "https://www.youtube.com/watch?v=vWt8Ovu0g9Y"
+    video: "https://www.youtube.com/watch?v=3nb_IN8D_8c"
   },
 {
     id: 1344,
@@ -32571,15 +32608,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Gear, perks and cosmetics for Priorite",
-    summary: "Doma Dendra runs a shop just outside Pyloon's Saloon, trading gear and cosmetics for the Priorite Shards Cal collects.",
-    aiTip: "Doma's stall is just outside Pyloon's Saloon. Save your Priorite Shards for her perks and upgrades.",
+    summary:
+      "Doma Dendra runs a shop just outside Pyloon's Saloon, trading gear and cosmetics for the Priorite Shards Cal collects.",
+    aiTip:
+      "Doma's stall is just outside Pyloon's Saloon. Save your Priorite Shards for her perks and upgrades.",
     walkthrough: [
       "Reach Rambler's Reach Outpost on Koboh.",
       "Find Doma's shop stall outside Pyloon's Saloon.",
       "Browse her stock of perks, upgrades and cosmetics.",
       "Spend Priorite Shards to complete the rumor."
     ],
-    video: "https://www.youtube.com/watch?v=KmArmSTCxU8"
+    video: "https://www.youtube.com/watch?v=fqs6XJ1a4bA"
   },
 {
     id: 1370,
@@ -32615,15 +32654,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Bounty Pucks to trade with Caij for abilities, blaster perks and parts",
-    summary: "Caij Vanda at Pyloon's Saloon starts Cal on bounty hunting: track down bounty hunters across the galaxy for Bounty Pucks.",
-    aiTip: "Hunt the bounties planet by planet and only go back to Caij to cash in. Once the other 16 are done, Caij's own bounty starts at the Stone Spires, with a surprise.",
+    summary:
+      "Caij Vanda at Pyloon's Saloon starts Cal on bounty hunting: track down bounty hunters across the galaxy for Bounty Pucks.",
+    aiTip:
+      "Hunt the bounties planet by planet and only go back to Caij to cash in. Once the other 16 are done, Caij's own bounty starts at the Stone Spires, with a surprise.",
     walkthrough: [
       "Talk to Caij Vanda at her table in Pyloon's Saloon.",
       "Track down the bounty hunters she points you to, or the ones you meet in the field.",
       "Return to Caij to trade Bounty Pucks for abilities, blaster perks and parts.",
       "After the other bounties, go to the Stone Spires in the Devastated Settlement for the final one."
     ],
-    video: "https://www.youtube.com/watch?v=2v5Hc29pTUI"
+    video: "https://www.youtube.com/watch?v=O1Og7Qg4JPY"
   },
   {
     id: 2589,
