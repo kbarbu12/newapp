@@ -2370,8 +2370,10 @@ const quests = [
     length: "long",
     difficulty: "Low",
     reward: "Third semester content, story revelations, powerful abilities",
-    summary: "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
-    aiTip: "Reach Rank 8 by 11/17 — ranks 9 and 10 then come automatically. Rank 3 needs level 3 Knowledge and Charm, Rank 7 needs level 4 Knowledge. Rank 8 is a fight with Akechi in Mementos.",
+    summary:
+      "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
+    aiTip:
+      "Reach Rank 8 by 11/17 — ranks 9 and 10 then come automatically. Rank 3 needs level 3 Knowledge and Charm, Rank 7 needs level 4 Knowledge. Rank 8 is a fight with Akechi in Mementos.",
     walkthrough: [
       "Akechi's Justice Confidant starts through the story.",
       "Hang out with him when he's available (Kichijoji in Royal).",
@@ -2379,7 +2381,7 @@ const quests = [
       "Rank 8: fight Akechi in Mementos.",
       "Reach Rank 8 by 11/17 so ranks 9–10 unlock in the third semester."
     ],
-    video: "https://www.youtube.com/watch?v=FdLgyv7Zmaw"
+    video: "https://www.youtube.com/playlist?list=PLSvaLUgBdYh80aEJisHDky4cR6EWtqksp"
   },
 {
     id: 98,
