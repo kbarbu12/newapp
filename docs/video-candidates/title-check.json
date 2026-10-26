@@ -2865,5 +2865,8 @@
 {"id":2595,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"A Cornered Rat","video":"0SKzTcoiWLI","result":"match","foundAs":"A Cornered Rat - Walkthrough - Skyrim Anniversary Edition"},
 {"id":2596,"file":"quests.js","game":"The Elder Scrolls V: Skyrim","title":"Paarthurnax","video":"fEvyBvoq6Rk","result":"match","foundAs":"Skyrim Blades - Kill Paarthurnax"},
 {"id":57,"file":"quests.js","game":"Pillars of Eternity","title":"The Man Who Waits","video":"TR0TQ9U-abg","result":"notfound","note":"alt NcCV-RhVZDY (Pillars Of Eternity - Walkthrough #29 - The Man Who Waits); swapped to NcCV-RhVZDY"},
-{"id":2954,"file":"quests.js","game":"Persona 5 Royal","title":"Jose's Flowers & Stamps (Royal)","video":"rhPfgVc1B80","result":"match","foundAs":"Persona 5 Royal 046 Mementos AND Stamps AND Flowers","note":"added in round 4 when #466 was split"}
+{"id":2954,"file":"quests.js","game":"Persona 5 Royal","title":"Jose's Flowers & Stamps (Royal)","video":"rhPfgVc1B80","result":"match","foundAs":"Persona 5 Royal 046 Mementos AND Stamps AND Flowers","note":"added in round 4 when #466 was split"},
+{"id":2955,"file":"quests.js","game":"The Witcher 3: Wild Hunt","title":"A Warm Welcome","video":"0wlqRIVcw8I","result":"match","foundAs":"The Witcher 3 Wild Hunt Walkthrough A Warm Welcome Secondary Quest Guide Gameplay/Let's Play","note":"added in round 5"},
+{"id":2956,"file":"quests.js","game":"The Witcher 3: Wild Hunt","title":"The Price of Passage","video":"MoP2_ERccCU","result":"match","foundAs":"The Witcher 3: The price of passage","note":"added in round 5"},
+{"id":2957,"file":"quests.js","game":"The Witcher 3: Wild Hunt","title":"Call of the Wild","video":"Rvsf83QGE6E","result":"match","foundAs":"The Witcher 3: Call of the wild","note":"added in round 5"}
 ]
