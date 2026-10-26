@@ -169,7 +169,7 @@ Still open, in priority order:
    `docs/video-candidates/title-check.json`. What's left is for the owner:
 
    The flagged titles, duplicates and bundles were all fixed in round 4
-   (PRs #445–#454; see the video-candidates README). The 34 videos still
+   (PRs #445–#454; see the video-candidates README). The 7 videos still
    marked "left as is" in `title-check.json` need a look from the owner or
    a better source. Most are Jedi: Survivor story missions,
    collectible hunts and Metaphor's More's Task chapters.
