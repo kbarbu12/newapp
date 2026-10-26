@@ -45,12 +45,28 @@ to `main` twice. The owner deleted the duplicate `v2.9.0` release and tag;
 tags now run `v2.7.0`, `v2.8.0`, `v2.9.1`. `release.yml` skips already-tagged
 commits (#358, live in `v2.9.1`), so this can't recur.
 
-## Delete merged branches (agent can't; git proxy rejects ref deletion)
-These are merged into `main` and safe to delete via the GitHub UI:
-- `claude/ps5-rpg-sidequest-summarizer-xaidg6` (PR #37 — Valhalla)
-- `claude/add-pr-template` (PR #38 — PR template)
-- `claude/qa-and-changelog-rules` (PR #39 — QA & release rules)
-- `claude/add-todo` (PR #40 — this file, once merged)
+## Delete old branches (agent can't; git proxy rejects ref deletion)
+Checked on 2026-10-26: all 265 remote branches except `main`, `staging` and
+`claude/happy-brahmagupta-418mo0` are safe to delete.
+- 198 are fully merged into `main`.
+- 67 look unmerged only because `main`'s history was rewritten in early
+  August. Their PRs merged (26), were closed unmerged (3), or they are old
+  snapshots and video-link upgrades that later work superseded (38).
+  `claude/next-game-a9symt` is the only one with files `main` never had: 6
+  video-check worklists in `docs/`, replaced by
+  `docs/video-candidates/title-check.json`.
+
+To delete them all, run this from a local clone:
+```bash
+git fetch --prune origin
+git branch -r | sed 's#^ *origin/##' \
+  | grep -vE '^(main|staging|HEAD.*|claude/happy-brahmagupta-418mo0)$' \
+  | xargs -n 20 git push origin --delete
+```
+To stop them piling up again, protect `staging` (Settings → Branches), then
+tick Settings → General → Pull Requests → "Automatically delete head
+branches". `staging` must be protected first, or auto-delete removes it
+after each staging → main promotion.
 
 ## Decisions from QA 2026-10-20 (`docs/qa-session-2026-10-20.md`)
 - ~~**M7 "Mark finished" bonus — DECIDED, to build:** a game can only be marked
@@ -184,7 +200,8 @@ Still open, in priority order:
    video turns up.
 2. **Owner actions (agent can't do these):**
    - Review the video-candidates page and the AC Odyssey leftovers (see above).
-   - Delete the merged branches (see above).
+   - Delete the old branches and turn on auto-delete (see "Delete old
+     branches" above).
 3. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
