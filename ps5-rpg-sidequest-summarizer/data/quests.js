@@ -32861,15 +32861,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Story progression",
-    summary: "Make your final preparations before the climactic confrontation.",
-    aiTip: "Wrap up followers and requests now — this is the last comfortable window before the finale.",
+    summary:
+      "Make your final preparations before the climactic confrontation.",
+    aiTip:
+      "Wrap up followers and requests now — this is the last comfortable window before the finale.",
     walkthrough: [
       "Get ready before the 09/22 deadline.",
       "Max out bonds, archetypes and gear.",
       "Stock up on healing items and MAG.",
       "Follow the story into the final operations."
     ],
-    video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
+    video: "https://www.youtube.com/watch?v=PsK2qMQVCiI"
   },
   {
     id: 1066,
@@ -32921,14 +32923,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Hero's Incense; Imagination +4",
-    summary: "More's first task, accepted automatically at More Rank 2: raise the Healer Archetype to Rank 10.",
-    aiTip: "Any party member can rank the Healer Archetype — rotate it onto whoever fights most.",
+    summary:
+      "More's first task, accepted automatically at More Rank 2: raise the Healer Archetype to Rank 10.",
+    aiTip:
+      "Any party member can rank the Healer Archetype — rotate it onto whoever fights most.",
     walkthrough: [
       "Reach More Rank 2.",
       "Raise the Healer archetype to rank 10 on any character.",
       "Report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
+    video: "https://www.youtube.com/watch?v=J1hmwe1BlHY"
   },
   {
     id: 1069,
@@ -32940,14 +32944,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Hero's Fruit x5; Imagination +4",
-    summary: "Accepted automatically at More Rank 3: study the Gunner Archetype.",
-    aiTip: "Studying just means unlocking it in the Archetype menu — no need to master it.",
+    summary:
+      "Accepted automatically at More Rank 3: study the Gunner Archetype.",
+    aiTip:
+      "Studying just means unlocking it in the Archetype menu — no need to master it.",
     walkthrough: [
       "Reach More Rank 3.",
       "Unlock (study) the Gunner archetype — it comes through Neuras's bond.",
       "Report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=burZDgeyC88"
+    video: "https://www.youtube.com/watch?v=XbmXXuH3LTo"
   },
   {
     id: 1070,
@@ -33035,15 +33041,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Hero's Jewelled Root x8; Imagination +4",
-    summary: "More's last task: raise an Elite archetype to rank 20.",
-    aiTip: "Pick an Elite you already use heavily — mastering one you're invested in is fastest.",
+    summary:
+      "More's last task: raise an Elite archetype to rank 20.",
+    aiTip:
+      "Pick an Elite you already use heavily — mastering one you're invested in is fastest.",
     walkthrough: [
       "Reach the final More rank.",
       "Unlock an Elite archetype (usually around rank 7 with its follower).",
       "Raise it to rank 20 on any character.",
       "Report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
+    video: "https://www.youtube.com/watch?v=FilcaBRx16A"
   },
   {
     id: 17,
