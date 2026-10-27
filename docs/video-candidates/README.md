@@ -147,3 +147,10 @@ misses: the current video came up named after the quest.
 Still as is (no video exists; the steps cover them): #1070, #1072, #1073
 (More's Task Chapters Two, Four, Five) and #1432 (Reparations).
 
+### Round 6: the last 4 (PRs #477, #478)
+
+No video of More's Task Chapters Two, Four and Five (#1070, #1072, #1073)
+exists; each now points to a guide for its archetype requirement. Skyrim's
+Reparations (#1432) points to a walkthrough named after it. No row is left as
+is.
+
