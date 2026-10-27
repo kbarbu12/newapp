@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-27
+
+- **Videos for the last 4 quests; video check closed** — `v2.9.28` patch
+  (#477, #478, #479).
+  - Metaphor's More's Task Chapters Two, Four and Five now point to guides
+    for their archetype requirements, with fuller steps (Chapter Four lists
+    its Commander rank 20 and Bardon rank 3 prerequisites).
+  - Skyrim's Reparations now uses a walkthrough named after it.
+  - Every quest now has a video named after it or a guide for exactly what
+    it asks; no title-check row is left as is.
+  - TODO.md and PROGRESS.md updated.
+
 ## 2026-10-26 (4)
 
 - **Expand 27 short AC Odyssey entries with verified steps** — `v2.9.27`

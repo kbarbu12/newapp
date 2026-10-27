@@ -89,7 +89,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.27`; `staging` and `main` match.
+Prod is `v2.9.28`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -175,13 +175,13 @@ Price of Passage and Call of the Wild added to Witcher 3 (#467).
 
 Still open, in priority order:
 1. **Video title check is finished.** Every video has a row in
-   `docs/video-candidates/title-check.json`. Round 4 fixed the flagged
-   titles, duplicates and bundles (#445–#454); round 5 rechecked the 52
-   videos left as is (#457–#463). Only 4 remain, and no video of them
-   exists on YouTube: Metaphor's More's Task Chapters Two, Four and Five
-   (#1070, #1072, #1073) and Skyrim's Reparations (#1432). Each has
-   accurate step-by-step instructions, so nothing more is needed unless a
-   video turns up.
+   `docs/video-candidates/title-check.json`, and every quest now has a video
+   named after it or a guide for exactly what it asks. Round 4 fixed the
+   flagged titles, duplicates and bundles (#445–#454); round 5 rechecked the
+   52 videos left as is (#457–#463); round 6 (2026-10-27) found videos for the
+   last 4: Metaphor's More's Task Chapters Two, Four and Five now point to
+   guides for their archetype requirements (#477), and Skyrim's Reparations
+   to a walkthrough named after it (#478). Nothing is left.
 2. **Owner actions (agent can't do these):**
    - Review the video-candidates page (see "Upgrade quest videos" above).
 3. **Parked:**

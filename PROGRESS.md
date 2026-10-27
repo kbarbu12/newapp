@@ -7,6 +7,17 @@
 
 ---
 
+## 2026-10-27 — round 6: the last 4 videos (v2.9.28)
+- **Metaphor (#477):** More's Task Chapters Two, Four and Five have no video
+  of their own; each now points to a guide for its archetype requirement,
+  with steps checked against TheGamer, GameFAQs and Dot Esports.
+- **Skyrim (#478):** Reparations now uses a walkthrough named after it.
+- The video check is closed: no title-check row is left as is.
+- Each PR: `npm test` clean, staging build plus headless QA (0 page errors),
+  CI green before merge.
+
+---
+
 ## 2026-10-26 (3) — AC Odyssey leftovers expanded (v2.9.27)
 - **AC Odyssey (#474):** the 31 entries still at 2–3 steps were reviewed;
   27 got full 4–6 step walkthroughs, each checked against two or more guides.
