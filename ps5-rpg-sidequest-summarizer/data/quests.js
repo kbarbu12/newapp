@@ -33075,14 +33075,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Hero's Fruit x8; Imagination +4; More Rank 4",
-    summary: "Accepted automatically at More Rank 4: raise the Merchant Archetype to Rank 15.",
-    aiTip: "Merchant ranks fast from selling and its cheap skills — slot it before grinding.",
+    summary:
+      "Accepted automatically at More Rank 4: raise the Merchant Archetype to Rank 15.",
+    aiTip:
+      "Merchant ranks fast from selling and its cheap skills — slot it before grinding.",
     walkthrough: [
-      "Reach More Rank 4.",
-      "Raise the Merchant archetype (from Brigitta's bond) to rank 15 on any character.",
-      "Report back to More."
+      "Reach More Rank 4; the task is accepted automatically.",
+      "Unlock the Merchant archetype through Brigitta's bond if you haven't yet.",
+      "Make Merchant the active archetype on any character and take it into battle to earn A-EXP.",
+      "Raise it to rank 15, then report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
+    video: "https://www.youtube.com/watch?v=Ew6sqEfDn3Q"
   },
   {
     id: 1071,
@@ -33113,14 +33116,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Hero's Leaf of Light; Imagination +4",
-    summary: "Unlocked after More Rank 5: raise the General Archetype to Rank 15.",
-    aiTip: "General ranks up through its physical skills — pair it with a Might-heavy character.",
+    summary:
+      "Unlocked after More Rank 5: raise the General Archetype to Rank 15.",
+    aiTip:
+      "Unlock General early by levelling Commander to 20 and Bardon's bond to rank 3 — then General ranks up through its physical skills, so pair it with a Might-heavy character.",
     walkthrough: [
-      "Reach the next More rank.",
-      "Raise the General archetype (Commander line, from Bardon's bond) to rank 15.",
-      "Report back to More."
+      "Reach the next More rank to receive the task.",
+      "Unlock the General archetype: it needs the Commander archetype at rank 20 and Bardon's bond at rank 3.",
+      "Make General the active archetype on any character and fight with it to earn A-EXP.",
+      "Raise it to rank 15, then report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
+    video: "https://www.youtube.com/watch?v=jc3XuH6ASDc"
   },
   {
     id: 1073,
@@ -33132,14 +33138,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Hero's Jewelled Root x5; Imagination +4",
-    summary: "Unlocked after More Rank 6: study 25 different Archetypes.",
-    aiTip: "By late game you'll have most lineages unlocked — mop up the cheap ones to finish.",
+    summary:
+      "Unlocked after More Rank 6: study 25 different Archetypes.",
+    aiTip:
+      "By late game you'll have most lineages unlocked — mop up the cheap ones to finish.",
     walkthrough: [
-      "Reach the next More rank.",
-      "Have 25 different archetypes studied across the party.",
+      "Reach the next More rank to receive the task.",
+      "Check the Archetype menu to see which lineages you haven't studied yet.",
+      "Study (unlock) new archetypes until 25 different ones are studied across the party.",
       "Report back to More."
     ],
-    video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
+    video: "https://www.youtube.com/watch?v=nclsR8JNTm0"
   },
   {
     id: 1074,
