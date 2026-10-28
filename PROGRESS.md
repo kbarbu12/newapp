@@ -7,6 +7,18 @@
 
 ---
 
+## 2026-10-28 — round 7: video-candidates review (v2.9.29)
+- The TODO was stale (0 search URLs left), so the review covered the 73
+  title-check rows earlier rounds left unconfirmed, one PR per game
+  (#481–#493) plus records/README/TODO (#494).
+- 44 confirmed, 26 swapped (2 also retitled: AC Odyssey #1999, #2141),
+  1 removed (Hogwarts #717, not a real quest), 2 unverified with
+  walkthroughs (#179 Daunt Errands playlist, #779 Príncipi).
+- Each PR: `npm test` clean, staging build plus headless QA (0 page errors),
+  CI green before merge.
+
+---
+
 ## 2026-10-27 — round 6: the last 4 videos (v2.9.28)
 - **Metaphor (#477):** More's Task Chapters Two, Four and Five have no video
   of their own; each now points to a guide for its archetype requirement,
