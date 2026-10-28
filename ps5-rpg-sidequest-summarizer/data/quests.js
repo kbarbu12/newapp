@@ -2619,7 +2619,7 @@ const quests = [
       "Restore the luminous adra pillar and speak with Eothas through it.",
       "Eothas returns part of your soul and reveals he is heading for the Ashen Maw."
     ],
-    video: "https://www.youtube.com/watch?v=otdcncGQL38"
+    video: "https://www.youtube.com/watch?v=zUhod1ftEZg"
   },
 {
     id: 112,
@@ -3243,7 +3243,7 @@ const quests = [
       "Keep checking in across your playthrough to hear his search for his family unfold.",
       "Continue the conversations to their end to reach the questline's somber conclusion."
     ],
-    video: "https://www.youtube.com/watch?v=friwazuk5NQ"
+    video: "https://www.youtube.com/watch?v=WP3sWvj7T-8"
   },
 {
     id: 142,
@@ -5719,7 +5719,7 @@ const quests = [
       "Upgrade Body and melee mods between fights.",
       "Defeat the Twins and finally Razor Hughes for the reward."
     ],
-    video: "https://www.youtube.com/watch?v=MWmU-q37rZc"
+    video: "https://www.youtube.com/watch?v=-ySXgJ-SzRc"
   },
 {
     id: 269,
@@ -8405,7 +8405,7 @@ const quests = [
       "Follow the power cables and solve the light puzzles to restore the display.",
       "Recover the holiday ornament and return it to Stemmur."
     ],
-    video: "https://www.youtube.com/watch?v=PCs_BE4Rsfg"
+    video: "https://www.youtube.com/watch?v=CtuNNeYoT0k"
   },
 {
     id: 391,
@@ -8540,7 +8540,7 @@ const quests = [
       "Use the Pullcaster to lower the beams, enter the vent and work the valve and lever to repair the pump (the valve is timed).",
       "Return to the Wound and speak with the guard, then meet Jetakka in Yarra's Quarters at the top of Scalding Spear."
     ],
-    video: "https://www.youtube.com/watch?v=y2fk_OWTs04"
+    video: "https://www.youtube.com/watch?v=5drcoDyXkMc"
   },
 {
     id: 398,
@@ -9536,7 +9536,7 @@ const quests = [
       "Steal the floating treasure piggy bank before the deadline.",
       "Defeat Shadow Kaneshiro atop his golden pig-mech."
     ],
-    video: "https://www.youtube.com/watch?v=INQwBKu27t4"
+    video: "https://www.youtube.com/watch?v=RKKIi0PWpn8"
   },
 {
     id: 447,
@@ -11128,8 +11128,10 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Crafting, beast breeding, gear upgrades",
-    summary: "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
-    aiTip: "Central to progression — breed beasts for Traits that upgrade your gear's power.",
+    summary:
+      "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
+    aiTip:
+      "Central to progression — breed beasts for Traits that upgrade your gear's power.",
     walkthrough: [
       "Unlock the Room of Requirement through the main quest with Professor Weasley and Deek.",
       "Use the Conjuring spell to place potting tables and potion stations, and decorate with Evanesco and Altering.",
@@ -11137,7 +11139,7 @@ const quests = [
       "Rescue beasts with the Nab-Sack and house them in the Vivarium; feed and brush them for materials.",
       "Use the materials at the Enchanted Loom to upgrade your gear."
     ],
-    video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
+    video: "https://www.youtube.com/watch?v=qVduY3pEZN4"
   },
 {
     id: 2613,
@@ -11736,7 +11738,7 @@ const quests = [
       "Choose supportive replies.",
       "Deepen the bond with Judy."
     ],
-    video: "https://www.youtube.com/watch?v=_jG0Q9fCLgg"
+    video: "https://www.youtube.com/watch?v=4fRCabAVY9A"
   },
 {
     id: 541,
@@ -12166,8 +12168,10 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary: "Gun for Hire: Officer Anna Hamill is investigating a smuggling operation in Kabuki Market. Make her drop the investigation.",
-    aiTip: "Don't tell Eve you're a cop. A Nomad can get info from Imad for free — and only the Nomad option to convince Anna to leave town lets her survive.",
+    summary:
+      "Gun for Hire: Officer Anna Hamill is investigating a smuggling operation in Kabuki Market. Make her drop the investigation.",
+    aiTip:
+      "Don't tell Eve you're a cop. A Nomad can get info from Imad for free — and only the Nomad option to convince Anna to leave town lets her survive.",
     walkthrough: [
       "Go to Kabuki Market — Regina calls with the target.",
       "Ask around the bazaar: show Eve Anna's photo (don't claim to be a cop) or pay Imad.",
@@ -12175,7 +12179,7 @@ const quests = [
       "Talk her down — blame her NCPD superiors or, as a Nomad, convince her to leave town.",
       "Leave the area."
     ],
-    video: "https://www.youtube.com/watch?v=XImO6TkyZjE"
+    video: "https://www.youtube.com/watch?v=-U6Sx6CZ7m0"
   },
 {
     id: 561,
@@ -19252,7 +19256,7 @@ const quests = [
       "Pull people from the wreckage and tend to the wounded.",
       "See the rescue through to complete the quest."
     ],
-    video: "https://www.youtube.com/watch?v=Bk3BnOX1gWA"
+    video: "https://www.youtube.com/watch?v=D33AZFSHqGQ"
   },
 {
     id: 669,
@@ -20341,30 +20345,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
   },
 {
-    id: 717,
-    type: "side",
-    category: "Side Quest",
-    game: "Hogwarts Legacy",
-    region: "Highlands",
-    title: "Trafficking Talents",
-    location: "Hogwarts Highlands",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Poacher intel, gear",
-    summary:
-      "Break up a poacher operation trafficking magical beasts across the Highlands.",
-    aiTip:
-      "Combat-focused — free the beasts and grab the loot from the camp.",
-video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
-    walkthrough: [
-      "Travel to the marked poacher operation in the Hogwarts Highlands.",
-      "Clear out the poachers guarding the camp, using Ancient Magic on the tougher Ashwinders and Loyalists.",
-      "Free the trafficked magical beasts held in the cages using your Nab-Sack.",
-      "Search the camp and open the collection chest for gear.",
-      "Finish clearing the site to complete the quest and secure the poacher intel."
-    ]
-  },
-{
     id: 746,
     type: "main",
     game: "Demon's Souls",
@@ -20529,7 +20509,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Walk out to the Old One and approach the Maiden in Black.",
       "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
     ],
-    video: "https://www.youtube.com/watch?v=gdVbr2cDbNM"
+    video: "https://www.youtube.com/watch?v=pruN3Z5nwYE"
   },
 {
     id: 753,
@@ -22790,8 +22770,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Jade Fang, third bell for the Ancient Guanyin Temple",
-    summary: "The white serpent Whiteclad Noble bars the way through the misty marsh below Black Wind Mountain. Defeating him also opens the path to the last of the Three Bells.",
-    aiTip: "He fights in two phases, turning into a serpent for the second. Save Immobilize for the phase change and dodge sideways through his lunges.",
+    summary:
+      "The white serpent Whiteclad Noble bars the way through the misty marsh below Black Wind Mountain. Defeating him also opens the path to the last of the Three Bells.",
+    aiTip:
+      "He fights in two phases, turning into a serpent for the second. Save Immobilize for the phase change and dodge sideways through his lunges.",
     walkthrough: [
       "In Chapter 1, pass through Snake Trails, defeat Guangmou and climb to the Marsh of White Mist shrine.",
       "Walk down the wooden pathway to the bottom of the marsh to start the fight.",
@@ -22799,7 +22781,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: he turns into a giant white serpent — stay mobile and Immobilize him to land heavy hits.",
       "Collect the Jade Fang and ring the nearby bell, the last of the Three Bells."
     ],
-    video: "https://www.youtube.com/watch?v=GQeN1sj74Bg"
+    video: "https://www.youtube.com/watch?v=DuDWP0I8YeY"
   },
 {
     id: 2592,
@@ -22989,8 +22971,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Venomous Armguard (break his arms), unlocks Purple Cloud Mountain",
-    summary: "An optional many-armed Daoist hides in a cocoon off the Pool of Shattered Jade. Beat him here and again at the Temple of the Yellow Flowers to unlock the secret Purple Cloud Mountain.",
-    aiTip: "Break off his arms during the fight to earn the Venomous Armguard. The arena is dark — keep the camera locked so you can read his eight-armed swings.",
+    summary:
+      "An optional many-armed Daoist hides in a cocoon off the Pool of Shattered Jade. Beat him here and again at the Temple of the Yellow Flowers to unlock the secret Purple Cloud Mountain.",
+    aiTip:
+      "Break off his arms during the fight to earn the Venomous Armguard. The arena is dark — keep the camera locked so you can read his eight-armed swings.",
     walkthrough: [
       "From the Pool of Shattered Jade shrine in the Webbed Hollow, go into the back room on the right.",
       "Strike the large cocoon a few times to start the fight.",
@@ -22998,7 +22982,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Later, fight him again at the Temple of the Yellow Flowers — he must be beaten twice in a row there.",
       "Defeating him there opens the way to the secret Purple Cloud Mountain."
     ],
-    video: "https://www.youtube.com/watch?v=D3ZYICIbM1U"
+    video: "https://www.youtube.com/watch?v=ReDB8duZdN8"
   },
 {
     id: 841,
@@ -26627,16 +26611,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Helsik's portal fee waived",
-    summary: "Helsik can open a portal to Raphael's House of Hope. Instead of paying her fee, you can agree to steal the Gauntlets of Hill Giant Strength from the House of Hope for her.",
-    aiTip: "The gauntlets sit on a pedestal in the House of Hope's Archive. You can hand them over, keep them, or pay Helsik in gold instead.",
+    summary:
+      "Helsik can open a portal to Raphael's House of Hope. Instead of paying her fee, you can agree to steal the Gauntlets of Hill Giant Strength from the House of Hope for her.",
+    aiTip:
+      "The gauntlets sit on a pedestal in the House of Hope's Archive. You can hand them over, keep them, or pay Helsik in gold instead.",
     walkthrough: [
       "In Act 3, meet Helsik at the Devil's Fee in the Lower City.",
       "Ask about reaching the House of Hope and agree to fetch the Gauntlets of Hill Giant Strength instead of paying her fee.",
       "Perform the ritual to open the portal to the House of Hope.",
       "Take the gauntlets from their pedestal in the House of Hope's Archive.",
-      "Return to Helsik and give her the gauntlets — or keep them and settle up another way.",
+      "Return to Helsik and give her the gauntlets — or keep them and settle up another way."
     ],
-    video: "https://www.youtube.com/watch?v=RUUl5ilXe_k"
+    video: "https://www.youtube.com/watch?v=lDSldM-ezEQ"
   },
 {
     id: 998,
@@ -33401,9 +33387,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Hero's Incense x10",
-    summary: "Accepted automatically after Providing a Spark — the first of Neuras's lost relics. His notebook in the engine room points to the Screwed-Up Mineral, hidden in Man-Eater's Grotto.",
-    aiTip: "You can only enter Man-Eater's Grotto through The Man-Eater in the Mine bounty. Give Neuras the relic at night.",
-    video: "https://www.youtube.com/watch?v=LHesX1zSlu4",
+    summary:
+      "Accepted automatically after Providing a Spark — the first of Neuras's lost relics. His notebook in the engine room points to the Screwed-Up Mineral, hidden in Man-Eater's Grotto.",
+    aiTip:
+      "You can only enter Man-Eater's Grotto through The Man-Eater in the Mine bounty. Give Neuras the relic at night.",
+    video: "https://www.youtube.com/watch?v=_c4OIFZVceA",
     walkthrough: [
       "Complete Providing a Spark to auto-accept this relic search; read Neuras's notebook on the engine-room pillar.",
       "Take The Man-Eater in the Mine bounty to open Man-Eater's Grotto.",
@@ -33581,9 +33569,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "15,000 Reeve",
-    summary: "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
-    aiTip: "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
-    video: "https://www.youtube.com/watch?v=Xl5yqn9rbFc",
+    summary:
+      "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
+    aiTip:
+      "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
+    video: "https://www.youtube.com/watch?v=Fg7XYIe7FDM",
     walkthrough: [
       "Accept the quest from the Sullen Man on Seabreeze Street in Port Brilehaven.",
       "Travel to Inundo on the Gauntlet Runner (a day passes).",
@@ -34402,15 +34392,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Salvaged loot, Skill Point, XP",
-    summary: "Porguf and his stranded crew at Camp Nowhere need help recovering their fortune from the wreck at Spinebreak before rivals beat them to it.",
-    aiTip: "Explore Spinebreak thoroughly and read the datapoints — the payout hinges on how you handle Porguf's shady crew at the end.",
+    summary:
+      "Porguf and his stranded crew at Camp Nowhere need help recovering their fortune from the wreck at Spinebreak before rivals beat them to it.",
+    aiTip:
+      "Explore Spinebreak thoroughly and read the datapoints — the payout hinges on how you handle Porguf's shady crew at the end.",
     walkthrough: [
       "Talk to Porguf at Camp Nowhere to learn his crew is stranded.",
       "Travel to the Spinebreak wreck and explore it for the lost cargo.",
       "Deal with the machines and hazards guarding the salvage.",
       "Return to Porguf and decide how to settle the score."
     ],
-    video: "https://www.youtube.com/watch?v=GuQ5ItY92YE"
+    video: "https://www.youtube.com/watch?v=bDMVb004qWY"
   },
   {
     id: 1376,
@@ -34650,8 +34642,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "God of War face paint",
-    summary: "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
-    aiTip: "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
+    summary:
+      "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
+    aiTip:
+      "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
     walkthrough: [
       "Note that War Totems never appear on the map — use the video or a guide to reach each site.",
       "Totem of War (Kratos): find it inside a hut, a nod to Kratos's cabin.",
@@ -34659,7 +34653,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Totems of Brotherhood (Brok and Sindri): search an opening in the sand by the shore.",
       "After the third totem, equip the God of War face paint at any Painter merchant."
     ],
-    video: "https://www.youtube.com/watch?v=poCOQtSvxMQ"
+    video: "https://www.youtube.com/watch?v=2-VvjCo4Ezk"
   },
   {
     id: 1388,
@@ -37414,14 +37408,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "White Phial",
-    summary: "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
-    aiTip: "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
+    summary:
+      "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
+    aiTip:
+      "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
     walkthrough: [
       "Speak with Nurelion at the Shining Star in Windhelm about repairing his prized Phial.",
       "Locate ingredients or the completed Phial in a marked dungeon.",
       "Return the item to Nurelion."
     ],
-    video: "https://www.youtube.com/watch?v=eGxBTdVhLXk"
+    video: "https://www.youtube.com/watch?v=Lb1c8z2hzN0"
   },
   {
     id: 1526,
@@ -43466,7 +43462,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Listen for his fear of the Shura within as his arc unfolds.",
       "His storyline foreshadows the Shura ending — mind your later choices."
     ],
-    video: "https://www.youtube.com/watch?v=8li0bLogoU0"
+    video: "https://www.youtube.com/watch?v=38zuTw3YSnk"
   },
 {
     id: 1824,
@@ -43489,7 +43485,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cure Dragonrot by giving her a Dragon's Blood Droplet when NPCs fall ill.",
       "Follow her thread — it feeds directly into the endgame choices."
     ],
-    video: "https://www.youtube.com/watch?v=cCHNtFcRqiE"
+    video: "https://www.youtube.com/watch?v=DuNwmHa-mVk"
   },
 {
     id: 1825,
@@ -43624,7 +43620,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather context on the Ashina rebellion and the characters around you.",
       "Follow his thread to its place in the finale."
     ],
-    video: "https://www.youtube.com/watch?v=gQRGx7V0wFE"
+    video: "https://www.youtube.com/watch?v=yI9i3rMZUio"
   },
 {
     id: 1831,
@@ -47414,7 +47410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push toward the binding of the great danger.",
       "Set up the final act."
     ],
-    video: "https://www.youtube.com/watch?v=hQhVUgJY-GY"
+    video: "https://www.youtube.com/watch?v=xCqO65OJhbM"
   },
 {
     id: 1991,
@@ -50731,20 +50727,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Main Story",
     game: "Assassin's Creed Odyssey",
     region: "Kephallonia",
-    title: "A Taste of Thermopylae",
+    title: "Battle of Thermopylae (Prologue)",
     location: "Kephallonia",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
-    aiTip: "This is the combat tutorial. Practise the Spartan Kick here: kicking Persians off the cliff edges is the fastest way through the waves.",
+    summary:
+      "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
+    aiTip:
+      "This is the combat tutorial. Practise the Spartan Kick here: kicking Persians off the cliff edges is the fastest way through the waves.",
     walkthrough: [
       "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
       "Fight through waves of Persian soldiers using the game's basic combat tutorial prompts.",
       "Use the Leonidas Spear ability (Spartan Kick) to knock enemies off cliff edges.",
       "Complete the battle to transition into the present-day storyline as the adult misthios on Kephallonia."
     ],
-    video: "https://www.youtube.com/watch?v=oLPHnrwxfqg"
+    video: "https://www.youtube.com/watch?v=h5TfvHQ5DNE"
   },
 {
     id: 2000,
@@ -53731,20 +53729,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
-    title: "Minotaurs and People",
+    title: "Of Minotaurs and Men",
     location: "Messara",
     length: "short",
     difficulty: "Low",
     reward: "XP; opens the Labyrinth",
-    summary: "To open the labyrinth you must complete three support quests across Messara: Blood in the Water, Full Circle and Recollections.",
-    aiTip: "Complete Blood in the Water, Full Circle and Recollections in any order — all three are needed to open the labyrinth.",
+    summary:
+      "To open the labyrinth you must complete three support quests across Messara: Blood in the Water, Full Circle and Recollections.",
+    aiTip:
+      "Complete Blood in the Water, Full Circle and Recollections in any order — all three are needed to open the labyrinth.",
     walkthrough: [
       "Complete Myths and Minotaurs to unlock the quest.",
       "Complete Blood in the Water, which involves tracking the mercenary Swordfish, last seen in Octopus Bay.",
       "Complete Full Circle and Recollections, which involves a nervous man called the Collector in Gortyn.",
       "With all three done, you can enter the labyrinth."
     ],
-    video: "https://www.youtube.com/watch?v=iUYtoD4huuU"
+    video: "https://www.youtube.com/watch?v=9V2Kr9pXG08"
   },
 {
     id: 2142,
@@ -62630,15 +62630,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "DLC conclusion; Seyka storyline resolution",
-    summary: "The quiet aftermath of the Burning Shores. Aloy and Seyka reflect on everything they went through, with the scene shaped by your earlier choices.",
-    aiTip: "Your dialogue choices with Seyka across the DLC shape this final scene.",
+    summary:
+      "The quiet aftermath of the Burning Shores. Aloy and Seyka reflect on everything they went through, with the scene shaped by your earlier choices.",
+    aiTip:
+      "Your dialogue choices with Seyka across the DLC shape this final scene.",
     walkthrough: [
       "Return to Fleet’s End after the Horus battle.",
       "Speak with Seyka to resolve the storyline.",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/watch?v=pfF6qH7dBzg"
+    video: "https://www.youtube.com/watch?v=wCiyxC2Lyc8"
   },
   {
     id: 2579,

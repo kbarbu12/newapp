@@ -11,14 +11,16 @@ filter and sort. See PROGRESS.md §0 "Phase 1b".
 All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details in
 `PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
-## Upgrade quest videos from search URLs to real `watch?v=` links
-1,443 of 2,475 quest `video` fields (as of 2026-10-13) are YouTube *search*
-URLs (`results?search_query=…`). **1,440 of them now have a proposed
-`watch?v=` link** in `docs/video-candidates/` (18 games). The other 3 (#108,
-#1432, #2461) have no single matching video. All candidates await the owner's review on
-https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
-owner marks done, swapping out flagged links. See PROGRESS.md "Session
-2026-10-11 → 13".
+## ~~Upgrade quest videos from search URLs to real `watch?v=` links~~ — DONE 2026-10-28
+No search URLs are left: every quest `video` is a real `watch?v=` or playlist
+link, and every one has a title-check row in
+`docs/video-candidates/title-check.json`. Rounds 3–6 checked each video's title
+against its quest. Round 7 (2026-10-28) reviewed the 73 rows those rounds left
+unconfirmed. 44 were confirmed and 26 were swapped to a video named after the
+quest (AC Odyssey's #1999 and #2141 were also renamed to their in-game titles).
+One made-up quest was removed (Hogwarts Legacy #717 "Trafficking Talents"), and
+two stay unverified but keep their walkthroughs (#179, #779). The owner review
+on the artifact page is no longer needed.
 
 ## ~~AC Odyssey entries no guide could confirm (Phase 3 leftovers)~~ — DONE 2026-10-26
 The "~96" short entries had already shrunk to 31. On 2026-10-26, 27 of them
@@ -89,7 +91,7 @@ walkthrough is duplicated in the data. Still open:
   in `v2.8.0` (#357).
 
 ## What's left (as of 2026-10-24)
-Prod is `v2.9.28`; `staging` and `main` match.
+Prod is `v2.9.29`; `staging` and `main` match.
 
 **Done since the last update:** the 2 shared videos were replaced (#363,
 `v2.9.2`), and the **[HIGH] full fact-check pass is complete** (`v2.9.3` to
@@ -181,9 +183,8 @@ Still open, in priority order:
    52 videos left as is (#457–#463); round 6 (2026-10-27) found videos for the
    last 4: Metaphor's More's Task Chapters Two, Four and Five now point to
    guides for their archetype requirements (#477), and Skyrim's Reparations
-   to a walkthrough named after it (#478). Nothing is left.
-2. **Owner actions (agent can't do these):**
-   - Review the video-candidates page (see "Upgrade quest videos" above).
-3. **Parked:**
+   to a walkthrough named after it (#478); round 7 (2026-10-28) reviewed the
+   73 rows earlier rounds left unconfirmed (#481–#493, #494). Nothing is left.
+2. **Parked:**
    - M8 reminders, until there's a server.
    - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).
