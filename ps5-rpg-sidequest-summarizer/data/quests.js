@@ -8405,7 +8405,7 @@ const quests = [
       "Follow the power cables and solve the light puzzles to restore the display.",
       "Recover the holiday ornament and return it to Stemmur."
     ],
-    video: "https://www.youtube.com/watch?v=PCs_BE4Rsfg"
+    video: "https://www.youtube.com/watch?v=CtuNNeYoT0k"
   },
 {
     id: 391,
@@ -8540,7 +8540,7 @@ const quests = [
       "Use the Pullcaster to lower the beams, enter the vent and work the valve and lever to repair the pump (the valve is timed).",
       "Return to the Wound and speak with the guard, then meet Jetakka in Yarra's Quarters at the top of Scalding Spear."
     ],
-    video: "https://www.youtube.com/watch?v=y2fk_OWTs04"
+    video: "https://www.youtube.com/watch?v=5drcoDyXkMc"
   },
 {
     id: 398,
@@ -19252,7 +19252,7 @@ const quests = [
       "Pull people from the wreckage and tend to the wounded.",
       "See the rescue through to complete the quest."
     ],
-    video: "https://www.youtube.com/watch?v=Bk3BnOX1gWA"
+    video: "https://www.youtube.com/watch?v=D33AZFSHqGQ"
   },
 {
     id: 669,
@@ -34402,15 +34402,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Salvaged loot, Skill Point, XP",
-    summary: "Porguf and his stranded crew at Camp Nowhere need help recovering their fortune from the wreck at Spinebreak before rivals beat them to it.",
-    aiTip: "Explore Spinebreak thoroughly and read the datapoints — the payout hinges on how you handle Porguf's shady crew at the end.",
+    summary:
+      "Porguf and his stranded crew at Camp Nowhere need help recovering their fortune from the wreck at Spinebreak before rivals beat them to it.",
+    aiTip:
+      "Explore Spinebreak thoroughly and read the datapoints — the payout hinges on how you handle Porguf's shady crew at the end.",
     walkthrough: [
       "Talk to Porguf at Camp Nowhere to learn his crew is stranded.",
       "Travel to the Spinebreak wreck and explore it for the lost cargo.",
       "Deal with the machines and hazards guarding the salvage.",
       "Return to Porguf and decide how to settle the score."
     ],
-    video: "https://www.youtube.com/watch?v=GuQ5ItY92YE"
+    video: "https://www.youtube.com/watch?v=bDMVb004qWY"
   },
   {
     id: 1376,
@@ -34650,8 +34652,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "God of War face paint",
-    summary: "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
-    aiTip: "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
+    summary:
+      "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
+    aiTip:
+      "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
     walkthrough: [
       "Note that War Totems never appear on the map — use the video or a guide to reach each site.",
       "Totem of War (Kratos): find it inside a hut, a nod to Kratos's cabin.",
@@ -34659,7 +34663,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Totems of Brotherhood (Brok and Sindri): search an opening in the sand by the shore.",
       "After the third totem, equip the God of War face paint at any Painter merchant."
     ],
-    video: "https://www.youtube.com/watch?v=poCOQtSvxMQ"
+    video: "https://www.youtube.com/watch?v=2-VvjCo4Ezk"
   },
   {
     id: 1388,
@@ -62630,15 +62634,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "DLC conclusion; Seyka storyline resolution",
-    summary: "The quiet aftermath of the Burning Shores. Aloy and Seyka reflect on everything they went through, with the scene shaped by your earlier choices.",
-    aiTip: "Your dialogue choices with Seyka across the DLC shape this final scene.",
+    summary:
+      "The quiet aftermath of the Burning Shores. Aloy and Seyka reflect on everything they went through, with the scene shaped by your earlier choices.",
+    aiTip:
+      "Your dialogue choices with Seyka across the DLC shape this final scene.",
     walkthrough: [
       "Return to Fleet’s End after the Horus battle.",
       "Speak with Seyka to resolve the storyline.",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/watch?v=pfF6qH7dBzg"
+    video: "https://www.youtube.com/watch?v=wCiyxC2Lyc8"
   },
   {
     id: 2579,
