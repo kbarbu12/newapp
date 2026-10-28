@@ -33387,9 +33387,11 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Hero's Incense x10",
-    summary: "Accepted automatically after Providing a Spark — the first of Neuras's lost relics. His notebook in the engine room points to the Screwed-Up Mineral, hidden in Man-Eater's Grotto.",
-    aiTip: "You can only enter Man-Eater's Grotto through The Man-Eater in the Mine bounty. Give Neuras the relic at night.",
-    video: "https://www.youtube.com/watch?v=LHesX1zSlu4",
+    summary:
+      "Accepted automatically after Providing a Spark — the first of Neuras's lost relics. His notebook in the engine room points to the Screwed-Up Mineral, hidden in Man-Eater's Grotto.",
+    aiTip:
+      "You can only enter Man-Eater's Grotto through The Man-Eater in the Mine bounty. Give Neuras the relic at night.",
+    video: "https://www.youtube.com/watch?v=_c4OIFZVceA",
     walkthrough: [
       "Complete Providing a Spark to auto-accept this relic search; read Neuras's notebook on the engine-room pillar.",
       "Take The Man-Eater in the Mine bounty to open Man-Eater's Grotto.",
@@ -33567,9 +33569,11 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "15,000 Reeve",
-    summary: "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
-    aiTip: "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
-    video: "https://www.youtube.com/watch?v=Xl5yqn9rbFc",
+    summary:
+      "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
+    aiTip:
+      "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
+    video: "https://www.youtube.com/watch?v=Fg7XYIe7FDM",
     walkthrough: [
       "Accept the quest from the Sullen Man on Seabreeze Street in Port Brilehaven.",
       "Travel to Inundo on the Gauntlet Runner (a day passes).",
