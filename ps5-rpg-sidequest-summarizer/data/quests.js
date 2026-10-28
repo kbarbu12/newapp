@@ -26607,16 +26607,18 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Helsik's portal fee waived",
-    summary: "Helsik can open a portal to Raphael's House of Hope. Instead of paying her fee, you can agree to steal the Gauntlets of Hill Giant Strength from the House of Hope for her.",
-    aiTip: "The gauntlets sit on a pedestal in the House of Hope's Archive. You can hand them over, keep them, or pay Helsik in gold instead.",
+    summary:
+      "Helsik can open a portal to Raphael's House of Hope. Instead of paying her fee, you can agree to steal the Gauntlets of Hill Giant Strength from the House of Hope for her.",
+    aiTip:
+      "The gauntlets sit on a pedestal in the House of Hope's Archive. You can hand them over, keep them, or pay Helsik in gold instead.",
     walkthrough: [
       "In Act 3, meet Helsik at the Devil's Fee in the Lower City.",
       "Ask about reaching the House of Hope and agree to fetch the Gauntlets of Hill Giant Strength instead of paying her fee.",
       "Perform the ritual to open the portal to the House of Hope.",
       "Take the gauntlets from their pedestal in the House of Hope's Archive.",
-      "Return to Helsik and give her the gauntlets — or keep them and settle up another way.",
+      "Return to Helsik and give her the gauntlets — or keep them and settle up another way."
     ],
-    video: "https://www.youtube.com/watch?v=RUUl5ilXe_k"
+    video: "https://www.youtube.com/watch?v=lDSldM-ezEQ"
   },
 {
     id: 998,
