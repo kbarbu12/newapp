@@ -5719,7 +5719,7 @@ const quests = [
       "Upgrade Body and melee mods between fights.",
       "Defeat the Twins and finally Razor Hughes for the reward."
     ],
-    video: "https://www.youtube.com/watch?v=MWmU-q37rZc"
+    video: "https://www.youtube.com/watch?v=-ySXgJ-SzRc"
   },
 {
     id: 269,
@@ -11736,7 +11736,7 @@ const quests = [
       "Choose supportive replies.",
       "Deepen the bond with Judy."
     ],
-    video: "https://www.youtube.com/watch?v=_jG0Q9fCLgg"
+    video: "https://www.youtube.com/watch?v=4fRCabAVY9A"
   },
 {
     id: 541,
@@ -12166,8 +12166,10 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary: "Gun for Hire: Officer Anna Hamill is investigating a smuggling operation in Kabuki Market. Make her drop the investigation.",
-    aiTip: "Don't tell Eve you're a cop. A Nomad can get info from Imad for free — and only the Nomad option to convince Anna to leave town lets her survive.",
+    summary:
+      "Gun for Hire: Officer Anna Hamill is investigating a smuggling operation in Kabuki Market. Make her drop the investigation.",
+    aiTip:
+      "Don't tell Eve you're a cop. A Nomad can get info from Imad for free — and only the Nomad option to convince Anna to leave town lets her survive.",
     walkthrough: [
       "Go to Kabuki Market — Regina calls with the target.",
       "Ask around the bazaar: show Eve Anna's photo (don't claim to be a cop) or pay Imad.",
@@ -12175,7 +12177,7 @@ const quests = [
       "Talk her down — blame her NCPD superiors or, as a Nomad, convince her to leave town.",
       "Leave the area."
     ],
-    video: "https://www.youtube.com/watch?v=XImO6TkyZjE"
+    video: "https://www.youtube.com/watch?v=-U6Sx6CZ7m0"
   },
 {
     id: 561,
