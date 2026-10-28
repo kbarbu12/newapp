@@ -37408,14 +37408,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "White Phial",
-    summary: "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
-    aiTip: "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
+    summary:
+      "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
+    aiTip:
+      "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
     walkthrough: [
       "Speak with Nurelion at the Shining Star in Windhelm about repairing his prized Phial.",
       "Locate ingredients or the completed Phial in a marked dungeon.",
       "Return the item to Nurelion."
     ],
-    video: "https://www.youtube.com/watch?v=eGxBTdVhLXk"
+    video: "https://www.youtube.com/watch?v=Lb1c8z2hzN0"
   },
   {
     id: 1526,
