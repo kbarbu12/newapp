@@ -154,3 +154,35 @@ exists; each now points to a guide for its archetype requirement. Skyrim's
 Reparations (#1432) points to a walkthrough named after it. No row is left as
 is.
 
+
+### Round 7: rows left unconfirmed (PRs #481–#494, 2026-10-28)
+
+The 73 rows earlier rounds left unconfirmed were searched again on YouTube by
+quest title: "notfound" rows whose video never changed, rows swapped or
+retitled without a recorded match, and the two playlists that had no row
+(#134, #179). One PR per game.
+
+| Game | Rechecked | Match | Swapped / fixed | Still as is |
+|---|---|---|---|---|
+| Horizon Forbidden West | 11 | 4 | 6 | 1 (#179 playlist) |
+| Cyberpunk 2077 | 9 | 6 | 3 | 0 |
+| Assassin's Creed Valhalla | 2 | 1 | 1 | 0 |
+| Hogwarts Legacy | 2 | 0 | 1 (+ #717 removed, not a real quest) | 0 |
+| Assassin's Creed Odyssey | 2 | 0 | 2 (retitled to in-game names) | 0 |
+| Pillars of Eternity II: Deadfire | 6 | 4 | 1 | 1 (#779) |
+| Demon's Souls | 5 | 3 | 2 | 0 |
+| Final Fantasy VII Rebirth | 1 | 1 | 0 | 0 |
+| Ghost of Tsushima | 5 | 5 | 0 | 0 |
+| The Witcher 3 | 1 | 1 | 0 | 0 |
+| Baldur's Gate 3 | 2 | 1 | 1 | 0 |
+| Persona 5 Royal | 1 | 0 | 1 | 0 |
+| Black Myth: Wukong | 3 | 1 | 2 | 0 |
+| Ghost of Yotei | 2 | 2 | 0 | 0 |
+| Metaphor: ReFantazio | 4 | 2 | 2 | 0 |
+| The Elder Scrolls V: Skyrim | 11 | 10 | 1 | 0 |
+| Zelda: Tears of the Kingdom | 3 | 3 | 0 | 0 |
+| Sekiro | 3 | 0 | 3 | 0 |
+
+Still as is: #179 (The Daunt Errands playlist; its ID never came up in search)
+and #779 (Faction: Príncipi sen Patrena; no video named after it). Both keep
+step-by-step walkthroughs. This closes the video-candidates review.
