@@ -43462,7 +43462,7 @@ const quests = [
       "Listen for his fear of the Shura within as his arc unfolds.",
       "His storyline foreshadows the Shura ending — mind your later choices."
     ],
-    video: "https://www.youtube.com/watch?v=8li0bLogoU0"
+    video: "https://www.youtube.com/watch?v=38zuTw3YSnk"
   },
 {
     id: 1824,
@@ -43485,7 +43485,7 @@ const quests = [
       "Cure Dragonrot by giving her a Dragon's Blood Droplet when NPCs fall ill.",
       "Follow her thread — it feeds directly into the endgame choices."
     ],
-    video: "https://www.youtube.com/watch?v=cCHNtFcRqiE"
+    video: "https://www.youtube.com/watch?v=DuNwmHa-mVk"
   },
 {
     id: 1825,
@@ -43620,7 +43620,7 @@ const quests = [
       "Gather context on the Ashina rebellion and the characters around you.",
       "Follow his thread to its place in the finale."
     ],
-    video: "https://www.youtube.com/watch?v=gQRGx7V0wFE"
+    video: "https://www.youtube.com/watch?v=yI9i3rMZUio"
   },
 {
     id: 1831,
