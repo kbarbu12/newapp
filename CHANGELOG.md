@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-28
+
+- **Video-candidates review (round 7)** — `v2.9.29` patch (#481–#495).
+  - Rechecked the 73 title-check rows earlier rounds left unconfirmed:
+    44 confirmed, 26 swapped to a video named after the quest, 2 left
+    unverified with their walkthroughs (#179, #779).
+  - AC Odyssey's #2141 and #1999 renamed to their in-game titles ("Of
+    Minotaurs and Men", "Battle of Thermopylae (Prologue)").
+  - Removed Hogwarts Legacy's made-up "Trafficking Talents" (#717).
+  - Closed the stale "Upgrade quest videos" TODO; no owner review needed.
+
 ## 2026-10-27
 
 - **Videos for the last 4 quests; video check closed** — `v2.9.28` patch
