@@ -47420,7 +47420,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push toward the binding of the great danger.",
       "Set up the final act."
     ],
-    video: "https://www.youtube.com/watch?v=hQhVUgJY-GY"
+    video: "https://www.youtube.com/watch?v=xCqO65OJhbM"
   },
 {
     id: 1991,
