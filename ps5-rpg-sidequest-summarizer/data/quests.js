@@ -50715,20 +50715,22 @@ const quests = [
     category: "Main Story",
     game: "Assassin's Creed Odyssey",
     region: "Kephallonia",
-    title: "A Taste of Thermopylae",
+    title: "Battle of Thermopylae (Prologue)",
     location: "Kephallonia",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
-    aiTip: "This is the combat tutorial. Practise the Spartan Kick here: kicking Persians off the cliff edges is the fastest way through the waves.",
+    summary:
+      "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
+    aiTip:
+      "This is the combat tutorial. Practise the Spartan Kick here: kicking Persians off the cliff edges is the fastest way through the waves.",
     walkthrough: [
       "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
       "Fight through waves of Persian soldiers using the game's basic combat tutorial prompts.",
       "Use the Leonidas Spear ability (Spartan Kick) to knock enemies off cliff edges.",
       "Complete the battle to transition into the present-day storyline as the adult misthios on Kephallonia."
     ],
-    video: "https://www.youtube.com/watch?v=oLPHnrwxfqg"
+    video: "https://www.youtube.com/watch?v=h5TfvHQ5DNE"
   },
 {
     id: 2000,
@@ -53715,20 +53717,22 @@ const quests = [
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
-    title: "Minotaurs and People",
+    title: "Of Minotaurs and Men",
     location: "Messara",
     length: "short",
     difficulty: "Low",
     reward: "XP; opens the Labyrinth",
-    summary: "To open the labyrinth you must complete three support quests across Messara: Blood in the Water, Full Circle and Recollections.",
-    aiTip: "Complete Blood in the Water, Full Circle and Recollections in any order — all three are needed to open the labyrinth.",
+    summary:
+      "To open the labyrinth you must complete three support quests across Messara: Blood in the Water, Full Circle and Recollections.",
+    aiTip:
+      "Complete Blood in the Water, Full Circle and Recollections in any order — all three are needed to open the labyrinth.",
     walkthrough: [
       "Complete Myths and Minotaurs to unlock the quest.",
       "Complete Blood in the Water, which involves tracking the mercenary Swordfish, last seen in Octopus Bay.",
       "Complete Full Circle and Recollections, which involves a nervous man called the Collector in Gortyn.",
       "With all three done, you can enter the labyrinth."
     ],
-    video: "https://www.youtube.com/watch?v=iUYtoD4huuU"
+    video: "https://www.youtube.com/watch?v=9V2Kr9pXG08"
   },
 {
     id: 2142,
