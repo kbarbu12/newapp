@@ -2619,7 +2619,7 @@ const quests = [
       "Restore the luminous adra pillar and speak with Eothas through it.",
       "Eothas returns part of your soul and reveals he is heading for the Ashen Maw."
     ],
-    video: "https://www.youtube.com/watch?v=otdcncGQL38"
+    video: "https://www.youtube.com/watch?v=zUhod1ftEZg"
   },
 {
     id: 112,
