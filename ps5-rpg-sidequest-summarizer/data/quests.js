@@ -9536,7 +9536,7 @@ const quests = [
       "Steal the floating treasure piggy bank before the deadline.",
       "Defeat Shadow Kaneshiro atop his golden pig-mech."
     ],
-    video: "https://www.youtube.com/watch?v=INQwBKu27t4"
+    video: "https://www.youtube.com/watch?v=RKKIi0PWpn8"
   },
 {
     id: 447,

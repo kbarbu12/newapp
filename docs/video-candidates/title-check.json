@@ -709,7 +709,7 @@
 {"id":1090,"file":"vidcands.json","game":"Metaphor: ReFantazio","title":"Petty Thief","video":"P5oOC_kLxXU","result":"match","foundAs":"Metaphor: ReFantazio"},
 {"id":1091,"file":"vidcands.json","game":"Metaphor: ReFantazio","title":"Trial of the Dragon: Essence of Power","video":"8Gp2sbS90Nc","result":"match","foundAs":"Metaphor: ReFantazio"},
 {"id":1092,"file":"vidcands.json","game":"Metaphor: ReFantazio","title":"Become Champion of the Coliseum","video":"LIJATMeYU68","result":"notfound","note":"retried; alt 5MxwgdxyEB0 (Become Champion of the Coliseum: Guptauron)"},
-{"id":446,"file":"vidcands.json","game":"Persona 5 Royal","title":"Kaneshiro's Palace — Bank of Gluttony","video":"K1FiEsqfzAk","result":"notfound","note":"retried; many full-palace videos, none is stored ID"},
+{"id":446,"file":"vidcands.json","game":"Persona 5 Royal","title":"Kaneshiro's Palace — Bank of Gluttony","video":"RKKIi0PWpn8","result":"match","note":"rechecked in round 7: swapped to a video titled for this quest","foundAs":"Persona 5 Royal 100% Complete Walkthrough Part 07: Kaneshiro's Palace"},
 {"id":447,"file":"vidcands.json","game":"Persona 5 Royal","title":"Futaba's Palace — Pyramid of Wrath","video":"e8Q93C-fvHg","result":"notfound","note":"retried; alt qMwMBJ2bZ84 (Futaba's Palace Merciless)"},
 {"id":451,"file":"vidcands.json","game":"Persona 5 Royal","title":"Depths of Mementos — Prison of Regression","video":"W9KTzcwyFKw","result":"match","foundAs":"PERSONA 5 ROYAL - DEPTHS OF MEMENTOS PALACE [Walkthrough]"},
 {"id":453,"file":"vidcands.json","game":"Persona 5 Royal","title":"Confidant: Chihaya Mifune (Fortune)","video":"EneDGt76xrQ","result":"match","foundAs":"Persona 5 Royal PC"},
