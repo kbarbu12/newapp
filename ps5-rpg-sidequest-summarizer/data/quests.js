@@ -11128,8 +11128,10 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Crafting, beast breeding, gear upgrades",
-    summary: "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
-    aiTip: "Central to progression — breed beasts for Traits that upgrade your gear's power.",
+    summary:
+      "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
+    aiTip:
+      "Central to progression — breed beasts for Traits that upgrade your gear's power.",
     walkthrough: [
       "Unlock the Room of Requirement through the main quest with Professor Weasley and Deek.",
       "Use the Conjuring spell to place potting tables and potion stations, and decorate with Evanesco and Altering.",
@@ -11137,7 +11139,7 @@ const quests = [
       "Rescue beasts with the Nab-Sack and house them in the Vivarium; feed and brush them for materials.",
       "Use the materials at the Enchanted Loom to upgrade your gear."
     ],
-    video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
+    video: "https://www.youtube.com/watch?v=qVduY3pEZN4"
   },
 {
     id: 2613,
@@ -20341,30 +20343,6 @@ const quests = [
       "Feed and brush the foal, then report back to Deek."
     ],
     video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
-  },
-{
-    id: 717,
-    type: "side",
-    category: "Side Quest",
-    game: "Hogwarts Legacy",
-    region: "Highlands",
-    title: "Trafficking Talents",
-    location: "Hogwarts Highlands",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Poacher intel, gear",
-    summary:
-      "Break up a poacher operation trafficking magical beasts across the Highlands.",
-    aiTip:
-      "Combat-focused — free the beasts and grab the loot from the camp.",
-video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
-    walkthrough: [
-      "Travel to the marked poacher operation in the Hogwarts Highlands.",
-      "Clear out the poachers guarding the camp, using Ancient Magic on the tougher Ashwinders and Loyalists.",
-      "Free the trafficked magical beasts held in the cages using your Nab-Sack.",
-      "Search the camp and open the collection chest for gear.",
-      "Finish clearing the site to complete the quest and secure the poacher intel."
-    ]
   },
 {
     id: 746,
