@@ -22770,8 +22770,10 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Jade Fang, third bell for the Ancient Guanyin Temple",
-    summary: "The white serpent Whiteclad Noble bars the way through the misty marsh below Black Wind Mountain. Defeating him also opens the path to the last of the Three Bells.",
-    aiTip: "He fights in two phases, turning into a serpent for the second. Save Immobilize for the phase change and dodge sideways through his lunges.",
+    summary:
+      "The white serpent Whiteclad Noble bars the way through the misty marsh below Black Wind Mountain. Defeating him also opens the path to the last of the Three Bells.",
+    aiTip:
+      "He fights in two phases, turning into a serpent for the second. Save Immobilize for the phase change and dodge sideways through his lunges.",
     walkthrough: [
       "In Chapter 1, pass through Snake Trails, defeat Guangmou and climb to the Marsh of White Mist shrine.",
       "Walk down the wooden pathway to the bottom of the marsh to start the fight.",
@@ -22779,7 +22781,7 @@ const quests = [
       "Phase two: he turns into a giant white serpent — stay mobile and Immobilize him to land heavy hits.",
       "Collect the Jade Fang and ring the nearby bell, the last of the Three Bells."
     ],
-    video: "https://www.youtube.com/watch?v=GQeN1sj74Bg"
+    video: "https://www.youtube.com/watch?v=DuDWP0I8YeY"
   },
 {
     id: 2592,
@@ -22969,8 +22971,10 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Venomous Armguard (break his arms), unlocks Purple Cloud Mountain",
-    summary: "An optional many-armed Daoist hides in a cocoon off the Pool of Shattered Jade. Beat him here and again at the Temple of the Yellow Flowers to unlock the secret Purple Cloud Mountain.",
-    aiTip: "Break off his arms during the fight to earn the Venomous Armguard. The arena is dark — keep the camera locked so you can read his eight-armed swings.",
+    summary:
+      "An optional many-armed Daoist hides in a cocoon off the Pool of Shattered Jade. Beat him here and again at the Temple of the Yellow Flowers to unlock the secret Purple Cloud Mountain.",
+    aiTip:
+      "Break off his arms during the fight to earn the Venomous Armguard. The arena is dark — keep the camera locked so you can read his eight-armed swings.",
     walkthrough: [
       "From the Pool of Shattered Jade shrine in the Webbed Hollow, go into the back room on the right.",
       "Strike the large cocoon a few times to start the fight.",
@@ -22978,7 +22982,7 @@ const quests = [
       "Later, fight him again at the Temple of the Yellow Flowers — he must be beaten twice in a row there.",
       "Defeating him there opens the way to the secret Purple Cloud Mountain."
     ],
-    video: "https://www.youtube.com/watch?v=D3ZYICIbM1U"
+    video: "https://www.youtube.com/watch?v=ReDB8duZdN8"
   },
 {
     id: 841,
