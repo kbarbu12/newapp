@@ -3243,7 +3243,7 @@ const quests = [
       "Keep checking in across your playthrough to hear his search for his family unfold.",
       "Continue the conversations to their end to reach the questline's somber conclusion."
     ],
-    video: "https://www.youtube.com/watch?v=friwazuk5NQ"
+    video: "https://www.youtube.com/watch?v=WP3sWvj7T-8"
   },
 {
     id: 142,
@@ -20509,7 +20509,7 @@ const quests = [
       "Walk out to the Old One and approach the Maiden in Black.",
       "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
     ],
-    video: "https://www.youtube.com/watch?v=gdVbr2cDbNM"
+    video: "https://www.youtube.com/watch?v=pruN3Z5nwYE"
   },
 {
     id: 753,
